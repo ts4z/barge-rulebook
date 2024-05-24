@@ -827,8 +827,11 @@ California Lowball
 ------------------
 
 ### Forced Money
+
 The game is played with a button and blinds.
+
 ### Dealing Procedure
+
 Each player is dealt five cards face down, followed by a round of betting at the
 small bet limit.
 
@@ -843,6 +846,7 @@ California Lowball is usually played with a joker/bug. The joker is used as the
 lowest non-pairing card.
 
 ### Evaluating the Showdown
+
 The best five-card California lowball hand wins the pot.
 
 NOTE: California Lowball is most commonly played as a limit game, with the
@@ -851,15 +855,18 @@ check-and-raise allowed. It is also sometimes played as a no-limit game, with
 no Sevens Rule and with check-and-raise allowed.
 
 ### Notes
+
 The no-limit format was featured in a bounty tournament at BARGE 2021.
 
 Chowaha
 -------
 
 ### Forced Money
+
 The game is played with a button and blinds.
 
 ### Dealing Procedure
+
 Each player is dealt two cards face down, followed by a round of betting at the
 small bet limit.
 
@@ -929,9 +936,11 @@ Crazy Pineapple High/Low Eight-or-Better
 ----------------------------------------
 
 ### Forced Money
+
 The game is played with a button and blinds.
 
 ### Dealing Procedure
+
 Each player is dealt three cards face down, followed by a round of betting at the
 small bet limit.
 
@@ -947,6 +956,7 @@ One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
 ### Evaluating the Showdown
+
 The best high five-card hand and best five-card California low hand of at least
 eight low or better splits the pot. Hands are made using either zero, one, or two
 cards from each player’s hand and the remaining cards from the board.
@@ -955,6 +965,7 @@ hand is possible. If no qualifying low hand is made, the high hand scoops the po
 
 Deuce-To-Seven Lowball
 ----------------------
+
 ### Forced Money
 
 The game is played with a button and blinds.
@@ -1194,7 +1205,9 @@ Player C makes 7♥ 6♣ 5♥ 4♠ 3♦. Player A wins with the best Kansas City
 hand. Notice Player C’s straight does not qualify as a high hand.
 
 ### Notes
-See [Duck Flush: a Hot New Game for High-Rollers](https://web.archive.org/web/20180318142553/http://www.parttimepoker.com/duck-flush-a-hot-new-game-for-high-rollers).
+
+See [Duck Flush: a Hot New Game for
+High-Rollers](https://web.archive.org/web/20180318142553/http://www.parttimepoker.com/duck-flush-a-hot-new-game-for-high-rollers).
 
 Five Card Draw
 --------------
@@ -1256,6 +1269,7 @@ The best high five-card hand wins the pot.
 
 Four Card Chowaha High/Low Eight-or-Better
 ------------------------------------------
+
 ### Forced Money
 
 The game is played with a button and blinds.
@@ -1305,10 +1319,13 @@ Chowaha was created by Mike Chow.  See also [the two-card variant](#chowaha).
 
 Irish
 -----
+
 ### Forced Money
+
 The game is played with a button and blinds.
 
 ### Dealing Procedure
+
 Each player is dealt four cards face down, followed by a round of betting at the
 small bet limit.
 
@@ -1324,6 +1341,7 @@ One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
 ### Evaluating the Showdown
+
 The best high five-card hand wins the pot. Hands are made using either zero, one,
 or two cards from each player’s hand and the remaining cards from the board.
 Note: This game will be played with pot-limit betting at EMBARGO 2020.
@@ -1332,13 +1350,16 @@ Korean
 ------
 
 ### Forced Money
+
 The game is played with a button and blinds.
 
 ### Dealing Procedure
+
 Each player is dealt five cards face down, followed by a round of betting at the
 small bet limit.
 
 ### Each player in turn discards zero to five cards from their hand. Once all of the
+
 discards have been announced, the dealer will deal each player an appropriate
 number of replacement cards. This is followed by a round of betting at the small
 bet limit.
@@ -1350,6 +1371,7 @@ This is followed by a third draw, followed by a round of betting a the big bet l
 This is followed by a showdown.
 
 ### Evaluating the Showdown
+
 The best five-card high hand and California low hand splits the pot. A player
 must have a pair or better to qualify for the high hand and no pair to qualify for
 the low hand. Notice that unlike Archie, every hand that makes it to showdown
@@ -1406,12 +1428,15 @@ qualifier. The best high and best qualifying low will split the pot.
 
 London Lowball
 --------------
+
 ### Forced Money
+
 The game is played with antes. The high card on the board by rank first and then
 by suit brings it in. The K♠ is the highest possible card followed by the K♥, K♦,
 K♣, and so on.
 
 ### Dealing Procedure
+
 Starting with the player in seat one, each player is dealt two cards face down then
 one card up, followed by a round of betting. For all rounds, the minimum bet will
 be equal to the size of the bring-in and the minimum raise is the size of the last
@@ -1432,6 +1457,7 @@ It is required of each player that they do not alter or obfuscate the order in w
 they have received their up cards.
 
 ### Evaluating the Showdown
+
 The best five-card Ace-to-Six low hand wins the pot. Straights and flushes count
 against the player, unlike California Lowball (Ace-to-Five) but like Kansas City
 Lowball (Deuce-to-Seven). Unlike Deuce-to-Seven, the Ace is the low card, not
@@ -1495,6 +1521,7 @@ of betting, starting with the player with the highest hand showing clockwise of
 the dealer button.
 
 ### Evaluating the Showdown
+
 The best high five-card poker hand wins the pot. Since the stripped deck of 41
 cards is being used, a flush will outrank a full house. Because the eights, nines,
 and tens have been removed, a hand such as 5-6-7-J-Q is a straight.
@@ -1503,9 +1530,11 @@ Mississippi Stud/Stud High-Low Eight-or-Better/Razz
 ---------------------------------------------------
 
 ### Forced Money
+
 The game is played with a button and blinds.
 
 ### Dealing Procedure
+
 Starting with the player in seat one, each player is dealt two cards face down then
 one card up, followed by a round of betting, starting with the player to the left of
 the big blind (as is usual for games with blinds). For all rounds, the minimum bet
@@ -1531,6 +1560,7 @@ It is required of each player that they not alter or obfuscate the order in whic
 they have received their up cards.
 
 ### Evaluating the Showdown
+
 In Mississipi Stud, the best high five-card hand wins the pot.
 
 In Mississippi Stud High-Low, the pot is split between
@@ -1554,9 +1584,11 @@ Murder
 ------
 
 ### Forced Money
+
 The game is played with a button and blinds.
 
 ### Dealing Procedure
+
 Each player is dealt four cards face down, followed by a round of betting at the
 small bet limit. Two columns of three cards each (X) are placed in the center of
 the table as the flop. There is a round of betting at the lower limit.
@@ -1578,6 +1610,7 @@ All the X cards are placed on the board on the flop, the Y cards on the turn, an
 the Z cards on the river.
 
 ### Evaluating the Showdown
+
 The best high hand and the best California low hand with an 8-or-better qualifier
 split the pot. As in Omaha, hands are made using exactly two cards from each
 player’s hand and exactly three cards from the board to form each portion of their
@@ -1586,6 +1619,7 @@ from each row on the board! Separate hand and board cards may be used by each
 player to create their high and low hands.
 
 ### Notes
+
 Warning! Given the number of cards in a player’s hand, the number of possible
 combinations of cards that may be used from the board, the fact that the game is
 split pot, and the fact that each hand must be formed using only one card present
@@ -1593,6 +1627,7 @@ in each row of the board cards, evaluating hands can be especially tricky.
 
 Oklahoma
 --------
+
 ### Forced Money
 
 The game is played with a button and blinds.
@@ -1675,9 +1710,11 @@ Omaha High/Low Eight-or-Better
 Omaha High/Low Eight-or-Better is frequently abbreviated to Omaha/8 or O/8.
 
 ### Forced Money
+
 The game is played with a button and blinds.
 
 ### Dealing Procedure
+
 Each player is dealt four cards face down, followed by a round of betting at the
 small bet limit.
 
@@ -1698,6 +1735,7 @@ cards eight or lower on the board, no low hand is possible. If no qualifying low
 hand is made, the high hand scoops the pot.
 
 ### Notes
+
 Both limit (O8) and pot-limit versions (PLO8) of this game are popular.
 
 Omaha X or Better
@@ -1745,10 +1783,14 @@ This game was created by Christian "Dr. Doofenschmirtz" Jones.
 
 Paradise Road Pick’em
 ---------------------
+
 ### Forced Money
+
 The game is played with a button and blinds.
 
+
 ### Dealing Procedure
+
 Each player is dealt three cards. The player under the gun determines whether the
 hand will be played as Hold’em, Omaha High/Low Eight-or-Better, Razz, Stud,
 or Stud High/Low Eight-or-Better (i.e. the HORSE games). When heads-up or
@@ -1778,11 +1820,13 @@ Razz
 ----
 
 ### Forced Money
+
 The game is played with antes. The high card on the board by rank first and then
 by suit brings it in. The K♠ is the highest possible card followed by the K♥, K♦,
 K♣, and so on.
 
 ### Dealing Procedure
+
 Starting with the player in seat one, each player is dealt two cards face down then
 one card up, followed by a round of betting at the small bet limit.
 
@@ -1875,7 +1919,9 @@ qualifying low hand.
 
 Short Deck Omaha
 ---------------
+
 ### Forced Money
+
 The game is played with a button and blinds. 
 
 ### Dealing Procedure
@@ -1905,6 +1951,7 @@ fold pre-flop) at EMBARGO 2020.
 
 Short Deck Texas Hold’em
 ------------------------
+
 ### Forced Money
 
 The game is played with a button and blinds. 
@@ -1934,10 +1981,14 @@ beats a straight. See https://en.wikipedia.org/wiki/Six-plus_hold_’em .
 
 Sohe (Simultaneous Omaha/Hold’em)
 ---------------------------------
+
 ### Forced Money
+
 The game is played with a button and blinds.
 
+
 ### Dealing Procedure
+
 Each player is dealt six cards face down, followed by a round of betting at the
 small bet limit.
 
@@ -2035,6 +2086,7 @@ Stud High/Low No Qualifier
 --------------------------
 
 ### Forced Money
+
 The game is played with antes. The high card on the board by rank first and then
 by suit brings it in (as in razz). The K♠ is the highest possible card followed by
 the K♥, K♦, K♣, and so on.
@@ -2062,6 +2114,7 @@ It is required of each player that they do not alter or obfuscate the order in w
 they have received their up cards.
 
 ### Evaluating the Showdown
+
 The best high five-card hand and the best California low hand split the pot. There
 is no qualifier for low.
 
@@ -2072,10 +2125,11 @@ This game is also known as Stud High/Low Regular.
 Super Stud/Stud High-Low Eight-or-Better/Razz
 ---------------------------------------------
 
-(XXX This section needs to be reworded; it is missing details.  I believe the
+(This section needs to be reworded; it is missing details.  I believe the
 nominal dealer button gets to pick the variant after looking at their cards.)
 
 ### Forced Money
+
 The game is played with antes. If the game is stud or stud high-low eight-or-better,
 the low card on the board by rank first and then by suit brings it in. The 2♣ is
 the lowest possible card followed by the 2♦, 2♥, 2♠, and so on.
@@ -2085,6 +2139,7 @@ brings it in. The K♠ is the highest possible card followed by the K♥, K♦, 
 and so on.
 
 ### Dealing Procedure
+
 Starting with the player in seat one, each player is dealt four cards face down
 then one card up. At this point, the game proceeds as stud, stud high-low
 eight-orbetter, or razz, except that at the end of the first betting round,
@@ -2097,9 +2152,11 @@ Texas Hold’em
 Just like they play on the teevee.
 
 ### Forced Money
+
 The game is played with a button and blinds.
 
 ### Dealing Procedure
+
 Each player is dealt two cards face down, followed by a round of betting at the
 small bet limit.
 
@@ -2113,6 +2170,7 @@ One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
 ### Evaluating the Showdown
+
 The best high five-card hand wins the pot.
 
 ### Notes 
