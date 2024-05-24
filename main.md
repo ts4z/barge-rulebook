@@ -1058,6 +1058,43 @@ The best five-card Kansas City lowball hand wins the pot.
 This game is usually played limit, but is sometimes played as a pot-limit
 game. It is not played with a joker/bug.
 
+Dramadugi
+---------
+
+### Forced Money
+
+The game is played with a button and blinds.
+
+### Dealing Procedure
+
+Each player is dealt five cards face down, followed by a round of betting at the
+small bet limit.
+
+Three community cards are placed face up. Each player in turn discards zero to
+five cards from their hand. Once all of the discards have been announced, the
+dealer will deal each player an appropriate number of replacement cards. This is
+followed by a round of betting at the small bet limit. Note that this differs from
+Dramaha, where the draw takes place AFTER the flop betting.
+
+One additional community card is placed face up. Each player in turn discards
+zero to five cards from their hand. Once all of the discards have been announced,
+the dealer will deal each player an appropriate number of replacement cards. This
+is followed by a round of betting at the big bet limit.
+
+One additional community card is placed face up. Each player in turn discards zero
+to five cards from their hand. Once all of the discards have been announced, the
+dealer will deal each player an appropriate number of replacement cards. This is
+followed by a round of betting at the big bet limit. This is followed by a showdown.
+
+### Evaluating the Showdown
+
+The best Omaha high hand (using exactly two cards from the player’s hand and
+exactly three cards from the board) and the best Badugi hand (using only the player's hole cards) split the pot.
+
+### Notes
+
+At BARGE 2024, this game will appear in a tournament, played pot-limit.
+
 Dramaha
 -------
 
@@ -1130,43 +1167,6 @@ hence the name Dramaha 49.
 ### Notes
 
 Some online sources say that face cards are worth 1 point, but not according to BARGE.
-
-Dramadugi
----------
-
-### Forced Money
-
-The game is played with a button and blinds.
-
-### Dealing Procedure
-
-Each player is dealt five cards face down, followed by a round of betting at the
-small bet limit.
-
-Three community cards are placed face up. Each player in turn discards zero to
-five cards from their hand. Once all of the discards have been announced, the
-dealer will deal each player an appropriate number of replacement cards. This is
-followed by a round of betting at the small bet limit. Note that this differs from
-Dramaha, where the draw takes place AFTER the flop betting.
-
-One additional community card is placed face up. Each player in turn discards
-zero to five cards from their hand. Once all of the discards have been announced,
-the dealer will deal each player an appropriate number of replacement cards. This
-is followed by a round of betting at the big bet limit.
-
-One additional community card is placed face up. Each player in turn discards zero
-to five cards from their hand. Once all of the discards have been announced, the
-dealer will deal each player an appropriate number of replacement cards. This is
-followed by a round of betting at the big bet limit. This is followed by a showdown.
-
-### Evaluating the Showdown
-
-The best Omaha high hand (using exactly two cards from the player’s hand and
-exactly three cards from the board) and the best Badugi hand (using only the player's hole cards) split the pot.
-
-### Notes
-
-At BARGE 2024, this game will appear in a tournament, played pot-limit.
 
 
 Duck Flush
@@ -1249,6 +1249,7 @@ by suit brings it in. The 2♣ is the lowest possible card followed by the 2♦,
 2♠, and so on.
 
 ### Dealing Procedure
+
 Starting with the player in seat one, each player is dealt one card face down then
 one card up, followed by a round of betting at the small bet limit.
 
