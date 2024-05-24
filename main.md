@@ -57,8 +57,8 @@ This document also includes Appendices explaining the [“Sevens Rule”
 various [Lowball Scales](#appendix-a-lowball-scales) (written by me [Chris
 Mecklin]).
 
-Chapter 1: General Rules, Betting Formats, and Variations
-=========================================================
+Common Rules, Betting Formats, and Variations
+=============================================
 
 Limit
 -----
@@ -1076,6 +1076,80 @@ different suits is the best possible hand. KQJT of four different suits beats
 any three-card hand.  A three-card hand of 742 beats 75A. See the [Appendix on
 Lowball Scales](#appendix-a-lowball-scales) for more details.
 
+Bidirectional Chowaha High/Low
+------------------------------
+
+### Forced Money
+
+The game is played with a button and blinds.
+
+### Dealing Procedure
+
+Each player is dealt four cards face down, followed by a round of betting at the
+small bet limit.
+
+Three flops are dealt one above the other forming a 3 × 3 square of cards. This is
+followed by a round of betting at the small bet limit.
+
+A die is rolled, as per [Dice Procedures](#dice-procedures). 
+
+* If the die is 1, 2, or 3, turn cards will be dealt vertically to the right of
+  the flop cards from the dealer’s persepective ("normal" Chowaha, if there
+  ever was such a thing).
+* If the die is 4, 5, or 6, turn cards will be dealt below the flop cards from
+  the dealer's perspective.
+
+This is followed by a round of betting at the big bet limit.
+
+Then, two turn cards are dealt vertically to the right of, or below, the flop
+cards from the dealer’s persepective. This is followed by a round of betting at
+the big bet limit.
+
+One river card is placed to the right of, or below, of the turn cards,
+according to the die roll. This is followed by a round of betting at the big
+bet limit. This is followed by a showdown.
+
+At the showdown, the board will look like the following on a roll of 1, 2, or
+3:
+
+```
+1 2 3
+      Y
+4 5 6   Z
+      Y
+7 8 9
+```
+
+The cards labelled 1-9 are the flop cards, the cards indicated as Y are the turn
+cards, and Z is the river card.
+
+On a roll of 4, 5, or 6, the board will look like the following:
+
+```
+1 2 3
+4 5 6
+7 8 9
+ Y Y
+  Z
+```
+
+### Evaluating the Showdown
+
+The best high hand and best California low hand of at least eight low or better
+splits the pot. Each hand consists of two cards from the player’s hole cards plus
+the cards from one flop, one turn, and the river. 
+
+Any of four boards can be used.  On a roll of 1, 2, or 3, these are the top
+flop, the top turn, and the top river; or the bottom flop, turn, and river; or
+the center flop and either turn card.  On a roll of 4, 5, or 6, the four boards
+are the left flop, turn and river; the right flop, turn, and river; or the
+center flop, either turn, and river (two boards).
+
+Each player may create their best high hand and low hand using different hold
+cards and/or different board cards. Also, as in Omaha, each player must use
+exactly two hole cards plus three cards from the board to form each portion of
+their hand.
+
 Chowaha
 -------
 
@@ -1107,13 +1181,15 @@ cards, and Z is the river card.
 
 ### Evaluating the Showdown
 
-The best high hand wins the pot. The high hand consists of a player’s hole cards
-plus the cards from one flop, one turn, and the river. These may be played in any
+The best high hand and best California low hand of at least eight low or better
+splits the pot. Each hand consists of two cards from the player’s hole cards plus
+the cards from one flop, one turn, and the river. These may be played in any
 combination EXCEPT that board cards used CANNOT consist of the top row of
 the flop plus the bottom turn card or the bottom row of the flop plus the top turn
-card. That is, the flop, turn, and river must all be contiguous cards. Also, as in
-Omaha, each player must use both hole cards plus three cards from the board to
-form each portion of their hand.
+card. That is, the flop, turn, and river must all be contiguous cards. Each player
+may create their best high hand and low hand using different hold cards and/or
+different board cards. Also, as in Omaha, each player must use exactly two hole
+cards plus three cards from the board to form each portion of their hand.
 
 ### Notes
 
@@ -1238,6 +1314,7 @@ Dramaha
 ### Forced Money
 
 The game is played with a button and blinds.
+
 ### Dealing Procedure 
 
 Each player is dealt five cards face down, followed by a
@@ -1262,6 +1339,44 @@ betting at the big bet limit. This is followed by a showdown.
 The best Omaha high hand (using exactly two cards from the player’s hand and
 exactly three cards from the board) and the best five card draw hand (using all
 five cards from the player’s hand) splits the pot.
+
+Dramadugi
+---------
+
+### Forced Money
+
+The game is played with a button and blinds.
+
+### Dealing Procedure
+
+Each player is dealt five cards face down, followed by a round of betting at the
+small bet limit.
+
+Three community cards are placed face up. Each player in turn discards zero to
+five cards from their hand. Once all of the discards have been announced, the
+dealer will deal each player an appropriate number of replacement cards. This is
+followed by a round of betting at the small bet limit. Note that this differs from
+Dramaha, where the draw takes place AFTER the flop betting.
+
+One additional community card is placed face up. Each player in turn discards
+zero to five cards from their hand. Once all of the discards have been announced,
+the dealer will deal each player an appropriate number of replacement cards. This
+is followed by a round of betting at the big bet limit.
+
+One additional community card is placed face up. Each player in turn discards zero
+to five cards from their hand. Once all of the discards have been announced, the
+dealer will deal each player an appropriate number of replacement cards. This is
+followed by a round of betting at the big bet limit. This is followed by a showdown.
+
+### Evaluating the Showdown
+
+The best Omaha high hand (using exactly two cards from the player’s hand and
+exactly three cards from the board) and the best Badugi hand (using only the player's hole cards) split the pot.
+
+### Notes
+
+At BARGE 2024, this game will appear in a tournament, played pot-limit.
+
 
 Duck Flush
 ----------
@@ -1389,10 +1504,6 @@ X X X
 The cards labelled X are the flop cards, the cards indicated as Y are the turn
 cards, and Z is the river card.
 
-### Notes
-
-Chowaha was created by Mike Chow.  See also [the two-card variant](#chowaha).
-
 ### Evaluating the Showdown
 
 The best high hand and best California low hand of at least eight low or better
@@ -1404,6 +1515,10 @@ card. That is, the flop, turn, and river must all be contiguous cards. Each play
 may create their best high hand and low hand using different hold cards and/or
 different board cards. Also, as in Omaha, each player must use exactly two hole
 cards plus three cards from the board to form each portion of their hand.
+
+### Notes
+
+Chowaha was created by Mike Chow.  See also [the two-card variant](#chowaha).
 
 Hold’em High/Low Eight-or-Better
 --------------------------------
@@ -2006,8 +2121,8 @@ The best Omaha high hand (using exactly two cards from the player’s hand and
 exactly three cards from the board) and the best five card draw hand (using all
 five cards from the player’s hand) splits the pot.
 
-Two or Five Omaha High/Low Eight-orBetter
------------------------------------------
+Two or Five Omaha High/Low Eight-or-Better
+------------------------------------------
 
 ### Forced Money
 The game is played with a button and blinds.
