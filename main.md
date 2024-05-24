@@ -1,33 +1,47 @@
 Preface
 =======
 
-This rulebook codifies various poker games that may feature at BARGE.  It is
-not a replacement for the host casino's rulebook, or the TDA rules.
-
 This rulebook is an update of Christopher J. Mecklin's excellent rulebook from
-July 2021.
+July 2021.  The rulebook had fallen a bit out of date since it was last
+updated.  It was written for the 2021 BARGE tournaments.  Additionally, BARGE
+being BARGE, and poker players being poker players, some newer games have been
+made up.
 
-The BARGE rulebook had fallen a bit out of date since it was last updated.  In
-particular, it was written for the 2021 BARGE tournaments, and that was a while
-ago.  Additionally, BARGE being BARGE, some newer games have been made up.
+This rulebook codifies various poker games that may feature, or may have
+featured, at BARGE.  It is not a replacement for the host casino's rulebook, or
+the TDA rules, although it does duplicate some of that ground.  It specifically
+covers some procedures for some of the things that are unique to BARGE.
 
-This provides one new game, and a new format.  The new format is intended to be
-able to make a more web-accessible version with working hyperlinks.
+This 2024 edition provides a few new games, and a new format that is is
+intended to be able to make a more web-accessible version with working
+hyperlinks.
 
-Because this was reconstructed from the PDF of the 2021 rulebook, many
-formatting errors were introduced.  In particular, paragraph breaks were not
-maintained well.  Many, but likely not all, have been fixed.  To offset this, a
-few formatting errors from the 2021 edition were fixed.  See if you can find
-them all!
+Because this was initially reconstructed from the PDF of the 2021 rulebook,
+many formatting errors were introduced.  In particular, paragraph breaks were
+not maintained well.  Many, but likely not all, have been fixed.  To offset
+this, a few formatting errors from the 2021 edition were fixed.  See if you can
+find them all!
+
+Improving this Rulebook
+-----------------------
 
 Please report errors to [Tim Showalter](mailto:tjs@psaux.com) so we can update
 the rulebook.
 
+As of this writing, I'm taking submissions and other corrections for the
+rulebook.  The "source code" for the rulebook is now available on GitHub
+[here](https://github.com/ts4z/barge-rulebook), including a full edit history
+of changes since the 2024 reconstruction.
+
+Also, I would like to keep this rulebook fairly light, but having more context
+on each game would still be welcome.
+
 
 From the Preface from the 2021 Edition
-======================================
+--------------------------------------
 
-(This section has been edited to conform to other updates to this document.)
+(This section has been slightly edited to stay consistent with the updated
+rulebook.)
 
 This document contains the rules of many forms of poker, some of which will be
 played in BARGE 2021 tournaments, others in tournaments in past years, and yet
@@ -40,9 +54,9 @@ with their permission. Also, rules for some of the stranger games came from an
 archived version of the BARGE website, called the [BARGE Poker Game Rule
 Archive](http://web.archive.org/web/20120721203440/http://www.barge.org/rules/).
 I have also referred to [Bob Ciaffone’s Robert’s Rules of
-Poker](https://www.betsperts.com/poker/robs-poker-rules/)[^2].
+Poker](https://www.betsperts.com/poker/robs-poker-rules/)[^1].
 
-[^2]: This link has been updated, as RRP has moved with Bob Ciaffone's passing.
+[^1]: This link has been updated, as RRP has moved with Bob Ciaffone's passing.
 
 Note that the rule book, unless otherwise noted, is written under the
 assumption that the games are being played in a limit format, with a small
@@ -391,442 +405,21 @@ Lowball
 Lowball has several variants, discussed in the appendix on [Lowball
 Scales](#appendix-a-lowball-scales).
 
-Chapter 2: BARGE 2021 Tournament Games
-======================================
+Poker Variants
+==============
 
-Big O (Five Card Omaha High/Low Eightor-Better)
------------------------------------------------
+Poker variants are listed here alphabetically, including both well-known
+(Hold'em) and less well known (Bidrectional Chowaha).
 
-### Forced Money
-The game is played with a button and blinds.
+Historically at BARGE, Chowaha is quite popular, and the Pot-Limit Binglaha
+game has been known to run very late on Saturday night.
 
-### Dealing Procedure
-Each player is dealt five cards face down, followed by a round of betting at the
-small bet limit.
+Mixed games based around HORSE are popular, particularly with something
+substituting out for Razz; one variant is HOSER, which sometimes means Razz is
+gone and Action Razz is in its place.
 
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit. This is followed by a showdown.
-
-### Evaluating the Showdown
-The best high hand and best California low hand of at least eight low or better
-splits the pot. Hands are made using exactly two cards from each player’s hand
-and exactly three cards from the board. Note: If there are not three unpaired
-cards eight or lower on the board, no low hand is possible. If no qualifying low
-hand is made, the high hand scoops the pot.
-
-NOTE: Big O is usually played as a pot-limit game, but was played as a limit
-game for the Big OE mix at BARGE 2021.
-
-Binglaha
---------
-
-### Forced Money
-
-The game is played with a button and blinds.
-
-### Dealing Procedure
-Each player is dealt four cards face down, followed by a round of betting at the
-small bet limit.
-
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
-
-At this point a single (standard) die is rolled, in accordance with the [Dice
-Procedures](#dice-procedures).
-
-If the die result is a 1, 2, or 3, the game is played high/low split
-eight-or-better. If the die result is 4, 5, or 6, the game is played high only.
-
-One additional community card is place faced up. This is followed by a round of
-betting at the big bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit. This is followed by a showdown.
-
-### Evaluating the Showdown
-
-Either the best high hand and best California low hand of at least eight low or
-better split the pot or the best high hand scoops the pot, depending on the results
-of the die roll. Hands are made using exactly two cards from each player’s hand
-and exactly three cards from the board.
-
-Note: if there are not three unpaired cards eight or lower on the board, no low
-hand is possible regardless of the roll of the die. If no qualifying low hand is made,
-the high hand always scoops the pot.
-
-### Notes
-
-Binglaha was created by Don "ADB Bingo" Rieck.
-
-California Lowball
-------------------
-
-### Forced Money
-The game is played with a button and blinds.
-### Dealing Procedure
-Each player is dealt five cards face down, followed by a round of betting at the
-small bet limit.
-
-Each player in turn discards zero to five cards from their hand. Once all of the
-discards have been announced, the dealer will deal each player an appropriate
-number of replacement cards.
-
-This is followed by a round of betting at the big bet limit. This is followed
-by a showdown.
-
-California Lowball is usually played with a joker/bug. The joker is used as the
-lowest non-pairing card.
-
-### Evaluating the Showdown
-The best five-card California lowball hand wins the pot.
-
-NOTE: California Lowball is most commonly played as a limit game, with the
-Sevens Rule (see [Appendix B](#appendix-b-the-sevens-rule)) in effect and with no
-check-and-raise allowed. It is also sometimes played as a no-limit game, with
-no Sevens Rule and with check-and-raise allowed.
-
-### Notes
-The no-limit format was featured in a bounty tournament at BARGE 2021.
-
-Crazy Pineapple High/Low Eight-or-Better
-----------------------------------------
-
-### Forced Money
-The game is played with a button and blinds.
-
-### Dealing Procedure
-Each player is dealt three cards face down, followed by a round of betting at the
-small bet limit.
-
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit. Before the next board card is revealed, all players in the
-hand must discard one of their cards. This is typically done by placing their
-discard underneath chips that are placed in the pot on the flop.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit. This is followed by a showdown.
-
-### Evaluating the Showdown
-The best high five-card hand and best five-card California low hand of at least
-eight low or better splits the pot. Hands are made using either zero, one, or two
-cards from each player’s hand and the remaining cards from the board.
-Note: If there are not three unpaired cards eight or lower on the board, no low
-hand is possible. If no qualifying low hand is made, the high hand scoops the pot.
-
-Dramaha 49
-----------
-### Forced Money
-The game is played with a button and blinds.
-
-### Dealing Procedure
-Each player is dealt five cards face down, followed by a
-round of betting at the small bet limit.
-
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
-
-Then each player in turn discards zero to THREE cards from their hand. Once all
-of the discards have been announced, the dealer will deal each player an appropriate
-number of replacement cards. Note that this differs from Triple Draw Dramaha,
-where the draw takes place BEFORE the flop betting.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit. This is followed by the showdown.
-Evaluating the Showdown
-
-The best Omaha high hand (using exactly two cards from the player’s hand and
-exactly three cards from the board) and the best point value hand (using all five
-cards from the player’s hand) splits the pot, where points are assigned: 
- * Ace = 1
- * 2 through 10 = numerical value of that card
- * and face cards (Jacks, Queens, Kings) = 0.
- 
-The nut point value hand would be TTTT9=10+10+10+10+9=49 points,
-hence the name Dramaha 49. 
-
-### Notes
-
-Some online sources say that face cards are worth 1 point, but not according to BARGE.
-
-Omaha High Only
----------------
-### Forced Money
-
-The game is played with a button and blinds.
-
-### Dealing Procedure
-
-Each player is dealt four cards face down, followed by a round of betting at the
-small bet limit.
-
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit. This is followed by a showdown.
-
-### Evaluating the Showdown
-
-The best high five-card hand wins the pot. Hands are made using exactly two
-cards from each player’s hand and exactly three cards from the board.
-
-### Notes
-
-This game is most commonly played as pot-limit (PLO), but is sometimes played
-as a limit game.
-
-Omaha High/Low Eight-or-Better
-------------------------------
-
-Omaha High/Low Eight-or-Better is frequently abbreviated to Omaha/8 or O/8.
-
-### Forced Money
-The game is played with a button and blinds.
-
-### Dealing Procedure
-Each player is dealt four cards face down, followed by a round of betting at the
-small bet limit.
-
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit. This is followed by a showdown.
-
-### Evaluating the Showdown
-The best high hand and best California low hand of at least eight low or better
-splits the pot. Hands are made using exactly two cards from each player’s hand
-and exactly three cards from the board. Note: If there are not three unpaired
-cards eight or lower on the board, no low hand is possible. If no qualifying low
-hand is made, the high hand scoops the pot.
-
-### Notes
-Both limit (O8) and pot-limit versions (PLO8) of this game are popular.
-
-Paradise Road Pick’em
----------------------
-### Forced Money
-The game is played with a button and blinds.
-
-### Dealing Procedure
-Each player is dealt three cards. The player under the gun determines whether the
-hand will be played as Hold’em, Omaha High/Low Eight-or-Better, Razz, Stud,
-or Stud High/Low Eight-or-Better (i.e. the HORSE games). When heads-up or
-three-handed, the player with the button will choose the game for that hand. If
-the under the gun player is absent from the table or otherwise cannot or will not
-choose a game, the default game to be played is Hold’em.
-
-If Hold’em is selected, each player must discard one card. If Omaha/8 is selected,
-each player is dealt an additional card. The hand then plays out as the selected
-game, with action beginning with the player under the gun.
-
-If Razz, Stud, or Stud High/Low is selected, each player will in turn (with action
-beginning with the player under the gun) either fold, call, or raise. If they call or
-raise they will expose (i.e. roll) a door card of their choice at that time.
-
-For stud variations, on fourth street and beyond the cards will be dealt starting at
-the dealer’s left and the betting action will start with the player with the high or
-low hand, as appropriate for the variation being played. The small bet will be the
-size of the big blind and the big bet will be double the size of the big blind. For
-example, if the blinds are 50/100, then the small bet of 100 is used on 3rd and 4th
-streets and the big bet of 200 is used on 5th, 6th, and 7th streets.
-
-Please refer to rules of the individual game for further details on dealing procedure
-and evaluating the showdown.
-
-Razz
-----
-### Forced Money
-The game is played with antes. The high card on the board by rank first and then
-by suit brings it in. The K♠ is the highest possible card followed by the K♥, K♦,
-K♣, and so on.
-
-### Dealing Procedure
-Starting with the player in seat one, each player is dealt two cards face down then
-one card up, followed by a round of betting at the small bet limit.
-
-A second up card is dealt to all active players. This is followed by a round of
-betting at the small bet limit. Action starts with the lowest hand showing.
-
-A third up card is dealt to all active players. This is followed by a round of betting
-at the big bet limit.
-
-A fourth up card is dealt to all active players. This is followed by a round of
-betting at the big bet limit.
-
-A third down card is dealt to all active players. This is followed by a round of
-betting at the big bet limit. This is followed by a showdown.
-
-### Evaluating the Showdown
-The best five-card California low hand wins the pot.
-
-Sohe (Simultaneous Omaha/Hold’em)
----------------------------------
-### Forced Money
-The game is played with a button and blinds.
-
-### Dealing Procedure
-Each player is dealt six cards face down, followed by a round of betting at the
-small bet limit.
-
-Each player still in the hand after the pre-flop betting separates their six cards
-into a two-card hand and a four-card hand, which will be used for Texas Hold’em
-and Omaha High, respectively.
-
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit. This is followed by a showdown.
-
-### Evaluating the Showdown
-
-The best high hands, using the two-card Texas Hold’em hands and four-card Omaha
-High hands, respectively, split the pot. The Texas Hold’em hands are made using
-either zero, one, or both cards from each player’s hand. The Omaha hands are
-made using exactly two cards from each player’s hand and exactly three cards
-from the board.
-
-Stud
-----
-
-### Forced Money
-The game is played with antes. The low card on the board by rank first and then
-by suit brings it in. The 2♣ is the lowest possible card followed by the 2♦, 2♥,
-2♠, and so on.
-
-### Dealing Procedure
-Starting with the player in seat one, each player is dealt two cards face down then
-one card up, followed by a round of betting at the small bet limit.
-
-A second up card is dealt to all active players. This is followed by a round of
-betting at the small bet limit. If a player shows an open pair a bet or raise may
-optionally be a big bet. In this case a small bet can be met by a big bet raise. A
-big bet may never be met with a small bet raise. Action starts with the highest
-hand showing.
-
-A third up card is dealt to all active players. This is followed by a round of betting
-at the big bet limit.
-
-A fourth up card is dealt to all active players. This is followed by a round of
-betting at the big bet limit.
-
-A third down card is dealt to all active players. This is followed by a round of
-betting at the big bet limit. This is followed by a showdown.
-
-### Evaluating the Showdown
-The best high five-card hand wins the pot.
-
-Stud High/Low Eight-or-Better
------------------------------
-
-Seven Card Stud High/Low Eight-or-Better is frequently abbreviated to Stud/8.
-
-### Forced Money
-The game is played with antes. The low card on the board by rank first and then
-by suit brings it in. The 2♣ is the lowest possible card followed by the 2♦, 2♥,
-2♠, and so on.
-
-### Dealing Procedure
-Starting with the player in seat one, each player is dealt two cards face down then
-one card up, followed by a round of betting at the small bet limit.  The initial
-action goes to the player with the forced bring-in.
-
-A second up card is dealt to all active players. This is followed by a round of
-betting at the small bet limit. Note: Unlike seven card stud for high only, even if
-there is an open pair on fourth street, all bets on this street will always be at the
-small bet limit. Action starts with the highest hand showing.
-
-A third up card is dealt to all active players. This is followed by a round of betting
-at the big bet limit.
-
-A fourth up card is dealt to all active players. This is followed by a round of
-betting at the big bet limit.
-
-A third down card is dealt to all active players. This is followed by a round of
-betting at the big bet limit. This is followed by a showdown.
-
-### Evaluating the Showdown
-The best high five-card hand and the best California low hand with a qualifier of
-eight-or-better split the pot.
-
-Super Stud/Stud High-Low Eight-or-Better/Razz
----------------------------------------------
-
-(XXX This section needs to be reworded; it is missing details.  I believe the
-nominal dealer button gets to pick the variant after looking at their cards.)
-
-### Forced Money
-The game is played with antes. If the game is stud or stud high-low eight-or-better,
-the low card on the board by rank first and then by suit brings it in. The 2♣ is
-the lowest possible card followed by the 2♦, 2♥, 2♠, and so on.
-
-If the game is razz, the high card on the board by rank first and then by suit
-brings it in. The K♠ is the highest possible card followed by the K♥, K♦, K♣,
-and so on.
-
-### Dealing Procedure
-Starting with the player in seat one, each player is dealt four cards face down
-then one card up. At this point, the game proceeds as stud, stud high-low
-eight-orbetter, or razz, except that at the end of the first betting round,
-each remaining player will discard two of their four down cards. Refer to the
-rules of that variation for further details.
-
-Texas Hold’em
--------------
-
-Just like they play on the teevee.
-
-### Forced Money
-The game is played with a button and blinds.
-
-### Dealing Procedure
-Each player is dealt two cards face down, followed by a round of betting at the
-small bet limit.
-
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit.
-
-One additional community card is placed face up. This is followed by a round of
-betting at the big bet limit. This is followed by a showdown.
-
-### Evaluating the Showdown
-The best high five-card hand wins the pot.
-
-### Notes 
-
-Commonly known as Hold’em.
-
-No-limit Hold’em is currently the most popular game, both for tournaments and
-cash games. Limit Hold’em used to be the most popular cash game. This game is
-now rarely spread in a pot-limit format.
-
-Chapter 3: Other Games
-======================
+Oklahoma appears to be popular with dealers for a reason that the "cash game"
+rule should make clear.
 
 Ace-to-Five Triple Draw
 -----------------------
@@ -1050,7 +643,11 @@ See the [Appendix on Lowball Scales](#appendix-a-lowball-scales) for more detail
 Badugi
 ------
 
+Badugi is a relative of [Triple Draw](#deuce-to-seven-triple-draw), and the
+parent game of high-low variants [Baducey](#baducey) and [Badacey](#badacey).
+
 ### Forced Money
+
 The game is played with a button and blinds.
 
 ### Dealing Procedure
@@ -1150,6 +747,106 @@ cards and/or different board cards. Also, as in Omaha, each player must use
 exactly two hole cards plus three cards from the board to form each portion of
 their hand.
 
+Big O (Five Card Omaha High/Low Eight-or-Better)
+------------------------------------------------
+
+### Forced Money
+The game is played with a button and blinds.
+
+### Dealing Procedure
+Each player is dealt five cards face down, followed by a round of betting at the
+small bet limit.
+
+Three community cards are placed face up. This is followed by a round of betting
+at the small bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit. This is followed by a showdown.
+
+### Evaluating the Showdown
+The best high hand and best California low hand of at least eight low or better
+splits the pot. Hands are made using exactly two cards from each player’s hand
+and exactly three cards from the board. Note: If there are not three unpaired
+cards eight or lower on the board, no low hand is possible. If no qualifying low
+hand is made, the high hand scoops the pot.
+
+NOTE: Big O is usually played as a pot-limit game, but was played as a limit
+game for the Big OE mix at BARGE 2021.
+
+Binglaha
+--------
+
+### Forced Money
+
+The game is played with a button and blinds.
+
+### Dealing Procedure
+Each player is dealt four cards face down, followed by a round of betting at the
+small bet limit.
+
+Three community cards are placed face up. This is followed by a round of betting
+at the small bet limit.
+
+At this point a single (standard) die is rolled, in accordance with the [Dice
+Procedures](#dice-procedures).
+
+If the die result is a 1, 2, or 3, the game is played high/low split
+eight-or-better. If the die result is 4, 5, or 6, the game is played high only.
+
+One additional community card is place faced up. This is followed by a round of
+betting at the big bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit. This is followed by a showdown.
+
+### Evaluating the Showdown
+
+Either the best high hand and best California low hand of at least eight low or
+better split the pot or the best high hand scoops the pot, depending on the results
+of the die roll. Hands are made using exactly two cards from each player’s hand
+and exactly three cards from the board.
+
+Note: if there are not three unpaired cards eight or lower on the board, no low
+hand is possible regardless of the roll of the die. If no qualifying low hand is made,
+the high hand always scoops the pot.
+
+### Notes
+
+Binglaha was created by Don "ADB Bingo" Rieck.
+
+California Lowball
+------------------
+
+### Forced Money
+The game is played with a button and blinds.
+### Dealing Procedure
+Each player is dealt five cards face down, followed by a round of betting at the
+small bet limit.
+
+Each player in turn discards zero to five cards from their hand. Once all of the
+discards have been announced, the dealer will deal each player an appropriate
+number of replacement cards.
+
+This is followed by a round of betting at the big bet limit. This is followed
+by a showdown.
+
+California Lowball is usually played with a joker/bug. The joker is used as the
+lowest non-pairing card.
+
+### Evaluating the Showdown
+The best five-card California lowball hand wins the pot.
+
+NOTE: California Lowball is most commonly played as a limit game, with the
+Sevens Rule (see [Appendix B](#appendix-b-the-sevens-rule)) in effect and with no
+check-and-raise allowed. It is also sometimes played as a no-limit game, with
+no Sevens Rule and with check-and-raise allowed.
+
+### Notes
+The no-limit format was featured in a bounty tournament at BARGE 2021.
+
 Chowaha
 -------
 
@@ -1222,6 +919,34 @@ betting at the big bet limit. This is followed by a showdown.
 The best high five-card hand wins the pot. Hands are made using exactly two
 cards from each player’s hand and exactly three cards from the board.
 
+Crazy Pineapple High/Low Eight-or-Better
+----------------------------------------
+
+### Forced Money
+The game is played with a button and blinds.
+
+### Dealing Procedure
+Each player is dealt three cards face down, followed by a round of betting at the
+small bet limit.
+
+Three community cards are placed face up. This is followed by a round of betting
+at the small bet limit. Before the next board card is revealed, all players in the
+hand must discard one of their cards. This is typically done by placing their
+discard underneath chips that are placed in the pot on the flop.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit. This is followed by a showdown.
+
+### Evaluating the Showdown
+The best high five-card hand and best five-card California low hand of at least
+eight low or better splits the pot. Hands are made using either zero, one, or two
+cards from each player’s hand and the remaining cards from the board.
+Note: If there are not three unpaired cards eight or lower on the board, no low
+hand is possible. If no qualifying low hand is made, the high hand scoops the pot.
+
 Deuce-To-Seven Lowball
 ----------------------
 ### Forced Money
@@ -1243,6 +968,7 @@ bet limit. This is followed by a showdown.
 The best five-card Kansas City lowball hand wins the pot.
 
 ### Notes
+
 Also known as Kansas City Lowball, this game is most commonly played
 as a no-limit game. It is not played with a joker/bug.
 
@@ -1284,10 +1010,16 @@ The best five-card Kansas City low hand wins the pot.
 
 Deuce-to-Seven Triple Draw
 --------------------------
+
+Also known as "Triple Draw", this is the parent of a lot of triple-draw
+variants.
+
 ### Forced Money
+
 The game is played with a button and blinds.
 
 ### Dealing Procedure
+
 Each player is dealt five cards face down, followed by a round of betting at the
 small bet limit.
 
@@ -1305,6 +1037,7 @@ This is followed by a showdown.
 The best five-card Kansas City lowball hand wins the pot.
 
 ### Notes
+
 This game is usually played limit, but is sometimes played as a pot-limit
 game. It is not played with a joker/bug.
 
@@ -1339,6 +1072,47 @@ betting at the big bet limit. This is followed by a showdown.
 The best Omaha high hand (using exactly two cards from the player’s hand and
 exactly three cards from the board) and the best five card draw hand (using all
 five cards from the player’s hand) splits the pot.
+
+Dramaha 49
+----------
+
+### Forced Money
+
+The game is played with a button and blinds.
+
+### Dealing Procedure
+
+Each player is dealt five cards face down, followed by a
+round of betting at the small bet limit.
+
+Three community cards are placed face up. This is followed by a round of betting
+at the small bet limit.
+
+Then each player in turn discards zero to THREE cards from their hand. Once all
+of the discards have been announced, the dealer will deal each player an appropriate
+number of replacement cards. Note that this differs from Triple Draw Dramaha,
+where the draw takes place BEFORE the flop betting.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit. This is followed by the showdown.
+Evaluating the Showdown
+
+The best Omaha high hand (using exactly two cards from the player’s hand and
+exactly three cards from the board) and the best point value hand (using all five
+cards from the player’s hand) splits the pot, where points are assigned: 
+ * Ace = 1
+ * 2 through 10 = numerical value of that card
+ * and face cards (Jacks, Queens, Kings) = 0.
+ 
+The nut point value hand would be TTTT9=10+10+10+10+9=49 points,
+hence the name Dramaha 49. 
+
+### Notes
+
+Some online sources say that face cards are worth 1 point, but not according to BARGE.
 
 Dramadugi
 ---------
@@ -1420,7 +1194,9 @@ Five Card Draw
 --------------
 
 ### Forced Money
+
 The game is played with a button and blinds.
+
 ### Dealing Procedure
 
 Each player is dealt five cards face down, followed by a round of betting at the
@@ -1520,15 +1296,15 @@ cards plus three cards from the board to form each portion of their hand.
 
 Chowaha was created by Mike Chow.  See also [the two-card variant](#chowaha).
 
-Hold’em High/Low Eight-or-Better
---------------------------------
+Omaha High Only
+---------------
 ### Forced Money
 
 The game is played with a button and blinds.
 
 ### Dealing Procedure
 
-Each player is dealt two cards face down, followed by a round of betting at the
+Each player is dealt four cards face down, followed by a round of betting at the
 small bet limit.
 
 Three community cards are placed face up. This is followed by a round of betting
@@ -1542,13 +1318,45 @@ betting at the big bet limit. This is followed by a showdown.
 
 ### Evaluating the Showdown
 
-The best high five-card hand and best California low hand of at least eight low or
-better splits the pot. If no qualifying low hand is made, the high hand scoops the
-pot.
+The best high five-card hand wins the pot. Hands are made using exactly two
+cards from each player’s hand and exactly three cards from the board.
 
 ### Notes
-unlike Omaha, a player may use both, one, or none of the cards in their
-hand to make either the high or the low.
+
+This game is most commonly played as pot-limit (PLO), but is sometimes played
+as a limit game.
+
+Omaha High/Low Eight-or-Better
+------------------------------
+
+Omaha High/Low Eight-or-Better is frequently abbreviated to Omaha/8 or O/8.
+
+### Forced Money
+The game is played with a button and blinds.
+
+### Dealing Procedure
+Each player is dealt four cards face down, followed by a round of betting at the
+small bet limit.
+
+Three community cards are placed face up. This is followed by a round of betting
+at the small bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit. This is followed by a showdown.
+
+### Evaluating the Showdown
+The best high hand and best California low hand of at least eight low or better
+splits the pot. Hands are made using exactly two cards from each player’s hand
+and exactly three cards from the board. Note: If there are not three unpaired
+cards eight or lower on the board, no low hand is possible. If no qualifying low
+hand is made, the high hand scoops the pot.
+
+### Notes
+Both limit (O8) and pot-limit versions (PLO8) of this game are popular.
+
 
 Irish
 -----
@@ -1778,12 +1586,14 @@ It is required of each player that they not alter or obfuscate the order in whic
 they have received their up cards.
 
 ### Evaluating the Showdown
-The best high five-card hand wins the pot for Mississippi stud.
+In Mississipi Stud, the best high five-card hand wins the pot.
 
-The best high five-card hand and the best California low hand with a qualifier of
-eight-or-better split the pot for Mississippi stud high-low eight-or-better.
+In Mississippi Stud High-Low, the pot is split between
+the best high five-card hand and the best California low hand with an 8 qualifier.
+(If there is no low hand, the high hand scoops.)
 
-The best five-card California low hand wins the pot for Mississippi razz.
+In Mississippi Razz, the best five-card California low hand wins the pot
+(without a qualifier).
 
 ### Notes
 The rules for Mississippi Stud were written assuming the game is played
@@ -1793,6 +1603,7 @@ The game was designed by David Zanetti to be a version of stud more amenable to
 a big-bet format than standard seven-card stud. See [this entry from the old
 RGP
 FAQ](https://web.archive.org/web/20150907103507/http://www.rgpfaq.com/mississippi-stud.html).
+
 
 Murder
 ------
@@ -1862,12 +1673,14 @@ X3 X3 X3 Y3 Z3
 
 All the X cards are placed on the board on the flop, the Y cards on the turn, and
 the Z cards on the river.
+
 Next, the horizontal row of cards (board) with the lowest river card by rank is
 removed from play. The deuce is the lowest rank and the Ace is the highest rank
 for card removal. If two river cards share the same lowest rank, then both are
 removed. If all three river cards share the same rank, no boards are removed. In
 this way, “tournament” Oklahoma differs from “cash game” Oklahoma, where all
 three boards are removed and the dealer wins the pot.
+
 For example, if Z1, Z2, and Z3 are the 3♥, 8♠, and 3♣ respectively, then all of
 the cards on both row 1 and row 3 are removed. Board removal is followed by a
 round of betting at the big bet limit. This is followed by a showdown.
@@ -1922,9 +1735,69 @@ If the board does not have three cards under X on the board, no low is possible
 
 This game was created by Christian "Dr. Doofenschmirtz" Jones.
 
+Paradise Road Pick’em
+---------------------
+### Forced Money
+The game is played with a button and blinds.
+
+### Dealing Procedure
+Each player is dealt three cards. The player under the gun determines whether the
+hand will be played as Hold’em, Omaha High/Low Eight-or-Better, Razz, Stud,
+or Stud High/Low Eight-or-Better (i.e. the HORSE games). When heads-up or
+three-handed, the player with the button will choose the game for that hand. If
+the under the gun player is absent from the table or otherwise cannot or will not
+choose a game, the default game to be played is Hold’em.
+
+If Hold’em is selected, each player must discard one card. If Omaha/8 is selected,
+each player is dealt an additional card. The hand then plays out as the selected
+game, with action beginning with the player under the gun.
+
+If Razz, Stud, or Stud High/Low is selected, each player will in turn (with action
+beginning with the player under the gun) either fold, call, or raise. If they call or
+raise they will expose (i.e. roll) a door card of their choice at that time.
+
+For stud variations, on fourth street and beyond the cards will be dealt starting at
+the dealer’s left and the betting action will start with the player with the high or
+low hand, as appropriate for the variation being played. The small bet will be the
+size of the big blind and the big bet will be double the size of the big blind. For
+example, if the blinds are 50/100, then the small bet of 100 is used on 3rd and 4th
+streets and the big bet of 200 is used on 5th, 6th, and 7th streets.
+
+Please refer to rules of the individual game for further details on dealing procedure
+and evaluating the showdown.
+
+Razz
+----
+
+### Forced Money
+The game is played with antes. The high card on the board by rank first and then
+by suit brings it in. The K♠ is the highest possible card followed by the K♥, K♦,
+K♣, and so on.
+
+### Dealing Procedure
+Starting with the player in seat one, each player is dealt two cards face down then
+one card up, followed by a round of betting at the small bet limit.
+
+A second up card is dealt to all active players. This is followed by a round of
+betting at the small bet limit. Action starts with the lowest hand showing.
+
+A third up card is dealt to all active players. This is followed by a round of betting
+at the big bet limit.
+
+A fourth up card is dealt to all active players. This is followed by a round of
+betting at the big bet limit.
+
+A third down card is dealt to all active players. This is followed by a round of
+betting at the big bet limit. This is followed by a showdown.
+
+### Evaluating the Showdown
+The best five-card California low hand wins the pot.
+
 Razzdugi
 --------
+
 ### Forced Money
+
 The game is played with antes. The high card on the board by rank first and then
 by suit brings it in. The K♠ is the highest possible card followed by the K♥, K♦,
 K♣, and so on.
@@ -1954,6 +1827,36 @@ they have received their up cards.
 The best five-card California low hand and the best (ace-to-four) badugi hand
 splits the pot. Note, there is no qualifier for either the razz or badugi hand. If
 there is no four-card badugi hand, the best three-card hand wins half the pot.
+
+Sohe (Simultaneous Omaha/Hold’em)
+---------------------------------
+### Forced Money
+The game is played with a button and blinds.
+
+### Dealing Procedure
+Each player is dealt six cards face down, followed by a round of betting at the
+small bet limit.
+
+Each player still in the hand after the pre-flop betting separates their six cards
+into a two-card hand and a four-card hand, which will be used for Texas Hold’em
+and Omaha High, respectively.
+
+Three community cards are placed face up. This is followed by a round of betting
+at the small bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit. This is followed by a showdown.
+
+### Evaluating the Showdown
+
+The best high hands, using the two-card Texas Hold’em hands and four-card Omaha
+High hands, respectively, split the pot. The Texas Hold’em hands are made using
+either zero, one, or both cards from each player’s hand. The Omaha hands are
+made using exactly two cards from each player’s hand and exactly three cards
+from the board.
 
 Scrotum
 -------
@@ -1991,6 +1894,129 @@ hand.
 NOTE: Unlike Omaha/8, no matter what comes on the board a low hand is
 possible as long as a player has retained a sufficient number of cards to make a
 qualifying low hand.
+
+Stud
+----
+
+### Forced Money
+The game is played with antes. The low card on the board by rank first and then
+by suit brings it in. The 2♣ is the lowest possible card followed by the 2♦, 2♥,
+2♠, and so on.
+
+### Dealing Procedure
+Starting with the player in seat one, each player is dealt two cards face down then
+one card up, followed by a round of betting at the small bet limit.
+
+A second up card is dealt to all active players. This is followed by a round of
+betting at the small bet limit. If a player shows an open pair a bet or raise may
+optionally be a big bet. In this case a small bet can be met by a big bet raise. A
+big bet may never be met with a small bet raise. Action starts with the highest
+hand showing.
+
+A third up card is dealt to all active players. This is followed by a round of betting
+at the big bet limit.
+
+A fourth up card is dealt to all active players. This is followed by a round of
+betting at the big bet limit.
+
+A third down card is dealt to all active players. This is followed by a round of
+betting at the big bet limit. This is followed by a showdown.
+
+### Evaluating the Showdown
+The best high five-card hand wins the pot.
+
+Stud High/Low Eight-or-Better
+-----------------------------
+
+Seven Card Stud High/Low Eight-or-Better is frequently abbreviated to Stud/8.
+
+### Forced Money
+The game is played with antes. The low card on the board by rank first and then
+by suit brings it in. The 2♣ is the lowest possible card followed by the 2♦, 2♥,
+2♠, and so on.
+
+### Dealing Procedure
+Starting with the player in seat one, each player is dealt two cards face down then
+one card up, followed by a round of betting at the small bet limit.  The initial
+action goes to the player with the forced bring-in.
+
+A second up card is dealt to all active players. This is followed by a round of
+betting at the small bet limit. Note: Unlike seven card stud for high only, even if
+there is an open pair on fourth street, all bets on this street will always be at the
+small bet limit. Action starts with the highest hand showing.
+
+A third up card is dealt to all active players. This is followed by a round of betting
+at the big bet limit.
+
+A fourth up card is dealt to all active players. This is followed by a round of
+betting at the big bet limit.
+
+A third down card is dealt to all active players. This is followed by a round of
+betting at the big bet limit. This is followed by a showdown.
+
+### Evaluating the Showdown
+The best high five-card hand and the best California low hand with a qualifier of
+eight-or-better split the pot.
+
+Stud High/Low No Qualifier
+--------------------------
+
+### Forced Money
+The game is played with antes. The high card on the board by rank first and then
+by suit brings it in (as in razz). The K♠ is the highest possible card followed by
+the K♥, K♦, K♣, and so on.
+
+### Dealing Procedure
+
+Starting with the player in seat one, each player is dealt two cards face down then
+one card up, followed by a round of betting at the small bet limit.
+
+A second up card is dealt to all active players. This is followed by a round of
+betting at the small bet limit. Note: Unlike seven card stud for high only, even if
+there is an open pair on fourth street, all bets on this street will always be at the
+small bet limit. Action starts with the lowest hand showing (as in razz).
+
+A third up card is dealt to all active players. This is followed by a round of betting
+at the big bet limit.
+
+A fourth up card is dealt to all active players. This is followed by a round of
+betting at the big bet limit.
+
+A third down card is dealt to all active players. This is followed by a round of
+betting at the big bet limit. This is followed by a showdown.
+
+It is required of each player that they do not alter or obfuscate the order in which
+they have received their up cards.
+
+### Evaluating the Showdown
+The best high five-card hand and the best California low hand split the pot. There
+is no qualifier for low.
+
+### Notes
+
+This game is also known as Stud High/Low Regular.
+
+Super Stud/Stud High-Low Eight-or-Better/Razz
+---------------------------------------------
+
+(XXX This section needs to be reworded; it is missing details.  I believe the
+nominal dealer button gets to pick the variant after looking at their cards.)
+
+### Forced Money
+The game is played with antes. If the game is stud or stud high-low eight-or-better,
+the low card on the board by rank first and then by suit brings it in. The 2♣ is
+the lowest possible card followed by the 2♦, 2♥, 2♠, and so on.
+
+If the game is razz, the high card on the board by rank first and then by suit
+brings it in. The K♠ is the highest possible card followed by the K♥, K♦, K♣,
+and so on.
+
+### Dealing Procedure
+Starting with the player in seat one, each player is dealt four cards face down
+then one card up. At this point, the game proceeds as stud, stud high-low
+eight-orbetter, or razz, except that at the end of the first betting round,
+each remaining player will discard two of their four down cards. Refer to the
+rules of that variation for further details.
 
 Short Deck Omaha
 ---------------
@@ -2051,43 +2077,68 @@ Note: This game is also called Six-Plus Texas Holdem and was played with no-limi
 betting at BARGE 2019. The game is sometimes played where three-of-a-kind
 beats a straight. See https://en.wikipedia.org/wiki/Six-plus_hold_’em .
 
-Stud High/Low No Qualifier
---------------------------
+Texas Hold’em
+-------------
+
+Just like they play on the teevee.
 
 ### Forced Money
-The game is played with antes. The high card on the board by rank first and then
-by suit brings it in (as in razz). The K♠ is the highest possible card followed by
-the K♥, K♦, K♣, and so on.
+The game is played with a button and blinds.
+
+### Dealing Procedure
+Each player is dealt two cards face down, followed by a round of betting at the
+small bet limit.
+
+Three community cards are placed face up. This is followed by a round of betting
+at the small bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit. This is followed by a showdown.
+
+### Evaluating the Showdown
+The best high five-card hand wins the pot.
+
+### Notes 
+
+Commonly known as Hold’em.
+
+No-limit Hold’em is currently the most popular game, both for tournaments and
+cash games. Limit Hold’em used to be the most popular cash game. This game is
+now rarely spread in a pot-limit format.
+
+Texas Hold’em High/Low Eight-or-Better
+--------------------------------------
+### Forced Money
+
+The game is played with a button and blinds.
 
 ### Dealing Procedure
 
-Starting with the player in seat one, each player is dealt two cards face down then
-one card up, followed by a round of betting at the small bet limit.
+Each player is dealt two cards face down, followed by a round of betting at the
+small bet limit.
 
-A second up card is dealt to all active players. This is followed by a round of
-betting at the small bet limit. Note: Unlike seven card stud for high only, even if
-there is an open pair on fourth street, all bets on this street will always be at the
-small bet limit. Action starts with the lowest hand showing (as in razz).
+Three community cards are placed face up. This is followed by a round of betting
+at the small bet limit.
 
-A third up card is dealt to all active players. This is followed by a round of betting
-at the big bet limit.
-
-A fourth up card is dealt to all active players. This is followed by a round of
+One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit.
 
-A third down card is dealt to all active players. This is followed by a round of
+One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
-It is required of each player that they do not alter or obfuscate the order in which
-they have received their up cards.
-
 ### Evaluating the Showdown
-The best high five-card hand and the best California low hand split the pot. There
-is no qualifier for low.
+
+The best high five-card hand and best California low hand of at least eight low or
+better splits the pot. If no qualifying low hand is made, the high hand scoops the
+pot.
 
 ### Notes
 
-This game is also known as Stud High/Low Regular.
+Unlike Omaha, a player may use both, one, or none of the cards in their hand to
+make either the high or the low.
 
 Triple Draw Dramaha
 -------------------
@@ -2149,12 +2200,15 @@ hand and exactly three cards from the board or using all five cards in each play
 hand, whichever produces the superior hand. A player may use all five cards in
 one direction and use only two cards in the other. If no qualifying low hand is
 made, the high hand scoops the pot.
-Example: One player is dealt A♥ Q♥ J♥ T♥ 2♥. The board is 3♠ 5♥ 7♣ K♥
-Q♦.
+
+Example: One player is dealt A♥ Q♥ J♥ T♥ 2♥. The board is 3♠ 5♥ 7♣ K♥ Q♦.
+
 The player plays the A♥ 2♥ from their hand to make a 7532A low, and all five
 cards from their hand to make a ace-queen high flush.
+
 Note that this player does not have the nut low, as it is possible that another
-player holds a five card hand that makes a better California low hand than 7532A.
+player holds a five card hand that makes a better California low hand than
+7532A.
 
 Appendix A: Lowball Scales
 ==========================
