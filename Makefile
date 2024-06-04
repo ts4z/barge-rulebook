@@ -7,11 +7,13 @@
 #
 
 ALL=rulebook.html
-PROBLEMATIC=rulebook.pdf
 
+# Order here is important.
 SECTIONS=\
 	src/preface.md \
 	src/common.md \
+	src/variants.md \
+	src/game-ace-to-5-triple-draw.md \
 	src/games.md \
 	src/appendix-a.md \
 	src/appendix-b.md \
