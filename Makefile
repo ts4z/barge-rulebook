@@ -9,7 +9,12 @@
 ALL=rulebook.html
 PROBLEMATIC=rulebook.pdf
 
-SUBSTANCE=frontmatter.md main.md
+SECTIONS=src/main.md \
+	src/appendix-a.md \
+	src/appendix-b.md \
+	src/appendix-c.md \
+	src/colophon.md
+SUBSTANCE=src/frontmatter.md $(SECTIONS)
 BOILERPLATE=front-boilerplate.latex end-boilerplate.latex
 
 TITLE=Barge Rulebook 2024
@@ -18,21 +23,8 @@ all: $(ALL)
 
 # this is, unfortunately, reliant on a utility of my own design.
 # see https://github.com/ts4z/markdown-toc
-rulebook.html: frontmatter.md main.md
-	markdown-toc -o $@ -f frontmatter.md -i main.md -t "$(TITLE)"
-
-# utter crap
-rulebook.latex: $(BOILERPLATE) $(SUBSTANCE)
-	-rm $@
-	cat front-boilerplate.latex >> $@ || (rm $@ && false)
-	(cat frontmatter.md main.md) | cmark -t latex >> $@ || (rm $@ && false)
-	cat end-boilerplate.latex >> $@ || (rm $@ && false)
-
-%.dvi : %.latex
-	latex $^
-
-%.pdf : %.dvi
-	dvipdf $^ $@
+rulebook.html: $(SUBSTANCE)
+	markdown-toc -o $@ -t "$(TITLE)" -f src/frontmatter.md $(SECTIONS)
 
 clean:
 	-rm $(ALL) $(PROBLEMATIC) *.dvi rulebook.latex *.log *~

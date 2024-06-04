@@ -24,12 +24,20 @@ TBD: The LaTeX conversion is not easy, for reasons I don't understand.
 Building the Rulebook
 ---------------------
 
-HTML: `make rulebook.html` should do it.
+HTML: `make rulebook.html` should do it for now.  This is a simple tool that I
+wrote to get an acceptable table of contents.
 
-LaTeX: Unsolved.  Markdown can easily be translated to LaTeX, but I haven't
-found a tool that does the right work to make it into a "book" with a table of
-contents.  This is not a huge amount of work, but it hasn't been required yet
-(and I'm hoping a hyperlinked document is more useful).
+Nice printed version: Unsolved.  Markdown can easily be translated to LaTeX.
+There are several tools that do this well.  Unfortunately I have chosen to use
+Unicode instead of things that predate Unicode.  I'm hoping a hyperlinked
+document is more useful than page numbers.
+
+Future Work
+-----------
+
+Right now the rulebook is two files, one that goes before the Table of Contents
+and one with all of the other text.  This isn't ideal.  mdbook's approach is
+better, but I haven't done all the work to switch to it yet.
 
 Markdown notes
 --------------
