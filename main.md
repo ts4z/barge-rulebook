@@ -1317,6 +1317,39 @@ cards plus three cards from the board to form each portion of their hand.
 
 Chowaha was created by Mike Chow.  See also [the two-card variant](#chowaha).
 
+Hold'em
+-------
+
+Also known as Texas Hold'em, and archaically as Hold Me Darling, and
+epithetically as the Cadillac of Poker, players in Las Vegas have been playing
+Hold'em since 1963[^2].
+
+[^2]: [Bars Test Laws on Gambling With Moneyless Poker
+Games](https://www.nytimes.com/2005/02/22/us/bars-test-laws-on-gambling-with-moneyless-poker-games.html),
+_The New York Times_, February 22, 2005.
+
+### Forced Money
+
+The game is played with a button and blinds.
+
+### Dealing Procedure
+
+Each player is dealt two cards face down, followed by a round of betting at the
+small bet limit.
+
+Three community cards are placed face up. This is followed by a round of betting
+at the small bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit.
+
+One additional community card is placed face up. This is followed by a round of
+betting at the big bet limit. This is followed by a showdown.
+
+### Evaluating the Showdown
+
+The best high five-card hand wins the pot. Hands are made using zero, one, or
+two cards cards from each player’s hand and up to three cards from the board.
 
 Irish
 -----
@@ -1756,8 +1789,8 @@ At this point two (standard) dice are rolled, in accordance with the [Dice
 Procedures](#dice-procedures).  These determine "X", the qualifier for the low
 hand:
 
-* 12 = Queen
-* 11 = Jack
+* 12: Queen
+* 11: Jack
 * 10 down to 5: face value
 * 4, 3, or 2: no low hand
 
@@ -1849,6 +1882,13 @@ The best five-card California low hand wins the pot.
 Razzdugi
 --------
 
+Rio Bravo
+---------
+
+Rio Bravo is played just as [Hold'em](#holdem), except after the river betting,
+each live player is dealt a third face-down hole card and then there's a final
+(fifth) round of betting.
+
 ### Forced Money
 
 The game is played with antes. The high card on the board by rank first and then
@@ -1883,6 +1923,9 @@ there is no four-card badugi hand, the best three-card hand wins half the pot.
 
 Scrotum
 -------
+
+Also known in polite company as "Sack".
+
 ### Forced Money
 The game is played with a button and blinds.
 
