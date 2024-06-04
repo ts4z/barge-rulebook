@@ -14,7 +14,10 @@ SECTIONS=\
 	src/common.md \
 	src/variants.md \
 	src/game-ace-to-5-triple-draw.md \
+	src/game-action-razz.md \
+	src/game-action-razzdugi.md \
 	src/games.md \
+	src/game-two-or-five-omaha-8-or-better.md \
 	src/appendix-a.md \
 	src/appendix-b.md \
 	src/appendix-c.md \
