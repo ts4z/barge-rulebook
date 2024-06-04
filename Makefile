@@ -9,7 +9,10 @@
 ALL=rulebook.html
 PROBLEMATIC=rulebook.pdf
 
-SECTIONS=src/main.md \
+SECTIONS=\
+	src/preface.md \
+	src/common.md \
+	src/games.md \
 	src/appendix-a.md \
 	src/appendix-b.md \
 	src/appendix-c.md \
