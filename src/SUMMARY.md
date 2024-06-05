@@ -45,7 +45,6 @@
   - [Five Card Draw](./five-card-draw.md)
   - [Five Card Stud](./five-card-stud.md)
   - [Four Card Chowaha High/Low](./four-card-chowaha.md)
-  - [Hold'em](./holdem.md)
   - [Irish](./irish.md)
   - [Korean](./korean.md)
   - [Lazy Pineapple (High Only)](./lazy-pineapple-high-only.md)
