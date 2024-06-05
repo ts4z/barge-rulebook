@@ -69,7 +69,7 @@
   - [Sohe (Simultaneous Omaha/Hold’em)](./game-sohe-simultaneous-omaha-holdem.md)
   - [Stud](./game-stud.md)
   - [Stud High/Low](./game-stud-high-low-eight-or-better.md)
-  - [Stud-high-low-no-qualifier](./game-stud-high-low-no-qualifier.md)
+  - [Stud High/Low No Qualifier](./game-stud-high-low-no-qualifier.md)
   - [Super Stud/Stud High-Low/Razz](./game-super-stud-stud-high-low-eight-or-better-razz.md)
   - [Texas Hold'em](./game-texas-holdem.md)
   - [Texas Hold'em High/Low](./game-texas-holdem-high-low-eight-or-better.md)
