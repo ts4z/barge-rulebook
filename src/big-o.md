@@ -29,5 +29,5 @@ hand is made, the high hand scoops the pot.
 
 ### Notes
 
-Big O is usually played as a [pot-limit](./common-pot-limit.md) game, but was
-played as a [limit](./common-limit.md) game for the Big OE mix at BARGE 2021.
+Big O is usually played as a [pot-limit](./pot-limit.md) game, but was
+played as a [limit](./limit.md) game for the Big OE mix at BARGE 2021.

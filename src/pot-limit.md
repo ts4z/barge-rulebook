@@ -7,7 +7,7 @@ will be equal to the size of the large blind. The minimum raise is the size of t
 last bet or raise. A player who wishes to bet or raise but does not have enough
 chips to make the minimum wager may go *all-in* with their remaining chips.
 
-Unlike [limit](./common-limit.md) and [no-limit](./common-no-limit.md), a
+Unlike [limit](./limit.md) and [no-limit](./common-no-limit.md), a
 player is entitled to the current count of the pot.
 
 Stud variations without blinds are sometimes played in a pot-limit format, with
@@ -21,7 +21,7 @@ action.
 ### Examples
 
 For an example, suppose you are playing in a pot-limit Omaha tournament at the
-100/200 level.  Like [no-limit](./common-no-limit.md), this means that the
+100/200 level.  Like [no-limit](./no-limit.md), this means that the
 small blind is 100 and the large blind is 200. In this example, the action
 folds to the player on the button, who says raise.
 
@@ -56,7 +56,7 @@ In this case, that's 3✕200 + 200 (caller) + 400 (pot) and that's still 12
 to-go.
 
 For a stud example, suppose you are playing a pot-limit [London
-Lowball](./game-london-lowball.md) tournament where the ante is 100 and the
+Lowball](./london-lowball.md) tournament where the ante is 100 and the
 bring-in is 150. With eight players, the pot starts at 8 ✕ 100 = 800. Player A
 brings it in for 150.  Player B says raise. The minimum raise Player B can make
 is 150 (the size of the bring-in), to 300 to-go; and the maximum raise is

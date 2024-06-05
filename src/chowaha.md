@@ -43,6 +43,6 @@ cards plus three cards from the board to form each portion of their hand.
 
 ### Notes
 
-[Four-card Chowaha](./game-four-card-chowaha-high-low-eight-or-better.md) is the original
+[Four-card Chowaha](./four-card-chowaha-high-low-eight-or-better.md) is the original
 game.  Somehow it became two-card when played at BARGE.
 

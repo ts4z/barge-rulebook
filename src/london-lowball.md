@@ -34,7 +34,7 @@ The best five-card Ace-to-Six low hand wins the pot. Straights and flushes count
 against the player, unlike California Lowball (Ace-to-Five) but like Kansas City
 Lowball (Deuce-to-Seven). Unlike Deuce-to-Seven, the Ace is the low card, not
 the high card. Thus the nuts is a non-flush 6432A hand. See the 
-[Appendix on Lowball Scales](./appendix-lowball-scales.md).
+[Appendix on Lowball Scales](./lowball-scales.md).
 
 ### Notes
 

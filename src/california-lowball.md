@@ -23,10 +23,10 @@ lowest non-pairing card.
 ### Evaluating the Showdown
 
 The best five-card California lowball hand wins the pot.  See the [Appendix on
-Lowball Scales](./appendix-lowball-scales.md) for more details.
+Lowball Scales](./lowball-scales.md) for more details.
 
 NOTE: California Lowball is most commonly played as a limit game, with the
-Sevens Rule (see [Appendix B](./appendix-sevens-rule.md)) in effect and with no
+Sevens Rule (see [Appendix B](./sevens-rule.md)) in effect and with no
 check-and-raise allowed. It is also sometimes played as a no-limit game, with
 no Sevens Rule and with check-and-raise allowed.
 

@@ -60,8 +60,8 @@ when playing that game in the pot-limit or no-limit format.
 date with the updated rulebook.]
 
 This document also includes Appendices explaining the [“Sevens Rule”
-(originally written by Michael Weisenberg)](./appendix-sevens-rule.md) and
-various [Lowball Scales](./appendix-lowball-scales.md) (written by [Chris
+(originally written by Michael Weisenberg)](./sevens-rule.md) and
+various [Lowball Scales](./lowball-scales.md) (written by [Chris
 Mecklin]).
 
 [^1]: This link has been updated, as RRP has moved with Bob Ciaffone's passing.

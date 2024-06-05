@@ -1,7 +1,7 @@
 Bomb Pot
 --------
 
-The *bomb pot* is a variation of a [no-limit](./common-no-limit.md)
+The *bomb pot* is a variation of a [no-limit](./no-limit.md)
 [Hold’em](./games-holdem.md) tournament used at BARGE starting in a 2021
 tournament. In this variation, all players post an ante pre-flop, and there is
 no pre-flop betting. Instead, the three-card flop is dealt and action commences
