@@ -78,9 +78,9 @@
 
 ---
 
-[Appendix A: Lowball Scales](./appendix-a.md)
-[Appendix B: The Sevens Rule](./appendix-b.md)
-[Appendix C: What Beats What](./appendix-c.md)
+[Appendix A: Lowball Scales](./appendix-lowball-scales.md)
+[Appendix B: The Sevens Rule](./appendix-sevens-rule.md)
+[Appendix C: What Beats What](./appendix-what-beats-what.md)
 
 ---
 
