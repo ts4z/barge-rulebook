@@ -1,5 +1,5 @@
-Courchevel High Only
---------------------
+Courchevel (High Only)
+----------------------
 
 ### Forced Money
 
@@ -21,6 +21,7 @@ One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
 ### Evaluating the Showdown
+
 The best high five-card hand wins the pot. Hands are made using exactly two
 cards from each player’s hand and exactly three cards from the board.
 

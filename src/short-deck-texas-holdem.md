@@ -21,10 +21,11 @@ no-limit betting. This is followed by a showdown.
 
 ### Evaluating the Showdown
 
-The best high five-card hand wins the pot. In this game, a flush outranks a full
-house. Note that the lowest possible straight in this game is 9876A (the “short
-deck wheel”) with the AKQJT (broadway) as the highest straight.
-Note: This game is also called Six-Plus Texas Holdem and was played with no-limit
-betting at BARGE 2019. The game is sometimes played where three-of-a-kind
-beats a straight. See https://en.wikipedia.org/wiki/Six-plus_hold_’em .
+The best high five-card hand wins the pot. In this game, a flush outranks a
+full house. Note that the lowest possible straight in this game is 9876A (the
+“short deck wheel”) with the AKQJT (broadway) as the highest straight.  Note:
+This game is also called Six-Plus Texas Holdem and was played with no-limit
+betting at BARGE 2019. The game is sometimes played where three-of-a-kind beats
+a straight. See
+[https://en.wikipedia.org/wiki/Six-plus_hold_’em](https://en.wikipedia.org/wiki/Six-plus_hold_’em).
 

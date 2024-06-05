@@ -27,6 +27,6 @@ game, a flush outranks a full house. Note that the lowest possible straight in
 this game is 9876A (the “short deck wheel”) with the AKQJT (broadway) as the
 highest straight.
 
-Note: This game was played with jam-or-fold betting (i.e. must either go all-in or
-fold pre-flop) at EMBARGO 2020.
+Note: This game was played with [jam-or-fold](./jam-or-fold.md) betting
+(i.e. must either go all-in or fold pre-flop) at EMBARGO 2020.
 

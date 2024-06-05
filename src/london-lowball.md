@@ -39,7 +39,7 @@ the high card. Thus the nuts is a non-flush 6432A hand. See the
 ### Notes
 
 The rules for London Lowball were written assuming the game is played
-pot-limit, which is traditional for this game as described in Pot-Limit & No-Limit
-Poker by Stewart Reuben and Bob Ciaffone and how it was played at BARGE
-2018. It is not played with a joker/bug.
+pot-limit, which is traditional for this game as described in Pot-Limit &
+No-Limit Poker by Stewart Reuben and Bob Ciaffone and how it was played at
+BARGE 2018. It is not played with a joker/bug.
 
