@@ -29,7 +29,7 @@
   - [Badeucy](./badeucy.md)
   - [Badugi](./badugi.md)
   - [Bidirectional Chowaha High/Low](./bidirectional-chowaha.md)
-  - [Big O (Five-Card Omaha-High/Low)](./big-o.md)
+  - [Big O](./big-o.md)
   - [Binglaha](./binglaha.md)
   - [California Lowball](./california-lowball.md)
   - [Chowaha](./chowaha.md)
