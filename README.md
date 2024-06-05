@@ -24,8 +24,7 @@ TBD: The LaTeX conversion is not easy, for reasons I don't understand.
 Building the Rulebook
 ---------------------
 
-HTML: `make rulebook.html` should do it for now.  This is a simple tool that I
-wrote to get an acceptable table of contents.
+`make` should do it for now.
 
 Nice printed version: Unsolved.  Markdown can easily be translated to LaTeX.
 There are several tools that do this well.  Unfortunately I have chosen to use
@@ -46,16 +45,8 @@ Markdown is deeply ambiguous.  This tries to stick to GitHub-flavored Markdown
 which allows for footnotes, tables, and triple-quote "code" blocks that are 
 occasionally useful for rudimentary diagrams.
 
-### markdown-toc
+### mdbook
 
-`markdown-toc` is required.  This is available on GitHub as of this writing
-[here](http://github.com/ts4z/markdown-toc).  This is a thin wrapper around
-Goldmark, a Go-based Markdown parser that supports a table-of-contents
-extension.  `markdown-toc` allows for "front matter" to be prepended and a
-linked TOC to be built out of the Markdown.  This rulebook is the reason the
-tool exists, so it's possible we could add other features as needed.
-
-`markdown-toc` is set to generate internal anchors (`id` attributes) on the
-HTML nodes that can be linked to with a hash anchor in the URL.  These are
-based on the section headings, and can be obtained from the table of contents
-section.
+`mdbook` is required.  This is available if Rust is installed.  If you are
+running on something like Debian Linux, you'll need a recent Rust to build
+`mdbook`.
