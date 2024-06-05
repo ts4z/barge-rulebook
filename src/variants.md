@@ -3,7 +3,7 @@ Poker Variants
 
 Poker variants are listed here alphabetically, including both well-known
 (Hold'em) and less well known ([Bidrectional
-Chowaha](./game-bidirectional-chowaha-high-low.md)).  Of course, some of the
+Chowaha](./game-bidirectional-chowaha.md)).  Of course, some of the
 names are surprising ([Chowaha](./game-chowaha.md) is not next to [Four-Card
 Chowaha](./game-four-card-chowaha.md)) but they are
 still technically alphabetized.

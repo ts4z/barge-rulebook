@@ -28,7 +28,7 @@
   - [Badacey](./game-badacey.md)
   - [Badeucy](./game-badeucy.md)
   - [Badugi](./game-badugi.md)
-  - [Bidirectional Chowaha High/Low](./game-bidirectional-chowaha-high-low.md)
+  - [Bidirectional Chowaha High/Low](./game-bidirectional-chowaha.md)
   - [Big O (Five-Card Omaha-High/Low)](./game-big-o.md)
   - [Binglaha](./game-binglaha.md)
   - [California Lowball](./game-california-lowball.md)
