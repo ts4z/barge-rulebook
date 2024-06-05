@@ -3,8 +3,8 @@ BARGE Rulebook Redux
 
 This is my revision of the BARGE rulebook intended for a multi-author audience.
 
-This is an attempt to produce readable input text, HTML, and PDF output from
-one set of documents.
+This is an attempt to produce readable input text and HTML (and someday, PDF)
+from one set of documents that is easy to maintain.
 
 Markdown is an easy-to-edit but subtly ambiguous format that has become
 popular.  This format has a few things going for it: it reads as text, so the
@@ -14,29 +14,29 @@ printed page.
 
 In order to make this acceptable in terms of text representation, I've used
 Github-Flavored Markdown, which allows for tables, footnotes, and other
-niceities.
+niceities.  Fortunately, these seem to work very well with
+[`mdbook`](https://rust-lang.github.io/mdBook/).
 
-For the HTML version, a program needs to exisst that provides a usable table of
-contents.  I wrote one that does a marginally acceptable job.
-
-TBD: The LaTeX conversion is not easy, for reasons I don't understand.
+TBD: A nice PDF version with functional page numbers should be doable, but I
+haven't figured out the easiest path for it yet.  (A minor complication is that
+suit characters, and some other Unicode things, appear in the text.  Some TeX
+derivatives aren't believers in Unicode yet, so some of the tools don't "just
+work").
 
 Building the Rulebook
 ---------------------
 
-`make` should do it for now.
+Install `mdbook`.  `mdbook build` will do it.
+
+Or, `make` should do it, too.
+
+Future Work
+-----------
 
 Nice printed version: Unsolved.  Markdown can easily be translated to LaTeX.
 There are several tools that do this well.  Unfortunately I have chosen to use
 Unicode instead of things that predate Unicode.  I'm hoping a hyperlinked
 document is more useful than page numbers.
-
-Future Work
------------
-
-Right now the rulebook is two files, one that goes before the Table of Contents
-and one with all of the other text.  This isn't ideal.  mdbook's approach is
-better, but I haven't done all the work to switch to it yet.
 
 Markdown notes
 --------------
