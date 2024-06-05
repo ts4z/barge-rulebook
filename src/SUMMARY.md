@@ -40,7 +40,7 @@
   - [Deuce-to-Seven Triple Draw](./deuce-to-seven-triple-draw.md)
   - [Dramadugi](./dramadugi.md)
   - [Dramaha](./dramaha.md)
-  - [Dramaha-49](./dramaha-49.md)
+  - [Dramaha 49](./dramaha-49.md)
   - [Duck Flush](./duck-flush.md)
   - [Five Card Draw](./five-card-draw.md)
   - [Five Card Stud](./five-card-stud.md)
