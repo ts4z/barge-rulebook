@@ -20,23 +20,22 @@ General Concepts 20 and 21.
       the odd chip in a split between the high and low hands.
       
 Some split-pot games that are not High-Low in the traditional sense are not
-explicitly covered in the TDA rules. Here is how odd chips will be assigned.
+explicitly covered in the TDA rules. Here is how odd chips will be assigned:
 
-* In split games that involve a five-card hand and a four-card hand, the
-  fivecard hand is treated as the high hand. Examples of such games include
+- In split games that involve a five-card hand and a four-card hand, the
+  five-card hand is treated as the high hand. Examples of such games include
   Badacey, Badeucy, Razzdugi, and Action Razzdugi. For instance, an odd chip in
   Badacey would be awarded to the player with the best A-5 lowball hand, not
   the best badugi hand.
 
-* In split pot games that involve a draw hand, where the player uses all five
-  cards in their hand, and an Omaha hand, where the player uses two cards
-  in their hand and three cards from the board, the draw hand is treated
-  as the high hand. Examples of such games include Dramaha, Triple-Draw
-  Dramaha, and Dramaha 49. For instance, an odd chip in Dramaha 49 would
-  be awarded to the player with the best draw point value hand, not the best
-  Omaha high hand.
+- In split pot games that involve a draw hand, where the player uses all five
+  cards in their hand, and an Omaha hand, where the player uses two cards in
+  their hand and three cards from the board, the draw hand is treated as the
+  high hand. Examples of such games include Dramaha, Triple-Draw Dramaha, and
+  Dramaha 49. For instance, an odd chip in Dramaha 49 would be awarded to the
+  player with the best draw point value hand, not the best Omaha high hand.
 
-* In Sohe (Simultaneous Omaha and Hold’em), where the players split a six-card
+- In Sohe (Simultaneous Omaha and Hold’em), where the players split a six-card
   hand into a four-card part used for Omaha and a two-card part used for
   Hold’em, the Omaha hand is treated as the high hand.
 

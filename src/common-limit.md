@@ -1,14 +1,15 @@
 Limit
 -----
 
-In limit poker, also called fixed-limit poker, the size of the raise a player makes is
-predetermined by the structure of the game or tournament. The structure will
-specify the size of the small bet, the large bet, the small and big blinds for games
-that use blinds, and the ante and bring-in for games that use them. It is typical in
-modern play for flop and draw variations to use blinds and for stud variations to
-use antes and a bring-in. Antes are almost never used in flop or draw variations
-played in either the limit or pot-limit format, but are commonly implemented in
-conjunction with the blinds in the no-limit format.
+In *limit* poker, also called *fixed-limit* poker, the size of the raise a
+player makes is predetermined by the structure of the game or tournament. The
+structure will specify the size of the small bet, the large bet, the small and
+big blinds for games that use blinds, and the ante and bring-in for games that
+use them. It is typical in modern play for flop and draw variations to use
+blinds and for stud variations to use antes and a bring-in. Antes are almost
+never used in flop or draw variations played in either the limit or pot-limit
+format, but are commonly implemented in conjunction with the blinds in the
+no-limit format.
 
 As an example, suppose you are playing limit holdem in a tournament at the
 100/200 level. This means that the small blind is 50 (typically half the small bet),

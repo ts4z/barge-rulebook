@@ -32,5 +32,6 @@ the high hand, even though it is weaker than a pair of sixes, scoops the pot.
 Sometimes the qualifier for high hand is a pair of nines rather than a pair of
 sixes.
 
-Reference: https://www.countingouts.com/archie-introduction
+See also [https://www.countingouts.com/archie-introduction](this introduction
+to Archie).
 

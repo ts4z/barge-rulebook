@@ -1,6 +1,7 @@
 Shootout
 --------
-A shootout is a tournament where instead of having the number of tables gradually
+
+A *shootout* is a tournament where instead of having the number of tables gradually
 reduced by breaking tables and moving players to replace eliminated players, each
 table players down to a single winner, and those winners advance to play each
 other. In a large enough tournament, there could be several levels. As an example,

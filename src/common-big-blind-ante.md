@@ -12,7 +12,7 @@ One of the disadvantages of having every player make an individual ante is time,
 in terms of having the dealer gather up the antes, make change, remind forgetful
 players to ante, and to deal with disagreements about unposted antes.
 
-In the 2010s, a new idea known as the **big blind ante** was introduced in
+In the 2010s, a new idea known as the *big blind ante* was introduced in
 tournament poker and quickly became the standard, where the player in the big
 blind would post an ante for the entire table. One should think of the big
 blind ante as a shared ante that all players take turn in paying rather than an
