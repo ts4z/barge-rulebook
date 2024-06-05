@@ -1,6 +1,6 @@
 [book]
-authors = ["Tim Showalter"]
+authors = ["Christopher J. Mecklin", "Tim Showalter"]
 language = "en"
 multilingual = false
 src = "src"
-title = "BARGE Rulebook 2024"
+title = "BARGE Rulebook"
