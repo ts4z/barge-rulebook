@@ -59,4 +59,6 @@ This document also includes Appendices explaining the [“Sevens Rule”
 (originally written by Michael Weisenberg)](./sevens-rule.md) and various
 [Lowball Scales](./lowball-scales.md) (written by me [Chris Mecklin]).
 
+-----
+
 [^1]: This link has been updated, as RRP has moved with Bob Ciaffone's passing.
