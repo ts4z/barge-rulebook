@@ -32,8 +32,8 @@ changes since the 2024 reconstruction.
 Having a little more context on each game would be welcome.
 
 
-From the Preface from the 2021 Edition
---------------------------------------
+Preface from the 2021 Edition
+-----------------------------
 
 (This section has been slightly abridged from the 2021 edition.)
 
