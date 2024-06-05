@@ -13,7 +13,7 @@ small bet limit.
 Three flops are dealt one above the other forming a 3 × 3 square of cards. This is
 followed by a round of betting at the small bet limit.
 
-A die is rolled, as per [Dice Procedures](#dice-procedures). 
+A die is rolled, as per [Dice Procedures](./common-dice-procedures.md). 
 
 * If the die is 1, 2, or 3, turn cards will be dealt vertically to the right of
   the flop cards from the dealer’s persepective ("normal" Chowaha, if there

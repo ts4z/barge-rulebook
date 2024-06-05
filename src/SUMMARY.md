@@ -1,6 +1,6 @@
 # Summary
 
-[BARGE Rule Book](./frontmatter.md)
+[BARGE Rule Book](./title.md)
 [Preface](./preface.md)
 
 ---

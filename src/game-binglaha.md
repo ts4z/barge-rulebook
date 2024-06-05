@@ -13,7 +13,7 @@ Three community cards are placed face up. This is followed by a round of betting
 at the small bet limit.
 
 At this point a single (standard) die is rolled, in accordance with the [Dice
-Procedures](#dice-procedures).
+Procedures](./common-dice-procedures.md).
 
 If the die result is a 1, 2, or 3, the game is played high/low split
 eight-or-better. If the die result is 4, 5, or 6, the game is played high only.

@@ -67,7 +67,7 @@ when playing that game in the pot-limit or no-limit format.
 date with the updated rulebook.]
 
 This document also includes Appendices explaining the [“Sevens Rule”
-(originally written by Michael Weisenberg)](#appendix-b-the-sevens-rule) and
-various [Lowball Scales](#appendix-a-lowball-scales) (written by me [Chris
+(originally written by Michael Weisenberg)](./appendix-sevens-rule.md) and
+various [Lowball Scales](./appendix-lowball-scales.md) (written by me [Chris
 Mecklin]).
 

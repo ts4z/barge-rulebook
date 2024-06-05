@@ -12,8 +12,8 @@ Three community cards are placed face up. This is followed by a round of betting
 at the small bet limit.
 
 At this point two (standard) dice are rolled, in accordance with the [Dice
-Procedures](#dice-procedures).  These determine "X", the qualifier for the low
-hand:
+Procedures](./common-dice-procedures.md).  These determine "X", the qualifier
+for the low hand:
 
 * 12: Queen
 * 11: Jack

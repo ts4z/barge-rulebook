@@ -1,8 +1,20 @@
 Appendix A: Lowball Scales
 ==========================
 
+"What beats what" is well defined (specifically, in [another
+appendix](./appendix-what-beats-what.md), but "low" has a few different
+interpretations.  Deuce-to-seven low is the clearest inversion of poker hand
+order, but in California, lowball was almost always played with a variant
+called ace-to-five.  Rarely, a third order known as "ace-to-six" was used as
+well (as seen in the climax of the Robert Altman film [California
+Split](https://www.imdb.com/title/tt0071269/)).
+
+In recent years, another variant called Badugi has become popular, which seems
+still less related to classic poker hand order.
+
 Badugi
 ------
+
 In this game, a badugi is defined as a four-card hand that contains no pairs and
 no repeated suits (i.e. “rainbow”). The best hand in most badugi games is 432A
 rainbow. In badeucy, which is a split-pot game based on badugi and deuce-to-seven
@@ -47,7 +59,8 @@ traditionally uses the “Sevens Rule” (see Appendix B) with no check and rais
 allowed.
 
 Kansas City Lowball, a.k.a. Deuce-to-Seven or 2-7
----------------------------------------
+-------------------------------------------------
+
 In Kansas City Lowball, 75432 (not single suited) is the best hand, also often
 called the “wheel”. Aces count high, straights and flushes DO count against for
 evaluation of the best lowball hand. Again, think of your hand as a five-digit
@@ -74,7 +87,7 @@ with a single draw. Traditionally, players must enter the pot for at least a min
 raise in this game (i.e. no limping is allowed).
 
 London Lowball, aka Ace-to-Six or A-6
---------------------------------
+-------------------------------------
 
 This variation is seldom seem in games played in American casinos. It is similar
 to California Lowball in that the Ace is low, but unlike California Lowball and
@@ -86,7 +99,7 @@ is razz played with the Ace-to-Six scale and usually played pot limit rather tha
 fixed limit. This version made its BARGE debut in 2018.
 
 Smooth Hands/Rough Hands/Perfect Hands
---------------------------------
+--------------------------------------
 
 You will often hear words such as smooth, rough, or perfect used in describing a
 lowball hand. Let’s consider California lowball as an example. A smooth seven
