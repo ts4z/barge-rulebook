@@ -44,7 +44,7 @@
   - [Dramaha-49](./game-dramaha-49.md)
   - [Duck Flush](./game-duck-flush.md)
   - [Five Card Draw](./game-five-card-draw.md)
-  - [Dive Card Stud](./game-five-card-stud.md)
+  - [Five Card Stud](./game-five-card-stud.md)
   - [Four Card Chowaha High/Low](./game-four-card-chowaha-high-low-eight-or-better.md)
   - [Hold'em](./game-holdem.md)
   - [Irish](./game-irish.md)
