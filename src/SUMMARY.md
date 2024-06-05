@@ -16,7 +16,7 @@
   - [Jam-or-Fold](./common-jam-or-fold.md)
   - [Lammers](./common-lammers.md)
   - [Shootout](./common-shootout.md)
-  - [Short deck](./common-short-deck.md)
+  - [Short Deck](./common-short-deck.md)
   - [Win the Button](./common-win-the-button.md)
   - [Dice Procedures](./common-dice-procedures.md)
   - [Stud Procedures](./common-stud-procedures.md)
