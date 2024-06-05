@@ -1,9 +1,7 @@
 #
-# This is not a good Makefile, but we have a simple project.
+# barge-rulebook-md Makefile
 #
-# Note that the LaTeX rules don't really work at all.  I haven't figured out
-# how the Markdown->LaTeX tools are intended to work and haven't been satisied
-# with the results.  This means printed copies won't be very good (no index).
+# This is not a good Makefile, but we have a simple project.
 #
 
 ALL=rulebook.html
