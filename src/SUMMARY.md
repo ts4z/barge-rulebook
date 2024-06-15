@@ -79,6 +79,7 @@
 [Appendix A: Lowball Scales](./lowball-scales.md)
 [Appendix B: The Sevens Rule](./sevens-rule.md)
 [Appendix C: What Beats What](./what-beats-what.md)
+[Appendix D: Killer Cards Revisited (Abridged)](./killer-cards.md)
 
 ---
 
