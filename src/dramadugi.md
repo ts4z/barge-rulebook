@@ -26,7 +26,8 @@ Omaha.
 ### Evaluating the Showdown
 
 The best Omaha high hand (using exactly two cards from the player’s hand and
-exactly three cards from the board) and the best Badugi hand (using only the player's hole cards) split the pot.
+exactly three cards from the board) and the best four-card Badugi hand (using
+only the player's hole cards) split the pot.
 
 ### Notes
 
