@@ -7,24 +7,21 @@ The game is played with a button and blinds.
 
 ### Dealing Procedure
 
-Each player is dealt five cards face down, followed by a round of betting at the
-small bet limit.
+Each player is dealt five cards face down, followed by a round of betting.
 
-Three community cards are placed face up. Each player in turn discards zero to
-five cards from their hand. Once all of the discards have been announced, the
-dealer will deal each player an appropriate number of replacement cards. This is
-followed by a round of betting at the small bet limit. Note that this differs from
-Dramaha, where the draw takes place AFTER the flop betting.
+Three community cards are placed face up. This is followed by a round of
+betting. Then each player in turn discards zero to three cards from their
+hand. Once all of the discards have been announced, the dealer will deal each
+player an appropriate number of replacement cards.
 
-One additional community card is placed face up. Each player in turn discards
-zero to five cards from their hand. Once all of the discards have been announced,
-the dealer will deal each player an appropriate number of replacement cards. This
-is followed by a round of betting at the big bet limit.
+One additional community card is placed face up, followed by a round of betting.
 
-One additional community card is placed face up. Each player in turn discards zero
-to five cards from their hand. Once all of the discards have been announced, the
-dealer will deal each player an appropriate number of replacement cards. This is
-followed by a round of betting at the big bet limit. This is followed by a showdown.
+One additional community card is placed face up, followed by a round of
+betting. This is followed by a showdown.
+
+When played as [limit](limit.md), the first two betting rounds are at the
+smaller limit, and the later two betting rounds are at the larger limit, as in
+Omaha.
 
 ### Evaluating the Showdown
 
@@ -33,5 +30,5 @@ exactly three cards from the board) and the best Badugi hand (using only the pla
 
 ### Notes
 
-At BARGE 2024, this game will appear in a tournament, played pot-limit.
+At BARGE 2024, this game will appear in a tournament, played [pot-limit](pot-limit.md).
 
