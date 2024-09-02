@@ -2,9 +2,9 @@ name: Build HTML
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   build-and-deploy-to-github-pages:
@@ -25,7 +25,7 @@ jobs:
         run: mdbook build
       - name: deploy to ts4z.github.io
         uses: peaceiris/actions-gh-pages@v4
-        if: ${{ github.ref == 'refs/heads/master' }}
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: ts4z/ts4z.github.io
