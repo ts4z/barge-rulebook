@@ -33,5 +33,7 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: ts4z/ts4z.github.io
           publish_branch: gh-pages # default
-          publish_dir: ./barge-rulebook
+          publish_dir: ./book
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          destination_dir: barge-rulebook
+          
