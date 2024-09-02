@@ -30,6 +30,15 @@ Install `mdbook`.  `mdbook build` will do it.
 
 Or, `make` should do it, too.
 
+### Doing the above automatically
+
+This book is automatically built by a GitHub action and published to
+[ts4z.github.io/barge-rulebook/](https://ts4z.github.io/barge-rulebook/).
+
+If this stops automatically working, it is likely that a GitHub personal access
+token has expired and must be updated.  This token belongs to the GitHub user
+`ts4z` and is stored as a secret in the barge-rulebook repository.
+
 Future Work
 -----------
 
