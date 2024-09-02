@@ -11,13 +11,13 @@ featured, at BARGE.  It is a supplement for the host casino's rulebook and the
 TDA rules, not a replacement for them.  This rulebook does duplicate some of
 them, but more importantly, it covers the things that are unique to BARGE.
 
-This 2024 edition provides a few new games, and a new format that is is
+This "living" edition provides a few new games, and a new format that is is
 intended to be able to make a more web-accessible version with working
 hyperlinks.
 
-This book was initially reconstructed from the PDF of the 2021 edition, and
-many formatting errors were introduced.  Many, but likely not all, have been
-fixed.
+In 2024, this book was initially reconstructed from the PDF of the 2021
+edition, and many formatting errors were introduced.  Many, but likely not all,
+have been fixed.
 
 Improving this Rulebook
 -----------------------
