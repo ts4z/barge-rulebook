@@ -43,6 +43,7 @@
   - [Dramaha 49](./dramaha-49.md)
   - [Duck Flush](./duck-flush.md)
   - [Five Card Draw](./five-card-draw.md)
+  - [Five Card Omaha](./five-card-omaha.md)
   - [Five Card Stud](./five-card-stud.md)
   - [Four Card Chowaha High/Low](./four-card-chowaha.md)
   - [Irish](./irish.md)
