@@ -1,6 +1,6 @@
 
-BARGE Rule Book, 2024 Edition
-=============================
+BARGE Rule Book (2025 beta edition)
+===================================
 
 * Christopher J. Mecklin
 * Tim Showalter
