@@ -105,6 +105,8 @@ open(my $out, '>:utf8', "$out_filename")
 # Write LaTeX boilerplate.  This is idiosyncratic.
 #
 # We fix up a few symbols that XeLaTeX seems to have trouble with.
+#
+# Note this is filled with double escapes due to Perl "helping".
 print $out <<EOF
 \\documentclass[letterpaper,10pt]{book}
 \\usepackage{fontspec}
@@ -115,15 +117,23 @@ print $out <<EOF
 \\usepackage{bookmark}
 \\usepackage{xcolor}
 
+% Substitute Unicode characters to add color.  I've messed with this a few
+% times, they seem to be better behaved in math mode.
 
 \\newunicodechar{♥}{{\\color{red}\\ensuremath{♥}}}
 \\newunicodechar{♠}{\\ensuremath{♠}}
 \\newunicodechar{♣}{\\ensuremath{♣}}
 \\newunicodechar{♦}{{\\color{red}\\ensuremath{♦}}}
+
+% Times character gets complainy if not in math mode.
+
 \\newunicodechar{✕}{\\ensuremath{\\times}}
 
-\\author{Christopher J. Mecklin \\and
-  Tim Showalter \\texttt{tjs\@psaux.com}}
+\\author{Christopher J. Mecklin\\\\
+♠♥♦♣
+\\and
+  Tim Showalter\\\\
+\\texttt{tjs\@psaux.com}}
 \\begin{document}
 \\frontmatter
 \\title{BARGE Rulebook}
