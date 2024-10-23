@@ -69,7 +69,7 @@
   - [Stud](./stud.md)
   - [Stud High/Low](./stud-high-low-eight-or-better.md)
   - [Stud High/Low No Qualifier](./stud-high-low-no-qualifier.md)
-  - [Super Stud/Stud High-Low/Razz](./super-stud-stud-high-low-eight-or-better-razz.md)
+  - [Super Stud &amp; Variants](./super-stud-and-variants.md)
   - [Texas Hold'em](./texas-holdem.md)
   - [Texas Hold'em High/Low](./texas-holdem-high-low-eight-or-better.md)
   - [Triple Draw Dramaha](./triple-draw-dramaha.md)
