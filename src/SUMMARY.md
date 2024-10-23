@@ -5,7 +5,7 @@
 
 ---
 
-- [Common Rules, Betting Formats, and Variations](./rules-betting-formats-and-variations.md)
+- [Common Rules and Variations](./common-rules-and-variations.md)
   - [Limit](./limit.md)
   - [No Limit](./no-limit.md)
   - [Pot Limit](./pot-limit.md)
