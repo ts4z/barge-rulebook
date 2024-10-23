@@ -10,7 +10,7 @@ Super/System 2 contains a chart called Lyle Berman's Killer Cards Chart (page
 461). This chart explores a flaw in simple outs: just because you hit your hand
 doesn't mean your opponent won't make a better one.
 
-Berman didn't show his work, so I recalculated it.  My numbers math his.  I
+Berman didn't show his work, so I recalculated it.  My numbers match his.  I
 have included a chart for Hold 'Em as well as Omaha.  
 
 This chart broadly covers most cases, but not all.  Runner-runner events (the
