@@ -1,6 +1,9 @@
 # Summary
 
-[BARGE Rule Book](./title.md)
+[BARGE Rulebook](./title.md)
+
+---
+
 [Preface](./preface.md)
 
 ---
@@ -77,10 +80,12 @@
 
 ---
 
-- [Appendix A: Lowball Scales](./lowball-scales.md)
-- [Appendix B: The Sevens Rule](./sevens-rule.md)
-- [Appendix C: What Beats What](./what-beats-what.md)
-- [Appendix D: Killer Cards Revisited (Abridged)](./killer-cards.md)
-
+[Appendix A: Lowball Scales](./lowball-scales.md)
+[Appendix A.1: Lowball Hand Numbers](./lowball-hand-numbers.md)
+[Appendix B: The Sevens Rule](./sevens-rule.md)
+[Appendix C: What Beats What](./what-beats-what.md)
+[Appendix D: Killer Cards Revisited (Abridged)](./killer-cards.md)
+[Appendix D.1: Killer Cards table for Hold'em](./killer-cards-holdem.md)
+[Appendix D.2: Killer Cards table for Omaha](./killer-cards-omaha.md)
 
 [Colophon](./colophon.md)

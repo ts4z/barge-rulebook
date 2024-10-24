@@ -14,11 +14,7 @@ GitHub pages here:
 
 [https://ts4z.github.io/barge-rulebook](https://ts4z.github.io/barge-rulebook)
 
-The "dead tree edition" of the rulebook, intended for paper and to be used at a
-poker table, is produced via a perl script that wraps CommonMark and LaTeX and
-produces PDF. This is available with the rest of the source code above.  It is
-a very limited translator but it works for most of the use cases.
-
-The PDF version omits two appendicies that are tables.  Unfortunately, Markdown does
-not have a specific way of representing tables nicely, and the CommonMark and mdbook
-renderers do not get along.
+The "dead tree PDF edition" of the rulebook, intended for paper and to be used
+at a poker table, is produced via a perl script that wraps CommonMark and LaTeX
+and produces PDF. This is available with the rest of the source code above.  It
+is a very limited translator but it works for most of the use cases.

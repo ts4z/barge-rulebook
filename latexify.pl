@@ -11,12 +11,11 @@
 #
 # One problem with this is that it doesn't know how to render tables
 # (CommonMark doens't understand tables, and we use it for rendering LaTeX).
+# However, you can override any md file by writing a file ending in latex, so
+# just do the tables in latex.  We do something similar for the title page,
+# since we customize that for both versions.
 #
-# There are two scripts in here, struggling to get out.  One is a parser for
-# SUMMARY.md that extracts just the files in order that have to be catted
-# together to produce the "big" Markdown file.  The other is the md->latex
-# converter.  Both use CommonMark.  The first one works well enough; the second
-# one does not, particularly for tables.
+# This seems to work but you are allowed to clean it up.
 
 use strict;
 use Carp;
@@ -41,10 +40,10 @@ sub walk_tree_collecting {
     do {
         my $type = $node->get_type;
         if ($type == CommonMark::NODE_THEMATIC_BREAK) {
-            &$collector({});
+            &$collector(undef);
         } elsif ($type == CommonMark::NODE_LINK) {
             print "${indent}LINK: ", $node->get_url(), "\n";
-            &$collector({filename=>$node->get_url()})
+            &$collector($node->get_url());
         } else {
             # print "${indent}looking at type $type\n";
             my $subtree = $node->first_child;
@@ -63,7 +62,12 @@ sub walk_tree {
     my @nodes = ();
     my $collector = sub {
         my $file = shift;
-        push @nodes, $file;
+        if ($file) {
+            $file =~ m:([^/]+)\.md$: or croak "can't parse filename $file";
+            push @nodes, $1;
+        } else {
+            push @nodes, undef;
+        }
     };
     walk_tree_collecting($root, 0, $collector);
     return \@nodes;
@@ -75,15 +79,11 @@ my $files = walk_tree($doc);
 
 sub render_cm_file_as_latex {
     my $OUT = shift;
-    my $info = shift;
-    my $fn = $info->{filename};
+    my $fn = shift;
 
-    if (!defined($fn)) {
-        return;
-    }
-
-    my $real_fn = "$rel/$fn";
-    open(my $fh, '<:utf8', "$real_fn") or die "can't open summary file";
+    my $real_fn = "$rel/$fn.md";
+    open(my $fh, '<:utf8', "$real_fn")
+         or die "can't open md fragment file $real_fn";
     my $doc = CommonMark->parse(file => $fh);
     close ($fh);
     my $latex = $doc->render_latex;
@@ -94,104 +94,76 @@ sub render_cm_file_as_latex {
     $latex =~ s/\\section/\\chapter/;
     $latex =~ s/\\subsection/\\section/;
 
-    print $OUT "%%%% $real_fn\n";
+    print $OUT "%%%% $real_fn (rendered Markdown)\n";
     print $OUT $latex;
 }
 
+sub render_latex_file {
+    my $OUT = shift;
+    my $fn = shift;
+
+    # Latex override exists.
+    my $latex_fn = "$rel/$fn.latex";
+    open(my $IN, '<:utf8', "$latex_fn") or return undef;
+    print $OUT "%%%% $fn (raw LaTeX)\n";
+    while(<$IN>) { print $OUT $_ }
+    close($IN);
+    return 1;
+}
+
+sub render_file {
+    my $OUT = shift;
+    my $fn = shift;
+
+    if (!$fn) {
+        render_special($OUT);
+        return;
+    }
+
+    if (render_latex_file($OUT, $fn)) {
+        print "rendered $fn as latex\n";
+        return;
+    }
+    
+    print "rendered $fn as md\n";
+    render_cm_file_as_latex($OUT, $fn);
+}
+
+my @special_files = (
+                     "setup",
+                     "frontmatter",
+                     "mainmatter",
+                     "backmatter",
+                     "endmatter",
+                    );
+
+my $next_special = 0;
+
+sub render_special {
+    my $OUT = shift;
+    my $fn = $special_files[$next_special];
+    print "render special: $fn\n";
+    ++$next_special;
+    render_latex_file($OUT, $fn)
+}
+
 my $out_filename = "rulebook.latex";
-open(my $out, '>:utf8', "$out_filename")
+open(my $OUT, '>:utf8', "$out_filename")
      or croak "can't open $out_filename for write";
 
-# Write LaTeX boilerplate.  This is idiosyncratic.
-#
-# We fix up a few symbols that XeLaTeX seems to have trouble with.
-#
-# Note this is filled with double escapes due to Perl "helping".
-print $out <<EOF
-\\documentclass[letterpaper,12pt,hidelinks]{book}
-\\usepackage{fontspec}
-\\usepackage{newcomputermodern}
-\\usepackage{graphicx}
-\\usepackage{hyperref}
-\\usepackage{newunicodechar}
-\\usepackage{bookmark}
-\\usepackage[dvipsnames]{xcolor}
-
-% Substitute Unicode characters to add color.  I've messed with this a few
-% times, they seem to be better behaved in math mode.
-
-\\newunicodechar{♥}{{\\color{red}\\ensuremath{♥}}}
-\\newunicodechar{♠}{\\ensuremath{♠}}
-\\newunicodechar{♣}{{\\color{ForestGreen}\\ensuremath{♣}}}
-\\newunicodechar{♦}{{\\color{RoyalBlue}\\ensuremath{♦}}}
-
-% Times character gets complainy if not in math mode.
-
-\\newunicodechar{✕}{\\ensuremath{\\times}}
-
-\\author{Christopher J. Mecklin\\\\
----
-\\and
-  Tim Showalter\\\\
-\\texttt{tjs\@psaux.com}}
-\\begin{document}
-\\frontmatter
-\\begin{titlepage}
-\\centering
-\\includegraphics[width=8cm]{src/barge-logo.png}
-\\vfill
-{\\LARGE BARGE Rulebook}
-\\vfill
-Christopher J. Mecklin\\\\
-Tim Showalter
-\\vfill
-\\today
-\\vfill
-\\end{titlepage}
-\\tableofcontents
+print $OUT <<EOF
+%%
+%% $out_filename (produced by $0)
+%%
 EOF
      ;
+render_special($OUT);
+for my $file (@$files) { render_file($OUT, $file); }
+render_special($OUT);
 
-render_cm_file_as_latex($out, {filename=>'./preface.md'});
-
-     print $out "\n\n\\mainmatter\n\n";
-
-my %skip = (
-            'colophon' => 1,
-            'killer-cards' => 1,
-            'lowball-scales' => 1,
-            'preface' => 1,
-            'sevens-rule' => 1,
-            'title' => 1,
-            'what-beats-what' => 1,
-           );
-sub skippable {
-    my $fn = shift;
-    if (!defined($fn->{filename})) {
-        return undef;
-    }
-    $fn->{filename} =~ m:([^/]+)\.md$: or return undef;
-    my $bare = $1;
-    return defined($skip{$bare});
-}
-my @without_frontmatter = grep { !skippable($_) } (@$files);
-
-map { render_cm_file_as_latex($out, $_) } (@without_frontmatter);
-
-print $out "\n\n\\backmatter\n\n";
-
-# Bug -- we should deduce this from the splits in SUMMARY.md.
-for my $md (# 'lowball-scales.md',
-            'sevens-rule.md',
-            'what-beats-what.md',
-            # 'killer-cards.md',
-            'colophon.md') {
-    render_cm_file_as_latex($out, {filename=>$md});
+if ($next_special != scalar(@special_files)) {
+    croak "$next_special special files printed, expected "
+         . scalar(@special_files);
 }
 
-print $out <<EOF
-\\end{document}
-EOF
-     ;
-
-close $out;
+close $OUT;
