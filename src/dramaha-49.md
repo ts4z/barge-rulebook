@@ -32,11 +32,9 @@ cards from the player’s hand) splits the pot, where points are assigned:
  * 2 through 10 = numerical value of that card
  * and face cards (Jacks, Queens, Kings) = 0.
  
-The nut point value hand would be TTTT9=10+10+10+10+9=49 points,
+The nut point value hand would be TTTT9, for 10+10+10+10+9=49 points,
 hence the name Dramaha 49. 
 
 ### Notes
 
 Some online sources say that face cards are worth 1 point, but not according to BARGE.
-
-

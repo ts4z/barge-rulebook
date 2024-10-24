@@ -108,48 +108,63 @@ open(my $out, '>:utf8', "$out_filename")
 #
 # Note this is filled with double escapes due to Perl "helping".
 print $out <<EOF
-\\documentclass[letterpaper,10pt]{book}
+\\documentclass[letterpaper,12pt,hidelinks]{book}
 \\usepackage{fontspec}
 \\usepackage{newcomputermodern}
 \\usepackage{graphicx}
-\\usepackage[draft]{hyperref}
+\\usepackage{hyperref}
 \\usepackage{newunicodechar}
 \\usepackage{bookmark}
-\\usepackage{xcolor}
+\\usepackage[dvipsnames]{xcolor}
 
 % Substitute Unicode characters to add color.  I've messed with this a few
 % times, they seem to be better behaved in math mode.
 
 \\newunicodechar{♥}{{\\color{red}\\ensuremath{♥}}}
 \\newunicodechar{♠}{\\ensuremath{♠}}
-\\newunicodechar{♣}{\\ensuremath{♣}}
-\\newunicodechar{♦}{{\\color{red}\\ensuremath{♦}}}
+\\newunicodechar{♣}{{\\color{ForestGreen}\\ensuremath{♣}}}
+\\newunicodechar{♦}{{\\color{RoyalBlue}\\ensuremath{♦}}}
 
 % Times character gets complainy if not in math mode.
 
 \\newunicodechar{✕}{\\ensuremath{\\times}}
 
 \\author{Christopher J. Mecklin\\\\
-♠♥♦♣
+---
 \\and
   Tim Showalter\\\\
 \\texttt{tjs\@psaux.com}}
 \\begin{document}
 \\frontmatter
-\\title{BARGE Rulebook}
-\\maketitle
+\\begin{titlepage}
+\\centering
+\\includegraphics[width=8cm]{src/barge-logo.png}
+\\vfill
+{\\LARGE BARGE Rulebook}
+\\vfill
+Christopher J. Mecklin\\\\
+Tim Showalter
+\\vfill
+\\today
+\\vfill
+\\end{titlepage}
 \\tableofcontents
 EOF
      ;
 
 render_cm_file_as_latex($out, {filename=>'./preface.md'});
 
-     print $out <<EOF
-\\mainmatter
-EOF
-     ;
+     print $out "\n\n\\mainmatter\n\n";
 
-my %skip = ( 'preface' => 1, 'title' => 1 );
+my %skip = (
+            'colophon' => 1,
+            'killer-cards' => 1,
+            'lowball-scales' => 1,
+            'preface' => 1,
+            'sevens-rule' => 1,
+            'title' => 1,
+            'what-beats-what' => 1,
+           );
 sub skippable {
     my $fn = shift;
     if (!defined($fn->{filename})) {
@@ -163,6 +178,16 @@ my @without_frontmatter = grep { !skippable($_) } (@$files);
 
 map { render_cm_file_as_latex($out, $_) } (@without_frontmatter);
 
+print $out "\n\n\\backmatter\n\n";
+
+# Bug -- we should deduce this from the splits in SUMMARY.md.
+for my $md (# 'lowball-scales.md',
+            'sevens-rule.md',
+            'what-beats-what.md',
+            # 'killer-cards.md',
+            'colophon.md') {
+    render_cm_file_as_latex($out, {filename=>$md});
+}
 
 print $out <<EOF
 \\end{document}
