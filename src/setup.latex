@@ -1,0 +1,26 @@
+%
+% setup.latex (fragment)
+%
+
+\documentclass[letterpaper,12pt,hidelinks]{book}
+\usepackage{fontspec}
+\usepackage{newcomputermodern}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{newunicodechar}
+\usepackage{bookmark}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{longtable}
+\usepackage{moresize}
+
+% Substitute Unicode characters to add color.  I've messed with this a few
+% times, they seem to be better behaved in math mode.
+\newunicodechar{♥}{{\color{red}\ensuremath{♥}}}
+\newunicodechar{♠}{\ensuremath{♠}}
+\newunicodechar{♣}{{\color{ForestGreen}\ensuremath{♣}}}
+\newunicodechar{♦}{{\color{RoyalBlue}\ensuremath{♦}}}
+
+% Times character gets complainy if not in math mode.
+\newunicodechar{✕}{\ensuremath{\times}}
+
+\begin{document}

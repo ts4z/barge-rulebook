@@ -1,0 +1,17 @@
+%
+% This file substitutes for title.md.
+%
+
+\frontmatter
+\begin{titlepage}
+\centering
+\includegraphics[width=8cm]{src/barge-logo.png}
+\vfill
+{\LARGE BARGE Rulebook}
+\vfill
+Christopher J. Mecklin\\
+Tim Showalter
+\vfill
+\today
+\vfill
+\end{titlepage}
