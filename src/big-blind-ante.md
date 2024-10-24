@@ -1,6 +1,24 @@
 Big Blind Ante
 --------------
 
+In games with a *big blind ante*, the player in the big blind posts an ante for
+the entire table.  This amount will be listed in the structure for the game or
+tournament, but is usually the amount of the big blind.
+
+Tournaments utilizing a big blind ante will also list the number of players at
+which the ante will be reduced, usually to the amount of the small blind.  (In
+the 2024 WSOP, and at the 2024 BARGE, this was at four players.)
+
+In accordance with the 2024 TDA rules, in the event a player in the big blind
+is unable to pay both the big blind and the ante, the big blind will be paid
+first.  That is, if the ante and big blind are both T100 (so the big blind
+player owes T200), and the player in the big blind has only T50, and is called
+by the button and the small blind who both must pay the full blind, the main
+pot would have T150 and the side pot would have T100.  [This is to be verified
+once the 2024 TDA rules are published.]
+
+### Discussion
+
 Traditionally in no-limit Texas Hold’em tournaments, the blind structure used
 was that two players posted blinds (the small blind and big blind) each hand.
 Additionally, most tournaments featured an ante that would be posted by each
@@ -24,20 +42,13 @@ Some controversies about the big blind ante include: (a) how large should it
 be; (b) should the size of the big blind ante be reduced in short-handed
 situations; and (c) how should the situation be handled where the player in the
 big blind does not have sufficient chips to post both the ante and the big
-blind. One should always consult the structure sheet and/or the tournament
-director to verify how any particular tournament is handling the big
-blind. Here, we describe how the big blind ante was handled at BARGE 2020,
-keeping in mind that this might change in the future.
+blind.  One should always consult the structure sheet and/or the tournament
+director to verify how any particular tournament is handling the big blind.
 
-The size of the big blind ante was equal to the size of the small blind for a
-six-handed tournament, and was equal to the size of the big blind for a full ring
-(nine or ten-handed) tournament. The size of the big blind ante was NOT reduced
-in the full ring tournament when tables became short-handed. A player with
-insufficient chips to post both the big blind ante and the big blind would post the
-ante first. For example, suppose a player has T18000 remaining with a big blind
-of T10000 in a full ring tournament. This player would first post T10000 as the
-ante and his last T8000 as an incomplete big blind. If the player had only T8000
-left, they would post all of it into the ante and nothing into the big blind, and in
-this situation the best case scenario for that player would be to win the hand and
-get the T8000 back.
+The "which came first" problem has had several answers, and this was very
+contentious for many years among the TDA.  One prominent TD was of the opinion
+that the ante came first (it is, after all, the literal meaning of the term
+ante), but other TDs noted that this means that an all-in player can only win
+their ante.
 
+In 2024, the TDA announced that the blinds would come first.
