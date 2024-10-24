@@ -1,8 +1,10 @@
-Super Stud/Stud High-Low Eight-or-Better/Razz
----------------------------------------------
+Super Stud
+----------
 
 (This section needs to be reworded; it is missing details.  I believe the
 nominal dealer button gets to pick the variant after looking at their cards.)
+
+This game combines Stud, Stud High-Low Eight-or-Better, and Razz.
 
 ### Forced Money
 

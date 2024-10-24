@@ -1,5 +1,5 @@
-Common Rules, Betting Formats, and Variations
-=============================================
+Common Rules and Variations
+===========================
 
 This section describes rules common to all games or some games, as well as a
 few general variants played at BARGE.

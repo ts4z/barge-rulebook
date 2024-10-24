@@ -1,5 +1,7 @@
-Big O (Five Card Omaha High/Low Eight-or-Better)
-------------------------------------------------
+Big O
+-----
+
+Big O is also known as Five Card Omaha High/Low Eight-or-Better.
 
 ### Forced Money
 

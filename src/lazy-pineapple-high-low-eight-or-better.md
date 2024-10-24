@@ -1,5 +1,5 @@
-Lazy Pineapple High/Low Eight-or-Better
----------------------------------------
+Lazy Pineapple High/Low
+-----------------------
 
 ### Forced Money
 The game is played with a button and blinds.
@@ -18,7 +18,7 @@ One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
 ### Evaluating the Showdown
-A player may use zero, one, or two cards (but NOT all three) from their hand
+A player may use zero, one, or two cards (but *not* all three) from their hand
 to make a five card high hand and a five card California low hand with an eight
 qualifier. The best high and best qualifying low will split the pot.
 

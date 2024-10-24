@@ -9,7 +9,7 @@ tournament chips equal to the assigned value of the lammers. Players may not
 redeem lammers during the play of a hand. When a player busts but has remaining
 lammers, they must use at least one lammer before the next hand.
 
-For an example of hypothetical lammer usage, consider the 2020 BARGE PLO event.
+For an example of lammer usage, consider the 2020 BARGE PLO event.
 In this tournament, players received T10000 in chips and two lammers worth
 T5000 chips each.  A player could immediately redeem both lammers before the
 first hand is dealt, thus starting with a T20000 stack; however, when this

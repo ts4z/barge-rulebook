@@ -18,7 +18,7 @@ starting with the player with the bring-in.
 
 A second up card is dealt to all active players. This is followed by a round of
 betting at the small bet limit.  If a player shows an open pair a bet or raise may
-optionally be a big bet.[^1] In this case a small bet can be met by a big bet raise. A
+optionally be a big bet (but see below). In this case a small bet can be met by a big bet raise. A
 big bet may never be met with a small bet raise. Action starts with the highest
 hand showing.
 
@@ -31,7 +31,13 @@ betting at the big bet limit.
 A third down card is dealt to all active players. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
-[^1]: Many cardrooms no longer allow a double-bet for an exposed pair in Stud.
+#### Double-Bet on Fourth Street
+
+Historically, a bet at the higher limit was allowed on fourth street if any
+player had an exposed pair.
+
+However, many cardrooms no longer allow this, and it is not allowed in current
+TDA rules.
 
 ### Evaluating the Showdown
 

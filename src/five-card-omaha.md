@@ -26,6 +26,4 @@ each player’s hand and exactly three cards from the board.
 
 ### Notes
 
-We played this pot-limit at BARGE 2024.
-
-Compare [Big O](./big-o.md).
+We played this pot-limit at BARGE 2024. Compare [Big O](./big-o.md).

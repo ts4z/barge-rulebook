@@ -1,4 +1,8 @@
-rulebook.html
-rulebook.html.bak
+rulebook.aux
+rulebook.latex
+rulebook.log
+rulebook.out
+rulebook.pdf
+rulebook.toc
+texput.log
 book
-rulebook
