@@ -1,6 +1,7 @@
+![](./barge-logo.png)
 
-BARGE Rulebook (2025 beta edition)
-==================================
+BARGE Rulebook
+==============
 
 * Christopher J. Mecklin
 * Tim Showalter

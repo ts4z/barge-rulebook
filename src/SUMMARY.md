@@ -1,6 +1,6 @@
 # Summary
 
-[BARGE Rule Book](./title.md)
+[BARGE Rulebook](./title.md)
 
 ---
 
