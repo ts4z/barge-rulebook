@@ -1,5 +1,5 @@
-Mississippi Stud/Stud High-Low Eight-or-Better/Razz
----------------------------------------------------
+Mississippi Stud and Variants
+-----------------------------
 
 Mississippi offers a variant of [Stud](./stud.md) that works better in a
 [pot-limit](./pot-limit.md) format.  This section describes the Mississippi

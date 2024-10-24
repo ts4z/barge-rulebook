@@ -1,5 +1,5 @@
-Texas Hold’em High/Low Eight-or-Better
-----------------------------------------
+Texas Hold’em High/Low
+----------------------
 
 ### Forced Money
 

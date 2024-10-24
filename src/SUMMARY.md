@@ -52,7 +52,7 @@
   - [Lazy Pineapple High/Low](./lazy-pineapple-high-low-eight-or-better.md)
   - [London Lowball](./london-lowball.md)
   - [Mexican Poker](./mexican-poker.md)
-  - [Mississippi Stud and Its Variants](./mississippi-stud-stud-high-low-eight-or-better-razz.md)
+  - [Mississippi Stud and Variants](./mississippi-stud-and-variants.md)
   - [Murder](./murder.md)
   - [Oklahoma](./oklahoma.md)
   - [Omaha (High Only)](./omaha-high-only.md)
@@ -77,11 +77,10 @@
 
 ---
 
-[Appendix A: Lowball Scales](./lowball-scales.md)
-[Appendix B: The Sevens Rule](./sevens-rule.md)
-[Appendix C: What Beats What](./what-beats-what.md)
-[Appendix D: Killer Cards Revisited (Abridged)](./killer-cards.md)
+- [Appendix A: Lowball Scales](./lowball-scales.md)
+- [Appendix B: The Sevens Rule](./sevens-rule.md)
+- [Appendix C: What Beats What](./what-beats-what.md)
+- [Appendix D: Killer Cards Revisited (Abridged)](./killer-cards.md)
 
----
 
 [Colophon](./colophon.md)
