@@ -5,7 +5,7 @@
 
 ---
 
-- [Common Rules, Betting Formats, and Variations](./rules-betting-formats-and-variations.md)
+- [Common Rules and Variations](./common-rules-and-variations.md)
   - [Limit](./limit.md)
   - [No Limit](./no-limit.md)
   - [Pot Limit](./pot-limit.md)
@@ -52,7 +52,7 @@
   - [Lazy Pineapple High/Low](./lazy-pineapple-high-low-eight-or-better.md)
   - [London Lowball](./london-lowball.md)
   - [Mexican Poker](./mexican-poker.md)
-  - [Mississippi Stud and Its Variants](./mississippi-stud-stud-high-low-eight-or-better-razz.md)
+  - [Mississippi Stud and Variants](./mississippi-stud-and-variants.md)
   - [Murder](./murder.md)
   - [Oklahoma](./oklahoma.md)
   - [Omaha (High Only)](./omaha-high-only.md)
@@ -69,7 +69,7 @@
   - [Stud](./stud.md)
   - [Stud High/Low](./stud-high-low-eight-or-better.md)
   - [Stud High/Low No Qualifier](./stud-high-low-no-qualifier.md)
-  - [Super Stud/Stud High-Low/Razz](./super-stud-stud-high-low-eight-or-better-razz.md)
+  - [Super Stud](./super-stud.md)
   - [Texas Hold'em](./texas-holdem.md)
   - [Texas Hold'em High/Low](./texas-holdem-high-low-eight-or-better.md)
   - [Triple Draw Dramaha](./triple-draw-dramaha.md)
@@ -77,11 +77,10 @@
 
 ---
 
-[Appendix A: Lowball Scales](./lowball-scales.md)
-[Appendix B: The Sevens Rule](./sevens-rule.md)
-[Appendix C: What Beats What](./what-beats-what.md)
-[Appendix D: Killer Cards Revisited (Abridged)](./killer-cards.md)
+- [Appendix A: Lowball Scales](./lowball-scales.md)
+- [Appendix B: The Sevens Rule](./sevens-rule.md)
+- [Appendix C: What Beats What](./what-beats-what.md)
+- [Appendix D: Killer Cards Revisited (Abridged)](./killer-cards.md)
 
----
 
 [Colophon](./colophon.md)

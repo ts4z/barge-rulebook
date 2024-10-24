@@ -28,8 +28,6 @@ Building the Rulebook
 
 Install `mdbook`.  `mdbook build` will do it.
 
-Or, `make` should do it, too.
-
 ### Doing the above automatically
 
 This book is automatically built by a GitHub action and published to
@@ -39,13 +37,21 @@ If this stops automatically working, it is likely that a GitHub personal access
 token has expired and must be updated.  This token belongs to the GitHub user
 `ts4z` and is stored as a secret in the barge-rulebook repository.
 
-Future Work
------------
+Building LaTeX Rulebook
+-----------------------
 
-Nice printed version: Unsolved.  Markdown can easily be translated to LaTeX.
-There are several tools that do this well.  Unfortunately I have chosen to use
-Unicode instead of things that predate Unicode.  I'm hoping a hyperlinked
-document is more useful than page numbers.
+Math majors everywhere rejoice: we have a way of producing a LaTeX rulebook,
+with nice page numbers.  There are a few problems with this:
+
+- There are some bugs with the translation.
+- XeTeX is required, since the input documents use Unicode.
+- Perl is required, and CommonMark must be installed (under Debian, install
+  `libcommonmark-perl`).
+- The perl script that produces the LaTeX input is a total hack.  (I could say
+  the same about CommonMark.)
+- Tables in CommonMark don't get turned into tables in LaTeX.
+  These get completely mangled.
+
 
 Markdown notes
 --------------
