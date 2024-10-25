@@ -1,8 +1,7 @@
 Stud
 ----
 
-Stud, also known as Seven-Card Stud, was a dominant game in many cities
-throughout the '70s.
+Stud, also known as Seven-Card Stud, was a dominant game for many decades.
 
 ### Forced Money
 
