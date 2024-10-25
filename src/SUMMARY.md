@@ -37,7 +37,7 @@
   - [California Lowball](./california-lowball.md)
   - [Chowaha](./chowaha.md)
   - [Courchevel (High Only)](./courchevel.md)
-  - [Crazy Pineapple High/Low](./crazy-pineapple-high-low-eight-or-better.md)
+  - [Crazy Pineapple High/Low](./crazy-pineapple-high-low.md)
   - [Deuce-to-Seven Lowball](./deuce-to-seven-lowball.md)
   - [Deuce-to-Seven Razz](./deuce-to-seven-razz.md)
   - [Deuce-to-Seven Triple Draw](./deuce-to-seven-triple-draw.md)

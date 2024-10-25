@@ -1,1 +1,0 @@
-# Crazy Pineapple High/Low
