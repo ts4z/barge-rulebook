@@ -91,8 +91,8 @@ sub render_cm_file_as_latex {
     # CommonMark outputs things starting at the section label, but our document
     # class wants chapters.  We want section numbering to be correct, so here
     # we are.
-    $latex =~ s/\\section/\\chapter/;
-    $latex =~ s/\\subsection/\\section/;
+    $latex =~ s/\\section/\\chapter/g;
+    $latex =~ s/\\subsection/\\section/g;
 
     print $OUT "%%%% $real_fn (rendered Markdown)\n";
     print $OUT $latex;
