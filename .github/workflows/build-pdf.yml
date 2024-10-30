@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: docker.io/ts4z/debian-xetex-commonmark:733abc8
+    runs-on: docker.io/ts4z/debian-xetex-commonmark:90e55e3
     steps:
     - uses: actions/checkout@v4
     - name: Make rulebook.pdf
