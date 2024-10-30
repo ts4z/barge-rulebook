@@ -2,7 +2,7 @@ name: Make Rulebook LaTeX PDF
 
 on:
   push:
-    branches: [ "main", "tjs/pdf" ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "main", "tjs/pdf" ]
 
@@ -27,6 +27,3 @@ jobs:
         publish_dir: ./pdf
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         destination_dir: barge-rulebook/pdf
-
-
-
