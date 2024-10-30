@@ -28,9 +28,10 @@ REV=`git rev-parse --short=7 HEAD`
 REPO=$(DHUSER)/debian-xetex-commonmark
 
 build-docker-image:
-	echo "tagging as $(REV)"
 	docker build -t "$(REPO):$(REV)" .
 	docker tag "$(REPO):$(REV)" "$(REPO):latest"
+	@echo "HEAD 7: $(REV)"
 
 push-docker-image: build-docker-image
 	docker push -a "$(REPO)"
+	@echo "pushed: $(REPO):$(REV) and all tags"
