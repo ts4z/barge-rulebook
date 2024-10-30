@@ -30,7 +30,7 @@ REPO=$(DHUSER)/debian-xetex-commonmark
 build-docker-image:
 	echo "tagging as $(REV)"
 	docker build -t "$(REPO):$(REV)" .
-	docker tag "$(REPO):$(REV)" debian-xetex-commonmark:latest
+	docker tag "$(REPO):$(REV)" "$(REPO):latest"
 
 push-docker-image: build-docker-image
 	docker push -a "$(REPO)"
