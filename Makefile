@@ -22,3 +22,9 @@ rulebook.latex: latexify.pl src/*.md src/*.latex
 clean:
 	-rm $(ALL) *.dvi rulebook.aux rulebook.latex rulebook.toc rulebook.out *.log *~ src/*~
 	-rm -r book
+
+build-docker-image:
+	docker build -t debian-xetex-commonmark:`git rev-parse --short=7 HEAD` .
+
+push-docker-image: build-docker-image
+	docker push debian-xetex-commonmark
