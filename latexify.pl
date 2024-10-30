@@ -28,9 +28,6 @@ binmode(STDOUT, ":utf8");
 
 my $rel = "src";
 
-open(my $summary, '<:utf8', "$rel/SUMMARY.md")
-     or die "can't open summary file";
-
 sub walk_tree_collecting {
     my $node = shift;
     my $depth = shift;
@@ -73,9 +70,14 @@ sub walk_tree {
     return \@nodes;
 }
 
-my $doc = CommonMark->parse(file => $summary)
-     or die "can't parse summary";
-my $files = walk_tree($doc);
+sub get_files_from_summary {
+    open(my $summary, '<:utf8', "$rel/SUMMARY.md")
+         or die "can't open summary file";
+    my $doc = CommonMark->parse(file => $summary)
+         or die "can't parse summary";
+    close $summary;
+    return walk_tree($doc);
+}
 
 sub render_cm_file_as_latex {
     my $OUT = shift;
@@ -146,6 +148,8 @@ sub render_special {
     ++$next_special;
     render_latex_file($OUT, $fn)
 }
+
+my $files = get_files_from_summary();
 
 my $out_filename = "rulebook.latex";
 open(my $OUT, '>:utf8', "$out_filename")
