@@ -23,8 +23,14 @@ clean:
 	-rm $(ALL) *.dvi rulebook.aux rulebook.latex rulebook.toc rulebook.out *.log *~ src/*~
 	-rm -r book
 
+DHUSER=ts4z
+REV=`git rev-parse --short=7 HEAD`
+REPO=$(DHUSER)/debian-xetex-commonmark
+
 build-docker-image:
-	docker build -t debian-xetex-commonmark:`git rev-parse --short=7 HEAD` .
+	echo "tagging as $(REV)"
+	docker build -t "$(REPO):$(REV)" .
+	docker tag "$(REPO):$(REV)" debian-xetex-commonmark:latest
 
 push-docker-image: build-docker-image
-	docker push debian-xetex-commonmark
+	docker push -a "$(REPO)"
