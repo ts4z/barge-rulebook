@@ -4,15 +4,13 @@ on:
   push:
     branches: [ "main" ]
   pull_request:
-    branches: [ "main", "tjs/pdf" ]
+    branches: [ "main" ]
 
 jobs:
   build:
     runs-on: docker.io/ts4z/debian-xetex-commonmark:733abc8
     steps:
     - uses: actions/checkout@v4
-    - name: Install dependencies
-      run: apt install -y texlive-xetex libcommonmark-perl
     - name: Make rulebook.pdf
       run: make rulebook.pdf
     - name: capture artifact
