@@ -25,15 +25,13 @@ at [https://ts4z.github.io/barge-rulebook/](https://ts4z.github.io/barge-ruleboo
 when there are changes.  At that site, you can print the web version of the book.
 This prints as a web page and will lack a table of contents.
 
-For printing, the PDF version is recommended.  A permanent URL for this is not
-yet available, but you may be able to find it at
-[https://ts4z.net/rulebook.pdf](https://ts4z.net/rulebook.pdf).  This comes
-with a nice table of contents and page numbers.  This version includes
-hyperlinks when viewed electronically, but it is not as easy to navigate as a
-web page or on a mobile device.
-
-Both versions of the rulebook are generated from the same files (mostly).
-Changes are tracked in [Git](https://git-scm.com/) at the GitHub site above.
+For printing, the PDF version is recommended.  This version is available at
+[https://ts4z.github.io/barge-rulebook/rulebook.pdf](https://ts4z.github.io/barge-rulebook/rulebook.pdf).
+This comes with a nice table of contents and page numbers.  This version
+includes hyperlinks when viewed electronically, but it is not as easy to
+navigate as a web page or on a mobile device.  (This version may also be
+slightly out of date compared to the web version, as updating it requires an
+extra trivial step, easily forgotten.)
 
 ### Improving this Rulebook
 
