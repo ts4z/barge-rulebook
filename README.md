@@ -1,6 +1,10 @@
 BARGE Rulebook Redux
 ====================
 
+**VIEW THE RULEBOOK** [here](https://ts4z.github.io/barge-rulebook/).
+
+**GET NICE PDF** [here](https://ts4z.github.io/barge-rulebook/rulebook.pdf).
+
 This is my revision of the BARGE rulebook intended for a multi-author audience.
 
 This is an attempt to produce readable input text and HTML (and someday, PDF)
@@ -17,10 +21,10 @@ Github-Flavored Markdown, which allows for tables, footnotes, and other
 niceities.  Fortunately, these seem to work very well with
 [`mdbook`](https://rust-lang.github.io/mdBook/).
 
-Building the Rulebook (mdbook)
-------------------------------
+Building the mdbook Rulebook
+----------------------------
 
-Install `mdbook`.  `mdbook build` will do it.
+Install `mdbook`, then run `mdbook build`.
 
 ### Doing the above automatically
 
@@ -52,12 +56,15 @@ If you are on a Debian (or Ubuntu) Linux system, try installing these packages:
 
 - libcommonmark-perl
 - texlive-xetex
-- texlive-latex-base
+- texlive-fonts-extra
 - make
 - perl
 
-If that works, it's news to me.  I haven't verified that this list is complete.
-Please let me know.
+I believe this list is complete.  It is possible to wrap these up into a Docker
+container; however the container is prohibitively large for the free GitHub
+runners, so I build the LaTeX rulebook manually.
+
+For easy building of the rulebook, see the commands in the Makefile.
 
 Markdown notes
 --------------
@@ -97,7 +104,8 @@ Logically, if you catenate the files in SUMMARY.md together, you get a nice
 Markdown document.
 
 - All differences betwen src/X.md and src/X.latex represent only practical
-  formatting differences intended to produce similar (not identical) products in both contexts.
+  formatting differences intended to produce similar (not identical) products
+  in both contexts.
 - If src/X.latex exists and src/X.md does not, the file is an interstitial, and
   its position is controlled by latexify.pl.
   - Interstitials are used to inject the Table of Contents, control chapter
@@ -108,8 +116,8 @@ Markdown document.
   LaTeX version.  This is intended to facilitate tables present in the
   appendix.  (If we come up with a better way of rendering tables directly from
   Markdown, we could stop this.)
-- Unicode characters are permitted, but note LaTeX is limited in which ones it knows about.
-  Some of the common ones require work in `setup.latex`.
+- Unicode characters are permitted, but note LaTeX is limited in which ones it
+  knows about.  Some of the common ones require work in `setup.latex`.
 
 Future Work
 -----------
