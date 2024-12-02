@@ -9,13 +9,16 @@ Tournaments utilizing a big blind ante will also list the number of players at
 which the ante will be reduced, usually to the amount of the small blind.  (In
 the 2024 WSOP, and at the 2024 BARGE, this was at four players.)
 
-In accordance with the 2024 TDA rules, in the event a player in the big blind
-is unable to pay both the big blind and the ante, the big blind will be paid
-first.  That is, if the ante and big blind are both T100 (so the big blind
-player owes T200), and the player in the big blind has only T50, and is called
-by the button and the small blind who both must pay the full blind, the main
-pot would have T150 and the side pot would have T100.  [This is to be verified
-once the 2024 TDA rules are published.]
+In accordance with the 2024 TDA rules and its Recommended Procedure 11 (RP-11),
+in the event a player in the big blind is unable to pay both the big blind and
+the ante, the big blind will be paid first.  That is, if the ante and big blind
+are both T100 (so the big blind player owes T200), and the player in the big
+blind has only T50, and is called by the button and the small blind who both
+must pay the full blind, the main pot would have T150 and the side pot would
+have T100.
+
+In accordance with RP-11, the big blind ante will not be reduced late in the
+event.
 
 ### Discussion
 
