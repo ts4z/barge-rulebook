@@ -6,19 +6,11 @@ the entire table.  This amount will be listed in the structure for the game or
 tournament, but is usually the amount of the big blind.
 
 Tournaments utilizing a big blind ante will also list the number of players at
-which the ante will be reduced, usually to the amount of the small blind.  (In
-the 2024 WSOP, and at the 2024 BARGE, this was at four players.)
+which the ante will be reduced, usually to the amount of the small blind.
+At BARGE 2024, this was at four players.
 
-In accordance with the 2024 TDA rules and its Recommended Procedure 11 (RP-11),
-in the event a player in the big blind is unable to pay both the big blind and
-the ante, the big blind will be paid first.  That is, if the ante and big blind
-are both T100 (so the big blind player owes T200), and the player in the big
-blind has only T50, and is called by the button and the small blind who both
-must pay the full blind, the main pot would have T150 and the side pot would
-have T100.
-
-In accordance with RP-11, the big blind ante will not be reduced late in the
-event.
+This rule tends to differ from poker room to poker room, so it is important to
+check the structure sheet.
 
 ### Discussion
 
@@ -48,10 +40,12 @@ big blind does not have sufficient chips to post both the ante and the big
 blind.  One should always consult the structure sheet and/or the tournament
 director to verify how any particular tournament is handling the big blind.
 
-The "which came first" problem has had several answers, and this was very
-contentious for many years among the TDA.  One prominent TD was of the opinion
-that the ante came first (it is, after all, the literal meaning of the term
-ante), but other TDs noted that this means that an all-in player can only win
-their ante.
+### Differences with TDA Recommended Procedure-11
 
-In 2024, the TDA announced that the blinds would come first.
+TDA Recommended Procedure-11 recommends that the big blind ante amount not be
+reduced.  BARGE prefers the rule described above.
+
+The "which comes first" problem has been contentious for many years among the
+TDA.  In 2024, the TDA changed RP-11 and recommended that the blinds would come
+first.  Previously, in 2022, there was no recommendation, and in 2019, they
+recommended the ante came first.
