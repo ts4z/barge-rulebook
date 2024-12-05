@@ -33,4 +33,12 @@ jobs:
           publish_dir: ./book
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           destination_dir: barge-rulebook
-          
+      - name: deploy to barge.org github repository
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: ts4z/barge.org
+          publish_branch: main
+          publish_dir: ./book
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          destination_dir: static/rulebook/
