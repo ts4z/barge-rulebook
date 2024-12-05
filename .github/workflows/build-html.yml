@@ -34,12 +34,14 @@ jobs:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           destination_dir: barge-rulebook
       - name: deploy to barge.org github repository
-        uses: peaceiris/actions-gh-pages@v4
+        uses: cpina/github-action-push-to-another-repository@v1.7.2
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: ts4z/barge.org
-          publish_branch: main
-          publish_dir: ./book
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          destination_dir: static/rulebook/
+          source-directory: book
+          destination-github-username: ts4z
+          destination-repository-name: barge.org
+          target-directory: static/rulebook
+          target-branch: main
