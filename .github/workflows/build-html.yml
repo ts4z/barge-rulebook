@@ -34,6 +34,7 @@ jobs:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           destination_dir: barge-rulebook
       - name: deploy to barge.org github repository
+        uses: peaceiris/actions-gh-pages@v4
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
