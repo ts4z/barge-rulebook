@@ -51,6 +51,13 @@ Because the rulebook is generated in multiple versions, there are some
 technical limits as to what we can provide.  I apologize in advance if I am
 unable to accomidate some suggestions.
 
+### Acknowledgements
+
+Cliff "deadhead" Matthews recommended mdbook to me, which provides a much better
+web interface for the rulebook, as well as some valuable advice on getting 
+mdbook working.  Patrick Milligan has provided some valuable TeX feedback that
+I have yet to integrate.
+
 ### Preface from the 2021 Edition
 
 (This section has been slightly abridged from the 2021 edition.)
