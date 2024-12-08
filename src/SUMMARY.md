@@ -62,6 +62,7 @@
   - [Omaha High/Low](./omaha-high-low-eight-or-better.md)
   - [Omaha X or Better](./omaha-x-or-better.md)
   - [Paradise Road Pick'em](./paradise-road-pickem.md)
+  - [Quick Quads](./quick-quads.md)
   - [Razz](./razz.md)
   - [Razzdugi](./razzdugi.md)
   - [Rio Bravo](./rio-bravo.md)
