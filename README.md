@@ -160,3 +160,11 @@ the simple text substitutions.
 
 Some things, like the Chowaha board, could change from text to images.
 (Both mdbook and LaTeX can render images.)
+
+Replace CommonMark with GoldMark, which supports tables and footnotes (I
+think).  Probably means rewriting latexify.pl in Go.
+
+Improve a few images, like the logo on the title page, to increase size.
+
+Consider changing margins as to save paper (as per a discussion with Patrick
+Milligan).
