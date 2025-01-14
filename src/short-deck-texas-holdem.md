@@ -27,5 +27,4 @@ full house. Note that the lowest possible straight in this game is 9876A (the
 This game is also called Six-Plus Texas Holdem and was played with no-limit
 betting at BARGE 2019. The game is sometimes played where three-of-a-kind beats
 a straight. See
-[https://en.wikipedia.org/wiki/Six-plus_hold_%27em](https://en.wikipedia.org/wiki/Six-plus_hold_’em).
-
+[https://en.wikipedia.org/wiki/Six-plus_hold_%27em](the Wikipedia page at https://en.wikipedia.org/wiki/Six-plus_hold_%27em).
