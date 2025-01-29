@@ -21,12 +21,12 @@ This version of the rulebook is provided in both a web page and a LaTeX-based
 PDF book which is better for printing.
 
 The web version represents the full book.  Currently, it is continually updated
-at [https://ts4z.github.io/barge-rulebook/](https://ts4z.github.io/barge-rulebook/)
+at [https://www.barge.org/rulebook/](https://www.barge.org/rulebook/)
 when there are changes.  At that site, you can print the web version of the book.
 This prints as a web page and will lack a table of contents.
 
 For printing, the PDF version is recommended.  This version is available at
-[https://ts4z.github.io/barge-rulebook.pdf](https://ts4z.github.io/barge-rulebook.pdf).
+[https://www.barge.org/rulebook.pdf](https://www.barge.org/rulebook.pdf).
 This comes with a nice table of contents and page numbers.  This version
 includes hyperlinks when viewed electronically, but it is not as easy to
 navigate as a web page or on a mobile device.  (This version may also be
