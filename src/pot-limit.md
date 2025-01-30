@@ -7,7 +7,7 @@ will be equal to the size of the large blind. The minimum raise is the size of t
 last bet or raise. A player who wishes to bet or raise but does not have enough
 chips to make the minimum wager may go *all-in* with their remaining chips.
 
-Unlike [limit](./limit.md) and [no-limit](./common-no-limit.md), a
+Unlike [limit](./limit.md) and [no-limit](./no-limit.md), a
 player is entitled to the current count of the pot.
 
 Stud variations without blinds are sometimes played in a pot-limit format, with
