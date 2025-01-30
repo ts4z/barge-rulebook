@@ -73,8 +73,6 @@ container (see the Dockerfile in this directory); however the container is
 prohibitively large for the free GitHub runners, so I build the LaTeX rulebook
 manually.
 
-Note for Tim: run `make publish-pdf` to update the current advertised link
-
 Style
 -----
 
