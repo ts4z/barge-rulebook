@@ -7,3 +7,6 @@ title = "BARGE Rulebook"
 
 [output.html]
 mathjax-support = true
+
+[output.html.print]
+enable = false
