@@ -78,6 +78,7 @@
   - [Texas Hold'em High/Low](./texas-holdem-high-low-eight-or-better.md)
   - [Triple Draw Dramaha](./triple-draw-dramaha.md)
   - [Two-or-Five Omaha Eight-or-Better](./two-or-five-omaha-8-or-better.md)
+  - [Wonky Donkey](wonky-donkey.md)
 
 ---
 
