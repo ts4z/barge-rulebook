@@ -1,9 +1,9 @@
 BARGE Rulebook Redux
 ====================
 
-**VIEW THE RULEBOOK** [here](https://ts4z.github.io/barge-rulebook/).
+**VIEW THE RULEBOOK** [here](https://barge.org/rulebook/).
 
-**GET NICE PDF** [here](https://ts4z.github.io/barge-rulebook.pdf).
+**GET NICE PDF** [here](https://barge.org/barge-rulebook.pdf).
 
 This is a revision of the BARGE rulebook intended for a multi-author audience.
 
@@ -33,6 +33,7 @@ something like Debian Linux, you'll need a recent Rust to build `mdbook`.
 
 This book is automatically built by a GitHub action and published to
 [ts4z.github.io/barge-rulebook/](https://ts4z.github.io/barge-rulebook/).
+This, in turn, is also pushed to [barge.org](https://barge.org/rulebook/).
 
 If this stops automatically working, it is likely that a GitHub personal access
 token has expired and must be updated.  This token belongs to the GitHub user
