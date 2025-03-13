@@ -2,7 +2,7 @@ Badugi
 ------
 
 Badugi is a relative of [Triple Draw](./deuce-to-seven-triple-draw.md), and the
-parent game of high-low variants [Baducey](./baducey.md) and [Badacey](./game-badacey.md).
+parent game of high-low variants [Badeucy](./badeucy.md) and [Badacey](./badacey.md).
 
 ### Forced Money
 

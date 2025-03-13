@@ -9,7 +9,7 @@ The game is played with a button and blinds.
 ### Dealing Procedure
 
 Each player is dealt three cards. The player under the gun determines whether
-the hand will be played as [Hold’em](./holdem.md), [Omaha High/Low
+the hand will be played as [Hold’em](./texas-holdem.md), [Omaha High/Low
 Eight-or-Better](./omaha-high-low-eight-or-better.md), [Razz](./razz.md),
 [Stud](./stud.md), or [Stud High/Low
 Eight-or-Better](./stud-high-low-eight-or-better.md) (i.e. the HORSE

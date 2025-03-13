@@ -13,7 +13,7 @@ navigate.  mdbook produces a pretty good printed copy.
 
 A GitHub workflow is used to build the rulebook into this version hosted in
 GitHub pages (at the web link above), and another one publishes it to
-[https://www.barge.org/](barge.org).
+[barge.org](https://www.barge.org/).
 
 The "dead tree PDF edition" of the rulebook, intended for paper and to be used
 at a poker table, is produced via a perl script that extracts the file list
