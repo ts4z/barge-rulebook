@@ -1,7 +1,7 @@
 Preface
 =======
 
-This rulebook is an update of Christopher J. Mecklin's excellent rulebook from
+This rulebook is an continuing update of Christopher J. Mecklin's excellent rulebook from
 July 2021.  The rulebook had fallen a bit out of date, since it was written for
 the 2021 BARGE tournaments; and BARGE being BARGE, and poker players being
 poker players, some newer games have been made up.
@@ -20,16 +20,16 @@ them, but more importantly, it covers the things that are unique to BARGE.
 This version of the rulebook is provided in both a web page and a LaTeX-based
 PDF book which is better for printing.
 
-The web version represents the full book.  Currently, it is continually updated
+The web version represents the full book.  It is continually updated
 at [https://www.barge.org/rulebook/](https://www.barge.org/rulebook/)
-when there are changes.  At that site, you can print the web version of the book.
-This prints as a web page and will lack a table of contents.
+when there are changes.
 
-For printing, the PDF version is recommended.  This version is available at
+We also have a PDF version, intended for printing and use at the table.
+This is available at
 [https://www.barge.org/rulebook.pdf](https://www.barge.org/rulebook.pdf).
-This comes with a nice table of contents and page numbers.  This version
+This has a proper table of contents and page numbers.  It also
 includes hyperlinks when viewed electronically, but it is not as easy to
-navigate as a web page or on a mobile device.  (This version may also be
+navigate as the web version, and is hard to use on a phone or tablet.  (This version may also be
 slightly out of date compared to the web version, as updating it requires an
 extra trivial step, easily forgotten.)
 
