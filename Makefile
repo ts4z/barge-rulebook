@@ -45,3 +45,26 @@ publish-pdf: tmp/gh-pages/barge-rulebook/rulebook.pdf
 	cd tmp/gh-pages && git commit -m \
 		"Update rulebook.pdf as of source repo rev $(REV)."
 	cd tmp/gh-pages && git push
+
+.PHONY: tmp/barge.org
+
+tmp/barge.org:
+	if ! [ -d tmp/barge.org ]; then \
+		rm -rf tmp; \
+		mkdir tmp; \
+		cd tmp && git clone git@github.com:ts4z/barge.org barge.org; \
+	fi
+
+sync-barge-site: tmp/barge.org
+	cd tmp/barge.org && git pull --rebase
+
+tmp/barge.org/static/rulebook.pdf: rulebook.pdf
+	cp rulebook.pdf tmp/barge.org/static/rulebook.pdf
+	( cd tmp/barge.org && git add static/rulebook.pdf && git commit -m \
+		"Update rulebook.pdf as of source repo rev $(REV)." ) || \
+	( cd tmp/barge.org && git checkout -- static/rulebook.pdf && false )
+
+push-barge-site: 
+	cd tmp/barge.org && git push
+
+update-rulebook-on-barge-site: sync-barge-site tmp/barge.org/static/rulebook.pdf push-barge-site
