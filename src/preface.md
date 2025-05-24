@@ -2,54 +2,56 @@ Preface
 =======
 
 This rulebook is an continuing update of Christopher J. Mecklin's excellent rulebook from
-July 2021.  The rulebook had fallen a bit out of date, since it was written for
+July 2021.  It had fallen a bit out of date, since it was last updated for
 the 2021 BARGE tournaments; and BARGE being BARGE, and poker players being
 poker players, some newer games have been made up.
 
-This book was initially reconstructed in 2024 from the PDF of the 2021 edition.
-Many formatting errors were introduced.  Many, but likely not all, have been
-fixed.
+This version was put together in 2024 from the PDF of the 2021 edition.  Many
+formatting errors were introduced.  Some have even been fixed.
 
 This rulebook codifies various poker games that may feature, or have been
 featured, at BARGE.  It is a supplement for the host casino's rulebook and the
-TDA rules, not a replacement for them.  This rulebook does duplicate some of
-them, but more importantly, it covers the things that are unique to BARGE.
+TDA rules, not a replacement for them.  This rulebook does duplicate parts of a
+host casino's rulebook, but it also covers the things that are unique to BARGE.
 
 ### Web version and PDF Version
 
-This version of the rulebook is provided in both a web page and a LaTeX-based
-PDF book which is better for printing.
+This rulebook is provided in both a web page and a PDF intended for printing.
 
-The web version represents the full book.  It is continually updated
-at [https://www.barge.org/rulebook/](https://www.barge.org/rulebook/)
-when there are changes.
+The web version is continually updated at
+[https://www.barge.org/rulebook/](https://www.barge.org/rulebook/).  It looks
+great on a phone or a computer.  Printed versions of the web site don't work
+well, though.
 
-We also have a PDF version, intended for printing and use at the table.
-This is available at
+The PDF version is available at
 [https://www.barge.org/rulebook.pdf](https://www.barge.org/rulebook.pdf).
-This has a proper table of contents and page numbers.  It also
+This prints to a proper book and should be printed double-sided.
+It has a proper table of contents and page numbers.  It also
 includes hyperlinks when viewed electronically, but it is not as easy to
-navigate as the web version, and is hard to use on a phone or tablet.  (This version may also be
+navigate as the web version. It is hard to use on a phone or tablet.  (This version may also be
 slightly out of date compared to the web version, as updating it requires an
 extra trivial step, easily forgotten.)
 
 ### Improving this Rulebook
 
-Please report suggestions to [Tim Showalter](mailto:tjs@psaux.com) so we can
-update the rulebook.
+Contact [Tim Showalter](mailto:tjs@psaux.com).
 
 The source code for the rulebook available on GitHub at
 [https://github.com/ts4z/barge-rulebook](https://github.com/ts4z/barge-rulebook).
-You are encouraged to send pull requests.  Of course, if you're not technically
-inclined, you can provide suggestions over email, or over beers.  In all cases,
-*substantive text changes are preferred over vague suggestions*.  If possible,
-please try to match the style of other games or rules.
+You are encouraged to send pull requests, or suggestions over email, or over
+beers.  *Substantive text changes are preferred over vague suggestions.*
 
-Having a little more context on each game would be welcome.
+Having a little more historical context on each game would be welcome.
 
-Because the rulebook is generated in multiple versions, there are some
-technical limits as to what we can provide.  I apologize in advance if I am
-unable to accomidate some suggestions.
+Because the rulebook is generated in multiple versions and the translation
+between the two is a little rickety, there are some technical limits as to what
+we can provide.  I apologize in advance if I am unable to accommodate some
+suggestions.
+
+### Acknowledgments
+
+Thanks to Rich Bremer, Doug Grismore, Patrick Milligan, and Cliff Matthews for
+encouragement, and technical and editorial input.
 
 ### Preface from the 2021 Edition
 
