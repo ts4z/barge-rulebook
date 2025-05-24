@@ -16,17 +16,18 @@ host casino's rulebook, but it also covers the things that are unique to BARGE.
 
 ### Web version and PDF Version
 
-This rulebook is provided in both a web page and a PDF intended for printing.
+This rulebook is provided in both a web version and a PDF version.
 
 The web version is continually updated at
 [https://www.barge.org/rulebook/](https://www.barge.org/rulebook/).  It looks
-great on a phone or a computer.  Printed versions of the web site don't work
-well, though.
+great on a phone or a computer, and we can provide hyperlinks to rules.
+Printed versions of the web site don't work well, though, and are hard to read
+as hard copy.
 
 The PDF version is available at
 [https://www.barge.org/rulebook.pdf](https://www.barge.org/rulebook.pdf).
 This prints to a proper book and should be printed double-sided.
-It has a proper table of contents and page numbers.  It also
+It has a table of contents and page numbers.  It
 includes hyperlinks when viewed electronically, but it is not as easy to
 navigate as the web version. It is hard to use on a phone or tablet.  (This version may also be
 slightly out of date compared to the web version, as updating it requires an
