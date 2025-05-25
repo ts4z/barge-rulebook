@@ -24,8 +24,6 @@ clean:
 		rulebook.out *.log *~ src/*~
 	-rm -rf book tmp
 
-REV=`git rev-parse --short=7 HEAD`
-
 checkout-gh-pages:
 	if ! [ -d tmp/gh-pages ]; then \
 		rm -rf tmp; \
@@ -43,10 +41,8 @@ tmp/gh-pages/barge-rulebook/rulebook.pdf: sync-gh-pages rulebook.pdf
 publish-pdf: tmp/gh-pages/barge-rulebook/rulebook.pdf
 	cd tmp/gh-pages && git add barge-rulebook/rulebook.pdf
 	cd tmp/gh-pages && git commit -m \
-		"Update rulebook.pdf as of source repo rev $(REV)."
+		"Update rulebook.pdf from barge-rulebook repo."
 	cd tmp/gh-pages && git push
-
-.PHONY: tmp/barge.org
 
 tmp/barge.org:
 	if ! [ -d tmp/barge.org ]; then \
@@ -54,15 +50,20 @@ tmp/barge.org:
 		mkdir tmp; \
 		cd tmp && git clone git@github.com:ts4z/barge.org barge.org; \
 	fi
+	cd tmp/barge.org && git reset --hard origin/main
+	touch tmp/barge.org
 
 sync-barge-site: tmp/barge.org
-	cd tmp/barge.org && git pull --rebase
+	cd tmp/barge.org && git fetch && git reset --hard origin/main
 
-tmp/barge.org/static/rulebook.pdf: rulebook.pdf
+tmp/barge.org/static/rulebook.pdf: rulebook.pdf sync-barge-site
+	[ -z "`git status --porcelain`" ]
 	cp rulebook.pdf tmp/barge.org/static/rulebook.pdf
-	( cd tmp/barge.org && git add static/rulebook.pdf && git commit -m \
-		"Update rulebook.pdf as of source repo rev $(REV)." ) || \
-	( cd tmp/barge.org && git checkout -- static/rulebook.pdf && false )
+	cd tmp/barge.org && (\
+		git commit -m \
+		"Update rulebook.pdf as of source repo rev `cd ../.. && git rev-parse --short=7 HEAD`." \
+		static/rulebook.pdf ) || \
+		(echo "commit failed, clean up:"; git reset --hard origin/main && false)
 
 push-barge-site: 
 	cd tmp/barge.org && git push
