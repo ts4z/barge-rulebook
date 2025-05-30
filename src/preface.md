@@ -6,8 +6,8 @@ July 2021.  It had fallen a bit out of date, since it was last updated for
 the 2021 BARGE tournaments; and BARGE being BARGE, and poker players being
 poker players, some newer games have been made up.
 
-This version was put together in 2024 from the PDF of the 2021 edition.  Many
-formatting errors were introduced.  Some have even been fixed.
+In 2024, this version was created from the PDF of the 2021 edition.  Many
+formatting errors were introduced in this process.  Some have even been fixed.
 
 This rulebook codifies various poker games that may feature, or have been
 featured, at BARGE.  It is a supplement for the host casino's rulebook and the
