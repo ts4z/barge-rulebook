@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+# 2024 Tim Showalter.  Public domain.
+
 # This script idiosyncratically produces a merged LaTeX document from the
 # mdbook SUMMARY.md input by reaching out to all of the links.
 #
