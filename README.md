@@ -32,8 +32,7 @@ something like Debian Linux, you'll need a recent Rust to build `mdbook`.
 ### Doing the above automatically
 
 This book is automatically built by a GitHub action and published to
-[ts4z.github.io/barge-rulebook/](https://ts4z.github.io/barge-rulebook/).
-This, in turn, is also pushed to [barge.org](https://barge.org/rulebook/).
+[barge.org](https://barge.org/rulebook/).
 
 If this stops automatically working, it is likely that a GitHub personal access
 token has expired and must be updated.  This token belongs to the GitHub user
