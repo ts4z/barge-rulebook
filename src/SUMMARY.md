@@ -54,6 +54,7 @@
   - [Lazy Pineapple (High Only)](./lazy-pineapple-high-only.md)
   - [Lazy Pineapple High/Low](./lazy-pineapple-high-low-eight-or-better.md)
   - [London Lowball](./london-lowball.md)
+  - [Madison](madison.md)
   - [Mexican Poker](./mexican-poker.md)
   - [Mississippi Stud and Variants](./mississippi-stud-and-variants.md)
   - [Murder](./murder.md)
