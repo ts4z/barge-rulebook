@@ -60,3 +60,7 @@ It is believed that the origination of the the terms “Face” and “Butt” f
 qualifying and non-qualifying hands in Action Razz is due to Cliff Matthews,
 when he was coding the game and needed to evaluate the razz hands with the
 addition of the face card qualifier.
+
+[CardPlayer Magazine](https://www.cardplayer.com/) featured a [nice writeup of
+Action Razz in
+2021](https://www.cardplayer.com/poker-news/25642-poker-strategy-with-greg-raymer-introducing-action-razz).
