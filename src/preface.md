@@ -1,18 +1,25 @@
 Preface
 =======
 
-This rulebook is an continuing update of Christopher J. Mecklin's excellent rulebook from
-July 2021.  It had fallen a bit out of date, since it was last updated for
+This rulebook codifies various poker games that may feature, or have been
+featured, at BARGE.  It is a supplement for the host casino's rulebook and the
+TDA rules, not a replacement for them.  We intend to capture the things that
+are unique to BARGE, but we also try to be a general (if sometimes informal)
+reference for poker games in general.
+
+We hope that this is a useful reference for other folks.  In particular,
+Tim started updating this rulebook because he can never remember the rules to
+[Archie](archie.md) and wanted to make it easier to look them up.
+
+### Previous versions
+
+This rulebook is an ongoing update of Christopher J. Mecklin's excellent rulebook from
+July 2021.  By 2024, that rulebook had fallen a bit out of date since it was last updated for
 the 2021 BARGE tournaments; and BARGE being BARGE, and poker players being
 poker players, some newer games have been made up.
 
 In 2024, this version was created from the PDF of the 2021 edition.  Many
 formatting errors were introduced in this process.  Some have even been fixed.
-
-This rulebook codifies various poker games that may feature, or have been
-featured, at BARGE.  It is a supplement for the host casino's rulebook and the
-TDA rules, not a replacement for them.  This rulebook does duplicate parts of a
-host casino's rulebook, but it also covers the things that are unique to BARGE.
 
 ### Web version and PDF Version
 
