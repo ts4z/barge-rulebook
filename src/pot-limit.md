@@ -20,22 +20,22 @@ action.
 
 ### Examples
 
-For an example, suppose you are playing in a pot-limit Omaha tournament at the
+Suppose you are playing in a pot-limit Omaha tournament at the
 100/200 level.  Like [no-limit](./no-limit.md), this means that the
-small blind is 100 and the large blind is 200. In this example, the action
-folds to the player on the button, who says raise.
+small blind is 100 and the big blind is 200. In this example, the action
+folds to the player on the button, who says "raise".
 
 The minimum raise in this situation would be 200, making it 400 to-go.
 
 The maximum raise is the size of the pot.  In this case, that is 700 to-go, or
 a raise of 500 on top of the 200 blind.  That is, the button says "raise",
-allowing them to call 200; there is now that 200 + 100 small blind + 100 big
+allowing them to call 200; there is now that 200 call + 100 small blind + 200 big
 blind in the pot; the button can make it 700 to-go.
 
-In this example, suppose the big blind calls.  There is 1500 in the pot (100
-small blind + 700 big blind + 700 button).  On the flop, the big blind bets out
-the maximum, 1500.  The button says "raise pot".  It is now 6000 to-go (1500
-pot+1500 bet+1500 call = 4500 raise).
+To continue our example, suppose the big blind calls the raise to 700.  There
+is 1500 in the pot (100 small blind + 700 big blind + 700 button).  On the
+flop, the big blind bets out the maximum, 1500.  The button says "raise pot".
+It is now 6000 to-go (1500 pot + 1500 bet + 1500 call = 4500 raise).
 
 A common shortcut is that a pot raise of a pot bet is 4✕ the pot bet, which can
 be seen in the example above.
