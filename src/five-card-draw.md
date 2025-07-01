@@ -24,7 +24,11 @@ complete a straight or flush.
 
 ### Evaluating the Showdown
 
-The best high five-card hand wins the pot. NOTE: This game was most commonly
-played as a limit game, although although big-bet formats in either pot-limit or
-no-limit existed. It is sometimes played without the joker/bug.
+The best high five-card hand wins the pot.
+
+### Notes
+
+This game was most commonly played as a limit game, although although big-bet
+formats in either pot-limit or no-limit existed.  It is sometimes played
+without the joker/bug.
 
