@@ -46,8 +46,9 @@ Contact [Tim Showalter](mailto:tjs@psaux.com).
 
 The source code for the rulebook available on GitHub at
 [https://github.com/ts4z/barge-rulebook](https://github.com/ts4z/barge-rulebook).
-You are encouraged to send pull requests, or suggestions over email, or over
-beers.  *Substantive text changes are preferred over vague suggestions.*
+A pull request is the clearest way to suggest a change, but you can also make
+suggestions over email, or over beers.  *Substantive text changes are preferred
+over vague suggestions.*
 
 Having a little more historical context on each game would be welcome.
 
