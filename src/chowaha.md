@@ -1,6 +1,8 @@
 Chowaha
 -------
 
+Sometimes called "Casino Chowaha."
+
 ### Forced Money
 
 The game is played with a button and blinds.
