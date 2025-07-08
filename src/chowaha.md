@@ -33,9 +33,8 @@ cards, and Z is the river card.
 
 ### Evaluating the Showdown
 
-The best high hand and best California low hand of at least eight low or better
-splits the pot. Each hand consists of two cards from the player’s hole cards plus
-the cards from one flop, one turn, and the river. These may be played in any
+The best high hand wins the pot. The high hand consists of a player’s hole cards
+plus the cards from one flop, one turn, and the river.  These may be played in any
 combination EXCEPT that board cards used CANNOT consist of the top row of
 the flop plus the bottom turn card or the bottom row of the flop plus the top turn
 card. That is, the flop, turn, and river must all be contiguous cards. Each player
@@ -45,6 +44,7 @@ cards plus three cards from the board to form each portion of their hand.
 
 ### Notes
 
-[Four-card Chowaha](./four-card-chowaha.md) is the original
-game.  Somehow it became two-card when played at BARGE.
+[Four-card Chowaha](./four-card-chowaha.md) is the original game.  It became
+two-card when played at BARGE to cut down on the number of cards that had to be
+dealt out.
 
