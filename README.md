@@ -3,7 +3,7 @@ BARGE Rulebook Redux
 
 **VIEW THE RULEBOOK** [here](https://barge.org/rulebook/).
 
-**GET NICE PDF** [here](https://barge.org/barge-rulebook.pdf).
+**GET NICE PDF** [here](https://barge.org/rulebook.pdf).
 
 This is a revision of the BARGE rulebook intended for a multi-author audience.
 
