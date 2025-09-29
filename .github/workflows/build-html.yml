@@ -23,16 +23,16 @@ jobs:
           # mdbook-version: 'latest'
       - name: build book with mdbook
         run: mdbook build
-      - name: deploy to ts4z.github.io
-        uses: peaceiris/actions-gh-pages@v4
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: ts4z/ts4z.github.io
-          publish_branch: main
-          publish_dir: ./book
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          destination_dir: barge-rulebook
+      # - name: deploy to ts4z.github.io
+      #   uses: peaceiris/actions-gh-pages@v4
+      #   if: ${{ github.ref == 'refs/heads/main' }}
+      #   with:
+      #     deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+      #     external_repository: ts4z/ts4z.github.io
+      #     publish_branch: main
+      #     publish_dir: ./book
+      #     personal_token: ${{ secrets.PERSONAL_TOKEN }}
+      #     destination_dir: barge-rulebook
       - name: deploy to barge.org github repository
         uses: cpina/github-action-push-to-another-repository@v1.7.2
         env:
