@@ -29,5 +29,5 @@ extracts the file list from the mdbook configuration, uses CommonMark (a
 Markdown library) to produce [LaTeX](https://www.latex-project.org/), then
 doctors that up with some minor hacks.
 
-All of the tools are either common free software except the perl script and
+All of the tools are common free software except the perl script and
 build glue, which is included in the `git` repository.
