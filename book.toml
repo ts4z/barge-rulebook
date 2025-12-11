@@ -1,7 +1,6 @@
 [book]
 authors = ["Christopher J. Mecklin", "Tim Showalter"]
 language = "en"
-multilingual = false
 src = "src"
 title = "BARGE Rulebook"
 
