@@ -15,8 +15,6 @@ and turned face up on the river.
 
 Face down cards can't be used at showdown.
 
-----
-
 BARGErs heard about Crayfish via [Don Rieck's
 appearance](https://pokerchannel.substack.com/p/binglaha?utm_source=podcast-email%2Csubstack&publication_id=368194&post_id=179987649&utm_campaign=email-play-on-substack&utm_medium=email&utm_content=play_card_show_title&r=4a3ejk&triedRedirect=true)
 on the [Poker: All the Games](https://pokerchannel.substack.com/) podcast
