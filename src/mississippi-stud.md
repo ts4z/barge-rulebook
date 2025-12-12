@@ -1,15 +1,11 @@
-Mississippi Stud
-----------------
+Mississippi Stud and Variants
+-----------------------------
 
 Mississippi offers a variant of [Stud](./stud.md) that works better in a
-[pot-limit](./pot-limit.md) format, although it can also be played
-[limit](limit.md).
-
-Mississipi Stud can be played as a variant of any stud game, including
-[Stud
-(High Only)](./stud.md), [Stud High/Low
+[pot-limit](./pot-limit.md) format.  This section describes the Mississippi
+variant of three common games, [Stud (High Only)](./stud.md), [Stud High/Low
 Eight-or-Better](./stud-high-low-eight-or-better.md) (abbreviated Stud/8
-below), [Razz](./razz.md), and [Razzdugi](./razzdugi.md).
+below), and [Razz](./razz.md).
 
 ### Forced Money
 
@@ -38,17 +34,18 @@ card, a single community card is dealt instead.
 
 ### Evaluating the Showdown
 
-The hand evaluation is the same as in the regular stud game.
+In Mississipi Stud, the best high five-card hand wins the pot.
 
-### Variant
+In Mississippi Stud High-Low, the pot is split between
+the best high five-card hand and the best California low hand with an 8 qualifier.
+(If there is no low hand, the high hand scoops.)
 
-A couple BARGErs have home games that play Mississipi Stud/8 with an ante and a
-bring-in.
+In Mississippi Razz, the best five-card California low hand wins the pot.
 
 ### Notes
 
-Mississippi Stud is intended to be played [pot-limit](./pot-limit.md) but it
-still works in a [limit](./limit.md) format.
+Mississippi Stud is intended to be played [pot-limit](./pot-limit.md).
+Mississippi can also be played in a [limit](./limit.md) format.
 
 The game was designed by David Zanetti to be a version of stud more amenable to
 a big-bet format than standard seven-card stud. See [this entry from the old

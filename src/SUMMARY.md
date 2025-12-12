@@ -5,6 +5,7 @@
 ---
 
 [Preface](./preface.md)
+[Introduction](introduction.md)
 
 ---
 
@@ -13,17 +14,13 @@
   - [No Limit](./no-limit.md)
   - [Pot Limit](./pot-limit.md)
   - [Ties & Odd Chips](./ties-odd-chips.md)
-  - [Big Blind Ante](./big-blind-ante.md)
-  - [Bomb Pot](./bomb-pot.md)
   - [Bounty](./bounty.md)
-  - [Jam-or-Fold](./jam-or-fold.md)
   - [Lammers](./lammers.md)
   - [Shootout](./shootout.md)
-  - [Short Deck](./short-deck.md)
   - [Win the Button](./win-the-button.md)
   - [Dice Procedures](./dice-procedures.md)
   - [Stud Procedures](./stud-procedures.md)
-- [Poker Variants](./variants.md)
+- [Poker Games](./poker-games.md)
   - [Ace-to-5 Triple Draw](./ace-to-5-triple-draw.md)
   - [Action Razz](./action-razz.md)
   - [Action Razzdugi](./action-razzdugi.md)
@@ -55,14 +52,12 @@
   - [Lazy Pineapple High/Low](./lazy-pineapple-high-low-eight-or-better.md)
   - [London Lowball](./london-lowball.md)
   - [Mexican Poker](./mexican-poker.md)
-  - [Mississippi Stud and Variants](./mississippi-stud-and-variants.md)
   - [Murder](./murder.md)
   - [Oklahoma](./oklahoma.md)
   - [Omaha (High Only)](./omaha-high-only.md)
   - [Omaha High/Low](./omaha-high-low-eight-or-better.md)
   - [Omaha X or Better](./omaha-x-or-better.md)
   - [Paradise Road Pick'em](./paradise-road-pickem.md)
-  - [Quick Quads](./quick-quads.md)
   - [Razz](./razz.md)
   - [Razzdugi](./razzdugi.md)
   - [Rio Bravo](./rio-bravo.md)
@@ -79,6 +74,14 @@
   - [Triple Draw Dramaha](./triple-draw-dramaha.md)
   - [Two-or-Five Omaha Eight-or-Better](./two-or-five-omaha-8-or-better.md)
   - [Wonky Donkey](wonky-donkey.md)
+- [Variations](./variations.md)
+  - [Big Blind Ante](big-blind-ante.md)
+  - [Bomb Pot](bomb-pot.md)
+  - [Jam-or-Fold](jam-or-fold.md)
+  - [Mississippi Stud](mississippi-stud.md)
+  - [Short Deck](short-deck.md)
+  - [Quick Quads](quick-quads.md)
+  - [Crayfish](crayfish.md)
 
 ---
 
