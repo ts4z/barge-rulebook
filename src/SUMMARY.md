@@ -9,7 +9,7 @@
 
 ---
 
-- [Common Rules and Variations](./common-rules-and-variations.md)
+- [Common Procedures](./common-procedures.md)
   - [Limit](./limit.md)
   - [No Limit](./no-limit.md)
   - [Pot Limit](./pot-limit.md)

@@ -2,9 +2,9 @@
 
 This book is split into three main sections: Procedures, Poker Games, and Variations.
 
-[Procedures](procedures.md) apply to many games.  In most cases, the host casino will have
-specific procedures.  For completeness, we have described a few high-level
-ones, and a few specific to BARGE.
+[Common Procedures](common-procedures.md) apply to many games.  In most cases,
+the host casino will have specific procedures.  For completeness, we have
+described a few high-level ones, and a few specific to BARGE.
 
 [Poker Games](poker-games.md) provide many different games.  These are intended to be mostly
 self-contained.  If you know any form of poker, we hope you will be able to
