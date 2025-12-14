@@ -74,6 +74,7 @@
   - [Quick Quads](quick-quads.md)
   - [Razz](./razz.md)
   - [Razzdugi](./razzdugi.md)
+  - [Reno Straight](./reno-straight.md)
   - [Rio Bravo](./rio-bravo.md)
   - [Scrotum](./scrotum.md)
   - [Short Deck Omaha](./short-deck-omaha.md)
