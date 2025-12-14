@@ -20,8 +20,7 @@ Razz is gone and [Action Razz](action-razz.md) is in its place.
 [Oklahoma](oklahoma.md) appears to be popular with dealers for a reason
 that the "cash game" rule should make clear.
 
-Variations
-----------
+### Variations
 
 The wide variety of already existing poker games lends itself naturally to
 making up even more variations.
@@ -42,4 +41,4 @@ game.
 
 However, some variations are simple enough to just explain in isolation.  This
 is either because they are applied to multiple games, they are rare, or both.
-This section is home to those.
+These are marked as variation in the title section.
