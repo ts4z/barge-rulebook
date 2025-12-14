@@ -1,11 +1,11 @@
 Dramaha 21
-==========
+----------
 
-## Forced Money
+### Forced Money
 
 The game is played with a button and blinds.
 
-## Dealing Procedure
+### Dealing Procedure
 
 Each player is dealt five cards face down, followed by a
 round of betting at the small bet limit.
@@ -24,7 +24,7 @@ betting at the big bet limit.
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by the showdown.
 
-## Evaluating the Showdown
+### Evaluating the Showdown
 
 The hand is split between the best Omaha high hand (using exactly two cards
 from the player’s hand and exactly three cards from the board) and the best
@@ -45,6 +45,6 @@ Ties are broken by having the most cards.  That is:
  * KTT86 = 3-card 20 (T+T=20, K zero, 8 & 6 count toward neither the 21 nor the hand count)
  * 98765 = 3-card 21 (9+7+5=20, 8 & 6 don't count)
 
-## Notes
+### Notes
 
 Some online sources say that face cards are worth 1 point, but not according to BARGE.

@@ -1,5 +1,4 @@
-Pot-Limit
----------
+### Pot-Limit
 
 In *pot-limit* poker, when a player chooses to bet or raise, the size of the raise can
 be anywhere from the minimum bet to the size of the pot. The minimum bet

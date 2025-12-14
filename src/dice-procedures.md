@@ -1,5 +1,4 @@
-Dice Procedures
----------------
+### Dice Procedures
 
 A few games involve the players rolling dice in order to influence the game.
 In these games, the dice (or die) are rolled by the player on the button. Dice

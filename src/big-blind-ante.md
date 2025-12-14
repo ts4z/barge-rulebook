@@ -1,5 +1,4 @@
-Big Blind Ante
---------------
+### Big Blind Ante
 
 In games with a *big blind ante*, the player in the big blind posts an ante for
 the entire table.  This amount will be listed in the structure for the game or
@@ -12,7 +11,7 @@ At BARGE 2024, this was at four players.
 This rule tends to differ from poker room to poker room, so it is important to
 check the structure sheet.
 
-### Discussion
+#### Discussion
 
 Traditionally in no-limit Texas Hold’em tournaments, the blind structure used
 was that two players posted blinds (the small blind and big blind) each hand.
@@ -40,7 +39,7 @@ big blind does not have sufficient chips to post both the ante and the big
 blind.  One should always consult the structure sheet and/or the tournament
 director to verify how any particular tournament is handling the big blind.
 
-### Differences with TDA Recommended Procedure-11
+#### Differences with TDA Recommended Procedure-11
 
 TDA Recommended Procedure-11 recommends that the big blind ante amount not be
 reduced.  BARGE prefers the rule described above.

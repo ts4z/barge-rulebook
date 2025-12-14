@@ -1,1 +1,1 @@
-# Betting Formats
+## Betting Formats

@@ -1,10 +1,10 @@
-# Irish
+## Irish
 
-## Forced Money
+### Forced Money
 
 The game is played with a button and blinds.
 
-## Dealing Procedure
+### Dealing Procedure
 
 Each player is dealt four cards face down, followed by a round of betting at the
 small bet limit.
@@ -20,12 +20,12 @@ betting at the big bet limit.
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
-## Evaluating the Showdown
+### Evaluating the Showdown
 
 The best high five-card hand wins the pot. Hands are made using either zero, one,
 or two cards from each player’s hand and the remaining cards from the board.
 
-## Notes
+### Notes
 
 This game was played with pot-limit betting at EMBARGO 2020.
 

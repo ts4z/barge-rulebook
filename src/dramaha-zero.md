@@ -1,11 +1,11 @@
 Dramaha Zero
-============
+------------
 
-## Forced Money
+### Forced Money
 
 The game is played with a button and blinds.
 
-## Dealing Procedure
+### Dealing Procedure
 
 Each player is dealt five cards face down, followed by a
 round of betting at the small bet limit.
@@ -24,7 +24,7 @@ betting at the big bet limit.
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by the showdown.
 
-## Evaluating the Showdown
+### Evaluating the Showdown
 
 The best Omaha high hand and the best point value hand split the pot.
 

@@ -1,5 +1,4 @@
-Bounty
-------
+### Bounty
 
 A *bounty* in a tournament is a prize that is won by eliminating a player. 
 

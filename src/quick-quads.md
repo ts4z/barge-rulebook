@@ -1,5 +1,5 @@
 Quick Quads (Variation)
-=======================
+-----------------------
 
 This game is a variant on draw games.  It is played as [Five Card
 Draw](five-card-draw.md) except for an extra rule for the showdown.

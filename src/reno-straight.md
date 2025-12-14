@@ -1,16 +1,16 @@
 Reno Straight
-=============
+-------------
 
 We actually have no idea what this game is called, but Greg Raymer told us he
 played in Reno, so here we are.
 
 This game is allegedly a variant of [Big O](big-o.md).
 
-## Forced Money
+### Forced Money
 
 The game is played with a button and blinds.
 
-## Dealing Procedure
+### Dealing Procedure
 
 Each player is dealt five cards face down, followed by a round of betting at the
 small bet limit.
@@ -26,7 +26,7 @@ betting at the big bet limit.
 
 This is followed by a showdown.
 
-## Evaluating the Showdown
+### Evaluating the Showdown
 
 The best Omaha hand, and the *lowest straight* split the pot, using either board.
 
@@ -40,13 +40,12 @@ If at showdown, no one can make a straight, the high hand scoops.
 
 Example: 
 
-```
-Board 1: K♣Q♣2♦3♦6♣
-Board 2: A♦K♦Q♠T♠T♣
-
-Hand 1: A♣3♥T♥5♣
-Hand 2: 9♦T♥J♠Q♥
-```
+ * Boards:
+   * K♣Q♣2♦3♦6♣
+   * A♦K♦Q♠T♠T♣
+ * Hands:
+   1. A♣3♥T♥5♣
+   2. 9♦T♥J♠Q♥
 
 Hand 1 makes the nut flush (A♣K♣Q♣6♣5♣) on the top board and two pair
 (K♣K♦Q♣Q♠) on the bottom board.  Hand 2 has just one pair on the top board, but
