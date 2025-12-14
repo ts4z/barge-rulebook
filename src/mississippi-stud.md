@@ -1,5 +1,5 @@
-Mississippi Stud and Variants
------------------------------
+Mississippi Stud (and Variations)
+---------------------------------
 
 Mississippi offers a variant of [Stud](./stud.md) that works better in a
 [pot-limit](./pot-limit.md) format.  This section describes the Mississippi
@@ -34,13 +34,17 @@ card, a single community card is dealt instead.
 
 ### Evaluating the Showdown
 
-In Mississipi Stud, the best high five-card hand wins the pot.
+In general, the evaluation is the same as the base game.  Specifically:
 
-In Mississippi Stud High-Low, the pot is split between
-the best high five-card hand and the best California low hand with an 8 qualifier.
-(If there is no low hand, the high hand scoops.)
+- In Mississipi Stud, the best high five-card hand wins the pot.
+- In Mississippi Stud High-Low, the pot is split between the best high
+  five-card hand and the best California low hand with an 8 qualifier.  (If
+  there is no low hand, the high hand scoops.)
+- In Mississippi Razz, the best five-card California low hand wins the pot.
 
-In Mississippi Razz, the best five-card California low hand wins the pot.
+### Variations
+
+Mississippi Stud is sometimes played with an ante and bring-in.
 
 ### Notes
 
