@@ -1,11 +1,11 @@
 Dramaha 49
 ----------
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Each player is dealt five cards face down, followed by a
 round of betting at the small bet limit.
@@ -16,14 +16,15 @@ at the small bet limit.
 Then each player in turn discards zero to THREE cards from their hand. Once all
 of the discards have been announced, the dealer will deal each player an appropriate
 number of replacement cards. Note that this differs from Triple Draw Dramaha,
-where the draw takes place BEFORE the flop betting.
+where the draw takes place *before* the flop betting.
 
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit.
 
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by the showdown.
-Evaluating the Showdown
+
+## Evaluating the Showdown
 
 The best Omaha high hand (using exactly two cards from the player’s hand and
 exactly three cards from the board) and the best point value hand (using all five
@@ -35,6 +36,6 @@ cards from the player’s hand) splits the pot, where points are assigned:
 The nut point value hand would be TTTT9, for 10+10+10+10+9=49 points,
 hence the name Dramaha 49. 
 
-### Notes
+## Notes
 
 Some online sources say that face cards are worth 1 point, but not according to BARGE.
