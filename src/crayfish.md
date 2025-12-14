@@ -1,4 +1,4 @@
-## Crayfish
+# Crayfish
 
 Crayfish provides a variant of [Omaha](omaha.md) and [Hold’em](holdem.md) (and
 potentially any other game that uses a Hold'em board).
@@ -15,7 +15,7 @@ and turned face up on the river.
 
 Face down cards can't be used at showdown.
 
-### Notes
+## Notes
 
 BARGErs heard about Crayfish via [Don Rieck's
 appearance](https://pokerchannel.substack.com/p/binglaha?utm_source=podcast-email%2Csubstack&publication_id=368194&post_id=179987649&utm_campaign=email-play-on-substack&utm_medium=email&utm_content=play_card_show_title&r=4a3ejk&triedRedirect=true)
