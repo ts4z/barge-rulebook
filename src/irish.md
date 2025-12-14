@@ -1,5 +1,4 @@
-Irish
------
+# Irish
 
 ### Forced Money
 
