@@ -11,5 +11,6 @@ Dice must tumble.  They may not be slid.
 The dealer is responsible for calling a valid or invalid roll.
 
 Traditionally, there is a price to be paid for not rolling the dice properly.
-Experienced BARGE players will explain current tipping procedure.
-
+Typically, this is a $1 tip for the first invalid roll, doubling for each
+subsequent roll.  This encourages the dealers to have patience with poor
+rollers.
