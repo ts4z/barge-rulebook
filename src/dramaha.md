@@ -1,5 +1,7 @@
 # Dramaha
 
+Also spelled Drawmaha.
+
 ## Forced Money
 
 The game is played with a button and blinds.
