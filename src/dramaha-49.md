@@ -1,5 +1,5 @@
 Dramaha 49
-----------
+==========
 
 ## Forced Money
 
@@ -13,9 +13,9 @@ round of betting at the small bet limit.
 Three community cards are placed face up. This is followed by a round of betting
 at the small bet limit.
 
-Then each player in turn discards zero to THREE cards from their hand. Once all
+Then each player in turn discards zero to *three* cards from their hand. Once all
 of the discards have been announced, the dealer will deal each player an appropriate
-number of replacement cards. Note that this differs from Triple Draw Dramaha,
+number of replacement cards. Note that this differs from [Triple Draw Dramaha](triple-draw-dramaha.md),
 where the draw takes place *before* the flop betting.
 
 One additional community card is placed face up. This is followed by a round of
