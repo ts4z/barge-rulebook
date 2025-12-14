@@ -1,5 +1,3 @@
-# Reno Straight
-
 Reno Straight
 =============
 
