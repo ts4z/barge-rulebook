@@ -1,12 +1,11 @@
 Binglaha
-========
+--------
 
-## Forced Money
+### Forced Money
 
 The game is played with a button and blinds.
 
-## Dealing Procedure
-
+### Dealing Procedure
 Each player is dealt four cards face down, followed by a round of betting at the
 small bet limit.
 
@@ -25,7 +24,7 @@ betting at the big bet limit.
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
-## Evaluating the Showdown
+### Evaluating the Showdown
 
 Either the best high hand and best California low hand of at least eight low or
 better split the pot or the best high hand scoops the pot, depending on the results
@@ -36,7 +35,7 @@ Note: if there are not three unpaired cards eight or lower on the board, no low
 hand is possible regardless of the roll of the die. If no qualifying low hand is made,
 the high hand always scoops the pot.
 
-## Notes
+### Notes
 
 Binglaha was created by Don "ADB Bingo" Rieck.
 

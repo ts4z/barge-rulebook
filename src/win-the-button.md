@@ -1,5 +1,5 @@
 Win the Button
-==============
+--------------
 
 *Win the Button* is a variation of a poker tournament where the player who
 wins the hand receives the button for the subsequent hand. Thus, the button does

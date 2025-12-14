@@ -1,14 +1,12 @@
 Scrotum
-=======
+-------
 
 Also known in polite company as "Sack".
 
-## Forced Money
-
+### Forced Money
 The game is played with a button and blinds.
 
-## Dealing Procedure
-
+### Dealing Procedure
 Each player is dealt five cards face down. This is followed by a round of betting at
 the small bet limit. Each player will discard between zero and four of the cards
 they’ve been dealt (leaving from x = 1 to x = 5 cards remaining in their hands.)
@@ -29,7 +27,7 @@ betting at the big bet limit.
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
-## Evaluating the Showdown
+### Evaluating the Showdown
 
 The best high hand and best California low hand of at least eight low or better
 splits the pot. Hands are made using all x cards from the player’s hand and 5 − x

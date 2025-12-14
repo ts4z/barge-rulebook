@@ -1,11 +1,10 @@
 Deuce-to-Seven Razz
-===================
-
-## Forced Money
+-------------------
+### Forced Money
 
 The game is played with antes. 
 
-## Dealing Procedure
+### Dealing Procedure
 
 The high card on the board by rank first and then by suit brings it in. A♠ is
 the highest possible card followed by the A♥, A♦, A♣, and so on.
@@ -31,7 +30,7 @@ betting at the big bet limit. This is followed by a showdown.
 It is required of each player that they do not alter or obfuscate the order in which
 they have received their up cards.
 
-## Evaluating the Showdown
+### Evaluating the Showdown
 
 The best five-card Kansas City low hand wins the pot.
 

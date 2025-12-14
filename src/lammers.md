@@ -1,5 +1,5 @@
 Lammers
-=======
+-------
 
 *Lammers* are re-buy chips that players receive at the beginning of a
 tournament, and at BARGE is most usually used in the

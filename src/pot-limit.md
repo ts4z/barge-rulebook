@@ -1,5 +1,5 @@
 Pot-Limit
-=========
+---------
 
 In *pot-limit* poker, when a player chooses to bet or raise, the size of the raise can
 be anywhere from the minimum bet to the size of the pot. The minimum bet
@@ -18,7 +18,7 @@ The maximum bet in a round without action is simply the size of the pot.
 The maximum raise is the size of the pot *after the call* of the initial
 action.
 
-## Examples
+### Examples
 
 Suppose you are playing in a pot-limit Omaha tournament at the
 100/200 level.  Like [no-limit](./no-limit.md), this means that the

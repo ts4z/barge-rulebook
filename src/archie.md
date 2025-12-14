@@ -1,11 +1,10 @@
 Archie
-======
-
-## Forced Money
+------
+### Forced Money
 
 The game is played with a button and blinds.
 
-## Dealing Procedure
+### Dealing Procedure
 
 Each player is dealt five cards face down, followed by a round of betting at the
 small bet limit.
@@ -21,14 +20,14 @@ This is followed by a third draw, followed by a round of betting a the big bet l
 
 This is followed by a showdown.
 
-## Evaluating the Showdown
+### Evaluating the Showdown
 
 The best five-card high hand and California low hand splits the pot. A player must
 have a pair of sixes or better to qualify for the high hand and eight or better to
 qualify for the low hand. In the case where no player qualifies in either direction,
 the high hand, even though it is weaker than a pair of sixes, scoops the pot.
 
-## Notes
+### Notes
 
 Sometimes the qualifier for high hand is a pair of nines rather than a pair of
 sixes.

@@ -1,13 +1,13 @@
 Chowaha
-=======
+-------
 
 Sometimes called "Casino Chowaha."
 
-## Forced Money
+### Forced Money
 
 The game is played with a button and blinds.
 
-## Dealing Procedure
+### Dealing Procedure
 
 Each player is dealt two cards face down, followed by a round of betting at the
 small bet limit.
@@ -31,7 +31,7 @@ X X X
 The cards labelled X are the flop cards, the cards indicated as Y are the turn
 cards, and Z is the river card.
 
-## Evaluating the Showdown
+### Evaluating the Showdown
 
 The best high hand wins the pot. The high hand consists of a player’s hole cards
 plus the cards from one flop, one turn, and the river.  These may be played in any
@@ -42,7 +42,7 @@ may create their best high hand and low hand using different hold cards and/or
 different board cards. Also, as in Omaha, each player must use exactly two hole
 cards plus three cards from the board to form each portion of their hand.
 
-## Notes
+### Notes
 
 [Four-card Chowaha](./four-card-chowaha.md) is the original game.  It became
 two-card when played at BARGE to cut down on the number of cards that had to be

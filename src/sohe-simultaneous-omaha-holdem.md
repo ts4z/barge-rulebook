@@ -1,11 +1,12 @@
 Sohe (Simultaneous Omaha/Hold’em)
-=================================
+---------------------------------
 
-## Forced Money
+### Forced Money
 
 The game is played with a button and blinds.
 
-## Dealing Procedure
+
+### Dealing Procedure
 
 Each player is dealt six cards face down, followed by a round of betting at the
 small bet limit.
@@ -23,7 +24,7 @@ betting at the big bet limit.
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
-## Evaluating the Showdown
+### Evaluating the Showdown
 
 The best high hands, using the two-card Texas Hold’em hands and four-card Omaha
 High hands, respectively, split the pot. The Texas Hold’em hands are made using

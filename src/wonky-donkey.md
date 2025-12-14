@@ -1,5 +1,5 @@
 Wonky Donkey
-============
+------------
 
 Wonky Donkey is either Hold'em or Omaha/8, but which one it is isn't known
 until after the flop. 
