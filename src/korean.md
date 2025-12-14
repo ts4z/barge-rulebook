@@ -1,11 +1,11 @@
 Korean
-------
+======
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Each player is dealt five cards face down, followed by a round of betting at the
 small bet limit.
@@ -21,7 +21,7 @@ This is followed by a third draw, followed by a round of betting a the big bet l
 
 This is followed by a showdown.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best five-card high hand and California low hand splits the pot. A player
 must have a pair or better to qualify for the high hand and no pair to qualify for

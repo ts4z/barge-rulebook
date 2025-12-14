@@ -1,11 +1,11 @@
 Five Card Draw
---------------
+==============
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Each player is dealt five cards face down, followed by a round of betting at the
 small bet limit.
@@ -22,11 +22,11 @@ the opener must have at least a pair of jacks to open.
 Draw is played with a joker/bug. The joker can only be used as an ace or to
 complete a straight or flush.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best high five-card hand wins the pot.
 
-### Notes
+## Notes
 
 This game was most commonly played as a limit game, although big-bet
 formats in either pot-limit or no-limit existed.  It is sometimes played

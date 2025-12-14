@@ -1,5 +1,5 @@
 Ties & Odd Chips
-----------------
+================
 
 When the situation arises where a pot needs to be split, such as in a split-pot game
 or when two or more players tie for the winning hand, it is often the case that

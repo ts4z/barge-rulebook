@@ -1,11 +1,11 @@
 Short Deck Omaha
-----------------
+================
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds. 
 
-### Dealing Procedure
+## Dealing Procedure
 
 Short Deck: A deck of 36 cards is used, where all of the deuces, treys, fours,
 and fives have been removed, leaving a deck with sixes, sevens, eights, nines,
@@ -19,7 +19,7 @@ betting.
 One additional community card is placed face up. This is followed by a round of
 betting. This is followed by a showdown.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best high five-card hand wins the pot. Hands are made using exactly two
 cards from each player’s hand and exactly three cards from the board. In this

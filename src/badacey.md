@@ -1,9 +1,12 @@
 Badacey
--------
-### Forced Money
+=======
+
+## Forced Money
+
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
+
 Each player is dealt five cards face down, followed by a round of betting at the
 small bet limit.
 
@@ -17,7 +20,8 @@ Then there is a second draw, followed by a round of betting at the big bet limit
 This is followed by a third draw, followed by a round of betting a the big bet limit.
 This is followed by a showdown.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
+
 The best four-card hand using badugi rules wins half of the pot. The other half of
 the pot goes to the best Ace-to-Five lowball hand.
 

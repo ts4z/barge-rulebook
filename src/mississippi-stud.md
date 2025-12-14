@@ -1,5 +1,5 @@
 Mississippi Stud (and Variations)
----------------------------------
+=================================
 
 Mississippi offers a variant of [Stud](./stud.md) that works better in a
 [pot-limit](./pot-limit.md) format.  This section describes the Mississippi
@@ -7,11 +7,11 @@ variant of three common games, [Stud (High Only)](./stud.md), [Stud High/Low
 Eight-or-Better](./stud-high-low-eight-or-better.md) (abbreviated Stud/8
 below), and [Razz](./razz.md).
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Starting with the player in seat one, each player is dealt two cards face down
 and then one card up, followed by a round of betting, starting with the player
@@ -32,7 +32,7 @@ betting.
 If there are not enough cards in the stub to deal every remaining player a
 card, a single community card is dealt instead.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 In general, the evaluation is the same as the base game.  Specifically:
 
@@ -42,11 +42,11 @@ In general, the evaluation is the same as the base game.  Specifically:
   there is no low hand, the high hand scoops.)
 - In Mississippi Razz, the best five-card California low hand wins the pot.
 
-### Variations
+## Variations
 
 Mississippi Stud is sometimes played with an ante and bring-in.
 
-### Notes
+## Notes
 
 Mississippi Stud is intended to be played [pot-limit](./pot-limit.md).
 Mississippi can also be played in a [limit](./limit.md) format.

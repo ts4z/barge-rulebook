@@ -1,12 +1,12 @@
 Mexican Poker
--------------
+=============
 
-### Forced Money
+## Forced Money
 
 The game is played with antes and a button which rotates clockwise after each
 hand. 
 
-### Dealing Procedure
+## Dealing Procedure
 
 The player with the high card showing clockwise of the dealer button goes
 first. A Joker dealt face-up is considered to be an ace for the purposes of the high
@@ -47,7 +47,7 @@ cards have been exposed, otherwise it is dealt face up. This is followed by a ro
 of betting, starting with the player with the highest hand showing clockwise of
 the dealer button.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best high five-card poker hand wins the pot. Since the stripped deck of 41
 cards is being used, a flush will outrank a full house. Because the eights, nines,

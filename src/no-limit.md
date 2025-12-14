@@ -1,5 +1,5 @@
 No-Limit
---------
+========
 
 In *no-limit* poker, when a player chooses to bet or raise, the size of the raise can
 be anywhere from the minimum bet to *all-in* (i.e. all of the chips the player has in

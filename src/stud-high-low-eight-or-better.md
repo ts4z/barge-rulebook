@@ -1,15 +1,15 @@
 Stud High/Low Eight-or-Better
------------------------------
+=============================
 
 Seven Card Stud High/Low Eight-or-Better is frequently abbreviated to Stud/8.
 
-### Forced Money
+## Forced Money
 
 The game is played with antes. The low card on the board by rank first and then
 by suit brings it in. The 2♣ is the lowest possible card followed by the 2♦, 2♥,
 2♠, and so on.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Starting with the player in seat one, each player is dealt two cards face down then
 one card up, followed by a round of betting at the small bet limit.  The initial
@@ -29,7 +29,7 @@ betting at the big bet limit.
 A third down card is dealt to all active players. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best high five-card hand and the best California low hand with a qualifier of
 eight-or-better split the pot.

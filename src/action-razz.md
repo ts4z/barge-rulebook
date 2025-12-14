@@ -1,12 +1,12 @@
 Action Razz
------------
+===========
 
-### Forced Money
+## Forced Money
 The game is played with antes. The high card on the board by rank first and then
 by suit brings it in. The K♠ is the highest possible card followed by the K♥, K♦,
 K♣, and so on.
 
-### Dealing Procedure
+## Dealing Procedure
 Starting with the player in seat one, each player is dealt two cards face down then
 one card up, followed by a round of betting at the small bet limit.
 
@@ -22,7 +22,7 @@ betting at the big bet limit.
 A third down card is dealt to all active players. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 The best five-card California low hand wins the pot, but with the provision that a
 player must have at least one face card (Jack, Queen, or King) among their seven
 cards to qualify. 
@@ -52,7 +52,7 @@ Player 3 wins with their “Face” Nine, 98753. If there was a side pot between
 Player 1 and Player 2, Player 1’s “Butt” Seven, 75432 would beat Player 2’s “Butt”
 Eight, 8642A.
 
-### Notes
+## Notes
 
 Action Razz is a creation of Kevin Un.
 

@@ -1,14 +1,14 @@
 Deuce-to-Seven Triple Draw
---------------------------
+==========================
 
 Also known as "Triple Draw", this is the parent of a lot of triple-draw
 variants.
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Each player is dealt five cards face down, followed by a round of betting at the
 small bet limit.
@@ -22,11 +22,11 @@ Then there is a second draw, followed by a round of betting at the big bet limit
 This is followed by a third draw, followed by a round of betting a the big bet limit.
 This is followed by a showdown.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best five-card Kansas City lowball hand wins the pot.
 
-### Notes
+## Notes
 
 This game is usually played limit, but is sometimes played as a pot-limit
 game. It is not played with a joker/bug.

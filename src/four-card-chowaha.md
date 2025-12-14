@@ -1,11 +1,11 @@
 Four Card Chowaha High/Low Eight-or-Better
-------------------------------------------
+==========================================
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Each player is dealt four cards face down, followed by a round of betting at the
 small bet limit.
@@ -31,7 +31,7 @@ X X X
 The cards labelled X are the flop cards, the cards indicated as Y are the turn
 cards, and Z is the river card.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best high hand and best California low hand of at least eight low or better
 splits the pot. Each hand consists of two cards from the player’s hole cards plus
@@ -43,7 +43,7 @@ may create their best high hand and low hand using different hold cards and/or
 different board cards. Also, as in Omaha, each player must use exactly two hole
 cards plus three cards from the board to form each portion of their hand.
 
-### Notes
+## Notes
 
 Chowaha was created by Mike Chow.  See also [the two-card
 variant](./chowaha.md).

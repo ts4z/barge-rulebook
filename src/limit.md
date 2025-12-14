@@ -1,5 +1,5 @@
 Limit
------
+=====
 
 In *limit* poker, also called *fixed-limit* poker, the size of the raise a
 player makes is predetermined by the structure of the game or tournament. The

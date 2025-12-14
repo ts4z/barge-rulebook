@@ -1,5 +1,5 @@
 Omaha High/Low Eight-or-Better
-------------------------------
+==============================
 
 Omaha High/Low Eight-or-Better is frequently abbreviated to Omaha/8 or O/8.
 

@@ -1,5 +1,5 @@
 Omaha X or Better
------------------
+=================
 
 The game is played with a button and blinds.
 
@@ -26,7 +26,7 @@ betting at the big bet limit.
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 Hands are made using exactly two cards from each player’s hand and exactly
 three cards from the board.  The pot is split between the best conventional
@@ -37,7 +37,7 @@ If no qualifying low hand is made, the high hand always scoops the pot.
 If the board does not have three cards under X on the board, no low is possible
 (thus a die roll of 2, 3, or 4 rules out a low hand).
 
-### Notes
+## Notes
 
 This game was created by Christian "Dr. Doofenschmirtz" Jones.
 
