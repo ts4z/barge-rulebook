@@ -36,11 +36,13 @@ card, a single community card is dealt instead.
 
 In general, the evaluation is the same as the base game.  Specifically:
 
-- In Mississipi Stud, the best high five-card hand wins the pot.
-- In Mississippi Stud High-Low, the pot is split between the best high
-  five-card hand and the best California low hand with an 8 qualifier.  (If
-  there is no low hand, the high hand scoops.)
-- In Mississippi Razz, the best five-card California low hand wins the pot.
+- In Mississipi Stud, the best high five-card hand wins the pot, as in [Stud]().
+- In Mississippi Stud/8, the pot is split between the best high
+  five-card hand and the best California low hand with an 8 qualifier,
+  as in [Stud/8](stud-high-low-eight-or-better.md).  (If
+  there is no low hand, the high hand [scoops](glossary.html#scoop).)
+- In Mississippi Razz, the best five-card California low hand wins the pot,
+  as in [Razz](razz.md).
 
 ### Variations
 
