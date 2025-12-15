@@ -98,7 +98,7 @@
 [Appendix B: The Sevens Rule](./sevens-rule.md)
 [Appendix C: What Beats What](./what-beats-what.md)
 [Appendix D: Killer Cards Revisited (Abridged)](./killer-cards.md)
-[Appendix D.1: Killer Cards table for Hold'em](./killer-cards-holdem.md)
-[Appendix D.2: Killer Cards table for Omaha](./killer-cards-omaha.md)
+[Appendix D.1: Hold'em](./killer-cards-holdem.md)
+[Appendix D.2: Omaha](./killer-cards-omaha.md)
 
 [Colophon](./colophon.md)
