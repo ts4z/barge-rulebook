@@ -16,6 +16,10 @@ jobs:
     steps:
       - name: checkout source
         uses: actions/checkout@v4
+      - name: acquire Rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+      - name: install mdbook plugin
+        run: cargo install mdbook-replace
       - name: setup mdbook
         uses: peaceiris/actions-mdbook@v2
         with:
