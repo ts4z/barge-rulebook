@@ -1,9 +1,9 @@
 ## Crayfish
 
-Crayfish provides a variant of [Omaha](omaha.md) and [Hold’em](holdem.md) (and
-potentially any other game that uses a Hold'em board).
+Crayfish provides a variant of [Hold’em](texas-holdem.md) (and
+potentially any other game that uses a five-carda board).
 
-All five cards of the Hold'em board are dealt on the flop.  On the turn and river, roll a die.
+All five cards of the board are dealt on the flop.  On the turn and river, roll a die.
 
 On a roll of 1-5, flip the corresponding card face down.  Cards are numbered
 from left to right relative to the dealer.
