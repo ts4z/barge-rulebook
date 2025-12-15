@@ -75,7 +75,7 @@
   - [Razz](./razz.md)
   - [Razzdugi](./razzdugi.md)
   - [Reno Straight](./reno-straight.md)
-  - [Rio Bravo](./rio-bravo.md)
+  - [Rio Bravo (Hold'Em Variation)](./rio-bravo.md)
   - [Scrotum](./scrotum.md)
   - [Short Deck Omaha](./short-deck-omaha.md)
   - [Short Deck Texas Hold'em](./short-deck-texas-holdem.md)
