@@ -97,7 +97,7 @@
 [Appendix A.1: Lowball Hand Numbers](./lowball-hand-numbers.md)
 [Appendix B: The Sevens Rule](./sevens-rule.md)
 [Appendix C: What Beats What](./what-beats-what.md)
-[Appendix D: Killer Cards Revisited (Abridged)](./killer-cards.md)
+[Appendix D: Killer Cards Revisited](./killer-cards.md)
 [Appendix D.1: Hold'em](./killer-cards-holdem.md)
 [Appendix D.2: Omaha](./killer-cards-omaha.md)
 
