@@ -29,6 +29,3 @@ Extra rules may apply, such as these:
 * In [Action Razz](action-razz.md), a 6th card can be used for a qualifier.
 * In [Baducey](badeucy.md), aces play high for the [Badugi](badugi.md) hand and
   the 2-7 hand, even though they would generally be "good" cards in Badugi.
-
-When combining two games, give specific consideration to making the hands work
-together to make a ["scoop"](glossary.md#scoop) likely.
