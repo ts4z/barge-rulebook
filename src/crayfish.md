@@ -6,7 +6,7 @@ potentially any other game that uses a five-carda board).
 All five cards of the board are dealt on the flop.  On the turn and river, roll a die.
 
 On a roll of 1-5, flip the corresponding card face down.  Cards are numbered
-from left to right relative to the dealer.
+from left to right (flop 1-3, turn 4, river 5).
 
 On a roll of 6, no cards are turned over.
 
