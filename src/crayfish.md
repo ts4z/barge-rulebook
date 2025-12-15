@@ -1,9 +1,9 @@
-## Crayfish
+## Crayfish (Variation)
 
 Crayfish is typically dealt as a variant of Pot-Limit
 [Omaha](omaha-high-only.md), and less commonly as a variant of
-[Hold’em](texas-holdem.md) (but can potentially be a variant of any
-game that uses a five-card board).
+[Hold’em](texas-holdem.md), but can potentially be a variant of any
+game that uses a five-card board.
 
 All five cards of the board are dealt face up on the flop.  On the turn and river, a die is rolled. Each of the die rolls has the potential to turn a board card face down, thus removing that card from play.
 
