@@ -6,6 +6,16 @@ title = "BARGE Rulebook"
 
 [output.html]
 mathjax-support = true
+additional-css = ["suit-colors.css"]
+
+[preprocessor.replace]
+
+[preprocessor.replace.list]
+# List the patterns and their replacements
+"♠" = "<span class='spade-symbol'>♠</span>"
+"♥" = "<span class='heart-symbol'>♥</span>"
+"♦" = "<span class='diamond-symbol'>♦</span>"
+"♣" = "<span class='club-symbol'>♣</span>"
 
 [output.html.print]
 enable = false

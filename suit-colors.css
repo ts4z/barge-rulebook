@@ -1,0 +1,19 @@
+/* Black for Spades */
+.spade-symbol {
+    color: black;
+}
+
+/* Red for Hearts */
+.heart-symbol {
+    color: red;
+}
+
+/* Green for Clubs */
+.club-symbol {
+    color: green;
+}
+
+/* Blue for Diamonds */
+.diamond-symbol {
+    color: blue;
+}
