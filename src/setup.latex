@@ -22,4 +22,11 @@
 % Times character gets complainy if not in math mode.
 \newunicodechar{✕}{\ensuremath{\times}}
 
+% Uncommenting these will add ~25 pages to the document
+% but every game will start at a new section.  This could
+% probably be dialed in better, since we want to do this for
+% games but not other sections.
+% \let\stdsection\section
+% \renewcommand\section{\newpage\stdsection}
+
 \begin{document}
