@@ -17,21 +17,23 @@ import (
 
 // LatexRenderer renders Goldmark AST to LaTeX
 type LatexRenderer struct {
-	sectionOffset   int            // offset for section levels (0=chapter, 1=section, etc)
-	seenFirstH1     bool           // track if we've seen the first h1 to skip it
-	inSkippedH1     bool           // track if we're currently in the skipped h1
-	footnotes       map[int]string // map of footnote index to content
-	currentFootnote *bytes.Buffer  // buffer for current footnote being collected
+	sectionOffset       int            // offset for section levels (0=chapter, 1=section, etc)
+	seenFirstH1         bool           // track if we've seen the first h1 to skip it
+	inSkippedH1         bool           // track if we're currently in the skipped h1
+	footnotes           map[int]string // map of footnote index to content
+	currentFootnote     *bytes.Buffer  // buffer for current footnote being collected
+	currentDefinitionDD int            // count of DefinitionDescription nodes for current term
 }
 
 // NewLatexRenderer creates a new LaTeX renderer
 func NewLatexRenderer(sectionOffset int) *LatexRenderer {
 	return &LatexRenderer{
-		sectionOffset:   sectionOffset,
-		seenFirstH1:     false,
-		inSkippedH1:     false,
-		footnotes:       make(map[int]string),
-		currentFootnote: nil,
+		sectionOffset:       sectionOffset,
+		seenFirstH1:         false,
+		inSkippedH1:         false,
+		footnotes:           make(map[int]string),
+		currentFootnote:     nil,
+		currentDefinitionDD: 0,
 	}
 }
 
@@ -54,6 +56,11 @@ func (r *LatexRenderer) RegisterFuncs(reg renderer.NodeRendererFuncRegisterer) {
 	reg.Register(extast.KindTableHeader, r.renderTableHeader)
 	reg.Register(extast.KindTableRow, r.renderTableRow)
 	reg.Register(extast.KindTableCell, r.renderTableCell)
+
+	// Definition list elements
+	reg.Register(extast.KindDefinitionList, r.renderDefinitionList)
+	reg.Register(extast.KindDefinitionTerm, r.renderDefinitionTerm)
+	reg.Register(extast.KindDefinitionDescription, r.renderDefinitionDescription)
 
 	// Footnote elements
 	reg.Register(extast.KindFootnoteLink, r.renderFootnoteLink)
@@ -209,6 +216,65 @@ func (r *LatexRenderer) renderListItem(w util.BufWriter, source []byte, node ast
 func (r *LatexRenderer) renderThematicBreak(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		w.WriteString("\\vspace{1em}\\hrule\\vspace{1em}\n\n")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderDefinitionList(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		w.WriteString("\\begin{description}\n")
+	} else {
+		w.WriteString("\\end{description}\n\n")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderDefinitionTerm(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		// Count how many DefinitionDescription siblings follow this term
+		r.currentDefinitionDD = 0
+		for sibling := node.NextSibling(); sibling != nil; sibling = sibling.NextSibling() {
+			if sibling.Kind() == extast.KindDefinitionDescription {
+				r.currentDefinitionDD++
+			} else if sibling.Kind() == extast.KindDefinitionTerm {
+				// Stop at the next term
+				break
+			}
+		}
+
+		w.WriteString("\\item[")
+	} else {
+		w.WriteString("] ")
+		// If there are multiple definitions, start an enumerate
+		if r.currentDefinitionDD > 1 {
+			w.WriteString("\\begin{enumerate}\n")
+		}
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderDefinitionDescription(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		// If we have multiple descriptions, wrap each in \item
+		if r.currentDefinitionDD > 1 {
+			w.WriteString("\\item ")
+		}
+	} else {
+		// Check if this is the last DefinitionDescription for this term
+		isLast := true
+		for sibling := node.NextSibling(); sibling != nil; sibling = sibling.NextSibling() {
+			if sibling.Kind() == extast.KindDefinitionDescription {
+				isLast = false
+				break
+			} else if sibling.Kind() == extast.KindDefinitionTerm {
+				break
+			}
+		}
+
+		if isLast && r.currentDefinitionDD > 1 {
+			w.WriteString("\\end{enumerate}\n")
+		}
+		w.WriteString("\n")
 	}
 	return ast.WalkContinue, nil
 }
@@ -406,7 +472,7 @@ func (r *LatexRenderer) renderRawHTML(w util.BufWriter, source []byte, node ast.
 func escapeLatexText(s string) string {
 	// First, decode HTML entities
 	s = html.UnescapeString(s)
-	
+
 	// Convert smart quotes and common typographic characters to LaTeX equivalents
 	// Do this BEFORE escaping special LaTeX characters
 	s = strings.ReplaceAll(s, "\u201C", "``")  // left double quotation mark
@@ -415,11 +481,11 @@ func escapeLatexText(s string) string {
 	s = strings.ReplaceAll(s, "\u2019", "'")   // right single quotation mark
 	s = strings.ReplaceAll(s, "\u2013", "--")  // en dash
 	s = strings.ReplaceAll(s, "\u2014", "---") // em dash
-	
+
 	// Convert ASCII straight quotes to LaTeX quotes
 	// This is a simple state-based approach: alternate between opening and closing quotes
 	s = convertASCIIQuotes(s)
-	
+
 	// Now escape special LaTeX characters (but preserve our LaTeX quote markers)
 	replacer := strings.NewReplacer(
 		"\\", "\\textbackslash{}",
@@ -437,47 +503,47 @@ func escapeLatexText(s string) string {
 }
 
 // convertASCIIQuotes converts ASCII straight quotes (") to proper LaTeX quotes
-// Opening quotes become `` and closing quotes become ''
+// Opening quotes become “ and closing quotes become ”
 func convertASCIIQuotes(s string) string {
 	if !strings.Contains(s, "\"") {
 		return s
 	}
-	
+
 	var result strings.Builder
 	result.Grow(len(s))
-	
+
 	openQuote := true
-	
+
 	for i, r := range s {
 		if r == '"' {
 			// Determine if this should be an opening or closing quote
 			// based on context
 			prevChar := rune(0)
 			nextChar := rune(0)
-			
+
 			if i > 0 {
 				prevChar = rune(s[i-1])
 			}
 			if i < len(s)-1 {
 				nextChar = rune(s[i+1])
 			}
-			
+
 			// Heuristic: opening quote typically follows whitespace, punctuation, or start of string
 			// Closing quote typically precedes whitespace, punctuation, or end of string
 			isOpening := false
-			
-			if prevChar == 0 || prevChar == ' ' || prevChar == '\n' || prevChar == '\t' || 
-			   prevChar == '(' || prevChar == '[' || prevChar == '{' {
+
+			if prevChar == 0 || prevChar == ' ' || prevChar == '\n' || prevChar == '\t' ||
+				prevChar == '(' || prevChar == '[' || prevChar == '{' {
 				isOpening = true
 			} else if nextChar == 0 || nextChar == ' ' || nextChar == '\n' || nextChar == '\t' ||
-			          nextChar == '.' || nextChar == ',' || nextChar == ';' || nextChar == ':' ||
-			          nextChar == '!' || nextChar == '?' || nextChar == ')' || nextChar == ']' || nextChar == '}' {
+				nextChar == '.' || nextChar == ',' || nextChar == ';' || nextChar == ':' ||
+				nextChar == '!' || nextChar == '?' || nextChar == ')' || nextChar == ']' || nextChar == '}' {
 				isOpening = false
 			} else {
 				// Use the toggle state as fallback
 				isOpening = openQuote
 			}
-			
+
 			if isOpening {
 				result.WriteString("``")
 				openQuote = false
@@ -489,7 +555,7 @@ func convertASCIIQuotes(s string) string {
 			result.WriteRune(r)
 		}
 	}
-	
+
 	return result.String()
 }
 
@@ -499,6 +565,7 @@ func RenderMarkdownToLatex(source []byte, sectionOffset int) (string, error) {
 		goldmark.WithExtensions(
 			extension.NewTable(),
 			extension.NewFootnote(),
+			extension.DefinitionList,
 		),
 	)
 	doc := md.Parser().Parse(text.NewReader(source))
@@ -606,6 +673,12 @@ func (r *LatexRenderer) renderNode(w util.BufWriter, source []byte, node ast.Nod
 		return r.renderTableRow(w, source, n, entering)
 	case *extast.TableCell:
 		return r.renderTableCell(w, source, n, entering)
+	case *extast.DefinitionList:
+		return r.renderDefinitionList(w, source, n, entering)
+	case *extast.DefinitionTerm:
+		return r.renderDefinitionTerm(w, source, n, entering)
+	case *extast.DefinitionDescription:
+		return r.renderDefinitionDescription(w, source, n, entering)
 	case *extast.FootnoteLink:
 		return r.renderFootnoteLink(w, source, n, entering)
 	case *extast.Footnote:
