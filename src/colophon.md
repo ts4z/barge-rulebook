@@ -26,5 +26,6 @@ version.  So now, we have a small Go program that extracts the file list from
 the mdbook configuration, uses CommonMark (a Markdown library) to produce
 LaTeX, then doctors that up with some minor hacks and renders it to PDF.
 
-All of the tools are common free software except the build glue, which is
-included in the `git` repository.
+All of the tools used are common free software.
+
+Everything else is included in the `git` repository.
