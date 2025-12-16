@@ -1,4 +1,4 @@
-# Texas Hold'em
+## Texas Hold'em
 
 Just like they play on the teevee.
 
@@ -30,7 +30,7 @@ betting at the big bet limit. This is followed by a showdown.
 The best high five-card hand wins the pot. Hands are made using zero, one, or
 two cards cards from each player’s hand and up to three cards from the board.
 
-### Notes 
+### Notes
 
 [No-limit](./no-limit.md) Hold’em is currently the most popular game, both for
 tournaments and cash games. [Limit](./limit.md) Hold’em used to be the most
