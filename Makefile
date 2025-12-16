@@ -5,7 +5,7 @@
 ALL=rulebook.pdf
 all: $(ALL)
 
-book: src/*.md
+book: src/*.md src/*.latex
 	mdbook build
 
 # Note: This generates the book twice because longtable seems to indicate
