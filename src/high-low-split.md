@@ -1,7 +1,5 @@
 # High/Low Split variations
 
-## High/Low Split variations
-
 First, there was high-only poker.  Soon after, there was lowball, invented by
 any number of players who had one of those nights where they just couldn't
 catch an ace.  Not long after that, someone must have decided to try both at
