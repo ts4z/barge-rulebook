@@ -16,6 +16,21 @@ import (
 	"github.com/yuin/goldmark/util"
 )
 
+var (
+	latexReplacer = strings.NewReplacer(
+		"\\", "\\textbackslash{}",
+		"#", "\\#",
+		"$", "\\$",
+		"%", "\\%",
+		"&", "\\&",
+		"_", "\\_",
+		"{", "\\{",
+		"}", "\\}",
+		"~", "\\textasciitilde{}",
+		"^", "\\textasciicircum{}",
+	)
+)
+
 // LatexRenderer renders Goldmark AST to LaTeX
 type LatexRenderer struct {
 	sectionOffset       int            // offset for section levels (0=chapter, 1=section, etc)
@@ -424,7 +439,8 @@ func (r *LatexRenderer) renderLink(w util.BufWriter, source []byte, node ast.Nod
 		// For now, just render the link text
 		// TODO: proper hyperref support
 		w.WriteString("\\href{")
-		w.Write(n.Destination)
+		// Escape URL special characters, especially %
+		w.WriteString(escapeLatexCharacters(string(n.Destination)))
 		w.WriteString("}{")
 	} else {
 		w.WriteString("}")
@@ -468,6 +484,10 @@ func (r *LatexRenderer) renderRawHTML(w util.BufWriter, source []byte, node ast.
 	return ast.WalkSkipChildren, nil
 }
 
+func escapeLatexCharacters(s string) string {
+	return latexReplacer.Replace(s)
+}
+
 // escapeLatexText escapes special LaTeX characters in text
 func escapeLatexText(s string) string {
 	// First, decode HTML entities
@@ -487,19 +507,7 @@ func escapeLatexText(s string) string {
 	s = convertASCIIQuotes(s)
 
 	// Now escape special LaTeX characters (but preserve our LaTeX quote markers)
-	replacer := strings.NewReplacer(
-		"\\", "\\textbackslash{}",
-		"#", "\\#",
-		"$", "\\$",
-		"%", "\\%",
-		"&", "\\&",
-		"_", "\\_",
-		"{", "\\{",
-		"}", "\\}",
-		"~", "\\textasciitilde{}",
-		"^", "\\textasciicircum{}",
-	)
-	return replacer.Replace(s)
+	return latexReplacer.Replace(s)
 }
 
 // convertASCIIQuotes converts ASCII straight quotes (") to proper LaTeX quotes
