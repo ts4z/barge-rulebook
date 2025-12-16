@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"html"
 	"strings"
 
 	"github.com/yuin/goldmark"
@@ -403,6 +404,23 @@ func (r *LatexRenderer) renderRawHTML(w util.BufWriter, source []byte, node ast.
 
 // escapeLatexText escapes special LaTeX characters in text
 func escapeLatexText(s string) string {
+	// First, decode HTML entities
+	s = html.UnescapeString(s)
+	
+	// Convert smart quotes and common typographic characters to LaTeX equivalents
+	// Do this BEFORE escaping special LaTeX characters
+	s = strings.ReplaceAll(s, "\u201C", "``")  // left double quotation mark
+	s = strings.ReplaceAll(s, "\u201D", "''")  // right double quotation mark
+	s = strings.ReplaceAll(s, "\u2018", "`")   // left single quotation mark
+	s = strings.ReplaceAll(s, "\u2019", "'")   // right single quotation mark
+	s = strings.ReplaceAll(s, "\u2013", "--")  // en dash
+	s = strings.ReplaceAll(s, "\u2014", "---") // em dash
+	
+	// Convert ASCII straight quotes to LaTeX quotes
+	// This is a simple state-based approach: alternate between opening and closing quotes
+	s = convertASCIIQuotes(s)
+	
+	// Now escape special LaTeX characters (but preserve our LaTeX quote markers)
 	replacer := strings.NewReplacer(
 		"\\", "\\textbackslash{}",
 		"#", "\\#",
@@ -416,6 +434,63 @@ func escapeLatexText(s string) string {
 		"^", "\\textasciicircum{}",
 	)
 	return replacer.Replace(s)
+}
+
+// convertASCIIQuotes converts ASCII straight quotes (") to proper LaTeX quotes
+// Opening quotes become `` and closing quotes become ''
+func convertASCIIQuotes(s string) string {
+	if !strings.Contains(s, "\"") {
+		return s
+	}
+	
+	var result strings.Builder
+	result.Grow(len(s))
+	
+	openQuote := true
+	
+	for i, r := range s {
+		if r == '"' {
+			// Determine if this should be an opening or closing quote
+			// based on context
+			prevChar := rune(0)
+			nextChar := rune(0)
+			
+			if i > 0 {
+				prevChar = rune(s[i-1])
+			}
+			if i < len(s)-1 {
+				nextChar = rune(s[i+1])
+			}
+			
+			// Heuristic: opening quote typically follows whitespace, punctuation, or start of string
+			// Closing quote typically precedes whitespace, punctuation, or end of string
+			isOpening := false
+			
+			if prevChar == 0 || prevChar == ' ' || prevChar == '\n' || prevChar == '\t' || 
+			   prevChar == '(' || prevChar == '[' || prevChar == '{' {
+				isOpening = true
+			} else if nextChar == 0 || nextChar == ' ' || nextChar == '\n' || nextChar == '\t' ||
+			          nextChar == '.' || nextChar == ',' || nextChar == ';' || nextChar == ':' ||
+			          nextChar == '!' || nextChar == '?' || nextChar == ')' || nextChar == ']' || nextChar == '}' {
+				isOpening = false
+			} else {
+				// Use the toggle state as fallback
+				isOpening = openQuote
+			}
+			
+			if isOpening {
+				result.WriteString("``")
+				openQuote = false
+			} else {
+				result.WriteString("''")
+				openQuote = true
+			}
+		} else {
+			result.WriteRune(r)
+		}
+	}
+	
+	return result.String()
 }
 
 // RenderMarkdownToLatex renders markdown content to LaTeX

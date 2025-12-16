@@ -21,9 +21,9 @@ underlying `git` utility) provide our version control.
 We also have a PDF version produced by converting the mdbook/Markdown files
 into LaTeX.  When we did the 2024 rulebook, we discovered mdbook's PDF support
 just wasn't as good as our previous [LaTeX](https://www.latex-project.org/)
-version.  So now, we have a small perl script that extracts the file list from
+version.  So now, we have a small Go program that extracts the file list from
 the mdbook configuration, uses CommonMark (a Markdown library) to produce
 LaTeX, then doctors that up with some minor hacks and renders it to PDF.
 
-All of the tools are common free software except the perl script and
-build glue, which is included in the `git` repository.
+All of the tools are common free software except the build glue, which is
+included in the `git` repository.

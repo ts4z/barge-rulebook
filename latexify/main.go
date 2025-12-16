@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"regexp"
 
 	"github.com/spf13/pflag"
 )
@@ -36,6 +37,14 @@ type SummaryNode struct {
 // SummaryStructure represents the parsed SUMMARY.md
 type SummaryStructure struct {
 	Sections [][]*SummaryNode // sections separated by HRs
+}
+
+// Regular expression to match sub-appendix titles like "Appendix A.1:", "Appendix D.2:"
+var subAppendixPattern = regexp.MustCompile(`^Appendix [A-Z]+\.[0-9]+:`)
+
+// isSubAppendix checks if a title represents a sub-appendix (e.g., "Appendix A.1:")
+func isSubAppendix(title string) bool {
+	return subAppendixPattern.MatchString(title)
 }
 
 func main() {
@@ -147,14 +156,25 @@ func renderNode(writer *SectionWriter, sourceDir string, node *SummaryNode, isAp
 			writer.WriteText("\\appendix\n")
 			*appendixEmitted = true
 		}
-		writer.WriteChapter(node.Title)
+		// Check if this is a sub-appendix (e.g., "Appendix A.1:")
+		if isAppendix && isSubAppendix(node.Title) {
+			// Skip section heading for sub-appendices - don't emit anything
+		} else {
+			writer.WriteChapter(node.Title)
+		}
 	} else {
 		writer.WriteSectionByLevel(node.Level, node.Title)
 	}
 
 	// Render the file content
 	if node.FilePath != "" {
-		if err := renderFile(writer, sourceDir, node.FilePath, node.Level); err != nil {
+		// For sub-appendices, use sectionOffset 2 so h1 becomes subsection
+		// For regular level 0 nodes, use level+1 (which is 1) so h1 becomes section
+		sectionOffset := node.Level + 1
+		if isAppendix && node.Level == 0 && isSubAppendix(node.Title) {
+			sectionOffset = 2 // h1 in sub-appendix files becomes subsection
+		}
+		if err := renderFile(writer, sourceDir, node.FilePath, sectionOffset); err != nil {
 			return fmt.Errorf("rendering %s: %w", node.FilePath, err)
 		}
 	}
@@ -170,7 +190,7 @@ func renderNode(writer *SectionWriter, sourceDir string, node *SummaryNode, isAp
 }
 
 // renderFile renders either a .latex file or a .md file converted to LaTeX
-func renderFile(writer *SectionWriter, sourceDir string, basePath string, level int) error {
+func renderFile(writer *SectionWriter, sourceDir string, basePath string, sectionOffset int) error {
 	// Try .latex file first
 	latexPath := filepath.Join(sourceDir, basePath+".latex")
 	if content, err := os.ReadFile(latexPath); err == nil {
@@ -188,8 +208,7 @@ func renderFile(writer *SectionWriter, sourceDir string, basePath string, level 
 	}
 
 	// Convert markdown to LaTeX
-	// Use level+1 as section offset since the chapter heading is already written
-	latex, err := RenderMarkdownToLatex(content, level+1)
+	latex, err := RenderMarkdownToLatex(content, sectionOffset)
 	if err != nil {
 		return fmt.Errorf("converting markdown to latex: %w", err)
 	}
