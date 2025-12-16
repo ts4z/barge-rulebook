@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"html"
+	"os"
 	"strings"
 
 	"github.com/yuin/goldmark"
@@ -353,8 +354,7 @@ func (r *LatexRenderer) renderFootnoteLink(w util.BufWriter, source []byte, node
 		if content, ok := r.footnotes[n.Index]; ok {
 			w.WriteString("\\footnote{" + content + "}")
 		} else {
-			// Fallback if content not found
-			w.WriteString(fmt.Sprintf("\\footnote{[footnote %d]}", n.Index))
+			fmt.Fprintf(w, "\\footnote{[footnote %d]}", n.Index)
 		}
 	}
 	return ast.WalkSkipChildren, nil
@@ -636,7 +636,7 @@ func (w *bufWriter) Flush() error {
 }
 
 func (w *bufWriter) Available() int {
-	return 1024 // arbitrary
+	return w.buf.Available()
 }
 
 func (w *bufWriter) Buffered() int {
@@ -701,6 +701,12 @@ func (r *LatexRenderer) renderNode(w util.BufWriter, source []byte, node ast.Nod
 		return r.renderCodeSpan(w, source, n, entering)
 	case *ast.RawHTML:
 		return r.renderRawHTML(w, source, n, entering)
+	case *ast.TextBlock:
+		return ast.WalkContinue, nil
+	default:
+		fmt.Fprintf(os.Stderr, "unhandled type %T in renderNode", n)
+		os.Exit(1)
+		// can't happen
+		return ast.WalkStop, nil
 	}
-	return ast.WalkContinue, nil
 }

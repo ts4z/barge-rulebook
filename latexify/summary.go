@@ -4,15 +4,12 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"regexp"
 	"strings"
 
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/ast"
 	"github.com/yuin/goldmark/text"
 )
-
-var linkRegex = regexp.MustCompile(`\[(.*?)\]\((.*?)\)`)
 
 // ParseSummary reads and parses SUMMARY.md into a structured representation
 func ParseSummary(summaryPath string) (*SummaryStructure, error) {
