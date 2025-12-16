@@ -1,5 +1,11 @@
 # Introduction
 
+This rulebook codifies various poker games that may feature, or have been
+featured, at BARGE.  It is a supplement for the host casino's rulebook and the
+TDA rules, not a replacement for them.  We intend to capture the things that
+are unique to BARGE, but we also try to be a general (if sometimes informal)
+reference for poker games in general.
+
 This book is split into three main sections: Procedures, Poker Games, and Variations.
 
 [General Rules](general.md) apply to many games.  In most cases,

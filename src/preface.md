@@ -1,15 +1,9 @@
 Preface
 =======
 
-This rulebook codifies various poker games that may feature, or have been
-featured, at BARGE.  It is a supplement for the host casino's rulebook and the
-TDA rules, not a replacement for them.  We intend to capture the things that
-are unique to BARGE, but we also try to be a general (if sometimes informal)
-reference for poker games in general.
-
-We hope that this is a useful reference for other folks.  In particular,
-Tim started updating this rulebook because he can never remember the rules to
-[Archie](archie.md) and wanted to make it easier to look them up.
+We hope that this is a useful reference for BARGE folks and for anyone else.
+In particular, Tim started updating this rulebook because he can never remember
+the rules to [Archie](archie.md) and wanted to make it easier to look them up.
 
 ### Previous versions
 
