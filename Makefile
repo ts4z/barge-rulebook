@@ -32,7 +32,7 @@ checkout-gh-pages:
 		rm -rf tmp; \
 		mkdir tmp; \
 		(cd tmp; \
-		 git clone git@github.com:ts4z/ts4z.github.io gh-pages);\
+		 git clone --depth 1 git@github.com:ts4z/ts4z.github.io gh-pages);\
 	fi
 
 sync-gh-pages: checkout-gh-pages
@@ -51,7 +51,7 @@ tmp/barge.org:
 	if ! [ -d tmp/barge.org ]; then \
 		rm -rf tmp; \
 		mkdir tmp; \
-		cd tmp && git clone git@github.com:ts4z/barge.org barge.org; \
+		cd tmp && git clone --depth 1 git@github.com:ts4z/barge.org barge.org; \
 	fi
 	cd tmp/barge.org && git reset --hard origin/main
 	touch tmp/barge.org
