@@ -7,6 +7,8 @@ import (
 
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/ast"
+	"github.com/yuin/goldmark/extension"
+	extast "github.com/yuin/goldmark/extension/ast"
 	"github.com/yuin/goldmark/renderer"
 	"github.com/yuin/goldmark/text"
 	"github.com/yuin/goldmark/util"
@@ -14,17 +16,21 @@ import (
 
 // LatexRenderer renders Goldmark AST to LaTeX
 type LatexRenderer struct {
-	sectionOffset int  // offset for section levels (0=chapter, 1=section, etc)
-	seenFirstH1   bool // track if we've seen the first h1 to skip it
-	inSkippedH1   bool // track if we're currently in the skipped h1
+	sectionOffset   int            // offset for section levels (0=chapter, 1=section, etc)
+	seenFirstH1     bool           // track if we've seen the first h1 to skip it
+	inSkippedH1     bool           // track if we're currently in the skipped h1
+	footnotes       map[int]string // map of footnote index to content
+	currentFootnote *bytes.Buffer  // buffer for current footnote being collected
 }
 
 // NewLatexRenderer creates a new LaTeX renderer
 func NewLatexRenderer(sectionOffset int) *LatexRenderer {
 	return &LatexRenderer{
-		sectionOffset: sectionOffset,
-		seenFirstH1:   false,
-		inSkippedH1:   false,
+		sectionOffset:   sectionOffset,
+		seenFirstH1:     false,
+		inSkippedH1:     false,
+		footnotes:       make(map[int]string),
+		currentFootnote: nil,
 	}
 }
 
@@ -41,6 +47,18 @@ func (r *LatexRenderer) RegisterFuncs(reg renderer.NodeRendererFuncRegisterer) {
 	reg.Register(ast.KindList, r.renderList)
 	reg.Register(ast.KindListItem, r.renderListItem)
 	reg.Register(ast.KindThematicBreak, r.renderThematicBreak)
+
+	// Table elements
+	reg.Register(extast.KindTable, r.renderTable)
+	reg.Register(extast.KindTableHeader, r.renderTableHeader)
+	reg.Register(extast.KindTableRow, r.renderTableRow)
+	reg.Register(extast.KindTableCell, r.renderTableCell)
+
+	// Footnote elements
+	reg.Register(extast.KindFootnoteLink, r.renderFootnoteLink)
+	reg.Register(extast.KindFootnote, r.renderFootnote)
+	reg.Register(extast.KindFootnoteList, r.renderFootnoteList)
+	reg.Register(extast.KindFootnoteBacklink, r.renderFootnoteBacklink)
 
 	// Inline elements
 	reg.Register(ast.KindText, r.renderText)
@@ -194,6 +212,103 @@ func (r *LatexRenderer) renderThematicBreak(w util.BufWriter, source []byte, nod
 	return ast.WalkContinue, nil
 }
 
+func (r *LatexRenderer) renderTable(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	n := node.(*extast.Table)
+	if entering {
+		// Build column specification from alignments
+		colSpec := ""
+		for _, align := range n.Alignments {
+			switch align {
+			case extast.AlignLeft:
+				colSpec += "l"
+			case extast.AlignRight:
+				colSpec += "r"
+			case extast.AlignCenter:
+				colSpec += "c"
+			default:
+				colSpec += "l" // default to left
+			}
+		}
+		// Add spacing before table and center it
+		w.WriteString("\n\\vspace{\\baselineskip}\n")
+		w.WriteString("\\begin{center}\n")
+		w.WriteString("\\begin{tabular}{" + colSpec + "}\n")
+		w.WriteString("\\hline\n")
+	} else {
+		w.WriteString("\\hline\n")
+		w.WriteString("\\end{tabular}\n")
+		w.WriteString("\\end{center}\n")
+		w.WriteString("\\vspace{\\baselineskip}\n\n")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderTableHeader(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	// TableHeader is just a container, don't output anything special
+	// But add row ending and \hline after the header
+	if !entering {
+		w.WriteString(" \\\\\n")
+		w.WriteString("\\hline\n")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderTableRow(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if !entering {
+		w.WriteString(" \\\\\n")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderTableCell(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		// Add & separator between cells (except for first cell)
+		if node.PreviousSibling() != nil {
+			w.WriteString(" & ")
+		}
+		// Make header cells bold
+		if node.Parent() != nil && node.Parent().Kind() == extast.KindTableHeader {
+			w.WriteString("\\textbf{")
+		}
+	} else {
+		// Close bold for header cells
+		if node.Parent() != nil && node.Parent().Kind() == extast.KindTableHeader {
+			w.WriteString("}")
+		}
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderFootnoteLink(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		n := node.(*extast.FootnoteLink)
+		// Output inline footnote with collected content
+		if content, ok := r.footnotes[n.Index]; ok {
+			w.WriteString("\\footnote{" + content + "}")
+		} else {
+			// Fallback if content not found
+			w.WriteString(fmt.Sprintf("\\footnote{[footnote %d]}", n.Index))
+		}
+	}
+	return ast.WalkSkipChildren, nil
+}
+
+func (r *LatexRenderer) renderFootnote(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	// Footnotes are collected in the first pass and rendered inline
+	// Skip them in the main rendering pass
+	return ast.WalkSkipChildren, nil
+}
+
+func (r *LatexRenderer) renderFootnoteList(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	// FootnoteList container is not rendered - footnotes are inline
+	return ast.WalkSkipChildren, nil
+}
+
+func (r *LatexRenderer) renderFootnoteBacklink(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	// Backlinks are for HTML - skip them
+	return ast.WalkSkipChildren, nil
+}
+
 func (r *LatexRenderer) renderText(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		n := node.(*ast.Text)
@@ -305,11 +420,40 @@ func escapeLatexText(s string) string {
 
 // RenderMarkdownToLatex renders markdown content to LaTeX
 func RenderMarkdownToLatex(source []byte, sectionOffset int) (string, error) {
-	md := goldmark.New()
+	md := goldmark.New(
+		goldmark.WithExtensions(
+			extension.NewTable(),
+			extension.NewFootnote(),
+		),
+	)
 	doc := md.Parser().Parse(text.NewReader(source))
 
 	latexRenderer := NewLatexRenderer(sectionOffset)
 
+	// First pass: collect footnote content
+	ast.Walk(doc, func(n ast.Node, entering bool) (ast.WalkStatus, error) {
+		if fn, ok := n.(*extast.Footnote); ok && entering {
+			// Collect footnote content
+			var contentBuf bytes.Buffer
+			contentWriter := &bufWriter{buf: &contentBuf}
+
+			// Walk children to get content
+			for child := fn.FirstChild(); child != nil; child = child.NextSibling() {
+				ast.Walk(child, func(cn ast.Node, cEntering bool) (ast.WalkStatus, error) {
+					// Render child nodes but skip footnote backlink
+					if _, isBacklink := cn.(*extast.FootnoteBacklink); isBacklink {
+						return ast.WalkSkipChildren, nil
+					}
+					return latexRenderer.renderNode(contentWriter, source, cn, cEntering)
+				})
+			}
+
+			latexRenderer.footnotes[fn.Index] = strings.TrimSpace(contentBuf.String())
+		}
+		return ast.WalkContinue, nil
+	})
+
+	// Second pass: render document
 	var buf bytes.Buffer
 	writer := &bufWriter{buf: &buf}
 
@@ -379,6 +523,22 @@ func (r *LatexRenderer) renderNode(w util.BufWriter, source []byte, node ast.Nod
 		return r.renderListItem(w, source, n, entering)
 	case *ast.ThematicBreak:
 		return r.renderThematicBreak(w, source, n, entering)
+	case *extast.Table:
+		return r.renderTable(w, source, n, entering)
+	case *extast.TableHeader:
+		return r.renderTableHeader(w, source, n, entering)
+	case *extast.TableRow:
+		return r.renderTableRow(w, source, n, entering)
+	case *extast.TableCell:
+		return r.renderTableCell(w, source, n, entering)
+	case *extast.FootnoteLink:
+		return r.renderFootnoteLink(w, source, n, entering)
+	case *extast.Footnote:
+		return r.renderFootnote(w, source, n, entering)
+	case *extast.FootnoteList:
+		return r.renderFootnoteList(w, source, n, entering)
+	case *extast.FootnoteBacklink:
+		return r.renderFootnoteBacklink(w, source, n, entering)
 	case *ast.Text:
 		return r.renderText(w, source, n, entering)
 	case *ast.String:
