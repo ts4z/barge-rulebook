@@ -1,12 +1,12 @@
 # London Lowball
 
-### Forced Money
+## Forced Money
 
 The game is played with antes. The high card on the board by rank first and then
 by suit brings it in. The K♠ is the highest possible card followed by the K♥, K♦,
 K♣, and so on.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Starting with the player in seat one, each player is dealt two cards face down then
 one card up, followed by a round of betting. For all rounds, the minimum bet will
@@ -27,7 +27,7 @@ betting. This is followed by a showdown.
 It is required of each player that they do not alter or obfuscate the order in which
 they have received their up cards.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best five-card Ace-to-Six low hand wins the pot. Straights and flushes count
 against the player, unlike California Lowball (Ace-to-Five) but like Kansas City
@@ -35,7 +35,7 @@ Lowball (Deuce-to-Seven). Unlike Deuce-to-Seven, the Ace is the low card, not
 the high card. Thus the nuts is a non-flush 6432A hand. See the 
 [Appendix on Lowball Scales](./lowball-scales.md).
 
-### Notes
+## Notes
 
 The rules for London Lowball were written assuming the game is played
 pot-limit, which is traditional for this game as described in [*Pot-Limit &

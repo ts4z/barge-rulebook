@@ -5,11 +5,11 @@ played in Reno, so here we are.
 
 This game is allegedly a variant of [Big O](big-o.md).
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Each player is dealt five cards face down, followed by a round of betting at the
 small bet limit.
@@ -25,7 +25,7 @@ betting at the big bet limit.
 
 This is followed by a showdown.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best Omaha hand, and the *lowest straight* split the pot, using either board.
 

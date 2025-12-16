@@ -1,11 +1,10 @@
 # Paradise Road Pick'em
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds.
 
-
-### Dealing Procedure
+## Dealing Procedure
 
 Each player is dealt three cards. The player under the gun determines whether
 the hand will be played as [Hold’em](./texas-holdem.md), [Omaha High/Low
@@ -37,6 +36,6 @@ streets and the big bet of 200 is used on 5th, 6th, and 7th streets.
 Please refer to rules of the individual game for further details on dealing procedure
 and evaluating the showdown.
 
-### Notes
+## Notes
 
 Paradise Road Pick'em was a tournament event at BARGE 2021.

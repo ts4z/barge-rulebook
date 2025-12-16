@@ -3,11 +3,12 @@
 Badugi is a relative of [Triple Draw](./deuce-to-seven-triple-draw.md), and the
 parent game of high-low variants [Badeucy](./badeucy.md) and [Badacey](./badacey.md).
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
+
 Each player is dealt four cards face down, followed by a round of betting at the
 small bet limit.
 
@@ -20,7 +21,7 @@ Then there is a second draw, followed by a round of betting at the big bet limit
 This is followed by a third draw, followed by a round of betting a the big bet limit.
 This is followed by a showdown.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best four-card hand using badugi rules wins the pot. A badugi hand consists
 of the maximum number of cards that can be played such that there is no

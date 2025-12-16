@@ -21,7 +21,7 @@ At the showdown, the board will have between three and five cards:
 
 Face down cards can't be used at showdown.
 
-### Notes
+## Notes
 
 A crayfish swims backwards, which is how this variant got its name.
 

@@ -1,10 +1,10 @@
 # Dramadugi
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Each player is dealt five cards face down, followed by a round of betting.
 
@@ -22,13 +22,13 @@ When played as [limit](limit.md), the first two betting rounds are at the
 smaller limit, and the later two betting rounds are at the larger limit, as in
 Omaha.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best Omaha high hand (using exactly two cards from the player’s hand and
 exactly three cards from the board) and the best four-card Badugi hand (using
 only the player's hole cards) split the pot.
 
-### Notes
+## Notes
 
 At BARGE 2024, this game appeared in a tournament, played [pot-limit](pot-limit.md).
 

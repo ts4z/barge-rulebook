@@ -3,11 +3,11 @@
 Wonky Donkey is either Hold'em or Omaha/8, but which one it is isn't known
 until after the flop. 
 
-### Forced Money
+## Forced Money
 
 This game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Each player gets dealt two face-down hole cards and then there's a betting
 round at the small bet limit. After that, a three card flop is dealt.
@@ -26,7 +26,7 @@ betting at the big bet limit.
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 If two or three of the flop cards are red, the showdown is evaluated as in
 [Hold'em](texas-holdem.md).

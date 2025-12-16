@@ -1,16 +1,16 @@
 # Appendix A: Lowball Scales
 
-"What beats what" is consistently defined (specifically, in [another
-appendix](./what-beats-what.md)), but "low" has a few different
+"What beats what" is consistently defined (specifically, in 
+[Appendix C](./what-beats-what.md)), but "low" has a few different
 interpretations. 
 
 Deuce-to-seven low is the clearest inversion of poker hand order, but in
-California, lowball was almost always played with a variant called ace-to-five.
+California, Lowball was almost always played with a variant called "ace-to-five".
 Rarely, a third order known as "ace-to-six" was used as well (as seen in the
 climax of the Robert Altman film [California
 Split](https://www.imdb.com/title/tt0071269/)).
 
-In recent years, another variant called Badugi has become popular, which seems
+In recent years, another variant called Badugi has become popular, which is
 still less related to classic poker hand order.
 
 ### Badugi

@@ -1,10 +1,10 @@
 # Bidirectional Chowaha High/Low
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Each player is dealt four cards face down, followed by a round of betting at the
 small bet limit.
@@ -54,7 +54,7 @@ On a roll of 4, 5, or 6, the board will look like the following:
   Z
 ```
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best high hand and best California low hand of at least eight low or better
 splits the pot. Each hand consists of two cards from the player’s hole cards plus

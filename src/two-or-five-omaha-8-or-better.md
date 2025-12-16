@@ -1,9 +1,10 @@
 # Two-or-Five Omaha Eight-or-Better
 
-### Forced Money
+## Forced Money
+
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Each player is dealt five cards face down, followed by a round of betting at the
 small bet limit.
@@ -17,7 +18,7 @@ betting at the big bet limit.
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best high hand and best California low hand of at least eight low or better
 splits the pot. Hands are made using either exactly two cards from each player’s

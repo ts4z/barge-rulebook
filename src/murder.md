@@ -1,10 +1,10 @@
 # Murder
 
-### Forced Money
+## Forced Money
 
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 
 Each player is dealt four cards face down, followed by a round of betting at the
 small bet limit. Two columns of three cards each (X) are placed in the center of
@@ -26,7 +26,7 @@ X X Y Z
 All the X cards are placed on the board on the flop, the Y cards on the turn, and
 the Z cards on the river.
 
-### Evaluating the Showdown
+## Evaluating the Showdown
 
 The best high hand and the best California low hand with an 8-or-better qualifier
 split the pot. As in Omaha, hands are made using exactly two cards from each
@@ -35,7 +35,7 @@ hand. When forming a hand (high or low), each player may use only one card
 from each row on the board! Separate hand and board cards may be used by each
 player to create their high and low hands.
 
-### Notes
+## Notes
 
 Warning! Given the number of cards in a player’s hand, the number of possible
 combinations of cards that may be used from the board, the fact that the game is
