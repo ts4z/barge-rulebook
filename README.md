@@ -62,16 +62,20 @@ will do it.
 
 If you are on a Debian Linux system, you will need these packages:
 
-- libcommonmark-perl
 - make
-- perl
 - texlive-fonts-extra
 - texlive-xetex
+- go (version 1.25.2 or better)
+
+Note that Go is not generally up-to-date as a package, and you may have to
+download it separately.
 
 I believe this list is complete.  It is possible to wrap these up into a Docker
 container (see the Dockerfile in this directory); however the container is
 prohibitively large for the free GitHub runners, so I build the LaTeX rulebook
-manually.
+manually from my Linux box where all these things are conveniently[^1] installed.
+
+[^1]: ...for me, that is.
 
 Style
 -----
@@ -80,10 +84,11 @@ Please match the style of the document as a whole.  Generally, games have the
 same format from game to game, but for some games this is quite redundant,
 so they just refer to the original game.
 
-Footnotes and tables are not permitted in Markdown source as they can't be
-reliably rendered by CommonMark in the LaTeX version.  Tables are permissible
-only if two versions of the source file is provided, one in GFM and one in
-LaTeX; the file should contain nothing other than the table.
+Inline tables may not look great when printed.  Feel free to work on that.
+
+The md/latex double-file feature is discouraged.  It works OK for the cases where
+we currently have it in the appendicies, but any additional uses will likely
+require work to the `latexify` program for more special-case handling.
 
 Some of the strucutre of the content can be improved.  Don't be afraid to make
 it better.
@@ -93,28 +98,25 @@ that exist to hold alternate versions of tables are excepted.)  Note that
 titles are used only by mdbook, but both mdbook and pdf versions use SUMMARY.md
 to determine the chapter order.
 
-Do not have two versions of a file (X.md and X.latex) unless X.md has data that
-can't be translated to LaTeX.  This probably means a table.  Keeping the two in
-sync is unlikely.
-
 Do not depend on implementation details.  For instance, someday, there will
 only be one version of all input files.
 
 ### Markdown notes
 
-Markdown comes in several flavors.  Basic Markdown lacks support for tables,
-which particularly hurts.  Many technical users support a variant called 
-"GitHub Flavored Markdown", which we can partially use.
+Be conservative when using Markdown features, lest you be the one that has to
+debug them.
 
-Avoid footnotes (unless latexify.pl has been modified to be able to process
-them).
+Markdown comes in several flavors.  Basic Markdown lacks many features we want.
+
+We have a custom mdbook-to-LaTeX processor that passably handles our inputs.
+We have a degree of support for tables, footnotes, and definition lists.
 
 Technical Aspects
 -----------------
 
 The rulebook is in the same order in both the LaTeX and mdbook versions.  This
 order is declared in src/SUMMARY.md, whose format is required by `mdbook` and
-repurposed as an input for `latexify.pl` for the PDF version.  Logically, if
+repurposed as an input for `latexify` for the PDF version.  Logically, if
 you catenate the files in SUMMARY.md together, you get a nice Markdown
 document, albeit without a Table of Contents.
 
@@ -129,8 +131,7 @@ document, albeit without a Table of Contents.
   LaTeX when building the LaTeX book.
 - If src/X.md and src/X.latex both exist, X.md is ignored when building the
   LaTeX version.  This is intended to facilitate tables present in the
-  appendix.  (If we come up with a better way of rendering tables directly from
-  Markdown, we could stop this.)
+  appendix.  (This allows us to provide better tables for the LaTeX version.)
 - Unicode characters are permitted, but note LaTeX is limited in which ones it
   knows about.  Some of the common ones require work in `setup.latex`.
 
@@ -138,12 +139,10 @@ document, albeit without a Table of Contents.
 
 A multi-output format tends to work to the lowest common denominator, and
 that's the case here.  The LaTeX is limited by the fact that it's translated
-from Markdown (aside from some boilerplate), and we can't use advanced (GFM)
-Markdown features because CommonMark, our md->LaTeX translator, doesn't
-understand them.
+from Markdown (aside from some boilerplate), and we can't use some
+Markdown extensions unless both mdbook and latexify support them.
 
-This mostly affects the PDF version, but the mdbook version is missing some
-nice features, too (like color suits).
+We have made enough progress here that both versions look pretty decent.
 
 Future Work
 -----------
@@ -152,15 +151,11 @@ Make all of the people happy all of the time.
 
 I'd love to find a way to get rid of the duplicated tables.
 
-For the PDF version, `latexify.pl` works, but it's clearly a hack.  It would be
-nice to have more control over the structure of the output and remove all of
-the simple text substitutions.
+`latexify` is a one-off hack.  The code is also LLM-authored, so it's not
+the best.
 
 Some things, like the Chowaha board, could change from text to images.
 (Both mdbook and LaTeX can render images.)
-
-Replace CommonMark with GoldMark, which supports tables and footnotes (I
-think).  Probably means rewriting latexify.pl in Go.
 
 Improve a few images, like the logo on the title page, to increase size.
 
