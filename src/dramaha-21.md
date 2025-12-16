@@ -1,4 +1,4 @@
-# Dramaha 21
+## Dramaha 21
 
 ### Forced Money
 
@@ -31,18 +31,18 @@ point value hand.
 
 Points are assigned using cards from the player's hole cards as follows:
 
- * Ace = 1
- * 2 through 10 = numerical value of that card
- * and face cards (Jacks, Queens, Kings) = 0.
- 
+* Ace = 1
+* 2 through 10 = numerical value of that card
+* and face cards (Jacks, Queens, Kings) = 0.
+
 Players may have 21 points, but no more.  Cards that would "bust" the player are ignored.
 
 Ties are broken by having the most cards.  That is:
 
- * AKQTT = 5-card 21 (T+T+A=21, KQ zero)
- * AQT64 = 5-card 21 (T+6+4+A=21, Q zero)
- * KTT86 = 3-card 20 (T+T=20, K zero, 8 & 6 count toward neither the 21 nor the hand count)
- * 98765 = 3-card 21 (9+7+5=21, 8 & 6 don't count)
+* AKQTT = 5-card 21 (T+T+A=21, KQ zero)
+* AQT64 = 5-card 21 (T+6+4+A=21, Q zero)
+* KTT86 = 3-card 20 (T+T=20, K zero, 8 & 6 count toward neither the 21 nor the hand count)
+* 98765 = 3-card 21 (9+7+5=21, 8 & 6 don't count)
 
 ### Notes
 
