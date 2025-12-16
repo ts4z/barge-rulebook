@@ -162,7 +162,7 @@ func (r *LatexRenderer) renderFencedCodeBlock(w util.BufWriter, source []byte, n
 
 		if lang != "" {
 			// Use listings package for syntax highlighting
-			w.WriteString(fmt.Sprintf("\\begin{lstlisting}[language=%s]\n", lang))
+			fmt.Fprintf(w, "\\begin{lstlisting}[language=%s]\n", lang)
 		} else {
 			w.WriteString("\\begin{verbatim}\n")
 		}
