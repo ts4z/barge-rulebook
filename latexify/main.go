@@ -7,6 +7,9 @@ import (
 	"regexp"
 
 	"github.com/spf13/pflag"
+
+	"github.com/ts4z/barge-rulebook/latexify/latex"
+	"github.com/ts4z/barge-rulebook/latexify/mdbook"
 )
 
 // Config holds command-line options
@@ -14,29 +17,6 @@ type Config struct {
 	SourceDir   string
 	OutputFile  string
 	SummaryFile string
-}
-
-// DocumentSection represents a major section of the document
-type DocumentSection int
-
-const (
-	SectionTitle DocumentSection = iota
-	SectionFrontmatter
-	SectionMainmatter
-	SectionBackmatter
-)
-
-// SummaryNode represents an entry in SUMMARY.md
-type SummaryNode struct {
-	Title    string
-	FilePath string // relative path without .md extension
-	Level    int    // nesting level (0 = top level)
-	Children []*SummaryNode
-}
-
-// SummaryStructure represents the parsed SUMMARY.md
-type SummaryStructure struct {
-	Sections [][]*SummaryNode // sections separated by HRs
 }
 
 // Regular expression to match sub-appendix titles like "Appendix A.1:", "Appendix D.2:"
@@ -72,7 +52,7 @@ func run(config *Config) error {
 	fmt.Printf("Parsing %s...\n", config.SummaryFile)
 
 	// Parse SUMMARY.md
-	summary, err := ParseSummary(config.SummaryFile)
+	summary, err := mdbook.ParseSummary(config.SummaryFile)
 	if err != nil {
 		return fmt.Errorf("parsing summary: %w", err)
 	}
@@ -84,7 +64,7 @@ func run(config *Config) error {
 	}
 	defer out.Close()
 
-	writer := NewLatexWriter(out)
+	writer := latex.NewSectionAwareWriter(out)
 
 	// Write header comment
 	writer.WriteComment("")
@@ -149,7 +129,7 @@ func run(config *Config) error {
 }
 
 // renderNode renders a summary node and its children
-func renderNode(writer *SectionWriter, sourceDir string, node *SummaryNode, isAppendix bool, appendixEmitted *bool) error {
+func renderNode(writer *latex.SectionAwareWriter, sourceDir string, node *mdbook.SummaryNode, isAppendix bool, appendixEmitted *bool) error {
 	// Render section heading based on level
 	if node.Level == 0 {
 		if isAppendix && !*appendixEmitted {
@@ -190,7 +170,7 @@ func renderNode(writer *SectionWriter, sourceDir string, node *SummaryNode, isAp
 }
 
 // renderFile renders either a .latex file or a .md file converted to LaTeX
-func renderFile(writer *SectionWriter, sourceDir string, basePath string, sectionOffset int) error {
+func renderFile(writer *latex.SectionAwareWriter, sourceDir string, basePath string, sectionOffset int) error {
 	// Try .latex file first
 	latexPath := filepath.Join(sourceDir, basePath+".latex")
 	if content, err := os.ReadFile(latexPath); err == nil {
@@ -208,7 +188,7 @@ func renderFile(writer *SectionWriter, sourceDir string, basePath string, sectio
 	}
 
 	// Convert markdown to LaTeX
-	latex, err := RenderMarkdownToLatex(content, sectionOffset)
+	latex, err := latex.RenderMarkdownToLatex(content, sectionOffset)
 	if err != nil {
 		return fmt.Errorf("converting markdown to latex: %w", err)
 	}
@@ -220,7 +200,7 @@ func renderFile(writer *SectionWriter, sourceDir string, basePath string, sectio
 }
 
 // renderSpecialFile renders a special LaTeX file (setup, frontmatter, etc.)
-func renderSpecialFile(writer *SectionWriter, sourceDir string, name string) error {
+func renderSpecialFile(writer *latex.SectionAwareWriter, sourceDir string, name string) error {
 	path := filepath.Join(sourceDir, name+".latex")
 	content, err := os.ReadFile(path)
 	if err != nil {

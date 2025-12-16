@@ -1,4 +1,4 @@
-package main
+package latex
 
 import (
 	"bytes"
@@ -28,11 +28,12 @@ var (
 		"}", "\\}",
 		"~", "\\textasciitilde{}",
 		"^", "\\textasciicircum{}",
+		"LaTeX", "\\LaTeX{}", // Sorry if this messes up your output.
 	)
 )
 
-// LatexRenderer renders Goldmark AST to LaTeX
-type LatexRenderer struct {
+// Renderer renders Goldmark AST to LaTeX
+type Renderer struct {
 	sectionOffset       int            // offset for section levels (0=chapter, 1=section, etc)
 	seenFirstH1         bool           // track if we've seen the first h1 to skip it
 	inSkippedH1         bool           // track if we're currently in the skipped h1
@@ -41,9 +42,9 @@ type LatexRenderer struct {
 	currentDefinitionDD int            // count of DefinitionDescription nodes for current term
 }
 
-// NewLatexRenderer creates a new LaTeX renderer
-func NewLatexRenderer(sectionOffset int) *LatexRenderer {
-	return &LatexRenderer{
+// NewRenderer creates a new LaTeX renderer
+func NewRenderer(sectionOffset int) *Renderer {
+	return &Renderer{
 		sectionOffset:       sectionOffset,
 		seenFirstH1:         false,
 		inSkippedH1:         false,
@@ -54,7 +55,7 @@ func NewLatexRenderer(sectionOffset int) *LatexRenderer {
 }
 
 // RegisterFuncs implements renderer.NodeRenderer
-func (r *LatexRenderer) RegisterFuncs(reg renderer.NodeRendererFuncRegisterer) {
+func (r *Renderer) RegisterFuncs(reg renderer.NodeRendererFuncRegisterer) {
 	// Block elements
 	reg.Register(ast.KindDocument, r.renderDocument)
 	reg.Register(ast.KindHeading, r.renderHeading)
@@ -94,12 +95,12 @@ func (r *LatexRenderer) RegisterFuncs(reg renderer.NodeRendererFuncRegisterer) {
 	reg.Register(ast.KindRawHTML, r.renderRawHTML)
 }
 
-func (r *LatexRenderer) renderDocument(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderDocument(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	// Nothing to do for document node
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderHeading(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderHeading(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	n := node.(*ast.Heading)
 
 	// Skip the first h1 heading (it's redundant with SUMMARY.md title)
@@ -139,7 +140,7 @@ func (r *LatexRenderer) renderHeading(w util.BufWriter, source []byte, node ast.
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderParagraph(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderParagraph(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		// Start paragraph
 	} else {
@@ -149,7 +150,7 @@ func (r *LatexRenderer) renderParagraph(w util.BufWriter, source []byte, node as
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderBlockquote(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderBlockquote(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		w.WriteString("\\begin{quotation}\n")
 	} else {
@@ -158,7 +159,7 @@ func (r *LatexRenderer) renderBlockquote(w util.BufWriter, source []byte, node a
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderCodeBlock(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderCodeBlock(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		n := node.(*ast.CodeBlock)
 		w.WriteString("\\begin{verbatim}\n")
@@ -171,7 +172,7 @@ func (r *LatexRenderer) renderCodeBlock(w util.BufWriter, source []byte, node as
 	return ast.WalkSkipChildren, nil
 }
 
-func (r *LatexRenderer) renderFencedCodeBlock(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderFencedCodeBlock(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		n := node.(*ast.FencedCodeBlock)
 		lang := string(n.Language(source))
@@ -197,12 +198,12 @@ func (r *LatexRenderer) renderFencedCodeBlock(w util.BufWriter, source []byte, n
 	return ast.WalkSkipChildren, nil
 }
 
-func (r *LatexRenderer) renderHTMLBlock(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderHTMLBlock(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	// Skip HTML blocks
 	return ast.WalkSkipChildren, nil
 }
 
-func (r *LatexRenderer) renderList(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderList(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	n := node.(*ast.List)
 	if entering {
 		if n.IsOrdered() {
@@ -220,7 +221,7 @@ func (r *LatexRenderer) renderList(w util.BufWriter, source []byte, node ast.Nod
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderListItem(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderListItem(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		w.WriteString("\\item ")
 	} else {
@@ -229,14 +230,14 @@ func (r *LatexRenderer) renderListItem(w util.BufWriter, source []byte, node ast
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderThematicBreak(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderThematicBreak(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		w.WriteString("\\vspace{1em}\\hrule\\vspace{1em}\n\n")
 	}
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderDefinitionList(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderDefinitionList(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		w.WriteString("\\begin{description}\n")
 	} else {
@@ -245,7 +246,7 @@ func (r *LatexRenderer) renderDefinitionList(w util.BufWriter, source []byte, no
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderDefinitionTerm(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderDefinitionTerm(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		// Count how many DefinitionDescription siblings follow this term
 		r.currentDefinitionDD = 0
@@ -269,7 +270,7 @@ func (r *LatexRenderer) renderDefinitionTerm(w util.BufWriter, source []byte, no
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderDefinitionDescription(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderDefinitionDescription(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		// If we have multiple descriptions, wrap each in \item
 		if r.currentDefinitionDD > 1 {
@@ -295,7 +296,7 @@ func (r *LatexRenderer) renderDefinitionDescription(w util.BufWriter, source []b
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderTable(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderTable(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	n := node.(*extast.Table)
 	if entering {
 		// Build column specification from alignments
@@ -326,7 +327,7 @@ func (r *LatexRenderer) renderTable(w util.BufWriter, source []byte, node ast.No
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderTableHeader(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderTableHeader(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	// TableHeader is just a container, don't output anything special
 	// But add row ending and \hline after the header
 	if !entering {
@@ -336,14 +337,14 @@ func (r *LatexRenderer) renderTableHeader(w util.BufWriter, source []byte, node 
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderTableRow(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderTableRow(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if !entering {
 		w.WriteString(" \\\\\n")
 	}
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderTableCell(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderTableCell(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		// Add & separator between cells (except for first cell)
 		if node.PreviousSibling() != nil {
@@ -362,7 +363,7 @@ func (r *LatexRenderer) renderTableCell(w util.BufWriter, source []byte, node as
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderFootnoteLink(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderFootnoteLink(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		n := node.(*extast.FootnoteLink)
 		// Output inline footnote with collected content
@@ -375,23 +376,23 @@ func (r *LatexRenderer) renderFootnoteLink(w util.BufWriter, source []byte, node
 	return ast.WalkSkipChildren, nil
 }
 
-func (r *LatexRenderer) renderFootnote(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderFootnote(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	// Footnotes are collected in the first pass and rendered inline
 	// Skip them in the main rendering pass
 	return ast.WalkSkipChildren, nil
 }
 
-func (r *LatexRenderer) renderFootnoteList(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderFootnoteList(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	// FootnoteList container is not rendered - footnotes are inline
 	return ast.WalkSkipChildren, nil
 }
 
-func (r *LatexRenderer) renderFootnoteBacklink(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderFootnoteBacklink(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	// Backlinks are for HTML - skip them
 	return ast.WalkSkipChildren, nil
 }
 
-func (r *LatexRenderer) renderText(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderText(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		n := node.(*ast.Text)
 		segment := n.Segment
@@ -410,7 +411,7 @@ func (r *LatexRenderer) renderText(w util.BufWriter, source []byte, node ast.Nod
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderString(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderString(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		n := node.(*ast.String)
 		escaped := escapeLatexText(string(n.Value))
@@ -419,7 +420,7 @@ func (r *LatexRenderer) renderString(w util.BufWriter, source []byte, node ast.N
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderEmphasis(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderEmphasis(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	n := node.(*ast.Emphasis)
 	if entering {
 		if n.Level == 1 {
@@ -433,14 +434,14 @@ func (r *LatexRenderer) renderEmphasis(w util.BufWriter, source []byte, node ast
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderLink(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderLink(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	n := node.(*ast.Link)
 	if entering {
 		// For now, just render the link text
 		// TODO: proper hyperref support
 		w.WriteString("\\href{")
 		// Escape URL special characters, especially %
-		w.WriteString(escapeLatexCharacters(string(n.Destination)))
+		w.WriteString(EscapeSpecials(string(n.Destination)))
 		w.WriteString("}{")
 	} else {
 		w.WriteString("}")
@@ -448,7 +449,7 @@ func (r *LatexRenderer) renderLink(w util.BufWriter, source []byte, node ast.Nod
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderImage(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderImage(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		n := node.(*ast.Image)
 		w.WriteString("\\begin{figure}[h]\n\\centering\n\\includegraphics{")
@@ -469,7 +470,7 @@ func (r *LatexRenderer) renderImage(w util.BufWriter, source []byte, node ast.No
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderCodeSpan(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderCodeSpan(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if entering {
 		w.WriteString("\\texttt{")
 		// CodeSpan contains text nodes as children, walk them
@@ -479,12 +480,12 @@ func (r *LatexRenderer) renderCodeSpan(w util.BufWriter, source []byte, node ast
 	return ast.WalkContinue, nil
 }
 
-func (r *LatexRenderer) renderRawHTML(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderRawHTML(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	// Skip raw HTML
 	return ast.WalkSkipChildren, nil
 }
 
-func escapeLatexCharacters(s string) string {
+func EscapeSpecials(s string) string {
 	return latexReplacer.Replace(s)
 }
 
@@ -578,7 +579,7 @@ func RenderMarkdownToLatex(source []byte, sectionOffset int) (string, error) {
 	)
 	doc := md.Parser().Parse(text.NewReader(source))
 
-	latexRenderer := NewLatexRenderer(sectionOffset)
+	latexRenderer := NewRenderer(sectionOffset)
 
 	// First pass: collect footnote content
 	ast.Walk(doc, func(n ast.Node, entering bool) (ast.WalkStatus, error) {
@@ -651,7 +652,7 @@ func (w *bufWriter) Buffered() int {
 	return w.buf.Len()
 }
 
-func (r *LatexRenderer) renderNode(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+func (r *Renderer) renderNode(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	switch n := node.(type) {
 	case *ast.Document:
 		return r.renderDocument(w, source, n, entering)

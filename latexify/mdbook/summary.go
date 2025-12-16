@@ -1,4 +1,4 @@
-package main
+package mdbook
 
 import (
 	"fmt"
@@ -10,6 +10,29 @@ import (
 	"github.com/yuin/goldmark/ast"
 	"github.com/yuin/goldmark/text"
 )
+
+// DocumentSection represents a major section of the document
+type DocumentSection int
+
+const (
+	SectionTitle DocumentSection = iota
+	SectionFrontmatter
+	SectionMainmatter
+	SectionBackmatter
+)
+
+// SummaryNode represents an entry in SUMMARY.md
+type SummaryNode struct {
+	Title    string
+	FilePath string // relative path without .md extension
+	Level    int    // nesting level (0 = top level)
+	Children []*SummaryNode
+}
+
+// SummaryStructure represents the parsed SUMMARY.md
+type SummaryStructure struct {
+	Sections [][]*SummaryNode // sections separated by HRs
+}
 
 // ParseSummary reads and parses SUMMARY.md into a structured representation
 func ParseSummary(summaryPath string) (*SummaryStructure, error) {
@@ -73,9 +96,9 @@ func ParseSummary(summaryPath string) (*SummaryStructure, error) {
 					// Nested item
 					parent := listStack[level-2]
 					parent.Children = append(parent.Children, summaryNode)
-					// Update stack
-					if len(listStack) >= level {
-						listStack = listStack[:level]
+					// Update stack: trim to keep only parents up to level-1
+					if len(listStack) >= level-1 {
+						listStack = listStack[:level-1]
 					}
 					listStack = append(listStack, summaryNode)
 				}
