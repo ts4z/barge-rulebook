@@ -1,5 +1,4 @@
-Omaha X or Better
------------------
+# Omaha X or Better
 
 The game is played with a button and blinds.
 

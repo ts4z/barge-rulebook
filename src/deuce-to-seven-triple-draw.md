@@ -1,5 +1,4 @@
-Deuce-to-Seven Triple Draw
---------------------------
+# Deuce-to-Seven Triple Draw
 
 Also known as "Triple Draw", this is the parent of a lot of triple-draw
 variants.

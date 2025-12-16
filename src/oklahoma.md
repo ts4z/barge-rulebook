@@ -1,5 +1,4 @@
-Oklahoma
---------
+# Oklahoma
 
 ### Forced Money
 

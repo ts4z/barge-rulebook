@@ -1,5 +1,4 @@
-Five Card Stud
---------------
+# Five Card Stud
 
 ### Forced Money
 

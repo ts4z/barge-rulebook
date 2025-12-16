@@ -1,5 +1,4 @@
-Paradise Road Pick’em
----------------------
+# Paradise Road Pick'em
 
 ### Forced Money
 

@@ -1,5 +1,4 @@
-California Lowball
-------------------
+# California Lowball
 
 ### Forced Money
 

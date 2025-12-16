@@ -1,5 +1,4 @@
-Mexican Poker
--------------
+# Mexican Poker
 
 ### Forced Money
 

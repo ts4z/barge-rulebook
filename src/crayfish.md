@@ -1,4 +1,4 @@
-## Crayfish (Variation)
+# Crayfish (variation)
 
 Crayfish is typically dealt as a variant of Pot-Limit
 [Omaha](omaha-high-only.md), and less commonly as a variant of

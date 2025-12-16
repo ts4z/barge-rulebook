@@ -1,5 +1,4 @@
-Stud High/Low No Qualifier
---------------------------
+# Stud High/Low No Qualifier
 
 ### Forced Money
 

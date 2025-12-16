@@ -1,5 +1,4 @@
-Short Deck Texas Hold’em
---------------------------
+# Short Deck Texas Hold'em
 
 ### Forced Money
 

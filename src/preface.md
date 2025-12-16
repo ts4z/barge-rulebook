@@ -1,5 +1,4 @@
-Preface
-=======
+# Preface
 
 We hope that this is a useful reference for BARGE folks and for anyone else.
 In particular, Tim started updating this rulebook because he can never remember

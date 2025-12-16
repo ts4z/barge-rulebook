@@ -1,5 +1,4 @@
-Ace-to-Five Triple Draw
------------------------
+# Ace-to-5 Triple Draw
 
 ### Forced Money
 

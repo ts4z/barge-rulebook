@@ -1,5 +1,4 @@
-Scrotum
--------
+# Scrotum
 
 Also known in polite company as "Sack".
 

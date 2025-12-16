@@ -1,6 +1,4 @@
-
-Appendix D: Killer Cards Revisited (Abridged)
-=============================================
+# Appendix D: Killer Cards Revisited (Abridged)
 
 *Abridged from [Tim Showalter's original
 version](https://psaux.com/poker/killer-cards.html) which includes more details

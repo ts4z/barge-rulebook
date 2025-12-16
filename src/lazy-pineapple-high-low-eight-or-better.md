@@ -1,5 +1,4 @@
-Lazy Pineapple High/Low
------------------------
+# Lazy Pineapple High/Low
 
 ### Forced Money
 The game is played with a button and blinds.

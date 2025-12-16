@@ -1,5 +1,5 @@
-Duck Flush
-----------
+# Duck Flush
+
 ### Forced Money
 
 The game is played with a button and blinds.

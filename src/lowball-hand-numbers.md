@@ -1,5 +1,4 @@
-Lowball Hand Numbers
---------------------
+# Appendix A.1: Lowball Hand Numbers
 
 | # | A-to-5 | 2-to-7 | A-to-6 |
 |---|--------|--------|--------|

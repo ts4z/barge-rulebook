@@ -1,5 +1,4 @@
-Dramadugi
----------
+# Dramadugi
 
 ### Forced Money
 

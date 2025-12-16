@@ -1,5 +1,4 @@
-Deuce-To-Seven Lowball
-----------------------
+# Deuce-to-Seven Lowball
 
 ### Forced Money
 

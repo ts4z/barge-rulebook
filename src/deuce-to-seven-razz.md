@@ -1,5 +1,5 @@
-Deuce-to-Seven Razz
--------------------
+# Deuce-to-Seven Razz
+
 ### Forced Money
 
 The game is played with antes. 

@@ -1,5 +1,5 @@
-Badacey
--------
+# Badacey
+
 ### Forced Money
 The game is played with a button and blinds.
 

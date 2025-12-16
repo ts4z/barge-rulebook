@@ -1,5 +1,4 @@
-Appendix B: The “Sevens Rule”
-=============================
+# Appendix B: The Sevens Rule
 
 _From Michael Wiesenberg’s “Go For Low” column in Card Player Magazine_
 

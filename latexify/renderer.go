@@ -1,0 +1,398 @@
+package main
+
+import (
+	"bytes"
+	"fmt"
+	"strings"
+
+	"github.com/yuin/goldmark"
+	"github.com/yuin/goldmark/ast"
+	"github.com/yuin/goldmark/renderer"
+	"github.com/yuin/goldmark/text"
+	"github.com/yuin/goldmark/util"
+)
+
+// LatexRenderer renders Goldmark AST to LaTeX
+type LatexRenderer struct {
+	sectionOffset int  // offset for section levels (0=chapter, 1=section, etc)
+	seenFirstH1   bool // track if we've seen the first h1 to skip it
+	inSkippedH1   bool // track if we're currently in the skipped h1
+}
+
+// NewLatexRenderer creates a new LaTeX renderer
+func NewLatexRenderer(sectionOffset int) *LatexRenderer {
+	return &LatexRenderer{
+		sectionOffset: sectionOffset,
+		seenFirstH1:   false,
+		inSkippedH1:   false,
+	}
+}
+
+// RegisterFuncs implements renderer.NodeRenderer
+func (r *LatexRenderer) RegisterFuncs(reg renderer.NodeRendererFuncRegisterer) {
+	// Block elements
+	reg.Register(ast.KindDocument, r.renderDocument)
+	reg.Register(ast.KindHeading, r.renderHeading)
+	reg.Register(ast.KindParagraph, r.renderParagraph)
+	reg.Register(ast.KindBlockquote, r.renderBlockquote)
+	reg.Register(ast.KindCodeBlock, r.renderCodeBlock)
+	reg.Register(ast.KindFencedCodeBlock, r.renderFencedCodeBlock)
+	reg.Register(ast.KindHTMLBlock, r.renderHTMLBlock)
+	reg.Register(ast.KindList, r.renderList)
+	reg.Register(ast.KindListItem, r.renderListItem)
+	reg.Register(ast.KindThematicBreak, r.renderThematicBreak)
+
+	// Inline elements
+	reg.Register(ast.KindText, r.renderText)
+	reg.Register(ast.KindString, r.renderString)
+	reg.Register(ast.KindEmphasis, r.renderEmphasis)
+	reg.Register(ast.KindLink, r.renderLink)
+	reg.Register(ast.KindImage, r.renderImage)
+	reg.Register(ast.KindCodeSpan, r.renderCodeSpan)
+	reg.Register(ast.KindRawHTML, r.renderRawHTML)
+}
+
+func (r *LatexRenderer) renderDocument(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	// Nothing to do for document node
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderHeading(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	n := node.(*ast.Heading)
+
+	// Skip the first h1 heading (it's redundant with SUMMARY.md title)
+	if n.Level == 1 && !r.seenFirstH1 {
+		if entering {
+			r.seenFirstH1 = true
+			r.inSkippedH1 = true
+			return ast.WalkSkipChildren, nil
+		}
+	}
+
+	// If we're exiting the skipped h1, don't write closing brace
+	if r.inSkippedH1 && !entering {
+		r.inSkippedH1 = false
+		return ast.WalkContinue, nil
+	}
+
+	if entering {
+		// Note: Headings in the individual MD files will be rendered according to their level
+		// The SUMMARY.md structure determines the actual chapter/section hierarchy
+		level := n.Level - 1 + r.sectionOffset
+		switch level {
+		case 0:
+			w.WriteString("\\chapter{")
+		case 1:
+			w.WriteString("\\section{")
+		case 2:
+			w.WriteString("\\subsection{")
+		case 3:
+			w.WriteString("\\subsubsection{")
+		default:
+			w.WriteString("\\paragraph{")
+		}
+	} else {
+		w.WriteString("}\n\n")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderParagraph(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		// Start paragraph
+	} else {
+		// End paragraph with double newline
+		w.WriteString("\n\n")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderBlockquote(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		w.WriteString("\\begin{quotation}\n")
+	} else {
+		w.WriteString("\\end{quotation}\n\n")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderCodeBlock(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		n := node.(*ast.CodeBlock)
+		w.WriteString("\\begin{verbatim}\n")
+		for i := 0; i < n.Lines().Len(); i++ {
+			line := n.Lines().At(i)
+			w.Write(line.Value(source))
+		}
+		w.WriteString("\\end{verbatim}\n\n")
+	}
+	return ast.WalkSkipChildren, nil
+}
+
+func (r *LatexRenderer) renderFencedCodeBlock(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		n := node.(*ast.FencedCodeBlock)
+		lang := string(n.Language(source))
+
+		if lang != "" {
+			// Use listings package for syntax highlighting
+			w.WriteString(fmt.Sprintf("\\begin{lstlisting}[language=%s]\n", lang))
+		} else {
+			w.WriteString("\\begin{verbatim}\n")
+		}
+
+		for i := 0; i < n.Lines().Len(); i++ {
+			line := n.Lines().At(i)
+			w.Write(line.Value(source))
+		}
+
+		if lang != "" {
+			w.WriteString("\\end{lstlisting}\n\n")
+		} else {
+			w.WriteString("\\end{verbatim}\n\n")
+		}
+	}
+	return ast.WalkSkipChildren, nil
+}
+
+func (r *LatexRenderer) renderHTMLBlock(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	// Skip HTML blocks
+	return ast.WalkSkipChildren, nil
+}
+
+func (r *LatexRenderer) renderList(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	n := node.(*ast.List)
+	if entering {
+		if n.IsOrdered() {
+			w.WriteString("\\begin{enumerate}\n")
+		} else {
+			w.WriteString("\\begin{itemize}\n")
+		}
+	} else {
+		if n.IsOrdered() {
+			w.WriteString("\\end{enumerate}\n\n")
+		} else {
+			w.WriteString("\\end{itemize}\n\n")
+		}
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderListItem(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		w.WriteString("\\item ")
+	} else {
+		w.WriteString("\n")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderThematicBreak(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		w.WriteString("\\vspace{1em}\\hrule\\vspace{1em}\n\n")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderText(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		n := node.(*ast.Text)
+		segment := n.Segment
+		value := segment.Value(source)
+
+		// Escape special LaTeX characters
+		escaped := escapeLatexText(string(value))
+		w.WriteString(escaped)
+
+		if n.HardLineBreak() {
+			w.WriteString("\\\\")
+		} else if n.SoftLineBreak() {
+			w.WriteString("\n")
+		}
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderString(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		n := node.(*ast.String)
+		escaped := escapeLatexText(string(n.Value))
+		w.WriteString(escaped)
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderEmphasis(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	n := node.(*ast.Emphasis)
+	if entering {
+		if n.Level == 1 {
+			w.WriteString("\\textit{")
+		} else {
+			w.WriteString("\\textbf{")
+		}
+	} else {
+		w.WriteString("}")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderLink(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	n := node.(*ast.Link)
+	if entering {
+		// For now, just render the link text
+		// TODO: proper hyperref support
+		w.WriteString("\\href{")
+		w.Write(n.Destination)
+		w.WriteString("}{")
+	} else {
+		w.WriteString("}")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderImage(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		n := node.(*ast.Image)
+		w.WriteString("\\begin{figure}[h]\n\\centering\n\\includegraphics{")
+		w.Write(n.Destination)
+		w.WriteString("}\n")
+
+		// Render caption if there's alt text
+		if n.FirstChild() != nil {
+			w.WriteString("\\caption{")
+		}
+	} else {
+		n := node.(*ast.Image)
+		if n.FirstChild() != nil {
+			w.WriteString("}")
+		}
+		w.WriteString("\n\\end{figure}\n\n")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderCodeSpan(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	if entering {
+		w.WriteString("\\texttt{")
+		// CodeSpan contains text nodes as children, walk them
+	} else {
+		w.WriteString("}")
+	}
+	return ast.WalkContinue, nil
+}
+
+func (r *LatexRenderer) renderRawHTML(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	// Skip raw HTML
+	return ast.WalkSkipChildren, nil
+}
+
+// escapeLatexText escapes special LaTeX characters in text
+func escapeLatexText(s string) string {
+	replacer := strings.NewReplacer(
+		"\\", "\\textbackslash{}",
+		"#", "\\#",
+		"$", "\\$",
+		"%", "\\%",
+		"&", "\\&",
+		"_", "\\_",
+		"{", "\\{",
+		"}", "\\}",
+		"~", "\\textasciitilde{}",
+		"^", "\\textasciicircum{}",
+	)
+	return replacer.Replace(s)
+}
+
+// RenderMarkdownToLatex renders markdown content to LaTeX
+func RenderMarkdownToLatex(source []byte, sectionOffset int) (string, error) {
+	md := goldmark.New()
+	doc := md.Parser().Parse(text.NewReader(source))
+
+	latexRenderer := NewLatexRenderer(sectionOffset)
+
+	var buf bytes.Buffer
+	writer := &bufWriter{buf: &buf}
+
+	err := ast.Walk(doc, func(n ast.Node, entering bool) (ast.WalkStatus, error) {
+		return latexRenderer.renderNode(writer, source, n, entering)
+	})
+
+	if err != nil {
+		return "", err
+	}
+
+	return buf.String(), nil
+}
+
+// bufWriter implements util.BufWriter using bytes.Buffer
+type bufWriter struct {
+	buf *bytes.Buffer
+}
+
+func (w *bufWriter) Write(p []byte) (int, error) {
+	return w.buf.Write(p)
+}
+
+func (w *bufWriter) WriteByte(c byte) error {
+	return w.buf.WriteByte(c)
+}
+
+func (w *bufWriter) WriteRune(r rune) (int, error) {
+	return w.buf.WriteRune(r)
+}
+
+func (w *bufWriter) WriteString(s string) (int, error) {
+	return w.buf.WriteString(s)
+}
+
+func (w *bufWriter) Flush() error {
+	return nil
+}
+
+func (w *bufWriter) Available() int {
+	return 1024 // arbitrary
+}
+
+func (w *bufWriter) Buffered() int {
+	return w.buf.Len()
+}
+
+func (r *LatexRenderer) renderNode(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
+	switch n := node.(type) {
+	case *ast.Document:
+		return r.renderDocument(w, source, n, entering)
+	case *ast.Heading:
+		return r.renderHeading(w, source, n, entering)
+	case *ast.Paragraph:
+		return r.renderParagraph(w, source, n, entering)
+	case *ast.Blockquote:
+		return r.renderBlockquote(w, source, n, entering)
+	case *ast.CodeBlock:
+		return r.renderCodeBlock(w, source, n, entering)
+	case *ast.FencedCodeBlock:
+		return r.renderFencedCodeBlock(w, source, n, entering)
+	case *ast.HTMLBlock:
+		return r.renderHTMLBlock(w, source, n, entering)
+	case *ast.List:
+		return r.renderList(w, source, n, entering)
+	case *ast.ListItem:
+		return r.renderListItem(w, source, n, entering)
+	case *ast.ThematicBreak:
+		return r.renderThematicBreak(w, source, n, entering)
+	case *ast.Text:
+		return r.renderText(w, source, n, entering)
+	case *ast.String:
+		return r.renderString(w, source, n, entering)
+	case *ast.Emphasis:
+		return r.renderEmphasis(w, source, n, entering)
+	case *ast.Link:
+		return r.renderLink(w, source, n, entering)
+	case *ast.Image:
+		return r.renderImage(w, source, n, entering)
+	case *ast.CodeSpan:
+		return r.renderCodeSpan(w, source, n, entering)
+	case *ast.RawHTML:
+		return r.renderRawHTML(w, source, n, entering)
+	}
+	return ast.WalkContinue, nil
+}

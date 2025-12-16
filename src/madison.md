@@ -1,5 +1,4 @@
-Madison
--------
+# Madison
 
 ### Forced Money
 

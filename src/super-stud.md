@@ -1,5 +1,4 @@
-Super Stud and Variants
------------------------
+# Super Stud
 
 This game is a variation of seven-card stud games.  This game modifies the
 rules of either [stud](./stud.md), [Stud High/Low

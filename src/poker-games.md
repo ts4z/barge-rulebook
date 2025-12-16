@@ -1,5 +1,4 @@
-Poker Games
-===========
+# Poker Games
 
 Poker games are listed here alphabetically, including both well-known
 (Hold'em) and less well known ([Bidrectional

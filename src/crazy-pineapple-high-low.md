@@ -1,5 +1,4 @@
-Crazy Pineapple High/Low
-------------------------
+# Crazy Pineapple High/Low
 
 ### Forced Money
 

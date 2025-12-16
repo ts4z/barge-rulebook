@@ -1,5 +1,4 @@
-Short Deck Omaha
-----------------
+# Short Deck Omaha
 
 ### Forced Money
 

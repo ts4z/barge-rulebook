@@ -1,5 +1,4 @@
-Texas Hold’em High/Low
-----------------------
+# Texas Hold'em High/Low
 
 ### Forced Money
 

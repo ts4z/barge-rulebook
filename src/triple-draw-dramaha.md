@@ -1,5 +1,4 @@
-Triple Draw Dramaha
--------------------
+# Triple Draw Dramaha
 
 ### Forced Money
 

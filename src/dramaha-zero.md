@@ -1,5 +1,4 @@
-Dramaha Zero
-------------
+# Dramaha Zero
 
 ### Forced Money
 

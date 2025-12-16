@@ -1,5 +1,4 @@
-Action Razz
------------
+# Action Razz
 
 ### Forced Money
 The game is played with antes. The high card on the board by rank first and then

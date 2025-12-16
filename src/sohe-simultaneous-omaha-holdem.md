@@ -1,5 +1,4 @@
-Sohe (Simultaneous Omaha/Hold’em)
----------------------------------
+# Sohe (Simultaneous Omaha/Hold’em)
 
 ### Forced Money
 

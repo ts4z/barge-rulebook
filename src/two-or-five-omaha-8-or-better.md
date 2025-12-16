@@ -1,5 +1,4 @@
-Two or Five Omaha High/Low Eight-or-Better
-------------------------------------------
+# Two-or-Five Omaha Eight-or-Better
 
 ### Forced Money
 The game is played with a button and blinds.

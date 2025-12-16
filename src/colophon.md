@@ -1,5 +1,4 @@
-Colophon
-========
+# Colophon
 
 This book is available in one of two ways:
 

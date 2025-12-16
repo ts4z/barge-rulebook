@@ -1,5 +1,4 @@
-Five Card Omaha
-------------------------------------------------
+# Five Card Omaha
 
 ### Forced Money
 

@@ -1,5 +1,4 @@
-Binglaha
---------
+# Binglaha
 
 ### Forced Money
 

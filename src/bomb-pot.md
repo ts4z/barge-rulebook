@@ -1,5 +1,4 @@
-Bomb Pot
---------
+# Bomb Pot
 
 The *bomb pot* is a variation of a [no-limit](./no-limit.md)
 [Hold’em](./texas-holdem.md) tournament used at BARGE starting in a 2021

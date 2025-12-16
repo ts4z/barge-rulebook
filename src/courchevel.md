@@ -1,5 +1,4 @@
-Courchevel (High Only)
-----------------------
+# Courchevel (High Only)
 
 ### Forced Money
 

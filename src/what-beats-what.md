@@ -1,5 +1,4 @@
-Appendix C: What Beats What
-===========================
+# Appendix C: What Beats What
 
 No poker rulebook is complete without yet another recitation of poker hand
 order.  (Compare [Lowball Scales](./lowball-scales.md) for some other hand

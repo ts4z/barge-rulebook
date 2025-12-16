@@ -1,4 +1,4 @@
-### Big Blind Ante
+# Big Blind Ante
 
 In games with a *big blind ante*, the player in the big blind posts an ante for
 the entire table.  This amount will be listed in the structure for the game or

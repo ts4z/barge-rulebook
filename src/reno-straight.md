@@ -1,5 +1,4 @@
-Reno Straight
--------------
+# Reno Straight
 
 We actually have no idea what this game is called, but Greg Raymer told us he
 played in Reno, so here we are.

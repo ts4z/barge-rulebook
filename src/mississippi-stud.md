@@ -1,5 +1,4 @@
-Mississippi Stud (and Variations)
----------------------------------
+# Mississippi Stud (and Variations)
 
 Mississippi offers a variant of [Stud](./stud.md) that works better in a
 [pot-limit](./pot-limit.md) format.  This section describes the Mississippi

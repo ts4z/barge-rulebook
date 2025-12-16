@@ -12,12 +12,15 @@ book: src/*.md
 # that it can't do its job the first time.
 %.pdf: %.latex
 	-rm rulebook.toc rulebook.aux # throw out aux files
-	xelatex $< || rm $@
-	rm $@			# output isn't right, aux files are good
-	xelatex $< || rm $@
+	xelatex -interaction=batchmode $<
+	-rm $@			# output isn't right, aux files are good
+	xelatex -interaction=batchmode $<
 
-rulebook.latex: latexify.pl src/*.md src/*.latex
-	./latexify.pl
+latexify/latexify: latexify/*.go latexify/go.mod latexify/go.sum
+	(cd latexify && go build .)
+
+rulebook.latex: latexify/latexify src/*.md src/*.latex
+	latexify/latexify
 
 clean:
 	-rm $(ALL) *.dvi rulebook.aux rulebook.latex rulebook.toc \

@@ -1,5 +1,4 @@
-Badeucy
--------
+# Badeucy
 
 ### Forced Money
 

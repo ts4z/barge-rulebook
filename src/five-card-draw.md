@@ -1,5 +1,4 @@
-Five Card Draw
---------------
+# Five Card Draw
 
 ### Forced Money
 

@@ -1,5 +1,4 @@
-Four Card Chowaha High/Low Eight-or-Better
-------------------------------------------
+# Four Card Chowaha High/Low
 
 ### Forced Money
 

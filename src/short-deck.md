@@ -1,5 +1,4 @@
-Short Deck
-----------
+# Short Deck
 
 *Short Deck*, also referred to as a “stripped deck”, is when certain
 denominations of cards are removed, leaving a smaller deck. The most common

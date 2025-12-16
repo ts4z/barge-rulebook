@@ -1,5 +1,4 @@
-Bidirectional Chowaha (High/Low)
---------------------------------
+# Bidirectional Chowaha High/Low
 
 ### Forced Money
 

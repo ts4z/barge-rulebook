@@ -1,5 +1,3 @@
-# Variations
-
 [Poker games](poker-games.md) lend themselves to variations, extra rules
 that allow compounding a few new rules to make a game with a new, different feel.
 

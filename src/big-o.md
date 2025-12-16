@@ -1,5 +1,4 @@
-Big O
------
+# Big O
 
 Big O is also known as Five Card Omaha High/Low Eight-or-Better.
 

@@ -1,5 +1,4 @@
-Omaha (High Only)
------------------
+# Omaha (High Only)
 
 ### Forced Money
 

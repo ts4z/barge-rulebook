@@ -1,5 +1,4 @@
-Appendix A: Lowball Scales
-==========================
+# Appendix A: Lowball Scales
 
 "What beats what" is consistently defined (specifically, in [another
 appendix](./what-beats-what.md)), but "low" has a few different

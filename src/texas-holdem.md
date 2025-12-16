@@ -1,5 +1,4 @@
-Texas Hold'em
--------------
+# Texas Hold'em
 
 Just like they play on the teevee.
 
