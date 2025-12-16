@@ -19,10 +19,10 @@ Our PDF version, intended for printing and reading at the poker table,
 is produced by converting those files into
 [LaTeX](https://www.latex-project.org/).  When we did the 2024 rulebook,
 we discovered mdbook's PDF support just wasn't as good as our
-previous [LaTeX](https://www.latex-project.org/) version.  
-(LaTeX is well known for its high quality output.)  A converter was made
-that can turn our mdbook into a LaTeX document, and then we provide that
-as PDF.
+previous [LaTeX](https://www.latex-project.org/) version.  (LaTeX presents
+a high bar and is renowned for its output quality.)
+So we converted the mdbook version to LaTeX, and now that is available
+for those wanting a hard copy.
 
 The external tools we use are open source software and freely available
 All of the other parts are available in our GitHub repository with the
