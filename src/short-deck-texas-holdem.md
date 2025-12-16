@@ -1,8 +1,8 @@
-# Short Deck Texas Hold'em
+## Short Deck Texas Hold'em
 
 ### Forced Money
 
-The game is played with a button and blinds. 
+The game is played with a button and blinds.
 
 ### Dealing Procedure
 
@@ -33,5 +33,4 @@ It was played with no-limit betting at BARGE 2019.
 The game is sometimes played where three-of-a-kind beats
 a straight.[^1]
 
-[^1]: [Six-Plus hold'em](https://en.wikipedia.org/wiki/Six-plus_hold_%27em),
-    _Wikipedia_.
+[^1]: **[Six-Plus hold'em](https://en.wikipedia.org/wiki/Six-plus_hold_%27em)**,  _Wikipedia_.
