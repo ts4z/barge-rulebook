@@ -4,7 +4,7 @@
 
 The game is played with a button and blinds.
 
-### Dealing Procedure
+## Dealing Procedure
 Each player is dealt four cards face down, followed by a round of betting at the
 small bet limit.
 
