@@ -1,9 +1,8 @@
-BARGE Rulebook Redux
-====================
+# BARGE Rulebook Redux
 
-**VIEW THE RULEBOOK** [here](https://barge.org/rulebook/).
+**[VIEW THE RULEBOOK ONLINE HERE](https://barge.org/rulebook/)**
 
-**GET NICE PDF** [here](https://barge.org/rulebook.pdf).
+**[GET NICE PDF HERE](https://barge.org/rulebook.pdf)**
 
 This is a revision of the BARGE rulebook intended for a multi-author audience.
 
@@ -21,8 +20,7 @@ In order to produce a very web-friendly version, we use md
 print-friendly version, we use a pipeline that converts Markdown to LaTeX and
 applies some small fixes.
 
-Building the mdbook Rulebook
-----------------------------
+## Building the mdbook Rulebook
 
 Install `mdbook`, then run `mdbook build`.
 
@@ -42,8 +40,7 @@ This is sufficiently robust (and Markdown is sufficiently forgiving as a
 format) that I haven't had problems just updating and assuming the right thing
 will happen.
 
-Building LaTeX Rulebook
------------------------
+## Building LaTeX Rulebook
 
 Math majors everywhere rejoice: we have a way of producing a LaTeX rulebook,
 with nice page numbers, that should look great printed.  There are a few
@@ -77,8 +74,7 @@ manually from my Linux box where all these things are conveniently[^1] installed
 
 [^1]: ...for me, that is.
 
-Style
------
+## Style
 
 Please match the style of the document as a whole.  Generally, games have the
 same format from game to game, but for some games this is quite redundant,
@@ -111,8 +107,7 @@ Markdown comes in several flavors.  Basic Markdown lacks many features we want.
 We have a custom mdbook-to-LaTeX processor that passably handles our inputs.
 We have a degree of support for tables, footnotes, and definition lists.
 
-Technical Aspects
------------------
+## Technical Aspects
 
 The rulebook is in the same order in both the LaTeX and mdbook versions.  This
 order is declared in src/SUMMARY.md, whose format is required by `mdbook` and
@@ -144,8 +139,7 @@ Markdown extensions unless both mdbook and latexify support them.
 
 We have made enough progress here that both versions look pretty decent.
 
-Future Work
------------
+## Future Work
 
 Make all of the people happy all of the time.
 
