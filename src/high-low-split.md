@@ -11,7 +11,7 @@ high/low draw poker.
 
 We have specific sections for [Omaha High/Low](./omaha-high-low-eight-or-better.md),
 [Stud/8](stud-high-low-eight-or-better.md), [Razzdugi](razzdugi.md),
-[Badeucy](badeucy.md), [dramadugi.md](dramadugi.md) and [Stud High/Low No
+[Badeucy](badeucy.md), [Dramadugi](dramadugi.md) and [Stud High/Low No
 Qualifier](./stud-high-low-no-qualifier.md), which all have their own rules
 spelled out specifically.
 
