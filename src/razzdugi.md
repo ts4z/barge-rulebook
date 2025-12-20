@@ -1,5 +1,7 @@
 # Razzdugi
 
+Razzdugi combines [Badugi](badugi.md) and [Seven-Card Stud](stud.md).
+
 ## Forced Money
 
 The game is played with antes. The high card on the board by rank first and
