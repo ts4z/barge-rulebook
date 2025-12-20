@@ -25,9 +25,6 @@ betting at the big bet limit.
 A third down card is dealt to all active players. This is followed by a round of
 betting at the big bet limit. This is followed by a showdown.
 
-It is required of each player that they do not alter or obfuscate the order in which
-they have received their up cards.
-
 ## Evaluating the Showdown
 
 The best high five-card hand and the best California low hand split the pot. There
