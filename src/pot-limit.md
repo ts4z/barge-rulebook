@@ -19,8 +19,8 @@ action.
 
 ## Examples
 
-Suppose you are playing in a pot-limit Omaha tournament at the
-100/200 level.  Like [no-limit](./no-limit.md), this means that the
+Suppose you are playing in a pot-limit [Omaha](omaha-high-only.md) tournament at the
+100/200 level.  Like [no-limit](no-limit.md), this means that the
 small blind is 100 and the big blind is 200. In this example, the action
 folds to the player on the button, who says "raise".
 
