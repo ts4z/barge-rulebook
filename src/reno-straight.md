@@ -43,7 +43,7 @@ Example:
    * K♣Q♣2♦3♦6♣
    * A♦K♦Q♠T♠T♣
  * Hands:
-   1. A♣3♥T♥5♣
+   1. A♣3♥T♦5♣
    2. 9♦T♥J♠Q♥
 
 Hand 1 makes the nut flush (A♣K♣Q♣6♣5♣) on the top board and two pair
