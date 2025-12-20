@@ -44,6 +44,10 @@ cards plus three cards from the board to form each portion of their hand.
 
 ## Notes
 
-Chowaha was created by Mike Chow.  See also [the two-card
-variant](./chowaha.md).
+See also [the two-card variant](./chowaha.md).
 
+Chowaha was created by Mike Chow.
+
+This game has also been called [3-2-1
+Omaha](https://www.pokernews.com/strategy/plo-variant-pot-limit-omaha-3-2-1-26713.htm),
+but the Chowaha name dates back to the '90s.
