@@ -13,7 +13,7 @@ check the structure sheet.
 
 ## Discussion
 
-Traditionally in no-limit Texas Hold’em tournaments, the blind structure used
+Traditionally in no-limit [Texas Hold’em](texas-holdem.md) tournaments, the blind structure used
 was that two players posted blinds (the small blind and big blind) each hand.
 Additionally, most tournaments featured an ante that would be posted by each
 player before every hand, typically starting a few levels into the tournament. This
