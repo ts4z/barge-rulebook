@@ -39,3 +39,7 @@ Points are assigned as follows:
  
 The nut point value hand would be five face cards (thus leading to the name
 Dramaha Zero).  The worst hand would be TTTT9, the nut in [Dramaha 49](dramaha-49.md).
+
+## Notes
+
+Sometimes spelled Drawmaha Zero.

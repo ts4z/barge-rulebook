@@ -38,3 +38,5 @@ hence the name Dramaha 49.
 ## Notes
 
 Some online sources say that face cards are worth 1 point, but not according to BARGE.
+
+Sometimes spelled Drawmaha 49.

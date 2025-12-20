@@ -47,3 +47,5 @@ Ties are broken by having the most cards.  That is:
 ## Notes
 
 Some online sources say that face cards are worth 1 point, but not according to BARGE.
+
+Sometimes spelled Drawmaha 21.
