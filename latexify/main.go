@@ -188,7 +188,9 @@ func renderFile(writer *latex.SectionAwareWriter, sourceDir string, basePath str
 	}
 
 	// Convert markdown to LaTeX
-	latex, err := latex.RenderMarkdownToLatex(content, sectionOffset)
+	// Pass the filename (basePath + ".md") for label generation
+	filename := filepath.Base(basePath) + ".md"
+	latex, err := latex.RenderMarkdownToLatex(content, sectionOffset, filename)
 	if err != nil {
 		return fmt.Errorf("converting markdown to latex: %w", err)
 	}

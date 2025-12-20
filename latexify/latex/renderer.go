@@ -436,14 +436,27 @@ func (r *Renderer) renderEmphasis(w util.BufWriter, source []byte, node ast.Node
 
 func (r *Renderer) renderLink(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	n := node.(*ast.Link)
+	destination := string(n.Destination)
+	// Check if this is an internal link (relative path to .md file)
+	// Links that start with a URL scheme (http://, https://, etc.) are external
+	isInternal := !strings.Contains(destination, "://") && strings.HasSuffix(destination, ".md")
+	
 	if entering {
-		// For now, just render the link text
-		// TODO: proper hyperref support
-		w.WriteString("\\href{")
-		// Escape URL special characters, especially %
-		w.WriteString(EscapeSpecials(string(n.Destination)))
-		w.WriteString("}{")
+		if isInternal {
+			// Internal link: use hyperref to link to the label while displaying custom text
+			// Strip any leading "./" from the destination
+			label := strings.TrimPrefix(destination, "./")
+			w.WriteString("\\hyperref[")
+			w.WriteString(label)
+			w.WriteString("]{")
+		} else {
+			// External link: use href
+			w.WriteString("\\href{")
+			w.WriteString(EscapeSpecials(destination))
+			w.WriteString("}{")
+		}
 	} else {
+		// Close brace for both internal and external links
 		w.WriteString("}")
 	}
 	return ast.WalkContinue, nil
@@ -569,7 +582,8 @@ func convertASCIIQuotes(s string) string {
 }
 
 // RenderMarkdownToLatex renders markdown content to LaTeX
-func RenderMarkdownToLatex(source []byte, sectionOffset int) (string, error) {
+// filename should be the .md filename (e.g., "chowaha.md") used for generating labels
+func RenderMarkdownToLatex(source []byte, sectionOffset int, filename string) (string, error) {
 	md := goldmark.New(
 		goldmark.WithExtensions(
 			extension.NewTable(),
@@ -607,6 +621,12 @@ func RenderMarkdownToLatex(source []byte, sectionOffset int) (string, error) {
 	// Second pass: render document
 	var buf bytes.Buffer
 	writer := &bufWriter{buf: &buf}
+
+	// Inject label at the start if filename is provided
+	if filename != "" {
+		// Use the filename as-is for the label (e.g., "chowaha.md")
+		fmt.Fprintf(writer, "\\label{%s}\n", filename)
+	}
 
 	err := ast.Walk(doc, func(n ast.Node, entering bool) (ast.WalkStatus, error) {
 		return latexRenderer.renderNode(writer, source, n, entering)
