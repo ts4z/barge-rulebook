@@ -12,9 +12,9 @@ book: src/*.md src/*.latex
 # that it can't do its job the first time.
 %.pdf: %.latex
 	-rm rulebook.toc rulebook.aux # throw out aux files
-	xelatex -interaction=batchmode $<
+	xelatex -interaction=batchmode $< || (rm $@; false)
 	-rm $@			# output isn't right, aux files are good
-	xelatex -interaction=batchmode $<
+	xelatex -interaction=batchmode $< || (rm $@; false)
 
 latexify/latexify: latexify/*.go latexify/go.mod latexify/go.sum
 	(cd latexify && go build .)
