@@ -17,7 +17,7 @@ intended to be mostly self-contained, and tend to restate the obvious a little
 bit.  We hope this means you can read one page instead of having to hunt for
 the general case.
 
-The poker games section contains a number of variations, which 
+The poker games section contains a number of variations, which
 provide just the changes, which apply to some number of games.
 
 However, it is tedious to have to refer to several alleged variations in
