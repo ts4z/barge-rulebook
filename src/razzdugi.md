@@ -30,6 +30,5 @@ This is followed by a showdown.
 
 ## Evaluating the Showdown
 
-The best five-card California low hand and the best (ace-to-four) badugi hand
-splits the pot. Note, there is no qualifier for either the razz or badugi hand. If
-there is no four-card badugi hand, the best three-card hand wins half the pot.
+The best five-card California low hand and the best four-card [Badugi](badugi.md) hand
+splits the pot. Tthere is no qualifier for either the Razz or Badugi hand.
