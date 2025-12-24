@@ -56,6 +56,7 @@
   - [Five Card Omaha](./five-card-omaha.md)
   - [Five Card Stud](./five-card-stud.md)
   - [Four Card Chowaha High/Low](./four-card-chowaha.md)
+  - [Greek Hold'em](greek-holdem.md)
   - [High/Low Split variations](./high-low-split.md)
   - [Irish](./irish.md)
   - [Korean](./korean.md)
