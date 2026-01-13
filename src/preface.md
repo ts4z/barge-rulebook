@@ -46,7 +46,7 @@ Having a little more historical context on each game would be welcome.
 ### Acknowledgments
 
 Thanks to Rich Bremer, Doug Grismore, Patrick Milligan, and Cliff Matthews for
-encouragement, and technical. and editorial input.
+encouragement, and technical and editorial input.
 
 ### Preface from the 2021 Edition
 
