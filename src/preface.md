@@ -54,7 +54,7 @@ on the BARGE website used for a dealer's choice tournament.  In 2015, for the
 25th BARGE event, Patrick Milligan produced a rulebook for the 25-Game mixed
 game event.  In 2016, this was extended for the 26-game mixed game event, and
 converted to the first LaTeX-based version, by Chris Mecklin.  Chris updated
-the rulebook through \2021.  Tim picked it up in 2024.
+the rulebook through 2021, and Tim started updating it in 2024.
 
 ### Preface from the 2021 Edition
 
