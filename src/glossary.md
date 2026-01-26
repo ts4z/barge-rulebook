@@ -2,6 +2,10 @@
 
 This section is a work in progress.
 
+Big Bet
+: When playing a limit game, the larger bet in the structure, that is, $8 in a 4/8 game.
+: Collectively, pot-limit and no-limit games, as compared to limit games.
+
 HORSE
 :   A common mixed game of Hold'em, Omaha/8, Razz, Stud, and Stud/8 (with the
     emphasis on the "E" in eight.)
