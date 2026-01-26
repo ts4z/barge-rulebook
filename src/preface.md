@@ -48,6 +48,14 @@ Having a little more historical context on each game would be welcome.
 Thanks to Rich Bremer, Doug Grismore, Patrick Milligan, and Cliff Matthews for
 encouragement, and technical and editorial input.
 
+Many folks have helped maintain the rulebook (or *a* rulebook) in fits and
+starts and a few different versions.  Nick Christenson maintained the first one
+on the BARGE website used for a dealer's choice tournament.  In 2015, for the
+25th BARGE event, Patrick Milligan produced a rulebook for the 25-Game mixed
+game event.  In 2016, this was extended for the 26-game mixed game event, and
+converted to the first LaTeX-based version, by Chris Mecklin.  Chris updated
+the rulebook through \2021.  Tim picked it up in 2024.
+
 ### Preface from the 2021 Edition
 
 (This section has been slightly abridged from the 2021 edition.)
