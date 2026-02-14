@@ -1,5 +1,10 @@
 # London Lowball
 
+## TLDR
+
+[Razz](razz.md), played A-6 (straights and flushes are bad, but aces play
+as low).
+
 ## Forced Money
 
 The game is played with antes. The high card on the board by rank first and then

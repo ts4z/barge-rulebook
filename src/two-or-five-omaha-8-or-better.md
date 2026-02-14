@@ -1,5 +1,10 @@
 # Two-or-Five Omaha Eight-or-Better
 
+## TLDR
+
+Five-card [Omaha/8](omaha-high-low-eight-or-better.md) where a player can
+play their whole hand, or just two cards plus three from the board.
+
 ## Forced Money
 
 The game is played with a button and blinds.

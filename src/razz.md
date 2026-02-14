@@ -1,5 +1,9 @@
 # Razz
 
+## TLDR
+
+[Seven-card stud](stud.md) played for (California) low.
+
 ## Forced Money
 
 The game is played with antes. The high card on the board by rank first and then

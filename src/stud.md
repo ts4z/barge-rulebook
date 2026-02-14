@@ -2,6 +2,10 @@
 
 Stud, also known as Seven-Card Stud, was a dominant game for many decades.
 
+## TLDR
+
+Everybody gets seven cards, some of them are face up, played for high.
+
 ## Forced Money
 
 The game is played with antes. The low card on the board by rank first and then

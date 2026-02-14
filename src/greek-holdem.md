@@ -1,7 +1,10 @@
 # Greek Hold'em
 
-Also known as Tight Hold'em.
-This is a variation of Hold'em in which both hole cards must be used.
+Also known as Tight Hold'em[^1].
+
+## TLDR
+
+A variation of [Hold'em](texas-holdem.md) in which both hole cards must be used.
 
 ## Forced Money
 

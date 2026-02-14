@@ -1,5 +1,10 @@
 # Omaha (High Only)
 
+## TLDR
+
+Players get four hole cards and must use exactly two, combined with three
+from a [Hold'em](texas-holdem.md)-style board, to make a five-card hand.
+
 ## Forced Money
 
 The game is played with a button and blinds.

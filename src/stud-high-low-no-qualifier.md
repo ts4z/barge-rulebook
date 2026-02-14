@@ -1,5 +1,9 @@
 # Stud High/Low No Qualifier
 
+## TLDR
+
+[Stud](stud.md) played as pure [high/low split](high-low-split.md).
+
 ## Forced Money
 
 The game is played with antes. The high card on the board by rank first and then
@@ -33,4 +37,3 @@ is no qualifier for low.
 ## Notes
 
 This game is also known as Stud High/Low Regular.
-

@@ -1,5 +1,10 @@
 # Dramaha 21
 
+## TLDR
+
+Five-card Omaha with a draw after the flop betting, and a split pot
+between the best Omaha hand and the best "points" hand, capped at 21.
+
 ## Forced Money
 
 The game is played with a button and blinds.
@@ -49,3 +54,5 @@ Ties are broken by having the most cards.  That is:
 Some online sources say that face cards are worth 1 point, but not according to BARGE.
 
 Sometimes spelled Drawmaha 21.
+
+Played as part of the Drawmaha mix tournament at EMBARGO 2026.

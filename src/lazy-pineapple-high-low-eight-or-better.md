@@ -1,5 +1,10 @@
 # Lazy Pineapple High/Low
 
+## TLDR
+
+[High-low](high-low-split.md) [Hold'em](texas-holdem.md) with an extra
+initial hole card.  Up to two hole cards can be used.
+
 ## Forced Money
 
 The game is played with a button and blinds.

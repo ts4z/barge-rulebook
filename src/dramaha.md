@@ -2,6 +2,12 @@
 
 Also spelled Drawmaha.
 
+## TLDR
+
+Five-card Omaha with a draw after the flop betting, and a split pot
+between the best Omaha hand and the best [Five-Card Draw](five-card-draw.md)
+hand.
+
 ## Forced Money
 
 The game is played with a button and blinds.

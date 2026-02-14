@@ -1,5 +1,10 @@
 # Bidirectional Chowaha High/Low
 
+## TLDR
+
+[Four-card (classic) Chowaha](four-card-chowaha.md) with extra chaos from
+a die.
+
 ## Forced Money
 
 The game is played with a button and blinds.

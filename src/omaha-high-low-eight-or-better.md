@@ -2,6 +2,11 @@
 
 Omaha High/Low Eight-or-Better is frequently abbreviated to Omaha/8 or O/8.
 
+## TLDR
+
+[Omaha](omaha-high-only.md) played [high-low](high-low-split.md) with an
+8 qualifier on low.  Players get four hole cards and must use exactly two.
+
 ## Forced Money
 
 The game is played with a button and blinds.

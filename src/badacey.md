@@ -1,5 +1,11 @@
 # Badacey
 
+## TLDR
+
+[Split pot](high-low-split.md) [triple
+draw](deuce-to-seven-triple-draw.md) between the best
+[A-5](california-lowball.md) hand and [Badugi](badugi.md) hand.
+
 ## Forced Money
 
 The game is played with a button and blinds.

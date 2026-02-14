@@ -1,5 +1,9 @@
 # Five Card Draw
 
+## TLDR
+
+Poker with one draw, played high.  Classic.
+
 ## Forced Money
 
 The game is played with a button and blinds.

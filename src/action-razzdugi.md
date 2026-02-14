@@ -1,5 +1,11 @@
 # Action Razzdugi
 
+## TLDR
+
+[Action Razz](action-razz.md) meets [Razzdugi](razzdugi.md).  [Seven-card
+stud](stud.md) structure, with the hand split between the best Action Razz hand
+and the best A-4 Razzdugi hand.
+
 ## Forced Money
 
 The game is played with antes. The high card on the board by rank first and then

@@ -1,5 +1,10 @@
 # Deuce-to-Seven Lowball
 
+## TLDR
+
+Five card, single-draw, lowball where straights and flushes don't exist,
+and the ace swings around and plays as low.A-2-3-4-5 (any suits).
+
 ## Forced Money
 
 The game is played with a button and blinds.

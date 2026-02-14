@@ -1,5 +1,9 @@
 # Four Card Chowaha High/Low
 
+## TLDR
+
+[Omaha/8](omaha-high-low-eight-or-better.md) with multiple boards.
+
 ## Forced Money
 
 The game is played with a button and blinds.

@@ -1,5 +1,9 @@
 # Five Card Omaha
 
+## TLDR
+
+[Omaha](omaha-high-only.md) with an extra card.
+
 ## Forced Money
 
 The game is played with a button and blinds.

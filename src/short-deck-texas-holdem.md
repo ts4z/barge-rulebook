@@ -26,7 +26,7 @@ full house. Note that the lowest possible straight in this game is 9876A (the
 
 ## Notes
 
-This game is also called Six-Plus Texas Holdem.
+This game is also called Six-Plus Texas Holdem, or Manila.
 
 It was played with no-limit betting at BARGE 2019.
 

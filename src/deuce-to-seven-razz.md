@@ -1,5 +1,9 @@
 # Deuce-to-Seven Razz
 
+## TLDR
+
+Razz, but 2-7 instead of A-5.
+
 ## Forced Money
 
 The game is played with antes. 

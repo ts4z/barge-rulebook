@@ -1,5 +1,7 @@
 # Razzdugi
 
+## TLDR
+
 Razzdugi combines [Badugi](badugi.md) and [Seven-Card Stud](stud.md).
 
 ## Forced Money

@@ -1,5 +1,9 @@
 # Action Razz
 
+## TLDR
+
+[Razz](razz.md) with an extra qualifier that makes a face card useful.
+
 ## Forced Money
 
 The game is played with antes. The high card on the board by rank first and then

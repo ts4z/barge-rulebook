@@ -5,6 +5,10 @@ as the Cadillac of Poker, Hold'em has been played in Las Vegas since 1963[^1].
 
 [^1]: [Bars Test Laws on Gambling With Moneyless Poker Games](https://www.nytimes.com/2005/02/22/us/bars-test-laws-on-gambling-with-moneyless-poker-games.html), _The New York Times_, February 22, 2005.
 
+## TLDR
+
+Everybody gets two private cards, then five more shared cards, best five cards wins.
+
 ## Forced Money
 
 The game is played with a button and blinds.

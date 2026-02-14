@@ -1,5 +1,9 @@
 # Courchevel (High Only)
 
+## TLDR
+
+Five card [Omaha](omaha-high-only.md) with a preflop community card.
+
 ## Forced Money
 
 The game is played with a button and blinds.

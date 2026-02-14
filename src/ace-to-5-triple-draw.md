@@ -1,5 +1,9 @@
 # Ace-to-5 Triple Draw
 
+## TLDR
+
+[California Lowball](california-lowball.md) with three rounds of betting.
+
 ## Forced Money
 
 The game is played with a button and blinds.

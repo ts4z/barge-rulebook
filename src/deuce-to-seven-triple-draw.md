@@ -1,7 +1,11 @@
 # Deuce-to-Seven Triple Draw
 
-Also known as "Triple Draw", this is the parent of a lot of triple-draw
+Also known simply as "Triple Draw", this is the parent of a lot of triple-draw
 variants.
+
+## TLDR
+
+[Deuce-to-seven Lowball](deuce-to-seven-lowball.md) with two more draws.
 
 ## Forced Money
 

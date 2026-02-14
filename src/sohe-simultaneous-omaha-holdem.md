@@ -1,5 +1,10 @@
 # Sohe (Simultaneous Omaha/Hold’em)
 
+## TLDR
+
+A six-card hand allows players to play [Hold'em](texas-holdem.md) and
+[Omaha](omaha-high-only.md) at the same time.
+
 ## Forced Money
 
 The game is played with a button and blinds.

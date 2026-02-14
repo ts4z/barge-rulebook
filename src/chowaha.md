@@ -2,6 +2,10 @@
 
 Sometimes called "Casino Chowaha."
 
+## TLDR
+
+Two-card Omaha with four possible boards.
+
 ## Forced Money
 
 The game is played with a button and blinds.

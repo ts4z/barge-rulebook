@@ -1,5 +1,13 @@
 # Omaha X or Better
 
+## TLDR
+
+[Omaha](omaha-high-only.md) played [high-low](high-low-split.md) with a
+qualifier on low determined by die roll.  Players get four hole cards and must
+use exactly two.
+
+## Forced Money
+
 The game is played with a button and blinds.
 
 ## Dealing Procedure
@@ -40,3 +48,4 @@ If the board does not have three cards under X on the board, no low is possible
 
 This game was created by Christian "Dr. Doofenschmirtz" Jones.
 
+Compare [Binglaha](binglaha.md).

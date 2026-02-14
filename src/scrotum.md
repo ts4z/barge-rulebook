@@ -2,6 +2,11 @@
 
 Also known in polite company as "Sack".
 
+## TLDR
+
+Players get five hole cards, may choose to discard some, then use their
+kept cards, plus board cards, to play [high/low split](high-low-split.md).
+
 ## Forced Money
 
 The game is played with a button and blinds.

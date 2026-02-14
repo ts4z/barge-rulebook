@@ -1,5 +1,10 @@
 # Madison
 
+## TLDR
+
+[Triple Draw](deuce-to-seven-triple-draw.md), but straights, flushes,
+*and* pairs are ignored.
+
 ## Forced Money
 
 The game is played with a button and blinds.
@@ -32,3 +37,4 @@ ignored, but pairs are ignored as well.
 ### Notes
 
 Andrew Prock learned this game from cab drivers in Madison, Wisconsin.
+We have no idea what they called it.

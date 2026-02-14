@@ -2,6 +2,11 @@
 
 Seven Card Stud High/Low Eight-or-Better is frequently abbreviated to Stud/8.
 
+## TLDR
+
+[Stud](stud.md) played as [high/low split](high-low-split.md) with an 8
+qualifier on the low hand.
+
 ## Forced Money
 
 The game is played with antes. The low card on the board by rank first and then

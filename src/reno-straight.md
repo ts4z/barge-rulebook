@@ -1,9 +1,9 @@
 # Reno Straight
 
-We actually have no idea what this game is called, but Greg Raymer told us he
-played in Reno, so here we are.
+## TLDR
 
-This game is allegedly a variant of [Big O](big-o.md).
+A cousin [Big O](big-o.md), this game is played "best-best" high-low, and
+the low hand *must* be a straight.
 
 ## Forced Money
 
@@ -56,3 +56,8 @@ straight is Broadway, so it takes the other half of the pot.  Both the hands
 are made with one board.
 
 The second player scoops.
+
+## Notes
+
+We actually have no idea what this game is called, but Greg Raymer told us he
+played in Reno, so here we are.

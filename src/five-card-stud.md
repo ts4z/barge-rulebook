@@ -1,5 +1,9 @@
 # Five Card Stud
 
+## TLDR
+
+Everybody gets five cards, some of them are face up, played for high.
+
 ## Forced Money
 
 The game is played with antes. The low card on the board by rank first and then

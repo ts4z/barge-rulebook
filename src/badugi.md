@@ -3,6 +3,11 @@
 Badugi is a relative of [Triple Draw](./deuce-to-seven-triple-draw.md), and the
 parent game of high-low variants [Badeucy](./badeucy.md) and [Badacey](./badacey.md).
 
+## TLDR
+
+[deuce-to-seven-triple-draw.md](Triple draw), but four cards where pairs
+and like-suited cards are "bad".
+
 ## Forced Money
 
 The game is played with a button and blinds.

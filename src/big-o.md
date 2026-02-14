@@ -2,6 +2,10 @@
 
 Big O is also known as Five Card Omaha High/Low Eight-or-Better.
 
+## TLDR
+
+[Omaha/8](omaha-high-low-eight-or-better.md) with an extra hole card.
+
 ## Forced Money
 
 The game is played with a button and blinds.

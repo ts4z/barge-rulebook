@@ -1,5 +1,10 @@
 # Irish
 
+## TLDR
+
+A [Hold'em](texas-holdem.md) style board is combined with a four-card
+hand and a discard after the flop.
+
 ## Forced Money
 
 The game is played with a button and blinds.

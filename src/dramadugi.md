@@ -1,5 +1,11 @@
 # Dramadugi
 
+## TLDR
+
+Five-card Omaha with a draw after the flop betting, and a split pot
+between the best Omaha hand and the best [Badugi](badugi.md)
+hand.
+
 ## Forced Money
 
 The game is played with a button and blinds.

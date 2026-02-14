@@ -1,5 +1,10 @@
 # Duck Flush
 
+## TLDR
+
+[Triple Draw](deuce-to-seven-triple-draw.md) with an interesting hand
+ordering twist.
+
 ## Forced Money
 
 The game is played with a button and blinds.

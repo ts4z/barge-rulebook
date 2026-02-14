@@ -1,5 +1,11 @@
 # Korean
 
+## TLDR
+
+[High-low](high-low-split.md) [Triple draw](ace-to-5-triple-draw.md),
+with qualifiers on the high hand and low hand.  Every hand is guaranteed to
+qualify either high or low, and occasionally both.
+
 ## Forced Money
 
 The game is played with a button and blinds.

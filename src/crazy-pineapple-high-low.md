@@ -1,5 +1,9 @@
 # Crazy Pineapple High/Low
 
+## TLDR
+
+[High-low](high-low-split.md) [Hold'em](texas-holdem.md) with an extra initial hole card that must be discarded.
+
 ## Forced Money
 
 The game is played with a button and blinds.

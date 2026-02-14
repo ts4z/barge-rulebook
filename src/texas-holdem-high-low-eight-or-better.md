@@ -1,5 +1,9 @@
 # Texas Hold'em High/Low
 
+## TLDR
+
+[Hold'em](texas-holdem.md) played [high/low](high-low-split.md) (8 qualifier).
+
 ## Forced Money
 
 The game is played with a button and blinds.

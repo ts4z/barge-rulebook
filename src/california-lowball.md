@@ -1,5 +1,10 @@
 # California Lowball
 
+## TLDR
+
+Five card, single-draw, lowball where straights and flushes
+are bad and the best hand is 7-6-5-4-2 (in at least two suits).
+
 ## Forced Money
 
 The game is played with a button and blinds.
@@ -30,6 +35,9 @@ check-and-raise allowed. It is also sometimes played as a no-limit game, with
 no Sevens Rule and with check-and-raise allowed.
 
 ## Notes
+
+This was the big game in California, until someone realized
+[Hold'em](texas-holdem.md) wasn't illegal.
 
 The no-limit format was featured in a bounty tournament at BARGE 2021.
 

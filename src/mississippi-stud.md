@@ -6,6 +6,11 @@ variant of three common games, [Stud (High Only)](./stud.md), [Stud High/Low
 Eight-or-Better](./stud-high-low-eight-or-better.md) (abbreviated Stud/8
 below), and [Razz](./razz.md).
 
+## TLDR
+
+[Stud](./stud.md), but fourth and fifth streets come at the same time and
+seventh street is face up.
+
 ## Forced Money
 
 The game is played with a button and blinds.
@@ -35,7 +40,7 @@ card, a single community card is dealt instead.
 
 In general, the evaluation is the same as the base game.  Specifically:
 
-- In Mississipi Stud, the best high five-card hand wins the pot, as in [Stud]().
+- In Mississipi Stud, the best high five-card hand wins the pot, as in [Stud](stud.md).
 - In Mississippi Stud/8, the pot is split between the best high
   five-card hand and the best California low hand with an 8 qualifier,
   as in [Stud/8](stud-high-low-eight-or-better.md).  (If

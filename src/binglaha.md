@@ -1,10 +1,18 @@
 # Binglaha
 
+Traditionally the big money game at BARGE&mdash;yet it's still a 1-2 game.
+
+## TLDR
+
+[Pot Limit](pot-limit.md) [Omaha](omaha-high-only.md), or
+[O/8](omaha-high-low-eight-or-better.md), decided by a die.  
+
 ## Forced Money
 
 The game is played with a button and blinds.
 
 ## Dealing Procedure
+
 Each player is dealt four cards face down, followed by a round of betting at the
 small bet limit.
 
@@ -40,4 +48,3 @@ Binglaha was created by Don "ADB Bingo" Rieck.
 
 This game is almost always played pot-limit, and frequently by those enjoying
 adult-type beverages.
-
