@@ -1,6 +1,6 @@
 # Preface
 
-We hope that this is a useful reference for BARGE folks,and for anyone else.
+We hope that this is a useful reference for BARGE folks and for anyone else who wants a simple list of poker games. 
 In particular, Tim started updating this rulebook because he can never remember
 the rules to [Archie](archie.md) and wanted to make it easier to look them up.
 
