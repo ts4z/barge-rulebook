@@ -32,4 +32,3 @@ pot.
 
 Unlike Omaha, a player may use both, one, or none of the cards in their hand to
 make either the high or the low.
-

@@ -43,4 +43,3 @@ rooms. Often a bet and 3 raises is allowed (i.e. it is possible to 4-bet but not
 raises is removed when two players are heads-up in a cash game, but typically not
 for a tournament. Check and raise is usually allowed, except in limit California
 Lowball.
-

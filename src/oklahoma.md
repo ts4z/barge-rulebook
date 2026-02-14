@@ -44,4 +44,3 @@ splits the pot. Hands are made using exactly two cards from each player’s hand
 and exactly three cards from one of the remaining boards. A player may use
 different cards for their low and high hand, and they may use different boards for
 their low and high hand.
-

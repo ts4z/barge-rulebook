@@ -17,7 +17,7 @@ small bet limit.
 Three flops are dealt one above the other forming a 3 × 3 square of cards. This is
 followed by a round of betting at the small bet limit.
 
-A die is rolled, as per [Dice Procedures](./dice-procedures.md). 
+A die is rolled, as per [Dice Procedures](./dice-procedures.md).
 
 * If the die is 1, 2, or 3, turn cards will be dealt vertically to the right of
   the flop cards from the dealer’s persepective ("normal" Chowaha, if there
@@ -63,7 +63,7 @@ On a roll of 4, 5, or 6, the board will look like the following:
 
 The best high hand and best California low hand of at least eight low or better
 splits the pot. Each hand consists of two cards from the player’s hole cards plus
-the cards from one flop, one turn, and the river. 
+the cards from one flop, one turn, and the river.
 
 Any of four boards can be used.  On a roll of 1, 2, or 3, these are the top
 flop, the top turn, and the top river; or the bottom flop, turn, and river; or
@@ -75,4 +75,3 @@ Each player may create their best high hand and low hand using different hold
 cards and/or different board cards. Also, as in Omaha, each player must use
 exactly two hole cards plus three cards from the board to form each portion of
 their hand.
-

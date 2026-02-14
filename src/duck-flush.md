@@ -42,4 +42,3 @@ hand. Notice Player C’s straight does not qualify as a high hand.
 
 See [Duck Flush: a Hot New Game for
 High-Rollers](https://web.archive.org/web/20180318142553/http://www.parttimepoker.com/duck-flush-a-hot-new-game-for-high-rollers).
-

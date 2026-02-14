@@ -32,13 +32,13 @@ betting at the big bet limit. This is followed by the showdown.
 
 The best Omaha high hand (using exactly two cards from the player’s hand and
 exactly three cards from the board) and the best point value hand (using all five
-cards from the player’s hand) splits the pot, where points are assigned: 
+cards from the player’s hand) splits the pot, where points are assigned:
  * Ace = 1
  * 2 through 10 = numerical value of that card
  * and face cards (Jacks, Queens, Kings) = 0.
- 
+
 The nut point value hand would be TTTT9, for 10+10+10+10+9=49 points,
-hence the name Dramaha 49. 
+hence the name Dramaha 49.
 
 ## Notes
 

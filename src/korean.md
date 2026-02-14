@@ -33,4 +33,3 @@ must have a pair or better to qualify for the high hand and no pair to qualify f
 the low hand. Notice that unlike Archie, every hand that makes it to showdown
 will qualify in at least one direction, with straights and flushes qualifying in both
 directions.
-

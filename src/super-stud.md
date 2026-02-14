@@ -7,7 +7,7 @@ player starts with four down cards, and must discard two before fourth street.
 
 ## Forced Money
 
-The game is played with antes. 
+The game is played with antes.
 
 If the game is stud or stud high-low eight-or-better, the low card on the board
 by rank first and then by suit brings it in. The 2♣ is the lowest possible card
@@ -20,7 +20,7 @@ and so on.
 ## Dealing Procedure
 
 Starting with the player in seat one, each player is dealt four cards face down
-then one card up. 
+then one card up.
 
 At this point, there is a betting round.  As in [stud](./stud.md), [Stud
 High/Low Eight-or-Better](stud-high-low-eight-or-better.md), or

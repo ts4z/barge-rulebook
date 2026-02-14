@@ -1,8 +1,8 @@
 # Appendix A: Lowball Scales
 
-"What beats what" is consistently defined (specifically, in 
+"What beats what" is consistently defined (specifically, in
 [Appendix C](./what-beats-what.md)), but "low" has a few different
-interpretations. 
+interpretations.
 
 Deuce-to-seven low is the clearest inversion of poker hand order, but in
 California, Lowball was almost always played with a variant called "ace-to-five".

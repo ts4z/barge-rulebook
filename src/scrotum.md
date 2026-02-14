@@ -43,4 +43,3 @@ hand.
 NOTE: Unlike Omaha/8, no matter what comes on the board a low hand is
 possible as long as a player has retained a sufficient number of cards to make a
 qualifying low hand.
-

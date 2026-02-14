@@ -5,7 +5,7 @@ be anywhere from the minimum bet to *all-in* (i.e. all of the chips the player h
 front of them, or what many of us call the “jam”). The minimum bet will be equal
 to the size of the large blind.  The minimum raise is the size of the last wager. A
 player who wishes to bet or raise but does not have enough chips to make the
-minimum wager may go *all-in* with their remaining chips. 
+minimum wager may go *all-in* with their remaining chips.
 
 Many flop games have an ante structure.  Any ante does not impact the minimum
 or maximum bet.
@@ -16,7 +16,7 @@ minimum bet would be the size of the bring-in in such a format.
 As an example, suppose you are playing [No-Limit Hold'em](./texas-holdem.md) in
 a tournament at the 100/200 level. Unlike [limit](./limit.md), this
 means that the small blind is 100 and the large blind is 200.  The
-action folds to the player on the button, who says raise. 
+action folds to the player on the button, who says raise.
 
 The minimum raise in this situation would be 200 more (making it 400 to go),
 and the maximum raise is all chips the button has.  Suppose the button raises
@@ -34,4 +34,3 @@ the last bet or raise.
 
 There are an unlimited number of raises available to the players. Check and raise
 is allowed.
-

@@ -8,7 +8,7 @@ A flush beats a full house here.  Straights skip the missing cards.
 ## Forced Money
 
 The game is played with antes and a button which rotates clockwise after each
-hand. 
+hand.
 
 ## Dealing Procedure
 
@@ -56,4 +56,3 @@ the dealer button.
 The best high five-card poker hand wins the pot. Since the stripped deck of 41
 cards is being used, a flush will outrank a full house. Because the eights, nines,
 and tens have been removed, a hand such as 5-6-7-J-Q is a straight.
-

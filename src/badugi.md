@@ -35,4 +35,3 @@ with the lowest hand (aces count as low) shall be the best hand. 432A of four
 different suits is the best possible hand. KQJT of four different suits beats
 any three-card hand.  A three-card hand of 742 beats 75A. See the [Appendix on
 Lowball Scales](./lowball-scales.md) for more details.
-

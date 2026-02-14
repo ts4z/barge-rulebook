@@ -37,4 +37,3 @@ only the player's hole cards) split the pot.
 ## Notes
 
 At BARGE 2024, this game appeared in a tournament, played [pot-limit](pot-limit.md).
-

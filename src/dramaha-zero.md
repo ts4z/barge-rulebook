@@ -3,7 +3,7 @@
 ## TLDR
 
 Five-card Omaha with a draw after the flop betting, and a split pot
-between the best Omaha hand and the lowest total "points" hand, 
+between the best Omaha hand and the lowest total "points" hand,
 
 ## Forced Money
 
@@ -41,7 +41,7 @@ Points are assigned as follows:
  * Ace = 1
  * 2 through 10 = numerical value of that card
  * and face cards (Jacks, Queens, Kings) = 0.
- 
+
 The nut point value hand would be five face cards (thus leading to the name
 Dramaha Zero).  The worst hand would be TTTT9, the nut in [Dramaha 49](dramaha-49.md).
 

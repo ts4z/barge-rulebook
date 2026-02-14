@@ -31,4 +31,3 @@ betting at the big bet limit. This is followed by a showdown.
 ## Evaluating the Showdown
 
 The best five-card California low hand wins the pot.
-

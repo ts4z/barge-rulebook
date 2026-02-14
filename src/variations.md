@@ -33,4 +33,3 @@ game.
 However, some variations are simple enough to just explain in isolation.  This
 is either because they are applied to multiple games, they are rare, or both.
 This section is home to those.
-

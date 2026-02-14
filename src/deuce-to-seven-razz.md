@@ -2,18 +2,19 @@
 
 ## TLDR
 
-Razz, but 2-7 instead of A-5.
+[Razz](razz.md), but 2-7 instead of A-5.
 
 ## Forced Money
 
-The game is played with antes. 
+The game is played with antes.
 
 ## Dealing Procedure
 
 The high card on the board by rank first and then by suit brings it in. A♠ is
 the highest possible card followed by the A♥, A♦, A♣, and so on.
 
-Note: Because the game is played using Kansas City lowball rules, aces are always
+Note: Because the game is played using
+[Kansas City Lowball](deuce-to-seven-lowball.md) rules, aces are always
 high, so an ace is a high card for bring-in purposes.
 
 Starting with the player in seat one, each player is dealt two cards face down then
@@ -37,4 +38,3 @@ they have received their up cards.
 ## Evaluating the Showdown
 
 The best five-card Kansas City low hand wins the pot.
-

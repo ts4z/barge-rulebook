@@ -37,7 +37,7 @@ pot.
 
 If at showdown, no one can make a straight, the high hand scoops.
 
-Example: 
+Example:
 
  * Boards:
    * K♣Q♣2♦3♦6♣

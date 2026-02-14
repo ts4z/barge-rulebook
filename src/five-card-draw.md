@@ -34,4 +34,3 @@ The best high five-card hand wins the pot.
 This game was most commonly played as a limit game, although big-bet
 formats in either pot-limit or no-limit existed.  It is sometimes played
 without the joker/bug.
-

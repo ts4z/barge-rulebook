@@ -33,4 +33,3 @@ or two cards from each player’s hand and the remaining cards from the board.
 ## Notes
 
 This game was played with pot-limit betting at EMBARGO 2020.
-

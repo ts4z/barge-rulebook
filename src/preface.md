@@ -34,7 +34,7 @@ extra trivial step, easily forgotten.)
 
 The easiest thing to do is to contact [Tim Showalter](mailto:tim.showalter@gmail.com).
 
-If you are technically inclined, the source code for the rulebook is 
+If you are technically inclined, the source code for the rulebook is
 [available on GitHub](https://github.com/ts4z/barge-rulebook)[^1].
 A pull request is the clearest way to suggest a change, but you can also make
 suggestions over email, or over beers.  *Specific text is appreciated.*

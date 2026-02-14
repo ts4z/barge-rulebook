@@ -31,7 +31,7 @@ betting at the big bet limit. This is followed by a showdown.
 
 The best five-card California low hand wins the pot, but with the provision that a
 player must have at least one face card (Jack, Queen, or King) among their seven
-cards to qualify. 
+cards to qualify.
 
 A hand that qualifies is called a “Face” hand, while a hand that does not
 qualify is called a “Butt” hand. It is not necessary to play a face card in the

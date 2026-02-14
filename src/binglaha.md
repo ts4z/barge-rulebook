@@ -5,7 +5,7 @@ Traditionally the big money game at BARGE&mdash;yet it's still a 1-2 game.
 ## TLDR
 
 [Pot Limit](pot-limit.md) [Omaha](omaha-high-only.md), or
-[O/8](omaha-high-low-eight-or-better.md), decided by a die.  
+[O/8](omaha-high-low-eight-or-better.md), decided by a die.
 
 ## Forced Money
 

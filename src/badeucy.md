@@ -35,4 +35,3 @@ Between hands of the same number of cards, the one with the lowest hand shall
 be the best hand. 5432 of four different suits is the best possible hand. AKQJ of
 four different suits beats any three-card hand. A three-card hand of 743 beats 752.
 See the [Appendix on Lowball Scales](./lowball-scales.md) for more details.
-

@@ -26,4 +26,3 @@ betting at the big bet limit. This is followed by a showdown.
 ## Evaluating the Showdown
 
 The best high five-card hand wins the pot.
-

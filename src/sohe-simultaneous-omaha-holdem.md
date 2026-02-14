@@ -34,4 +34,3 @@ High hands, respectively, split the pot. The Texas Hold’em hands are made usin
 either zero, one, or both cards from each player’s hand. The Omaha hands are
 made using exactly two cards from each player’s hand and exactly three cards
 from the board.
-

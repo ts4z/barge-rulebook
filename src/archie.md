@@ -38,4 +38,3 @@ Sometimes the qualifier for high hand is a pair of nines rather than a pair of
 sixes.
 
 Reference: [https://www.countingouts.com/archie-introduction](https://www.countingouts.com/archie-introduction)
-

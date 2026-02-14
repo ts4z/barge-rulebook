@@ -31,4 +31,3 @@ eight low or better splits the pot. Hands are made using either zero, one, or tw
 cards from each player’s hand and the remaining cards from the board.
 Note: If there are not three unpaired cards eight or lower on the board, no low
 hand is possible. If no qualifying low hand is made, the high hand scoops the pot.
-

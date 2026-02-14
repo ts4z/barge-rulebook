@@ -25,9 +25,9 @@ order to play a common combination, like Badacey.  So for these common, complex
 combinations, we prefer to have a specific page for those games.
 
 Lastly, we have a number of Appendicies with some relatively hard-to-find
-material worth highlighting, including 
+material worth highlighting, including
 [Lowball Scales](lowball-scales.md),
 [The Sevens Rule](sevens-rule.md), and
-better "outs" calculations for 
+better "outs" calculations for
 [Hold'em](killer-cards-holdem.md)
 [Omaha](killer-cards-omaha.md).

@@ -2,7 +2,7 @@
 
 ## Forced Money
 
-The game is played with a button and blinds. 
+The game is played with a button and blinds.
 
 ## Dealing Procedure
 
@@ -28,4 +28,3 @@ highest straight.
 
 Note: This game was played with [jam-or-fold](./jam-or-fold.md) betting
 (i.e. must either go all-in or fold pre-flop) at EMBARGO 2020.
-

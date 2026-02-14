@@ -33,4 +33,3 @@ The best five-card Kansas City lowball hand wins the pot.
 
 This game is usually played limit, but is sometimes played as a pot-limit
 game. It is not played with a joker/bug.
-

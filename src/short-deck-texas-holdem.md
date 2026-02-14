@@ -22,7 +22,7 @@ no-limit betting. This is followed by a showdown.
 
 The best high five-card hand wins the pot. In this game, a flush outranks a
 full house. Note that the lowest possible straight in this game is 9876A (the
-“short deck wheel”) with the AKQJT (broadway) as the highest straight.  
+“short deck wheel”) with the AKQJT (broadway) as the highest straight.
 
 ## Notes
 

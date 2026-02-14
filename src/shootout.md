@@ -14,4 +14,3 @@ a final table, in this case six of the nine tables would start with one fewer pl
 
 Sometimes at BARGE shootouts have been played such that the final two players
 from each table advance to the next round, rather than just a single player.
-

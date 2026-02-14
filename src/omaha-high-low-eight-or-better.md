@@ -36,4 +36,3 @@ hand is made, the high hand scoops the pot.
 ## Notes
 
 Both limit (O8) and pot-limit versions (PLO8) of this game are popular.
-

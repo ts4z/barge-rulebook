@@ -37,4 +37,3 @@ cards, the one with the lowest hand (aces count as low) shall be the best hand.
 suits beats any three-card hand. A three-card hand of 742 beats 75A. See the
 [Appendix on Lowball Scales](./lowball-scales.md)
 for more details.
-

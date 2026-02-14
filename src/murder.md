@@ -41,4 +41,3 @@ Warning! Given the number of cards in a player’s hand, the number of possible
 combinations of cards that may be used from the board, the fact that the game is
 split pot, and the fact that each hand must be formed using only one card present
 in each row of the board cards, evaluating hands can be especially tricky.
-
