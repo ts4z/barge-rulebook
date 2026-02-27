@@ -24,6 +24,6 @@ a high bar and is renowned for its output quality.)
 So we converted the mdbook version to LaTeX, and now that is available
 for those wanting a hard copy.
 
-The external tools we use are open source software and freely available
+The external tools we use are open source software and freely available.
 All of the other parts are available in our GitHub repository with the
 rest of the book.
