@@ -1,8 +1,8 @@
 # Super Stud
 
 This game is a variation of Seven-card Stud games.  This game modifies the
-rules of either [Stud](./stud.md), [Stud High/Low
-Eight-or-Better](stud-high-low-eight-or-better.md), or [Razz](./razz.md).  Each
+rules of either [Stud](stud.md), [Stud High/Low
+Eight-or-Better](stud-high-low-eight-or-better.md), or [Razz](razz.md).  Each
 player starts with four down cards, and must discard two before fourth street.
 
 ## Forced Money
@@ -22,9 +22,9 @@ and so on.
 Starting with the player in seat one, each player is dealt four cards face down
 then one card up.
 
-At this point, there is a betting round.  As in [stud](./stud.md), [Stud
+At this point, there is a betting round.  As in [stud](stud.md), [Stud
 High/Low Eight-or-Better](stud-high-low-eight-or-better.md), or
-[Razz](./razz.md), there is a bring-in and a round of betting.
+[Razz](razz.md), there is a bring-in and a round of betting.
 
 Next, each player must discard two cards before fourth street is dealt.
 

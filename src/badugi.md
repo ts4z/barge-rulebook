@@ -1,7 +1,7 @@
 # Badugi
 
-Badugi is a relative of [Triple Draw](./deuce-to-seven-triple-draw.md), and the
-parent game of high-low variants [Badeucy](./badeucy.md) and [Badacey](./badacey.md).
+Badugi is a relative of [Triple Draw](deuce-to-seven-triple-draw.md), and the
+parent game of high-low variants [Badeucy](badeucy.md) and [Badacey](badacey.md).
 
 ## TLDR
 
@@ -34,4 +34,4 @@ duplication of rank or suit. Between hands of the same number of cards, the one
 with the lowest hand (aces count as low) shall be the best hand. 432A of four
 different suits is the best possible hand. KQJT of four different suits beats
 any three-card hand.  A three-card hand of 742 beats 75A. See the [Appendix on
-Lowball Scales](./lowball-scales.md) for more details.
+Lowball Scales](lowball-scales.md) for more details.

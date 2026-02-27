@@ -11,5 +11,5 @@ of hands made for combinatorial reasons.
 
 Another variation, used in [Mexican Poker](mexican-poker.md), is to remove the
 eights, nines, and tens from the deck and to add a single joker, leaving a deck
-of 41 cards. Refer to the rule page for [Mexican Poker](./mexican-poker.md) for
+of 41 cards. Refer to the rule page for [Mexican Poker](mexican-poker.md) for
 further details in the play of this variation.

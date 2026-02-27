@@ -47,6 +47,6 @@ cards plus three cards from the board to form each portion of their hand.
 
 ## Notes
 
-[Four-card Chowaha](./four-card-chowaha.md) is the original game.  It became
+[Four-card Chowaha](four-card-chowaha.md) is the original game.  It became
 two-card when played at [BARGE](https://www.barge.org/barge/) to cut down on the number of cards that had to be
 dealt out.

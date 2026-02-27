@@ -1,14 +1,14 @@
 # Mississippi Stud (and Variations)
 
-Mississippi offers a variant of [Stud](./stud.md) that works better in a
-[pot-limit](./pot-limit.md) format.  This section describes the Mississippi
-variant of three common games, [Stud (High Only)](./stud.md), [Stud High/Low
-Eight-or-Better](./stud-high-low-eight-or-better.md) (abbreviated Stud/8
-below), and [Razz](./razz.md).
+Mississippi offers a variant of [Stud](stud.md) that works better in a
+[pot-limit](pot-limit.md) format.  This section describes the Mississippi
+variant of three common games, [Stud (High Only)](stud.md), [Stud High/Low
+Eight-or-Better](stud-high-low-eight-or-better.md) (abbreviated Stud/8
+below), and [Razz](razz.md).
 
 ## TLDR
 
-[Stud](./stud.md), but fourth and fifth streets come at the same time and
+[Stud](stud.md), but fourth and fifth streets come at the same time and
 seventh street is face up.
 
 ## Forced Money
@@ -54,8 +54,8 @@ Mississippi Stud is sometimes played with an ante and bring-in.
 
 ## Notes
 
-Mississippi Stud is intended to be played [pot-limit](./pot-limit.md).
-Mississippi can also be played in a [limit](./limit.md) format.
+Mississippi Stud is intended to be played [pot-limit](pot-limit.md).
+Mississippi can also be played in a [limit](limit.md) format.
 
 The game was designed by David Zanetti to be a version of stud more amenable to
 a big-bet format than standard Seven-card Stud. See [this entry from the old

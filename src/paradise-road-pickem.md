@@ -7,10 +7,10 @@ The game is played with a button and blinds.
 ## Dealing Procedure
 
 Each player is dealt three cards. The player under the gun determines whether
-the hand will be played as [Hold'em](./texas-holdem.md), [Omaha High/Low
-Eight-or-Better](./omaha-high-low-eight-or-better.md), [Razz](./razz.md),
-[Stud](./stud.md), or [Stud High/Low
-Eight-or-Better](./stud-high-low-eight-or-better.md) (i.e. the HORSE
+the hand will be played as [Hold'em](texas-holdem.md), [Omaha High/Low
+Eight-or-Better](omaha-high-low-eight-or-better.md), [Razz](razz.md),
+[Stud](stud.md), or [Stud High/Low
+Eight-or-Better](stud-high-low-eight-or-better.md) (i.e. the HORSE
 games). When heads-up or three-handed, the player with the button will choose
 the game for that hand. If the under the gun player is absent from the table or
 otherwise cannot or will not choose a game, the default game to be played is
@@ -20,7 +20,7 @@ If Hold'em is selected, each player must discard one card. If [Omaha/8](omaha-hi
 each player is dealt an additional card. The hand then plays out as the selected
 game, with action beginning with the player under the gun.
 
-If [Razz](./razz.md), [Stud](./stud.md), or [Stud
+If [Razz](razz.md), [Stud](stud.md), or [Stud
 High/Low](stud-high-low-eight-or-better.md) is selected, each player will in
 turn (with action beginning with the player under the gun) either fold, call,
 or raise. If they call or raise they will expose (i.e. roll) a door card of

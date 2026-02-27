@@ -13,8 +13,8 @@ or maximum bet.
 [Stud](stud.md) variations without blinds are rarely played in a no-limit format. The
 minimum bet would be the size of the bring-in in such a format.
 
-As an example, suppose you are playing [No-Limit Hold'em](./texas-holdem.md) in
-a tournament at the 100/200 level. Unlike [limit](./limit.md), this
+As an example, suppose you are playing [No-Limit Hold'em](texas-holdem.md) in
+a tournament at the 100/200 level. Unlike [limit](limit.md), this
 means that the small blind is 100 and the large blind is 200.  The
 action folds to the player on the button, who says raise.
 

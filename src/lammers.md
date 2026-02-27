@@ -2,7 +2,7 @@
 
 *Lammers* are re-buy chips that players receive at the beginning of a
 tournament, and at [BARGE](https://www.barge.org/barge/) is most usually used in the
-[Pot-Limit](./pot-limit.md) [Omaha](./omaha-high-only.md) event. Players may
+[Pot-Limit](pot-limit.md) [Omaha](omaha-high-only.md) event. Players may
 turn in any or all of their lammers before the start of the hand to receive
 tournament chips equal to the assigned value of the lammers. Players may not
 redeem lammers during the play of a hand. When a player busts but has remaining

@@ -48,7 +48,7 @@ cards plus three cards from the board to form each portion of their hand.
 
 ## Notes
 
-See also [the two-card variant](./chowaha.md).
+See also [the two-card variant](chowaha.md).
 
 Chowaha was created by Mike Chow.
 

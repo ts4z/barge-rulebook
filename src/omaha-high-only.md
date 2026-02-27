@@ -32,4 +32,4 @@ cards from each player’s hand and exactly three cards from the board.
 
 This game is most commonly played as pot-limit (PLO), but is sometimes played
 as a limit game.  Most limit games, however, are
-[Omaha/8](./omaha-high-low-eight-or-better.md).
+[Omaha/8](omaha-high-low-eight-or-better.md).

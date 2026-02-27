@@ -9,10 +9,10 @@ now.
 A number of games in this book are "split" variants, presumably deriving from
 high/low draw poker.
 
-We have specific sections for [Omaha High/Low](./omaha-high-low-eight-or-better.md),
+We have specific sections for [Omaha High/Low](omaha-high-low-eight-or-better.md),
 [Stud/8](stud-high-low-eight-or-better.md), [Razzdugi](razzdugi.md),
 [Badeucy](badeucy.md), [Dramadugi](dramadugi.md) and [Stud High/Low No
-Qualifier](./stud-high-low-no-qualifier.md), which all have their own rules
+Qualifier](stud-high-low-no-qualifier.md), which all have their own rules
 spelled out specifically.
 
 In general (and to avoid having *every* pair of games combined specifically),
