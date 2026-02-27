@@ -39,12 +39,12 @@ If at showdown, no one can make a straight, the high hand scoops.
 
 Example:
 
- * Boards:
-   * K♣Q♣2♦3♦6♣
-   * A♦K♦Q♠T♠T♣
- * Hands:
-   1. A♣3♥T♦5♣
-   2. 9♦T♥J♠Q♥
+* Boards:
+  * K♣Q♣2♦3♦6♣
+  * A♦K♦Q♠T♠T♣
+* Hands:
+  1. A♣3♥T♦5♣
+  2. 9♦T♥J♠Q♥
 
 Hand 1 makes the nut flush (A♣K♣Q♣6♣5♣) on the top board and two pair
 (K♣K♦Q♣Q♠) on the bottom board.  Hand 2 has just one pair on the top board, but
