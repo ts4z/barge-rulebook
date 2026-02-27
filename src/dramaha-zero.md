@@ -2,7 +2,7 @@
 
 ## TLDR
 
-Five-card Omaha with a draw after the flop betting, and a split pot
+Five-card [Omaha](omaha-high-only.md) with a draw after the flop betting, and a split pot
 between the best Omaha hand and the lowest total "points" hand,
 
 ## Forced Money
@@ -30,7 +30,7 @@ betting at the big bet limit. This is followed by the showdown.
 
 ## Evaluating the Showdown
 
-The best Omaha high hand and the best point value hand split the pot.
+The best [Omaha](omaha-high-only.md) high hand and the best point value hand split the pot.
 
 The Omaha high hand uses exactly two cards from the player’s hole cards and
 exactly three cards from the board.

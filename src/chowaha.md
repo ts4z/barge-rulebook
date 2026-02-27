@@ -4,7 +4,7 @@ Sometimes called "Casino Chowaha."
 
 ## TLDR
 
-Two-card Omaha with four possible boards.
+Two-card [Omaha](omaha-high-only.md) with four possible boards.
 
 ## Forced Money
 
@@ -42,11 +42,11 @@ combination EXCEPT that board cards used CANNOT consist of the top row of
 the flop plus the bottom turn card or the bottom row of the flop plus the top turn
 card. That is, the flop, turn, and river must all be contiguous cards. Each player
 may create their best high hand and low hand using different hold cards and/or
-different board cards. Also, as in Omaha, each player must use exactly two hole
+different board cards. Also, as in [Omaha](omaha-high-only.md), each player must use exactly two hole
 cards plus three cards from the board to form each portion of their hand.
 
 ## Notes
 
 [Four-card Chowaha](./four-card-chowaha.md) is the original game.  It became
-two-card when played at BARGE to cut down on the number of cards that had to be
+two-card when played at [BARGE](https://www.barge.org/barge/) to cut down on the number of cards that had to be
 dealt out.

@@ -14,9 +14,9 @@ Eight-or-Better](./stud-high-low-eight-or-better.md) (i.e. the HORSE
 games). When heads-up or three-handed, the player with the button will choose
 the game for that hand. If the under the gun player is absent from the table or
 otherwise cannot or will not choose a game, the default game to be played is
-Hold’em.
+[Hold'em](texas-holdem.md).
 
-If Hold’em is selected, each player must discard one card. If Omaha/8 is selected,
+If Hold'em is selected, each player must discard one card. If [Omaha/8](omaha-high-low-eight-or-better.md) is selected,
 each player is dealt an additional card. The hand then plays out as the selected
 game, with action beginning with the player under the gun.
 
@@ -26,7 +26,7 @@ turn (with action beginning with the player under the gun) either fold, call,
 or raise. If they call or raise they will expose (i.e. roll) a door card of
 their choice at that time.
 
-For stud variations, on fourth street and beyond the cards will be dealt starting at
+For [stud](stud.md) variations, on fourth street and beyond the cards will be dealt starting at
 the dealer’s left and the betting action will start with the player with the high or
 low hand, as appropriate for the variation being played. The small bet will be the
 size of the big blind and the big bet will be double the size of the big blind. For
@@ -38,4 +38,4 @@ and evaluating the showdown.
 
 ## Notes
 
-Paradise Road Pick'em was a tournament event at BARGE 2021.
+Paradise Road Pick'em was a tournament event at [BARGE 2021](https://www.barge.org/barge/2021/).

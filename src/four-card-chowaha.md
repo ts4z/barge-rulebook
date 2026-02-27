@@ -43,7 +43,7 @@ combination EXCEPT that board cards used CANNOT consist of the top row of
 the flop plus the bottom turn card or the bottom row of the flop plus the top turn
 card. That is, the flop, turn, and river must all be contiguous cards. Each player
 may create their best high hand and low hand using different hold cards and/or
-different board cards. Also, as in Omaha, each player must use exactly two hole
+different board cards. Also, as in [Omaha](omaha-high-only.md), each player must use exactly two hole
 cards plus three cards from the board to form each portion of their hand.
 
 ## Notes

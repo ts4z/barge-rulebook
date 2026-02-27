@@ -23,7 +23,7 @@ Standard order is as follows:
 Conventional poker hands are 5 cards.  Additional cards do not play.  Use only
 the best five card combination in games that have larger hands.
 
-For instance, in a Hold'em board where I have K♠K♦ as my hole cards, the board
+For instance, in a [Hold'em](texas-holdem.md) board where I have K♠K♦ as my hole cards, the board
 has T♣T♦5♠5♥A♠, I have two pair; and I lose to your A♦2♣ (K♠K♦T♣T♦A♠ loses to
 A♠A♦T♣T♦5♠).
 

@@ -72,6 +72,6 @@ are the left flop, turn and river; the right flop, turn, and river; or the
 center flop, either turn, and river (two boards).
 
 Each player may create their best high hand and low hand using different hold
-cards and/or different board cards. Also, as in Omaha, each player must use
+cards and/or different board cards. Also, as in [Omaha](omaha-high-only.md), each player must use
 exactly two hole cards plus three cards from the board to form each portion of
 their hand.

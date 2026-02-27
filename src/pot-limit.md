@@ -9,7 +9,7 @@ chips to make the minimum wager may go *all-in* with their remaining chips.
 Unlike [limit](./limit.md) and [no-limit](./no-limit.md), a
 player is entitled to the current count of the pot.
 
-Stud variations without blinds are sometimes played in a pot-limit format, with
+[Stud](stud.md) variations without blinds are sometimes played in a pot-limit format, with
 the minimum bet being the size of the bring-in.
 
 The maximum bet in a round without action is simply the size of the pot.

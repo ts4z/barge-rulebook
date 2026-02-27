@@ -2,7 +2,7 @@
 
 ## TLDR
 
-Wonky Donkey is either Hold'em or Omaha/8, but which one it is isn't known
+Wonky Donkey is either [Hold'em](texas-holdem.md) or [Omaha/8](omaha-high-low-eight-or-better.md), but which one it is isn't known
 until after the flop.
 
 ## Forced Money

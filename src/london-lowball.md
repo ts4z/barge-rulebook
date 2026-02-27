@@ -35,8 +35,8 @@ they have received their up cards.
 ## Evaluating the Showdown
 
 The best five-card Ace-to-Six low hand wins the pot. Straights and flushes count
-against the player, unlike California Lowball (Ace-to-Five) but like Kansas City
-Lowball (Deuce-to-Seven). Unlike Deuce-to-Seven, the Ace is the low card, not
+against the player, unlike [California Lowball](california-lowball.md) (Ace-to-Five) but like [Kansas City
+Lowball](deuce-to-seven-lowball.md) (Deuce-to-Seven). Unlike Deuce-to-Seven, the Ace is the low card, not
 the high card. Thus the nuts is a non-flush 6432A hand. See the
 [Appendix on Lowball Scales](./lowball-scales.md).
 
@@ -46,4 +46,4 @@ The rules for London Lowball were written assuming the game is played
 pot-limit, which is traditional for this game as described in [*Pot-Limit &
 No-Limit Poker* by Stewart Reuben and Bob
 Ciaffone](https://www.amazon.com/Pot-Limit-No-Limit-Poker-Stewart-Reuben/dp/0966100719),
-and how it was played at BARGE 2018. It is not played with a joker/bug.
+and how it was played at [BARGE 2018](https://www.barge.org/barge/2018/). It is not played with a joker/bug.

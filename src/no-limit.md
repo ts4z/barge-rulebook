@@ -10,7 +10,7 @@ minimum wager may go *all-in* with their remaining chips.
 Many flop games have an ante structure.  Any ante does not impact the minimum
 or maximum bet.
 
-Stud variations without blinds are rarely played in a no-limit format. The
+[Stud](stud.md) variations without blinds are rarely played in a no-limit format. The
 minimum bet would be the size of the bring-in in such a format.
 
 As an example, suppose you are playing [No-Limit Hold'em](./texas-holdem.md) in

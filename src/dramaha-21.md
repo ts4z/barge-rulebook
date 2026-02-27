@@ -2,7 +2,7 @@
 
 ## TLDR
 
-Five-card Omaha with a draw after the flop betting, and a split pot
+Five-card [Omaha](omaha-high-only.md) with a draw after the flop betting, and a split pot
 between the best Omaha hand and the best "points" hand, capped at 21.
 
 ## Forced Money
@@ -30,7 +30,7 @@ betting at the big bet limit. This is followed by the showdown.
 
 ## Evaluating the Showdown
 
-The hand is split between the best Omaha high hand (using exactly two cards
+The hand is split between the best [Omaha](omaha-high-only.md) high hand (using exactly two cards
 from the player’s hand and exactly three cards from the board) and the best
 point value hand.
 
@@ -51,8 +51,8 @@ Ties are broken by having the most cards.  That is:
 
 ## Notes
 
-Some online sources say that face cards are worth 1 point, but not according to BARGE.
+Some online sources say that face cards are worth 1 point, but not according to [BARGE](https://www.barge.org/barge/).
 
 Sometimes spelled Drawmaha 21.
 
-Played as part of the Drawmaha mix tournament at EMBARGO 2026.
+Played as part of the Drawmaha mix tournament at [EMBARGO 2026](https://www.barge.org/embargo/2026/).

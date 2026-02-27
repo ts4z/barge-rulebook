@@ -6,7 +6,7 @@ tournament, but is usually the amount of the big blind.
 
 Tournaments utilizing a big blind ante will also list the number of players at
 which the ante will be reduced, usually to the amount of the small blind.
-At BARGE 2024, this was at four players.
+At [BARGE 2024](https://www.barge.org/barge/2024/), this was at four players.
 
 This rule tends to differ from poker room to poker room, so it is important to
 check the structure sheet.
@@ -42,7 +42,7 @@ director to verify how any particular tournament is handling the big blind.
 ## Differences with TDA Recommended Procedure-11
 
 TDA Recommended Procedure-11 recommends that the big blind ante amount not be
-reduced.  BARGE prefers the rule described above.
+reduced.  [BARGE](https://www.barge.org/barge/) prefers the rule described above.
 
 The "which comes first" problem has been contentious for many years among the
 TDA.  In 2024, the TDA changed RP-11 and recommended that the blinds would come

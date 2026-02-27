@@ -27,5 +27,5 @@ any two games can be combined into high/low, provided that:
 Extra rules may apply, such as these:
 
 * In [Action Razz](action-razz.md), a 6th card can be used for a qualifier.
-* In [Baducey](badeucy.md), aces play high for the [Badugi](badugi.md) hand and
-  the 2-7 hand, even though they would generally be "good" cards in Badugi.
+* In [Badeucy](badeucy.md), aces play high for the [Badugi](badugi.md) hand and
+  the 2-7 hand, even though they would generally be "good" cards in [Badugi](badugi.md).

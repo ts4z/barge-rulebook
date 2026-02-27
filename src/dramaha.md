@@ -4,7 +4,7 @@ Also spelled Drawmaha.
 
 ## TLDR
 
-Five-card Omaha with a draw after the flop betting, and a split pot
+Five-card [Omaha](omaha-high-only.md) with a draw after the flop betting, and a split pot
 between the best Omaha hand and the best [Five-Card Draw](five-card-draw.md)
 hand.
 
@@ -22,7 +22,7 @@ at the small bet limit.
 
 Then each player in turn discards zero to five cards from their hand. Once all of
 the discards have been announced, the dealer will deal each player an appropriate
-number of replacement cards. Note that this differs from Triple Draw Dramaha,
+number of replacement cards. Note that this differs from [Triple Draw Dramaha](triple-draw-dramaha.md),
 where the draw takes place BEFORE the flop betting.
 
 One additional community card is placed face up. This is followed by a round of
@@ -33,6 +33,6 @@ betting at the big bet limit. This is followed by a showdown.
 
 ## Evaluating the Showdown
 
-The best Omaha high hand (using exactly two cards from the player’s hand and
+The best [Omaha](omaha-high-only.md) high hand (using exactly two cards from the player's hand and
 exactly three cards from the board) and the best five card draw hand (using all
 five cards from the player’s hand) splits the pot.

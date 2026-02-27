@@ -1,6 +1,6 @@
 # Big O
 
-Big O is also known as Five Card Omaha High/Low Eight-or-Better.
+Big O is also known as [Five Card Omaha](five-card-omaha.md) High/Low Eight-or-Better.
 
 ## TLDR
 
@@ -35,4 +35,4 @@ hand is made, the high hand scoops the pot.
 ## Notes
 
 Big O is usually played as a [pot-limit](./pot-limit.md) game, but was
-played as a [limit](./limit.md) game for the Big OE mix at BARGE 2021.
+played as a [limit](./limit.md) game for the Big OE mix at [BARGE 2021](https://www.barge.org/barge/2021/).

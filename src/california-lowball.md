@@ -39,4 +39,4 @@ no Sevens Rule and with check-and-raise allowed.
 This was the big game in California, until someone realized
 [Hold'em](texas-holdem.md) wasn't illegal.
 
-The no-limit format was featured in a bounty tournament at BARGE 2021.
+The no-limit format was featured in a bounty tournament at [BARGE 2021](https://www.barge.org/barge/2021/).

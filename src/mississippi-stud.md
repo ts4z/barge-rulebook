@@ -25,7 +25,7 @@ Two up cards are dealt to each player in the way stud up cards are dealt, that
 is, starting in seat 1. This is followed by a round of betting.  The betting
 for this round and later rounds is initiated by the best high poker hand
 showing for Stud and Stud/8, or for the best low hand if playing Mississippi
-Razz (as is usual for the non-Mississippi versions of these games).
+[Razz](razz.md) (as is usual for the non-Mississippi versions of these games).
 
 A fourth up card is dealt to all players. This is followed by a round of
 betting.

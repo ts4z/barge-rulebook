@@ -12,5 +12,5 @@ suppose 75 players enter a nine-handed shootout tournament. Since 81 players (9Â
 would accomodate exactly 9 nine-handed tables, with table winners advancing to
 a final table, in this case six of the nine tables would start with one fewer player.
 
-Sometimes at BARGE shootouts have been played such that the final two players
+Sometimes at [BARGE](https://www.barge.org/barge/) shootouts have been played such that the final two players
 from each table advance to the next round, rather than just a single player.

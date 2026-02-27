@@ -2,7 +2,7 @@
 
 ## TLDR
 
-Five-card Omaha with a draw after the flop betting, and a split pot
+Five-card [Omaha](omaha-high-only.md) with a draw after the flop betting, and a split pot
 between the best Omaha hand and the highest total "points" hand.
 
 ## Forced Money
@@ -30,7 +30,7 @@ betting at the big bet limit. This is followed by the showdown.
 
 ## Evaluating the Showdown
 
-The best Omaha high hand (using exactly two cards from the player’s hand and
+The best [Omaha](omaha-high-only.md) high hand (using exactly two cards from the player's hand and
 exactly three cards from the board) and the best point value hand (using all five
 cards from the player’s hand) splits the pot, where points are assigned:
  * Ace = 1
@@ -42,6 +42,6 @@ hence the name Dramaha 49.
 
 ## Notes
 
-Some online sources say that face cards are worth 1 point, but not according to BARGE.
+Some online sources say that face cards are worth 1 point, but not according to [BARGE](https://www.barge.org/barge/).
 
 Sometimes spelled Drawmaha 49.

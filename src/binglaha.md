@@ -1,6 +1,6 @@
 # Binglaha
 
-Traditionally the big money game at BARGE&mdash;yet it's still a 1-2 game.
+Traditionally the big money game at [BARGE](https://www.barge.org/barge/)&mdash;yet it's still a 1-2 game.
 
 ## TLDR
 

@@ -23,8 +23,8 @@ Draw](five-card-draw.md), then we can describe [Badeucy](badeucy.md) as just
 
 On the other hand, both [Big O](big-o.md) and [Five Card
 Omaha](five-card-omaha.md) are both simple enough to describe as a variation:
-Omaha, with five cards in hand instead of four.  For a few reasons, none
-particularly consistent, they have their own game pages.
+[Omaha](omaha-high-only.md), with five cards in hand instead of four.
+They have their own game pages (for no good reason).
 
 For clarity, and to highlight popular combinations, we usually re-state the
 rules of the game rather than try to describe the variations that make up the

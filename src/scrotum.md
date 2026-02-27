@@ -40,6 +40,6 @@ splits the pot. Hands are made using all x cards from the player’s hand and 5 
 cards from the board, i.e., the number of board cards necessary to make a five-card
 hand.
 
-NOTE: Unlike Omaha/8, no matter what comes on the board a low hand is
+NOTE: Unlike [Omaha/8](omaha-high-low-eight-or-better.md), no matter what comes on the board a low hand is
 possible as long as a player has retained a sufficient number of cards to make a
 qualifying low hand.

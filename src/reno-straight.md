@@ -27,7 +27,7 @@ This is followed by a showdown.
 
 ## Evaluating the Showdown
 
-The best Omaha hand, and the *lowest straight* split the pot, using either board.
+The best [Omaha](omaha-high-only.md) hand, and the *lowest straight* split the pot, using either board.
 
 Both hands must be made using three cards from the board and two hole cards.
 

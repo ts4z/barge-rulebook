@@ -10,7 +10,7 @@ Rarely, a third order known as "ace-to-six" was used as well (as seen in the
 climax of the Robert Altman film [California
 Split](https://www.imdb.com/title/tt0071269/)).
 
-In recent years, another variant called Badugi has become popular, which is
+In recent years, another variant called [Badugi](badugi.md) has become popular, which is
 still less related to classic poker hand order.
 
 ### Badugi
@@ -42,19 +42,19 @@ If the joker/bug is being used, it is used as the lowest card that does not pair
 other card held. If you held 653A-Joker, you would use the Joker as a deuce and
 your hand would be 6532A.
 
-This scale is used in California Lowball, Badacey, Hold’em High/Low
-Eight-orBetter, Omaha Eight-or-Better, Binglaha, Oklahoma, 2 or 5 Omaha
-Eight-or Better, 4 Card Chowaha Eight-or-Better, Razz, Razzdugi, Stud
-Eight-or-Better, and Stud High/Low No Qualifier.
+This scale is used in [California Lowball](california-lowball.md), [Badacey](badacey.md), [Hold'em High/Low
+Eight-orBetter](texas-holdem-high-low-eight-or-better.md), [Omaha Eight-or-Better](omaha-high-low-eight-or-better.md), [Binglaha](binglaha.md), [Oklahoma](oklahoma.md), [2 or 5 Omaha
+Eight-or Better](two-or-five-omaha-8-or-better.md), [4 Card Chowaha Eight-or-Better](four-card-chowaha.md), [Razz](razz.md), [Razzdugi](razzdugi.md), [Stud
+Eight-or-Better](stud-high-low-eight-or-better.md), and [Stud High/Low No Qualifier](stud-high-low-no-qualifier.md).
 
 In most split pot games played with the California Lowball scale, an
 Eight-orBetter is needed to qualify for the low hand. If no player has an
 Eight-or-Better, then the high hand will scoop the pot. The worst lowball hand
 that will qualify in Eight-or-Better is 87654.
 
-California Lowball, Badacey, Razz, Razzdugi, and Stud High/Low No Qualifier
+[California Lowball](california-lowball.md), [Badacey](badacey.md), [Razz](razz.md), [Razzdugi](razzdugi.md), and [Stud High/Low No Qualifier](stud-high-low-no-qualifier.md)
 do not use Eight-or-Better in evaluation of the low hand. California Lowball
-traditionally uses the “Sevens Rule” (see Appendix B) with no check and raise
+traditionally uses the "[Sevens Rule](sevens-rule.md)" (see Appendix B) with no check and raise
 allowed.
 
 ### Kansas City Lowball, a.k.a. Deuce-to-Seven or 2-7
@@ -77,8 +77,8 @@ you would use the Joker as an eight and your hand would be 86543. You would
 not use the Joker as either a deuce or seven because in this case, either of those
 ranks would make a straight.
 
-This scale is used in Deuce-to-Seven Triple Draw, Badeucy, and Deuce-to-Seven
-Razz. Check and raise is allowed and no analog of the “Sevens Rule” exists.
+This scale is used in [Deuce-to-Seven Triple Draw](deuce-to-seven-triple-draw.md), [Badeucy](badeucy.md), and [Deuce-to-Seven
+Razz](deuce-to-seven-razz.md). Check and raise is allowed and no analog of the "Sevens Rule" exists.
 
 Another common game with this scale is No Limit Deuce-to-Seven Lowball, played
 with a single draw. Traditionally, players must enter the pot for at least a minimum
@@ -87,13 +87,13 @@ raise in this game (i.e. no limping is allowed).
 ### London Lowball, aka Ace-to-Six or A-6
 
 This variation is seldom seem in games played in American casinos. It is similar
-to California Lowball in that the Ace is low, but unlike California Lowball and
-similar to Kansas City Lowball in that straights and flushes count against you.
+to [California Lowball](california-lowball.md) in that the Ace is low, but unlike California Lowball and
+similar to [Kansas City Lowball](deuce-to-seven-lowball.md) in that straights and flushes count against you.
 The best hand is 6432A (not single suited).
 
 Probably the most common game that uses it is called “London Lowball”, which
-is razz played with the Ace-to-Six scale and usually played pot limit rather than
-fixed limit. This version made its BARGE debut in 2018.
+is [razz](razz.md) played with the Ace-to-Six scale and usually played pot limit rather than
+fixed limit. This version made its [BARGE](https://www.barge.org/barge/) debut in [2018](https://www.barge.org/barge/2018/).
 
 ### Smooth Hands/Rough Hands/Perfect Hands
 

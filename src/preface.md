@@ -1,12 +1,14 @@
 # Preface
 
-We hope that this is a useful reference for BARGE folks and for anyone else who wants a simple list of poker games. 
-In particular, Tim started updating this rulebook because he can never remember
-the rules to [Archie](archie.md) and wanted to make it easier to look them up.
+We hope that this is a useful reference for the
+[BARGE](https://www.barge.org/barge/) community and for anyone who wants a
+clean list of poker game rules.  In particular, Tim started updating this
+rulebook because he can never remember the rules to [Archie](archie.md) and
+wanted to make it easier to look them up.
 
 This rulebook decends from Christopher J. Mecklin's excellent rulebook, last
-updated in July, 2021.  By 2024, it had fallen a bit out of date: BARGE being
-BARGE, and poker players being poker players, some newer games have been made
+updated in July, 2021.  By 2024, it had fallen a bit out of date: [BARGE](https://www.barge.org/barge/) being
+[BARGE](https://www.barge.org/barge/), and poker players being poker players, some newer games have been made
 up.
 
 This version was created starting from extracting the text from the PDF of the
@@ -50,9 +52,9 @@ encouragement, and technical and editorial input.
 
 Many folks have helped maintain the rulebook (or *a* rulebook) in fits and
 starts and a few different versions.  Nick Christenson maintained the first one
-on the BARGE website used for a dealer's choice tournament.  In 2015, for the
-25th BARGE event, Patrick Milligan produced a rulebook for the 25-Game mixed
-game event.  In 2016, this was extended for the 26-game mixed game event, and
+on the [BARGE](https://www.barge.org/barge/) website used for a Dealer's Choice tournament.  In 2015, for the
+[25th BARGE event](https://www.barge.org/barge/2015/), Patrick Milligan produced a rulebook for the 25-Game mixed
+game event.  In [2016](https://www.barge.org/2016/), this was extended for the 26-game mixed game event, and
 converted to the first LaTeX-based version, by Chris Mecklin.  Chris updated
 the rulebook through 2021, and Tim started updating it in 2024.
 
@@ -61,14 +63,14 @@ the rulebook through 2021, and Tim started updating it in 2024.
 (This section has been slightly abridged from the 2021 edition.)
 
 This document contains the rules of many forms of poker, some of which will be
-played in BARGE 2021 tournaments, others in tournaments in past years, and yet
-others only in BARGE cash games or home games.
+played in [BARGE 2021](https://www.barge.org/barge/2021/) tournaments, others in tournaments in past years, and yet
+others only in [BARGE](https://www.barge.org/barge/) cash games or home games.
 
 I obtained these rules from a copy of the official rule book for the XXV
-25-Game Mix poker tournament played at BARGE XXV in 2015. That rule book was
+25-Game Mix poker tournament played at [BARGE XXV in 2015](https://www.barge.org/barge/2015/). That rule book was
 originally written by Patrick Milligan and Rich Bremer and is reproduced here
 with their permission. Also, rules for some of the stranger games came from an
-archived version of the BARGE website, called the [BARGE Poker Game Rule
+archived version of the [BARGE](https://www.barge.org/barge/) website, called the [BARGE Poker Game Rule
 Archive](http://web.archive.org/web/20120721203440/http://www.barge.org/rules/).
 I have also referred to [Bob Ciaffone’s Robert’s Rules of
 Poker](https://www.betsperts.com/poker/robs-poker-rules/).  [This link has been

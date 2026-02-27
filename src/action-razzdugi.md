@@ -33,5 +33,5 @@ betting at the big bet limit. This is followed by a showdown.
 
 The best five-card [Action Razz](action-razz.md) hand and the best
 four-card [Badugi](badugi.md) hand split the pot. A face card is not
-required to win the Badugi hand. There is no qualifier for either the Action
-Razz or Badugi hand.
+required to win the Badugi hand. There is no qualifier for either the [Action
+Razz](action-razz.md) or [Badugi](badugi.md) hand.

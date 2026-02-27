@@ -31,6 +31,6 @@ followed by a round of betting at the big bet limit. This is followed by a showd
 
 ## Evaluating the Showdown
 
-The best Omaha high hand (using exactly two cards from the player’s hand and
+The best [Omaha](omaha-high-only.md) high hand (using exactly two cards from the player's hand and
 exactly three cards from the board) and the best five card draw hand (using all
 five cards from the player’s hand) splits the pot.

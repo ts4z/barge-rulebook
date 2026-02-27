@@ -29,7 +29,7 @@ the Z cards on the river.
 ## Evaluating the Showdown
 
 The best high hand and the best California low hand with an 8-or-better qualifier
-split the pot. As in Omaha, hands are made using exactly two cards from each
+split the pot. As in [Omaha](omaha-high-only.md), hands are made using exactly two cards from each
 player’s hand and exactly three cards from the board to form each portion of their
 hand. When forming a hand (high or low), each player may use only one card
 from each row on the board! Separate hand and board cards may be used by each

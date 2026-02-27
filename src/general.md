@@ -1,7 +1,7 @@
 # General Rules and Procedures
 
 This section describes rules common to all games or some games, as well as a
-few general variants played at BARGE.
+few general variants played at [BARGE](https://www.barge.org/barge/).
 
 In general, a host casino is assumed to use its own rulebook, which will cover
 a lot of the same topics.  However, we do not know of any poker rooms that have

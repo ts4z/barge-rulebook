@@ -30,6 +30,6 @@ This is followed by a showdown.
 
 The best five-card high hand and California low hand splits the pot. A player
 must have a pair or better to qualify for the high hand and no pair to qualify for
-the low hand. Notice that unlike Archie, every hand that makes it to showdown
+the low hand. Notice that unlike [Archie](archie.md), every hand that makes it to showdown
 will qualify in at least one direction, with straights and flushes qualifying in both
 directions.

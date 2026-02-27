@@ -8,7 +8,7 @@ Chowaha](four-card-chowaha.md)) but they are
 still technically alphabetized.
 
 There are a lot of games here, with varying levels of popularity.  Historically
-at BARGE, [Chowaha](chowaha.md) is quite popular, and the
+at [BARGE](https://www.barge.org/barge/), [Chowaha](chowaha.md) is quite popular, and the
 [Pot-Limit](pot-limit.md) [Binglaha](binglaha.md) game has been known to run
 very late on Saturday night.
 

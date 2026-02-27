@@ -9,11 +9,11 @@ player starts with four down cards, and must discard two before fourth street.
 
 The game is played with antes.
 
-If the game is stud or stud high-low eight-or-better, the low card on the board
+If the game is [stud](stud.md) or [stud high-low eight-or-better](stud-high-low-eight-or-better.md), the low card on the board
 by rank first and then by suit brings it in. The 2♣ is the lowest possible card
 followed by the 2♦, 2♥, 2♠, and so on.
 
-If the game is razz, the high card on the board by rank first and then by suit
+If the game is [razz](razz.md), the high card on the board by rank first and then by suit
 brings it in. The K♠ is the highest possible card followed by the K♥, K♦, K♣,
 and so on.
 

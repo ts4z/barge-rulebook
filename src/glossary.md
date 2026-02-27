@@ -7,8 +7,8 @@ Big Bet
 : Collectively, pot-limit and no-limit games, as compared to limit games.
 
 Board
-: In a Stud game, the cards in a player's hand that are face up.
-: In a community card game like Hold'em or Omaha, the shared community cards.
+: In a [Stud](stud.md) game, the cards in a player's hand that are face up.
+: In a community card game like [Hold'em](texas-holdem.md) or [Omaha](omaha-high-only.md), the shared community cards.
 
 Community Card
 : A card shared by all players, separate from a player's private cards.
@@ -19,7 +19,7 @@ Hole Cards
   games, where all cards are private, this term is not used.)
 
 HORSE
-:   A common mixed game of Hold'em, Omaha/8, Razz, Stud, and Stud/8 (with the
+:   A common mixed game of [Hold'em](texas-holdem.md), [Omaha/8](omaha-high-low-eight-or-better.md), [Razz](razz.md), [Stud](stud.md), and [Stud/8](stud-high-low-eight-or-better.md) (with the
     emphasis on the "E" in eight.)
 
 Qualifier
@@ -36,4 +36,4 @@ Run It Twice
 
 Scoop
 :   Win both ways in a split pot game.
-:   In a&nbsp;[run-it-twice](#run-it-twice)&nbsp;situation, win both times.
+:   In a &nbsp;[run-it-twice](#run-it-twice)&nbsp;situation, win both times.

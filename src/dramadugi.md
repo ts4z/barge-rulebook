@@ -2,7 +2,7 @@
 
 ## TLDR
 
-Five-card Omaha with a draw after the flop betting, and a split pot
+Five-card [Omaha](omaha-high-only.md) with a draw after the flop betting, and a split pot
 between the best Omaha hand and the best [Badugi](badugi.md)
 hand.
 
@@ -26,14 +26,14 @@ betting. This is followed by a showdown.
 
 When played as [limit](limit.md), the first two betting rounds are at the
 smaller limit, and the later two betting rounds are at the larger limit, as in
-Omaha.
+[Omaha](omaha-high-only.md).
 
 ## Evaluating the Showdown
 
-The best Omaha high hand (using exactly two cards from the player’s hand and
-exactly three cards from the board) and the best four-card Badugi hand (using
+The best [Omaha](omaha-high-only.md) high hand (using exactly two cards from the player's hand and
+exactly three cards from the board) and the best four-card [Badugi](badugi.md) hand (using
 only the player's hole cards) split the pot.
 
 ## Notes
 
-At BARGE 2024, this game appeared in a tournament, played [pot-limit](pot-limit.md).
+At [BARGE 2024](https://www.barge.org/barge/2024/), this game appeared in a tournament, played [pot-limit](pot-limit.md).

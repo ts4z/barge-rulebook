@@ -33,4 +33,4 @@ This is followed by a showdown.
 ## Evaluating the Showdown
 
 The best five-card California low hand and the best four-card [Badugi](badugi.md) hand
-splits the pot. Tthere is no qualifier for either the Razz or Badugi hand.
+splits the pot. Tthere is no qualifier for either the [Razz](razz.md) or [Badugi](badugi.md) hand.

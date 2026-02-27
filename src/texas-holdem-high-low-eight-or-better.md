@@ -30,5 +30,5 @@ pot.
 
 ### Notes
 
-Unlike Omaha, a player may use both, one, or none of the cards in their hand to
+Unlike [Omaha](omaha-high-only.md), a player may use both, one, or none of the cards in their hand to
 make either the high or the low.
