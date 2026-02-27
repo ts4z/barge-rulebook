@@ -5,12 +5,12 @@ player makes is predetermined by the structure of the game or tournament. The
 structure will specify the size of the small bet, the large bet, the small and
 big blinds for games that use blinds, and the ante and bring-in for games that
 use them. It is typical in modern play for flop and draw variations to use
-blinds and for [stud](stud.md) variations to use antes and a bring-in. Antes are almost
+blinds and for [Stud](stud.md) variations to use antes and a bring-in. Antes are almost
 never used in flop or draw variations played in either the limit or pot-limit
 format, but are commonly implemented in conjunction with the blinds in the
 no-limit format.
 
-As an example, suppose you are playing Limit [Holdem](texas-holdem.md) in a tournament at the
+As an example, suppose you are playing Limit [Hold'em](texas-holdem.md) in a tournament at the
 100/200 level. This means that the small blind is 50 (typically half the small bet),
 the large blind is 100, the small bet is also 100, and the large bet is 200. As this is
 a flop game, the small bet limit is used pre-flop and after the flop, and the large

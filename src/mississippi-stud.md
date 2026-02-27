@@ -58,6 +58,6 @@ Mississippi Stud is intended to be played [pot-limit](./pot-limit.md).
 Mississippi can also be played in a [limit](./limit.md) format.
 
 The game was designed by David Zanetti to be a version of stud more amenable to
-a big-bet format than standard seven-card stud. See [this entry from the old
+a big-bet format than standard Seven-card Stud. See [this entry from the old
 RGP
 FAQ](https://web.archive.org/web/20150907103507/http://www.rgpfaq.com/mississippi-stud.html).

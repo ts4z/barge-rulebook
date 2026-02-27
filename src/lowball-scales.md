@@ -13,6 +13,8 @@ Split](https://www.imdb.com/title/tt0071269/)).
 In recent years, another variant called [Badugi](badugi.md) has become popular, which is
 still less related to classic poker hand order.
 
+## Variations
+
 ### Badugi
 
 In this game, a badugi is defined as a four-card hand that contains no pairs and
@@ -43,7 +45,7 @@ other card held. If you held 653A-Joker, you would use the Joker as a deuce and
 your hand would be 6532A.
 
 This scale is used in [California Lowball](california-lowball.md), [Badacey](badacey.md), [Hold'em High/Low
-Eight-orBetter](texas-holdem-high-low-eight-or-better.md), [Omaha Eight-or-Better](omaha-high-low-eight-or-better.md), [Binglaha](binglaha.md), [Oklahoma](oklahoma.md), [2 or 5 Omaha
+Eight-or-Better](texas-holdem-high-low-eight-or-better.md), [Omaha Eight-or-Better](omaha-high-low-eight-or-better.md), [Binglaha](binglaha.md), [Oklahoma](oklahoma.md), [2 or 5 Omaha
 Eight-or Better](two-or-five-omaha-8-or-better.md), [4 Card Chowaha Eight-or-Better](four-card-chowaha.md), [Razz](razz.md), [Razzdugi](razzdugi.md), [Stud
 Eight-or-Better](stud-high-low-eight-or-better.md), and [Stud High/Low No Qualifier](stud-high-low-no-qualifier.md).
 
@@ -94,6 +96,8 @@ The best hand is 6432A (not single suited).
 Probably the most common game that uses it is called “London Lowball”, which
 is [razz](razz.md) played with the Ace-to-Six scale and usually played pot limit rather than
 fixed limit. This version made its [BARGE](https://www.barge.org/barge/) debut in [2018](https://www.barge.org/barge/2018/).
+
+## Jargon
 
 ### Smooth Hands/Rough Hands/Perfect Hands
 

@@ -34,7 +34,7 @@ two cards cards from each player’s hand and up to three cards from the board.
 
 ## Notes
 
-[No-limit](./no-limit.md) Hold’em is currently the most popular game, both for
-tournaments and cash games. [Limit](./limit.md) Hold’em used to be the most
+[No-limit](./no-limit.md) Hold'em is currently the most popular game, both for
+tournaments and cash games. [Limit](./limit.md) Hold'em used to be the most
 popular cash game. This game is occasionally spread in a
 [pot-limit](./pot-limit.md) format.

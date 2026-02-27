@@ -34,5 +34,5 @@ from each player’s hand and three cards from the board.
 This is game is a historical transition between [Hold'em](texas-holdem.md) and
 [Omaha](omaha-high-only.md).
 
-[^1]: [Greek hold 'em](https://en.wikipedia.org/wiki/Greek_hold_%27em),
+[^1]: [Greek Hold'em](https://en.wikipedia.org/wiki/Greek_hold_%27em),
 _Wikipedia_.

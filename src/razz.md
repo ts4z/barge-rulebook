@@ -2,7 +2,7 @@
 
 ## TLDR
 
-[Seven-card stud](stud.md) played for (California) low.
+[Seven-card Stud](stud.md) played for (California) low.
 
 ## Forced Money
 

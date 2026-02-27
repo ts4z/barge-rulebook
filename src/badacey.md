@@ -27,10 +27,10 @@ This is followed by a showdown.
 
 ## Evaluating the Showdown
 
-The best four-card hand using [badugi](badugi.md) rules wins half of the pot. The other half of
+The best four-card hand using [Badugi](badugi.md) rules wins half of the pot. The other half of
 the pot goes to the best Ace-to-Five lowball hand.
 
-A [badugi](badugi.md) hand consists of the maximum number of cards that can be played such
+A [Badugi](badugi.md) hand consists of the maximum number of cards that can be played such
 that there is no duplication of rank or suit. Between hands of the same number of
 cards, the one with the lowest hand (aces count as low) shall be the best hand.
 432A of four different suits is the best possible hand. KQJT of four different

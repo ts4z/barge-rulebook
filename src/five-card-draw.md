@@ -1,4 +1,4 @@
-# Five Card Draw
+# Five-card Draw
 
 ## TLDR
 

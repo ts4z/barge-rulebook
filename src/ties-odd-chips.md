@@ -12,7 +12,7 @@ General Concepts 20 and 21.
 3. When two or more hands tie, an odd chip or chips are awarded as follows:
    a. In games with a button, the first hand clockwise from the button (i.e. “worst
       position”) gets the odd chip;
-   b. In [stud](stud.md) games, the odd chip will be given to
+   b. In [Stud](stud.md) games, the odd chip will be given to
       the hand with the highest card by suit, where the ordering of suits is spades,
       hearts, diamonds, clubs;
    c. In High-Low split games, the high hand receives
@@ -25,7 +25,7 @@ explicitly covered in the TDA rules. Here is how odd chips will be assigned:
   five-card hand is treated as the high hand. Examples of such games include
   [Badacey](badacey.md), [Badeucy](badeucy.md), [Razzdugi](razzdugi.md), and [Action Razzdugi](action-razzdugi.md). For instance, an odd chip in
   Badacey would be awarded to the player with the best A-5 lowball hand, not
-  the best badugi hand.
+  the best Badugi hand.
 
 - In split pot games that involve a draw hand, where the player uses all five
   cards in their hand, and an [Omaha](omaha-high-only.md) hand, where the player uses two cards in
@@ -34,7 +34,7 @@ explicitly covered in the TDA rules. Here is how odd chips will be assigned:
   [Dramaha 49](dramaha-49.md). For instance, an odd chip in Dramaha 49 would be awarded to the
   player with the best draw point value hand, not the best Omaha high hand.
 
-- In [Sohe (Simultaneous Omaha and Hold’em)](sohe-simultaneous-omaha-holdem.md), where the players split a six-card
+- In [Sohe (Simultaneous Omaha and Hold'em)](sohe-simultaneous-omaha-holdem.md), where the players split a six-card
   hand into a four-card part used for [Omaha](omaha-high-only.md) and a two-card part used for
   [Hold'em](texas-holdem.md), the Omaha hand is treated as the high hand.
 

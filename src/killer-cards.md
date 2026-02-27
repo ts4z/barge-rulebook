@@ -9,7 +9,7 @@ Super/System 2 contains a chart called Lyle Berman's Killer Cards Chart (page
 doesn't mean your opponent won't make a better one.
 
 Berman didn't show his work, so I recalculated it.  My numbers match his.  I
-I have included a chart for [Hold 'Em](texas-holdem.md) as well as [Omaha](omaha-high-only.md).  (Hopefully these charts
+I have included a chart for [Hold'em](texas-holdem.md) as well as [Omaha](omaha-high-only.md).  (Hopefully these charts
 didn't get mangled from the translation from HTML, to Markdown, to LaTeX!)
 
 These charts broadly covers most cases, but not all.  Runner-runner events (the

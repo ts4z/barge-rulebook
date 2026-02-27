@@ -28,7 +28,7 @@ This is followed by a showdown.
 
 ## Evaluating the Showdown
 
-The best four-card hand using badugi rules wins the pot. A badugi hand consists
+The best four-card hand using Badugi rules wins the pot. A Badugi hand consists
 of the maximum number of cards that can be played such that there is no
 duplication of rank or suit. Between hands of the same number of cards, the one
 with the lowest hand (aces count as low) shall be the best hand. 432A of four
