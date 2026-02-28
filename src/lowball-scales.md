@@ -12,8 +12,6 @@ Split](https://www.imdb.com/title/tt0071269/)).
 In recent years, another variant called [Badugi](badugi.md) has become popular,
 which is still less related to classic poker hand order.
 
-## Variations
-
 ### Badugi
 
 In this game, a badugi is defined as a four-card hand that contains no pairs
@@ -109,8 +107,6 @@ which is [razz](razz.md) played with the Ace-to-Six scale and usually played
 pot limit rather than fixed limit. This version made its
 [BARGE](https://www.barge.org/barge/) debut in
 [2018](https://www.barge.org/barge/2018/).
-
-## Jargon
 
 ### Smooth Hands/Rough Hands/Perfect Hands
 
