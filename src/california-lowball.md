@@ -3,7 +3,8 @@
 ## TLDR
 
 Five card, single-draw, lowball where straights and flushes don't exist, and
-the ace swings around and plays as low.  The best hand is A-2-3-4-5 (any suits).
+the ace swings around and plays as low.  The best hand is A-2-3-4-5 (any
+suits).
 
 ## Forced Money
 
