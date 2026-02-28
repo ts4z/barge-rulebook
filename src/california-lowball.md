@@ -2,8 +2,8 @@
 
 ## TLDR
 
-Five card, single-draw, lowball where straights and flushes are bad and the
-best hand is 7-6-5-4-2 (in at least two suits).
+Five card, single-draw, lowball where straights and flushes don't exist, and
+the ace swings around and plays as low.  The best hand is A-2-3-4-5 (any suits).
 
 ## Forced Money
 
