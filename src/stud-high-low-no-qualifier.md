@@ -16,7 +16,7 @@ Starting with the player in seat one, each player is dealt two cards face down t
 one card up, followed by a round of betting at the small bet limit.
 
 A second up card is dealt to all active players. This is followed by a round of
-betting at the small bet limit. Note: Unlike [Seven-card Stud](stud.md) for high only, even if
+betting at the small bet limit. Note: Unlike [Seven Card Stud](stud.md) for high only, even if
 there is an open pair on fourth street, all bets on this street will always be at the
 small bet limit. Action starts with the lowest hand showing (as in [Razz](razz.md)).
 

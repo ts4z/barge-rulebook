@@ -2,7 +2,7 @@
 
 ## TLDR
 
-[Five-card Stud](five-card-stud.md) variant, played with a stripped deck with an added joker.
+[Five Card Stud](five-card-stud.md) variant, played with a stripped deck with an added joker.
 A flush beats a full house here.  Straights skip the missing cards.
 
 ## Forced Money

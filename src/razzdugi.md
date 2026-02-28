@@ -2,7 +2,7 @@
 
 ## TLDR
 
-Razzdugi combines [Badugi](badugi.md) and [Seven-card Stud](stud.md).
+Razzdugi combines [Badugi](badugi.md) and [Seven Card Stud](stud.md).
 
 ## Forced Money
 

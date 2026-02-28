@@ -1,6 +1,6 @@
 # Stud High/Low Eight-or-Better
 
-Seven-card Stud High/Low Eight-or-Better is frequently abbreviated to Stud/8.
+Seven Card Stud High/Low Eight-or-Better is frequently abbreviated to Stud/8.
 
 ## TLDR
 

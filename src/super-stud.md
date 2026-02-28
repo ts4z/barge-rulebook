@@ -1,6 +1,6 @@
 # Super Stud
 
-This game is a variation of Seven-card Stud games.  This game modifies the
+This game is a variation of Seven Card Stud games.  This game modifies the
 rules of either [Stud](stud.md), [Stud High/Low
 Eight-or-Better](stud-high-low-eight-or-better.md), or [Razz](razz.md).  Each
 player starts with four down cards, and must discard two before fourth street.
