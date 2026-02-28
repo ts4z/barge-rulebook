@@ -10,12 +10,12 @@ General Concepts 20 and 21.
 1. An odd chip is broken down into the smallest denomination in play.
 2. No player may receive more than one off chip.
 3. When two or more hands tie, an odd chip or chips are awarded as follows:
-   a. In games with a button, the first hand clockwise from the button (i.e. “worst
+   1. In games with a button, the first hand clockwise from the button (i.e. “worst
       position”) gets the odd chip;
-   b. In [Stud](stud.md) games, the odd chip will be given to
+   2. In [Stud](stud.md) games, the odd chip will be given to
       the hand with the highest card by suit, where the ordering of suits is spades,
       hearts, diamonds, clubs;
-   c. In High-Low split games, the high hand receives
+   3. In High-Low split games, the high hand receives
       the odd chip in a split between the high and low hands.
 
 Some split-pot games that are not High-Low in the traditional sense are not
