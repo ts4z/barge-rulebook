@@ -2,8 +2,8 @@
 
 ## TLDR
 
-Five card, single-draw, lowball where straights and flushes don't exist, and
-the ace swings around and plays as low.A-2-3-4-5 (any suits).
+Five card, single-draw, lowball where straights and flushes are bad and the
+best hand is 7-6-5-4-2 (in at least two suits).
 
 ## Forced Money
 
