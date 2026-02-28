@@ -53,9 +53,9 @@ Thanks to Rich Bremer, Doug Grismore, Patrick Milligan, and Cliff Matthews for
 encouragement, and technical and editorial input.
 
 Our rulebook has evolved through a few different reincarnations.  Nick
-Christenson maintained the first one on the
-[BARGE](https://www.barge.org/barge/) website when it was used for a Dealer's
-Choice tournament.  In 2015, for the [25th BARGE
+Christenson maintained the first one on [the BARGE.org
+site](https://www.barge.org/) when it was used for a Dealer's Choice
+tournament.  In 2015, for the [25th BARGE
 event](https://www.barge.org/barge/2015/), Patrick Milligan produced a rulebook
 for the 25-Game mixed game event.  In [2016](https://www.barge.org/2016/), this
 was extended for the 26-game mixed game event, and converted to the first
