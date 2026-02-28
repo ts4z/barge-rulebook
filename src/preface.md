@@ -7,9 +7,10 @@ rulebook because he can never remember the rules to [Archie](archie.md) and
 wanted to make it easier to look them up.
 
 This rulebook decends from Christopher J. Mecklin's excellent rulebook, last
-updated in July, 2021.  By 2024, it had fallen a bit out of date: [BARGE](https://www.barge.org/barge/) being
-[BARGE](https://www.barge.org/barge/), and poker players being poker players, some newer games have been made
-up.
+updated in July, 2021.  By 2024, it had fallen a bit out of date:
+[BARGE](https://www.barge.org/barge/) being
+[BARGE](https://www.barge.org/barge/), and poker players being poker players,
+some newer games have been made up.
 
 This version was created starting from extracting the text from the PDF of the
 2021 edition.  Many formatting errors were introduced in this process.  Some
@@ -24,22 +25,23 @@ home for this rulebook, and it is continually updated there.  It looks great on
 a phone or a computer, and we can provide hyperlinks to rules from the Internet
 at large.  It doesn't print very well.
 
-[https://www.barge.org/rulebook.pdf](https://www.barge.org/rulebook.pdf) is a PDF version.
-This prints to a proper book and should be printed double-sided.
-It has a table of contents and page numbers.  It
-includes hyperlinks if viewed electronically, but it is not as easy to
-navigate as the web version. It is hard to use on a phone or tablet.  (This version may also be
-slightly out of date compared to the web version, as updating it requires an
-extra trivial step, easily forgotten.)
+[https://www.barge.org/rulebook.pdf](https://www.barge.org/rulebook.pdf) is a
+PDF version.  This prints to a proper book and should be printed double-sided.
+It has a table of contents and page numbers.  It includes hyperlinks if viewed
+electronically, but it is not as easy to navigate as the web version. It is
+hard to use on a phone or tablet.  (This version may also be slightly out of
+date compared to the web version, as updating it requires an extra trivial
+step, easily forgotten.)
 
 ### Improving this Rulebook
 
-The easiest thing to do is to contact [Tim Showalter](mailto:tim.showalter@gmail.com).
+The easiest thing to do is to contact [Tim
+Showalter](mailto:tim.showalter@gmail.com).
 
-If you are technically inclined, the source code for the rulebook is
-[available on GitHub](https://github.com/ts4z/barge-rulebook)[^1].
-A pull request is the clearest way to suggest a change, but you can also make
-suggestions over email, or over beers.  *Specific text is appreciated.*
+If you are technically inclined, the source code for the rulebook is [available
+on GitHub](https://github.com/ts4z/barge-rulebook)[^1].  A pull request is the
+clearest way to suggest a change, but you can also make suggestions over email,
+or over beers.  *Specific text is appreciated.*
 
 [^1]: [https://github.com/ts4z/barge-rulebook](https://github.com/ts4z/barge-rulebook)
 
@@ -52,25 +54,30 @@ encouragement, and technical and editorial input.
 
 Many folks have helped maintain the rulebook (or *a* rulebook) in fits and
 starts and a few different versions.  Nick Christenson maintained the first one
-on the [BARGE](https://www.barge.org/barge/) website used for a Dealer's Choice tournament.  In 2015, for the
-[25th BARGE event](https://www.barge.org/barge/2015/), Patrick Milligan produced a rulebook for the 25-Game mixed
-game event.  In [2016](https://www.barge.org/2016/), this was extended for the 26-game mixed game event, and
-converted to the first LaTeX-based version, by Chris Mecklin.  Chris updated
-the rulebook through 2021, and Tim started updating it in 2024.
+on the [BARGE](https://www.barge.org/barge/) website used for a Dealer's Choice
+tournament.  In 2015, for the [25th BARGE
+event](https://www.barge.org/barge/2015/), Patrick Milligan produced a rulebook
+for the 25-Game mixed game event.  In [2016](https://www.barge.org/2016/), this
+was extended for the 26-game mixed game event, and converted to the first
+LaTeX-based version, by Chris Mecklin.  Chris updated the rulebook through
+2021, and Tim started updating it in 2024.
 
 ### Preface from the 2021 Edition
 
 (This section has been slightly abridged from the 2021 edition.)
 
 This document contains the rules of many forms of poker, some of which will be
-played in [BARGE 2021](https://www.barge.org/barge/2021/) tournaments, others in tournaments in past years, and yet
-others only in [BARGE](https://www.barge.org/barge/) cash games or home games.
+played in [BARGE 2021](https://www.barge.org/barge/2021/) tournaments, others
+in tournaments in past years, and yet others only in
+[BARGE](https://www.barge.org/barge/) cash games or home games.
 
 I obtained these rules from a copy of the official rule book for the XXV
-25-Game Mix poker tournament played at [BARGE XXV in 2015](https://www.barge.org/barge/2015/). That rule book was
-originally written by Patrick Milligan and Rich Bremer and is reproduced here
-with their permission. Also, rules for some of the stranger games came from an
-archived version of the [BARGE](https://www.barge.org/barge/) website, called the [BARGE Poker Game Rule
+25-Game Mix poker tournament played at [BARGE XXV in
+2015](https://www.barge.org/barge/2015/). That rule book was originally written
+by Patrick Milligan and Rich Bremer and is reproduced here with their
+permission. Also, rules for some of the stranger games came from an archived
+version of the [BARGE](https://www.barge.org/barge/) website, called the [BARGE
+Poker Game Rule
 Archive](http://web.archive.org/web/20120721203440/http://www.barge.org/rules/).
 I have also referred to [Bob Ciaffone’s Robert’s Rules of
 Poker](https://www.betsperts.com/poker/robs-poker-rules/).  [This link has been

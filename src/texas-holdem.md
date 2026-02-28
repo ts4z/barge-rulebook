@@ -3,11 +3,14 @@
 Also known simply as Hold'em, archaically as Hold Me Darling, and epithetically
 as the Cadillac of Poker, Hold'em has been played in Las Vegas since 1963[^1].
 
-[^1]: [Bars Test Laws on Gambling With Moneyless Poker Games](https://www.nytimes.com/2005/02/22/us/bars-test-laws-on-gambling-with-moneyless-poker-games.html), _The New York Times_, February 22, 2005.
+[^1]: [Bars Test Laws on Gambling With Moneyless Poker
+      Games](https://www.nytimes.com/2005/02/22/us/bars-test-laws-on-gambling-with-moneyless-poker-games.html),
+      *The New York Times*, February 22, 2005.
 
 ## TLDR
 
-Everybody gets two private cards, then five more shared cards, best five cards wins.
+Everybody gets two private cards, then five more shared cards, best five cards
+wins.
 
 ## Forced Money
 
@@ -18,8 +21,8 @@ The game is played with a button and blinds.
 Each player is dealt two cards face down, followed by a round of betting at the
 small bet limit.
 
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
+Three community cards are placed face up. This is followed by a round of
+betting at the small bet limit.
 
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit.

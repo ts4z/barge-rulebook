@@ -4,8 +4,8 @@ Omaha High/Low Eight-or-Better is frequently abbreviated to Omaha/8 or O/8.
 
 ## TLDR
 
-[Omaha](omaha-high-only.md) played [high-low](high-low-split.md) with an
-8 qualifier on low.  Players get four hole cards and must use exactly two.
+[Omaha](omaha-high-only.md) played [high-low](high-low-split.md) with an 8
+qualifier on low.  Players get four hole cards and must use exactly two.
 
 ## Forced Money
 
@@ -13,11 +13,11 @@ The game is played with a button and blinds.
 
 ## Dealing Procedure
 
-Each player is dealt four cards face down, followed by a round of betting at the
-small bet limit.
+Each player is dealt four cards face down, followed by a round of betting at
+the small bet limit.
 
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
+Three community cards are placed face up. This is followed by a round of
+betting at the small bet limit.
 
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit.
@@ -28,10 +28,10 @@ betting at the big bet limit. This is followed by a showdown.
 ## Evaluating the Showdown
 
 The best high hand and best California low hand of at least eight low or better
-splits the pot. Hands are made using exactly two cards from each player’s hand
-and exactly three cards from the board. Note: If there are not three unpaired
-cards eight or lower on the board, no low hand is possible. If no qualifying low
-hand is made, the high hand scoops the pot.
+splits the pot. Hands are made using exactly two cards from each player’s
+hand and exactly three cards from the board. Note: If there are not three
+unpaired cards eight or lower on the board, no low hand is possible. If no
+qualifying low hand is made, the high hand scoops the pot.
 
 ## Notes
 

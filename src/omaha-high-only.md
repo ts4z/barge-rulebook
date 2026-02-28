@@ -2,8 +2,8 @@
 
 ## TLDR
 
-Players get four hole cards and must use exactly two, combined with three
-from a [Hold'em](texas-holdem.md)-style board, to make a five-card hand.
+Players get four hole cards and must use exactly two, combined with three from
+a [Hold'em](texas-holdem.md)-style board, to make a five-card hand.
 
 ## Forced Money
 
@@ -11,11 +11,11 @@ The game is played with a button and blinds.
 
 ## Dealing Procedure
 
-Each player is dealt four cards face down, followed by a round of betting at the
-small bet limit.
+Each player is dealt four cards face down, followed by a round of betting at
+the small bet limit.
 
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
+Three community cards are placed face up. This is followed by a round of
+betting at the small bet limit.
 
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit.

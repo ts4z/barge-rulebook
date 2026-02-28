@@ -2,9 +2,8 @@
 
 ## TLDR
 
-Five-card [Omaha](omaha-high-only.md) with a draw after the flop betting, and a split pot
-between the best Omaha hand and the best [Badugi](badugi.md)
-hand.
+Five-card [Omaha](omaha-high-only.md) with a draw after the flop betting, and a
+split pot between the best Omaha hand and the best [Badugi](badugi.md) hand.
 
 ## Forced Money
 
@@ -15,11 +14,12 @@ The game is played with a button and blinds.
 Each player is dealt five cards face down, followed by a round of betting.
 
 Three community cards are placed face up. This is followed by a round of
-betting. Then each player in turn discards zero to three cards from their
-hand. Once all of the discards have been announced, the dealer will deal each
-player an appropriate number of replacement cards.
+betting. Then each player in turn discards zero to three cards from their hand.
+Once all of the discards have been announced, the dealer will deal each player
+an appropriate number of replacement cards.
 
-One additional community card is placed face up, followed by a round of betting.
+One additional community card is placed face up, followed by a round of
+betting.
 
 One additional community card is placed face up, followed by a round of
 betting. This is followed by a showdown.
@@ -30,10 +30,12 @@ smaller limit, and the later two betting rounds are at the larger limit, as in
 
 ## Evaluating the Showdown
 
-The best [Omaha](omaha-high-only.md) high hand (using exactly two cards from the player's hand and
-exactly three cards from the board) and the best four-card [Badugi](badugi.md) hand (using
-only the player's hole cards) split the pot.
+The best [Omaha](omaha-high-only.md) high hand (using exactly two cards from
+the player's hand and exactly three cards from the board) and the best
+four-card [Badugi](badugi.md) hand (using only the player's hole cards) split
+the pot.
 
 ## Notes
 
-At [BARGE 2024](https://www.barge.org/barge/2024/), this game appeared in a tournament, played [pot-limit](pot-limit.md).
+At [BARGE 2024](https://www.barge.org/barge/2024/), this game appeared in a
+tournament, played [pot-limit](pot-limit.md).

@@ -2,8 +2,8 @@
 
 ## TLDR
 
-Five card, single-draw, lowball where straights and flushes
-are bad and the best hand is 7-6-5-4-2 (in at least two suits).
+Five card, single-draw, lowball where straights and flushes are bad and the
+best hand is 7-6-5-4-2 (in at least two suits).
 
 ## Forced Money
 
@@ -11,12 +11,12 @@ The game is played with a button and blinds.
 
 ## Dealing Procedure
 
-Each player is dealt five cards face down, followed by a round of betting at the
-small bet limit.
+Each player is dealt five cards face down, followed by a round of betting at
+the small bet limit.
 
-Each player in turn discards zero to five cards from their hand. Once all of the
-discards have been announced, the dealer will deal each player an appropriate
-number of replacement cards.
+Each player in turn discards zero to five cards from their hand. Once all of
+the discards have been announced, the dealer will deal each player an
+appropriate number of replacement cards.
 
 This is followed by a round of betting at the big bet limit. This is followed
 by a showdown.
@@ -39,4 +39,5 @@ no Sevens Rule and with check-and-raise allowed.
 This was the big game in California, until someone realized
 [Hold'em](texas-holdem.md) wasn't illegal.
 
-The no-limit format was featured in a bounty tournament at [BARGE 2021](https://www.barge.org/barge/2021/).
+The no-limit format was featured in a bounty tournament at [BARGE
+2021](https://www.barge.org/barge/2021/).

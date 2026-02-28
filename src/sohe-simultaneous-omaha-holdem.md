@@ -14,12 +14,12 @@ The game is played with a button and blinds.
 Each player is dealt six cards face down, followed by a round of betting at the
 small bet limit.
 
-Each player still in the hand after the pre-flop betting separates their six cards
-into a two-card hand and a four-card hand, which will be used for Texas Hold'em
-and Omaha High, respectively.
+Each player still in the hand after the pre-flop betting separates their six
+cards into a two-card hand and a four-card hand, which will be used for Texas
+Hold'em and Omaha High, respectively.
 
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
+Three community cards are placed face up. This is followed by a round of
+betting at the small bet limit.
 
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit.

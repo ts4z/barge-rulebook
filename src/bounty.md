@@ -8,5 +8,6 @@ player in worst position.
 
 The winner of the tournament keeps their bounty.
 
-At [BARGE 2021](https://www.barge.org/barge/2021/), the No Limit [California Lowball](california-lowball.md)
-tournament featured a “green chip” ($25) bounty per player.
+At [BARGE 2021](https://www.barge.org/barge/2021/), the No Limit [California
+Lowball](california-lowball.md) tournament featured a “green chip” ($25)
+bounty per player.

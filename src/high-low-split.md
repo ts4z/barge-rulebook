@@ -9,7 +9,8 @@ now.
 A number of games in this book are "split" variants, presumably deriving from
 high/low draw poker.
 
-We have specific sections for [Omaha High/Low](omaha-high-low-eight-or-better.md),
+We have specific sections for [Omaha
+High/Low](omaha-high-low-eight-or-better.md),
 [Stud/8](stud-high-low-eight-or-better.md), [Razzdugi](razzdugi.md),
 [Badeucy](badeucy.md), [Dramadugi](dramadugi.md) and [Stud High/Low No
 Qualifier](stud-high-low-no-qualifier.md), which all have their own rules
@@ -21,11 +22,12 @@ any two games can be combined into high/low, provided that:
 * One game is "high" and one game is "low".  It is important to designate the
   high hand because since the high hand gets the odd chip (see [ties & odd
   chips](ties-odd-chips.md)).
-* Extra cards in play do not affect the hand beyond the usual five cards
-  (or four cards for a [Badugi](badugi.md) hand).
+* Extra cards in play do not affect the hand beyond the usual five cards (or
+  four cards for a [Badugi](badugi.md) hand).
 
 Extra rules may apply, such as these:
 
 * In [Action Razz](action-razz.md), a 6th card can be used for a qualifier.
 * In [Badeucy](badeucy.md), aces play high for the [Badugi](badugi.md) hand and
-  the 2-7 hand, even though they would generally be "good" cards in [Badugi](badugi.md).
+  the 2-7 hand, even though they would generally be "good" cards in
+  [Badugi](badugi.md).

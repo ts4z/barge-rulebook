@@ -10,11 +10,11 @@ The game is played with a button and blinds.
 
 ## Dealing Procedure
 
-Each player is dealt five cards face down, followed by a round of betting at the
-small bet limit.
+Each player is dealt five cards face down, followed by a round of betting at
+the small bet limit.
 
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
+Three community cards are placed face up. This is followed by a round of
+betting at the small bet limit.
 
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit.
@@ -29,5 +29,5 @@ each player’s hand and exactly three cards from the board.
 
 ## Notes
 
-We played this pot-limit in a tournament at [BARGE 2024](https://www.barge.org/barge/2024/). Compare [Big
-O](big-o.md).
+We played this pot-limit in a tournament at [BARGE
+2024](https://www.barge.org/barge/2024/). Compare [Big O](big-o.md).

@@ -13,8 +13,8 @@ The game is played with a button and blinds.
 Each player is dealt two cards face down, followed by a round of betting at the
 small bet limit.
 
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
+Three community cards are placed face up. This is followed by a round of
+betting at the small bet limit.
 
 One additional community card is placed face up. This is followed by a round of
 betting at the big bet limit.
@@ -24,11 +24,11 @@ betting at the big bet limit. This is followed by a showdown.
 
 ## Evaluating the Showdown
 
-The best high five-card hand and best California low hand of at least eight low or
-better splits the pot. If no qualifying low hand is made, the high hand scoops the
-pot.
+The best high five-card hand and best California low hand of at least eight low
+or better splits the pot. If no qualifying low hand is made, the high hand
+scoops the pot.
 
 ### Notes
 
-Unlike [Omaha](omaha-high-only.md), a player may use both, one, or none of the cards in their hand to
-make either the high or the low.
+Unlike [Omaha](omaha-high-only.md), a player may use both, one, or none of the
+cards in their hand to make either the high or the low.

@@ -11,9 +11,9 @@ have been removed, leaving a deck with sixes, sevens, eights, nines, tens,
 Jacks, Queens, Kings, and Aces in the four suits.
 
 Each player is dealt two cards face down, followed by a round of betting.
-Three community cards are placed face up. This is followed by a round of betting.
-One additional community card is placed face up. This is followed by a round of
-betting.
+Three community cards are placed face up. This is followed by a round of
+betting.  One additional community card is placed face up. This is followed by
+a round of betting.
 
 One additional community card is placed face up. This is followed by a round of
 no-limit betting. This is followed by a showdown.
@@ -28,9 +28,10 @@ full house. Note that the lowest possible straight in this game is 9876A (the
 
 This game is also called Six-Plus Texas Hold'em, or Manila.
 
-It was played with no-limit betting at [BARGE 2019](https://www.barge.org/barge/2019/).
+It was played with no-limit betting at [BARGE
+2019](https://www.barge.org/barge/2019/).
 
-The game is sometimes played where three-of-a-kind beats
-a straight.[^1]
+The game is sometimes played where three-of-a-kind beats a straight.[^1]
 
-[^1]: **[Six-Plus Hold'em](https://en.wikipedia.org/wiki/Six-plus_hold_%27em)**,  _Wikipedia_.
+[^1]: **[Six-Plus Hold'em](https://en.wikipedia.org/wiki/Six-plus_hold_%27em)**,
+      *Wikipedia*.

@@ -11,8 +11,8 @@ The game is played with a button and blinds.
 ## Dealing Procedure
 
 Each player is dealt five cards face down, then one community card (called the
-spit card) is placed face up. This is followed by a round of betting at the small
-bet limit.
+spit card) is placed face up. This is followed by a round of betting at the
+small bet limit.
 
 Two community cards are placed face up. This is followed by a round of betting
 at the small bet limit.

@@ -7,8 +7,8 @@ Razzdugi combines [Badugi](badugi.md) and [Seven Card Stud](stud.md).
 ## Forced Money
 
 The game is played with antes. The high card on the board by rank first and
-then by suit brings it in. The K♠ is the highest possible card followed by the
-K♥, K♦, K♣, and so on.
+then by suit brings it in. The K♠ is the highest possible card followed by
+the K♥, K♦, K♣, and so on.
 
 ## Dealing Procedure
 
@@ -32,5 +32,6 @@ This is followed by a showdown.
 
 ## Evaluating the Showdown
 
-The best five-card California low hand and the best four-card [Badugi](badugi.md) hand
-splits the pot. Tthere is no qualifier for either the [Razz](razz.md) or [Badugi](badugi.md) hand.
+The best five-card California low hand and the best four-card
+[Badugi](badugi.md) hand splits the pot. Tthere is no qualifier for either the
+[Razz](razz.md) or [Badugi](badugi.md) hand.

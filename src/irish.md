@@ -33,5 +33,5 @@ board.
 
 ## Notes
 
-This game was played with pot-limit betting at
-[EMBARGO 2020](https://www.barge.org/embargo/2020/).
+This game was played with pot-limit betting at [EMBARGO
+2020](https://www.barge.org/embargo/2020/).

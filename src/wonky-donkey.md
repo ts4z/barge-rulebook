@@ -2,7 +2,8 @@
 
 ## TLDR
 
-Wonky Donkey is either [Hold'em](texas-holdem.md) or [Omaha/8](omaha-high-low-eight-or-better.md), but which one it is isn't known
+Wonky Donkey is either [Hold'em](texas-holdem.md) or
+[Omaha/8](omaha-high-low-eight-or-better.md), but which one it is isn't known
 until after the flop.
 
 ## Forced Money
@@ -14,11 +15,13 @@ This game is played with a button and blinds.
 Each player gets dealt two face-down hole cards and then there's a betting
 round at the small bet limit. After that, a three card flop is dealt.
 
-If two or three of the flop cards are red, the game proceeds as [Hold'em](texas-holdem.md).
+If two or three of the flop cards are red, the game proceeds as
+[Hold'em](texas-holdem.md).
 
 If two or three of the flop cards are black, each payer is dealt two additional
 face-down hole cards (before the post-flop betting begins) and the game
-proceeds as [Omaha High/Low Eight or Better](omaha-high-low-eight-or-better.md).
+proceeds as [Omaha High/Low Eight or
+Better](omaha-high-low-eight-or-better.md).
 
 This is followed by a round of betting at the small bet limit.
 

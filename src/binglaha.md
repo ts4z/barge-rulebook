@@ -1,6 +1,7 @@
 # Binglaha
 
-Traditionally the big money game at [BARGE](https://www.barge.org/barge/)&mdash;yet it's still a 1-2 game.
+Traditionally the big money game at
+[BARGE](https://www.barge.org/barge/)&mdash;yet it's still a 1-2 game.
 
 ## TLDR
 
@@ -13,11 +14,11 @@ The game is played with a button and blinds.
 
 ## Dealing Procedure
 
-Each player is dealt four cards face down, followed by a round of betting at the
-small bet limit.
+Each player is dealt four cards face down, followed by a round of betting at
+the small bet limit.
 
-Three community cards are placed face up. This is followed by a round of betting
-at the small bet limit.
+Three community cards are placed face up. This is followed by a round of
+betting at the small bet limit.
 
 At this point a single (standard) die is rolled, in accordance with the [Dice
 Procedures](dice-procedures.md).
@@ -34,13 +35,13 @@ betting at the big bet limit. This is followed by a showdown.
 ## Evaluating the Showdown
 
 Either the best high hand and best California low hand of at least eight low or
-better split the pot or the best high hand scoops the pot, depending on the results
-of the die roll. Hands are made using exactly two cards from each player’s hand
-and exactly three cards from the board.
+better split the pot or the best high hand scoops the pot, depending on the
+results of the die roll. Hands are made using exactly two cards from each
+player’s hand and exactly three cards from the board.
 
 Note: if there are not three unpaired cards eight or lower on the board, no low
-hand is possible regardless of the roll of the die. If no qualifying low hand is made,
-the high hand always scoops the pot.
+hand is possible regardless of the roll of the die. If no qualifying low hand
+is made, the high hand always scoops the pot.
 
 ## Notes
 
