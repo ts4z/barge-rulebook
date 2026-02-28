@@ -20,10 +20,9 @@ then one card up, followed by a round of betting at the small bet limit.  The
 initial action goes to the player with the forced bring-in.
 
 A second up card is dealt to all active players. This is followed by a round of
-betting at the small bet limit. Note: Unlike seven card [stud](stud.md) for
-high only, even if there is an open pair on fourth street, all bets on this
-street will always be at the small bet limit. Action starts with the highest
-hand showing.
+betting at the small bet limit (open pairs cannot double-bet even if the room
+allows it in high-only [Seven Card Stud](stud.md)).  Action starts with the
+highest hand showing.
 
 A third up card is dealt to all active players. This is followed by a round of
 betting at the big bet limit.
