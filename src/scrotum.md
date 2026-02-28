@@ -36,8 +36,8 @@ betting at the big bet limit. This is followed by a showdown.
 ## Evaluating the Showdown
 
 The best high hand and best California low hand of at least eight low or better
-splits the pot. Hands are made using all x cards from the player’s hand and 5
-− x cards from the board, i.e., the number of board cards necessary to make a
+splits the pot. Hands are made using all x cards from the player’s hand and 5-x
+cards from the board, i.e., the number of board cards necessary to make a
 five-card hand.
 
 NOTE: Unlike [Omaha/8](omaha-high-low-eight-or-better.md), no matter what comes
