@@ -76,7 +76,7 @@ I obtained these rules from a copy of the official rule book for the XXV
 2015](https://www.barge.org/barge/2015/). That rule book was originally written
 by Patrick Milligan and Rich Bremer and is reproduced here with their
 permission. Also, rules for some of the stranger games came from an archived
-version of the [BARGE](https://www.barge.org/barge/) website, called the [BARGE
+version of the [BARGE.org](https://www.barge.org/) website, called the [BARGE
 Poker Game Rule
 Archive](http://web.archive.org/web/20120721203440/http://www.barge.org/rules/).
 I have also referred to [Bob Ciaffone’s Robert’s Rules of
