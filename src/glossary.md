@@ -8,9 +8,11 @@ Big Bet
 : Collectively, pot-limit and no-limit games, as compared to limit games.
 
 Board
-: In a [Stud](stud.md) game, the cards in a player's hand that are face up.
-: In a community card game like [Hold'em](texas-holdem.md) or
-  [Omaha](omaha-high-only.md), the shared community cards.
+: In a&nbsp;[Stud](stud.md)&nbsp;game, the cards in a player's hand that are
+  face up.
+: In a community card game
+  like&nbsp;[Hold'em](texas-holdem.md)&nbsp;or&nbsp;[Omaha](omaha-high-only.md),
+  the shared community cards.
 
 Community Card
 : A card shared by all players, separate from a player's private cards.
@@ -40,4 +42,4 @@ Run It Twice
 
 Scoop
 : Win both ways in a split pot game.
-: In a &nbsp;[run-it-twice](#run-it-twice)&nbsp;situation, win both times.
+: In a&nbsp;[run-it-twice](#run-it-twice)&nbsp;situation, win both times.
