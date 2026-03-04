@@ -23,7 +23,7 @@ jobs:
       - name: setup mdbook
         uses: peaceiris/actions-mdbook@v2
         with:
-          mdbook-version: '0.5.1'
+          mdbook-version: '0.5.2'
           # mdbook-version: 'latest'
       - name: build book with mdbook
         run: mdbook build
