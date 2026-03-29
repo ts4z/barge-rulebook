@@ -18,9 +18,9 @@
 \usepackage{marginnote}
 \usepackage{needspace}
 
-% This was an experiment from Claude to make the margins smaller.  It makes the
-% book about 12% shorter.
-% \usepackage[inner=1in,outer=1.75in,marginparwidth=1.25in,marginparsep=0.15in]{geometry}
+% Reconfigure the geometry to use more of the top and bottom margins.  We still
+% keep the side margins, some of which we make margin notes in.
+\usepackage[top=0.90in,bottom=0.90in,hmarginratio=2:3,textwidth=390pt]{geometry}
 
 % Substitute Unicode characters to add color.  I've messed with this a few
 % times, they seem to be better behaved in math mode.
