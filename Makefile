@@ -15,10 +15,13 @@ book: src/*.md src/*.latex
 # 3. a third pass to with the data marginnote needs
 %.pdf: %.latex
 	-rm rulebook.toc rulebook.aux # throw out aux files
+	echo First pagesetting collects TOC to aux file
 	xelatex -interaction=batchmode $< || (rm $@; false)
-	-rm $@			# output isn't right, aux files are good
+	rm $@
+	echo Second pagesetting gets marginnotes fixed
 	xelatex -interaction=batchmode $< || (rm $@; false)
-	-rm $@			# marginnote positions may still be wrong
+	rm $@
+	echo Generate final PDF with recomputed things
 	xelatex -interaction=batchmode $< || (rm $@; false)
 
 latexify/latexify: latexify/*.go latexify/go.mod latexify/go.sum
