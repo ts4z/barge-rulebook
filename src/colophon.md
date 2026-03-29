@@ -5,11 +5,14 @@ files[^1].
 
 [^1]: [https://github.com/ts4z/barge-rulebook/](https://github.com/ts4z/barge-rulebook/)
 
-Our web version of this book is produced with
-[mdbook](https://rust-lang.github.io/mdBook/), which produces a group of nice,
-easy-to-navigate web pages.  The text is written in an extended flavor of the
+The text is written in an extended flavor of the
 [Markdown](https://daringfireball.net/projects/markdown/) format, which is easy
 to write and easy to read even if you don't understand the technical bits.
+
+Our web version of this book is produced with
+[mdbook](https://rust-lang.github.io/mdBook/), which produces a group of
+readable, searchable, easy-to-navigate web pages that look good on phones as
+well as computers.
 
 A [GitHub](https://github.com/) workflow is used to build the rulebook into the
 version hosted at [barge.org](https://www.barge.org/).  GitHub (and the
