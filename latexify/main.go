@@ -18,6 +18,7 @@ type Config struct {
 	SourceDir   string
 	OutputFile  string
 	SummaryFile string
+	NeedLines   int
 }
 
 // Regular expression to match sub-appendix titles like "Appendix A.1:", "Appendix D.2:"
@@ -43,6 +44,7 @@ func parseFlags() *Config {
 	pflag.StringVar(&config.SourceDir, "source-dir", "src", "Source directory containing markdown files")
 	pflag.StringVar(&config.OutputFile, "output", "rulebook.latex", "Output LaTeX file")
 	pflag.StringVar(&config.SummaryFile, "summary", "src/SUMMARY.md", "Path to SUMMARY.md file")
+	pflag.IntVar(&config.NeedLines, "need-lines", 0, "Minimum lines needed before starting a new section (0 to disable)")
 
 	pflag.Parse()
 
@@ -65,7 +67,7 @@ func run(config *Config) error {
 	}
 	defer out.Close()
 
-	writer := latex.NewSectionAwareWriter(out)
+	writer := latex.NewSectionAwareWriter(out, config.NeedLines)
 
 	// Write header comment
 	writer.WriteComment("")
@@ -98,7 +100,7 @@ func run(config *Config) error {
 		if sectionIdx == 0 {
 			for _, node := range section {
 				if node.FilePath != "" {
-					if err := renderFile(writer, config.SourceDir, node.FilePath, 0); err != nil {
+					if err := renderFile(writer, config.SourceDir, node.FilePath, 0, config); err != nil {
 						return err
 					}
 				}
@@ -112,7 +114,7 @@ func run(config *Config) error {
 
 		// Render each node in the section
 		for _, node := range section {
-			if err := renderNode(writer, config.SourceDir, node, isAppendix, &appendixEmitted); err != nil {
+			if err := renderNode(writer, config, node, isAppendix, &appendixEmitted); err != nil {
 				return err
 			}
 		}
@@ -130,7 +132,7 @@ func run(config *Config) error {
 }
 
 // renderNode renders a summary node and its children
-func renderNode(writer *latex.SectionAwareWriter, sourceDir string, node *mdbook.SummaryNode, isAppendix bool, appendixEmitted *bool) error {
+func renderNode(writer *latex.SectionAwareWriter, config *Config, node *mdbook.SummaryNode, isAppendix bool, appendixEmitted *bool) error {
 	// Render section heading based on level
 	if node.Level == 0 {
 		if isAppendix && !*appendixEmitted {
@@ -155,14 +157,14 @@ func renderNode(writer *latex.SectionAwareWriter, sourceDir string, node *mdbook
 		if isAppendix && node.Level == 0 && isSubAppendix(node.Title) {
 			sectionOffset = 2 // h1 in sub-appendix files becomes subsection
 		}
-		if err := renderFile(writer, sourceDir, node.FilePath, sectionOffset); err != nil {
+		if err := renderFile(writer, config.SourceDir, node.FilePath, sectionOffset, config); err != nil {
 			return fmt.Errorf("rendering %s: %w", node.FilePath, err)
 		}
 	}
 
 	// Render children
 	for _, child := range node.Children {
-		if err := renderNode(writer, sourceDir, child, isAppendix, appendixEmitted); err != nil {
+		if err := renderNode(writer, config, child, isAppendix, appendixEmitted); err != nil {
 			return err
 		}
 	}
@@ -171,7 +173,7 @@ func renderNode(writer *latex.SectionAwareWriter, sourceDir string, node *mdbook
 }
 
 // renderFile renders either a .latex file or a .md file converted to LaTeX
-func renderFile(writer *latex.SectionAwareWriter, sourceDir string, basePath string, sectionOffset int) error {
+func renderFile(writer *latex.SectionAwareWriter, sourceDir string, basePath string, sectionOffset int, config *Config) error {
 	// Try .latex file first
 	latexPath := filepath.Join(sourceDir, basePath+".latex")
 	if content, err := os.ReadFile(latexPath); err == nil {

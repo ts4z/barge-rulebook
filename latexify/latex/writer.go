@@ -7,17 +7,27 @@ import (
 
 // SectionAwareWriter implements LatexWriter for writing to a file
 type SectionAwareWriter struct {
-	writer io.Writer
-	level  int // current section nesting level
-	parent *SectionAwareWriter
+	writer    io.Writer
+	level     int // current section nesting level
+	parent    *SectionAwareWriter
+	needLines int // minimum lines before a new section (0 to disable)
 }
 
 // NewSectionAwareWriter creates a new LatexWriter that writes to the given writer
-func NewSectionAwareWriter(w io.Writer) *SectionAwareWriter {
+func NewSectionAwareWriter(w io.Writer, needLines int) *SectionAwareWriter {
 	return &SectionAwareWriter{
-		writer: w,
-		level:  0,
-		parent: nil,
+		writer:    w,
+		level:     0,
+		parent:    nil,
+		needLines: needLines,
+	}
+}
+
+// writeNeedSpace emits a \needspace command if needLines is configured.
+// extra additional lines are added for headings that consume more vertical space.
+func (w *SectionAwareWriter) writeNeedSpace(extra int) {
+	if w.needLines > 0 {
+		fmt.Fprintf(w.writer, "\\needspace{%d\\baselineskip}\n", w.needLines+extra)
 	}
 }
 
@@ -34,9 +44,10 @@ func (w *SectionAwareWriter) WriteComment(comment string) {
 // BeginSubsection creates a nested writer for a subsection
 func (w *SectionAwareWriter) BeginSubsection() *SectionAwareWriter {
 	return &SectionAwareWriter{
-		writer: w.writer,
-		level:  w.level + 1,
-		parent: w,
+		writer:    w.writer,
+		level:     w.level + 1,
+		parent:    w,
+		needLines: w.needLines,
 	}
 }
 
@@ -53,6 +64,7 @@ func (w *SectionAwareWriter) WriteChapter(title string) {
 
 // WriteSection writes a section heading
 func (w *SectionAwareWriter) WriteSection(title string) {
+	w.writeNeedSpace(15)
 	fmt.Fprintf(w.writer, "\\section{%s}\n", EscapeSpecials(title))
 }
 

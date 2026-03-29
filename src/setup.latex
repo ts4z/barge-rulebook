@@ -16,6 +16,7 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage{longtable}
 \usepackage{marginnote}
+\usepackage{needspace}
 
 % This was an experiment from Claude to make the margins smaller.  It makes the
 % book about 12% shorter.

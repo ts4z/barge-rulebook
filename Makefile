@@ -25,7 +25,7 @@ latexify/latexify: latexify/*.go latexify/go.mod latexify/go.sum
 	(cd latexify && go build .)
 
 rulebook.latex: latexify/latexify src/*.md src/*.latex
-	latexify/latexify
+	latexify/latexify --need-lines 8
 
 clean:
 	-rm $(ALL) *.dvi rulebook.aux rulebook.latex rulebook.toc \
