@@ -1,5 +1,5 @@
 #
-# barge-rulebook-md Makefile
+# barge-rulebook Makefile
 #
 
 ALL=rulebook.pdf
@@ -20,7 +20,7 @@ latexify/latexify: latexify/*.go latexify/go.mod latexify/go.sum
 	(cd latexify && go build .)
 
 rulebook.latex: latexify/latexify src/*.md src/*.latex
-	latexify/latexify
+	latexify/latexify --need-lines-in-section 30
 
 clean:
 	-rm $(ALL) *.dvi rulebook.aux rulebook.latex rulebook.toc \
