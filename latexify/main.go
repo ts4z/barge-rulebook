@@ -5,6 +5,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"strings"
 
 	"github.com/spf13/pflag"
 
@@ -190,13 +191,28 @@ func renderFile(writer *latex.SectionAwareWriter, sourceDir string, basePath str
 	// Convert markdown to LaTeX
 	// Pass the filename (basePath + ".md") for label generation
 	filename := filepath.Base(basePath) + ".md"
-	latex, err := latex.RenderMarkdownToLatex(content, sectionOffset, filename)
+	result, err := latex.RenderMarkdownToLatex(content, sectionOffset, filename)
 	if err != nil {
 		return fmt.Errorf("converting markdown to latex: %w", err)
 	}
 
 	writer.WriteComment(fmt.Sprintf(" %s (rendered Markdown)", basePath+".md"))
-	writer.WriteText(latex)
+
+	if result.TLDR != "" {
+		// Inject marginnote after the first paragraph break in the body
+		// so it appears next to body text rather than at the section heading.
+		tldr := fmt.Sprintf("\\marginnote{\\footnotesize \\textbf{TLDR:} %s}\n", result.TLDR)
+		if idx := strings.Index(result.Body, "\n\n"); idx >= 0 {
+			writer.WriteText(result.Body[:idx+2])
+			writer.WriteText(tldr)
+			writer.WriteText(result.Body[idx+2:])
+		} else {
+			writer.WriteText(tldr)
+			writer.WriteText(result.Body)
+		}
+	} else {
+		writer.WriteText(result.Body)
+	}
 	fmt.Printf("  rendered %s as Markdown\n", basePath)
 	return nil
 }

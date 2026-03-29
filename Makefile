@@ -8,19 +8,24 @@ all: $(ALL)
 book: src/*.md src/*.latex
 	mdbook build
 
-# Note: This generates the book twice because longtable seems to indicate
-# that it can't do its job the first time.
+# Note: Three passes are needed:
+# 1. longtable needs two passes to compute column widths
+# 2. marginnote needs position data from the aux file to resolve
+#    x-positions on even/odd pages
+# 3. a third pass to with the data marginnote needs
 %.pdf: %.latex
 	-rm rulebook.toc rulebook.aux # throw out aux files
 	xelatex -interaction=batchmode $< || (rm $@; false)
 	-rm $@			# output isn't right, aux files are good
+	xelatex -interaction=batchmode $< || (rm $@; false)
+	-rm $@			# marginnote positions may still be wrong
 	xelatex -interaction=batchmode $< || (rm $@; false)
 
 latexify/latexify: latexify/*.go latexify/go.mod latexify/go.sum
 	(cd latexify && go build .)
 
 rulebook.latex: latexify/latexify src/*.md src/*.latex
-	latexify/latexify --need-lines-in-section 30
+	latexify/latexify
 
 clean:
 	-rm $(ALL) *.dvi rulebook.aux rulebook.latex rulebook.toc \

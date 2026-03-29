@@ -440,7 +440,7 @@ func (r *Renderer) renderLink(w util.BufWriter, source []byte, node ast.Node, en
 	// Check if this is an internal link (relative path to .md file)
 	// Links that start with a URL scheme (http://, https://, etc.) are external
 	isInternal := !strings.Contains(destination, "://") && strings.HasSuffix(destination, ".md")
-	
+
 	if entering {
 		if isInternal {
 			// Internal link: use hyperref to link to the label while displaying custom text
@@ -581,9 +581,76 @@ func convertASCIIQuotes(s string) string {
 	return result.String()
 }
 
-// RenderMarkdownToLatex renders markdown content to LaTeX
-// filename should be the .md filename (e.g., "chowaha.md") used for generating labels
-func RenderMarkdownToLatex(source []byte, sectionOffset int, filename string) (string, error) {
+// RenderResult holds the output of rendering a markdown file to LaTeX.
+type RenderResult struct {
+	Body string // Main document LaTeX (with TLDR section removed if present)
+	TLDR string // LaTeX content of the TLDR section (empty if none found)
+}
+
+// headingText extracts the plain text content of a heading node.
+func headingText(n *ast.Heading, source []byte) string {
+	var buf bytes.Buffer
+	for c := n.FirstChild(); c != nil; c = c.NextSibling() {
+		if t, ok := c.(*ast.Text); ok {
+			buf.Write(t.Segment.Value(source))
+		}
+	}
+	return strings.TrimSpace(buf.String())
+}
+
+// extractTLDRSection finds the ## TLDR section in the document, removes it
+// from the AST, and returns the content nodes (excluding the heading itself).
+func extractTLDRSection(doc ast.Node, source []byte) []ast.Node {
+	var contentNodes []ast.Node
+	var tldrHeading ast.Node
+	inTLDR := false
+
+	for child := doc.FirstChild(); child != nil; child = child.NextSibling() {
+		if h, ok := child.(*ast.Heading); ok {
+			if !inTLDR && h.Level == 2 && headingText(h, source) == "TLDR" {
+				inTLDR = true
+				tldrHeading = child
+				continue
+			} else if inTLDR && h.Level <= 2 {
+				break
+			}
+		}
+		if inTLDR {
+			contentNodes = append(contentNodes, child)
+		}
+	}
+
+	// Remove TLDR heading and content nodes from the document
+	if tldrHeading != nil {
+		doc.RemoveChild(doc, tldrHeading)
+	}
+	for _, n := range contentNodes {
+		doc.RemoveChild(doc, n)
+	}
+
+	return contentNodes
+}
+
+// renderNodesToLatex renders a slice of AST nodes to LaTeX using the given renderer.
+func renderNodesToLatex(nodes []ast.Node, r *Renderer, source []byte) (string, error) {
+	var buf bytes.Buffer
+	w := &bufWriter{buf: &buf}
+	for _, node := range nodes {
+		err := ast.Walk(node, func(n ast.Node, entering bool) (ast.WalkStatus, error) {
+			return r.renderNode(w, source, n, entering)
+		})
+		if err != nil {
+			return "", err
+		}
+	}
+	return buf.String(), nil
+}
+
+// RenderMarkdownToLatex renders markdown content to LaTeX.
+// If the markdown contains a ## TLDR section, it is extracted and returned
+// separately in RenderResult.TLDR; the Body will not contain it.
+// filename should be the .md filename (e.g., "chowaha.md") used for generating labels.
+func RenderMarkdownToLatex(source []byte, sectionOffset int, filename string) (*RenderResult, error) {
 	md := goldmark.New(
 		goldmark.WithExtensions(
 			extension.NewTable(),
@@ -595,7 +662,8 @@ func RenderMarkdownToLatex(source []byte, sectionOffset int, filename string) (s
 
 	latexRenderer := NewRenderer(sectionOffset)
 
-	// First pass: collect footnote content
+	// First pass: collect footnote content (before extracting TLDR,
+	// so footnotes referenced in TLDR are available)
 	ast.Walk(doc, func(n ast.Node, entering bool) (ast.WalkStatus, error) {
 		if fn, ok := n.(*extast.Footnote); ok && entering {
 			// Collect footnote content
@@ -618,7 +686,10 @@ func RenderMarkdownToLatex(source []byte, sectionOffset int, filename string) (s
 		return ast.WalkContinue, nil
 	})
 
-	// Second pass: render document
+	// Extract TLDR section from the AST (removes it from the document)
+	tldrNodes := extractTLDRSection(doc, source)
+
+	// Second pass: render main document (without TLDR)
 	var buf bytes.Buffer
 	writer := &bufWriter{buf: &buf}
 
@@ -631,12 +702,23 @@ func RenderMarkdownToLatex(source []byte, sectionOffset int, filename string) (s
 	err := ast.Walk(doc, func(n ast.Node, entering bool) (ast.WalkStatus, error) {
 		return latexRenderer.renderNode(writer, source, n, entering)
 	})
-
 	if err != nil {
-		return "", err
+		return nil, err
 	}
 
-	return buf.String(), nil
+	// Third pass: render TLDR content if present
+	var tldrLatex string
+	if len(tldrNodes) > 0 {
+		tldrLatex, err = renderNodesToLatex(tldrNodes, latexRenderer, source)
+		if err != nil {
+			return nil, fmt.Errorf("rendering TLDR: %w", err)
+		}
+	}
+
+	return &RenderResult{
+		Body: buf.String(),
+		TLDR: strings.TrimSpace(tldrLatex),
+	}, nil
 }
 
 // bufWriter implements util.BufWriter using bytes.Buffer

@@ -2,6 +2,10 @@
 % setup.latex (fragment)
 %
 
+% Add 'oneside' here if printing single-sided.  This suppresses the section
+% headings in the header (since this effectively makes all the pages
+% right-handed) but it does equalize the margins.  It also appears to make the
+% book 6% shorter.
 \documentclass[letterpaper,12pt,hidelinks]{book}
 \usepackage{fontspec}
 \usepackage{newcomputermodern}
@@ -11,6 +15,11 @@
 \usepackage{bookmark}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{longtable}
+\usepackage{marginnote}
+
+% This was an experiment from Claude to make the margins smaller.  It makes the
+% book about 12% shorter.
+% \usepackage[inner=1in,outer=1.75in,marginparwidth=1.25in,marginparsep=0.15in]{geometry}
 
 % Substitute Unicode characters to add color.  I've messed with this a few
 % times, they seem to be better behaved in math mode.
