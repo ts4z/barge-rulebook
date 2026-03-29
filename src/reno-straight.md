@@ -2,8 +2,8 @@
 
 ## TLDR
 
-A cousin [Big O](big-o.md), this game is played "best-best" high-low, and the
-low hand *must* be a straight.
+A cousin of [Big O](big-o.md), this game is played "best-best" high-low, and
+the low hand *must* be a straight.
 
 ## Forced Money
 
