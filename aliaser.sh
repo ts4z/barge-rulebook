@@ -21,13 +21,17 @@ set -eu
 
 list_aliases() {
     cat <<_EOF
-omaha:omaha-high-only
-omaha-high:omaha-high-only
+common-rules-and-variations:common-rules
+drawmadugi:dramadugi
+drawmaha-21:dramaha-21
+drawmaha-49:dramaha-49
+drawmaha-zero:dramaha-zero
 holdem:texas-holdem
-omaha-8:omaha-high-low-eight-or-better
 lowball:california-lowball
 mississipi-stud-and-variants:mississippi-stud
-common-rules-and-variations:common-rules
+omaha-8:omaha-high-low-eight-or-better
+omaha-high:omaha-high-only
+omaha:omaha-high-only
 _EOF
 }
 
