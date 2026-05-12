@@ -17,7 +17,7 @@ log() {
 }
 
 set -eu
-set -o pipefail || log "can't set -o pipefail"
+# set -o pipefail || log "can't set -o pipefail"
 
 list_aliases() {
     cat <<_EOF
