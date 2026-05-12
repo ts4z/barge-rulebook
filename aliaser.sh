@@ -1,4 +1,4 @@
-#!/bin/sh
+<#!/bin/sh
 
 # Add a bunch of meta http-equiv refresh redirects for book pages
 # that either used to exist, or look like they should exist, but
@@ -23,6 +23,7 @@ list_aliases() {
     cat <<_EOF
 common-rules-and-variations:common-rules
 drawmadugi:dramadugi
+drawmaha:dramaha
 drawmaha-21:dramaha-21
 drawmaha-49:dramaha-49
 drawmaha-zero:dramaha-zero
