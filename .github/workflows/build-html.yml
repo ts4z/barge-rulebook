@@ -37,6 +37,8 @@ jobs:
       #     publish_dir: ./book
       #     personal_token: ${{ secrets.PERSONAL_TOKEN }}
       #     destination_dir: barge-rulebook
+      - name: add aliases to output directory
+        run: sh aliaser.sh
       - name: deploy to barge.org github repository
         uses: cpina/github-action-push-to-another-repository@v1.7.2
         env:
