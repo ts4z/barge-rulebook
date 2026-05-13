@@ -1,4 +1,4 @@
-<#!/bin/sh
+#!/bin/sh
 
 # Add a bunch of meta http-equiv refresh redirects for book pages
 # that either used to exist, or look like they should exist, but
