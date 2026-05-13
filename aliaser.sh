@@ -23,13 +23,13 @@ list_aliases() {
     cat <<_EOF
 common-rules-and-variations:common-rules
 drawmadugi:dramadugi
-drawmaha:dramaha
 drawmaha-21:dramaha-21
 drawmaha-49:dramaha-49
 drawmaha-zero:dramaha-zero
+drawmaha:dramaha
 holdem:texas-holdem
 lowball:california-lowball
-mississipi-stud-and-variants:mississippi-stud
+mississippi-stud-and-variants:mississippi-stud
 omaha-8:omaha-high-low-eight-or-better
 omaha-high:omaha-high-only
 omaha:omaha-high-only
