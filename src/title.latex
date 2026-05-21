@@ -5,7 +5,7 @@
 \frontmatter
 \begin{titlepage}
 \centering
-\includegraphics[width=8cm]{src/barge-logo.png}
+\includegraphics[width=8cm]{src/barge_v2.png}
 \vfill
 {\LARGE BARGE Rulebook}
 \vfill

@@ -1,6 +1,6 @@
 # BARGE Rulebook
 
-![](barge-logo.png)
+![](barge_v2.png)
 
 * Christopher J. Mecklin
 * Tim Showalter
