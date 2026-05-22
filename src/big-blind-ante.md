@@ -4,6 +4,10 @@ In games with a *big blind ante*, the player in the big blind posts an ante for
 the entire table.  This amount will be listed in the structure for the game or
 tournament, but is usually the amount of the big blind.
 
+If a player lacks sufficient chips to pay the big blind and the ante, their
+chips count towards the blind and not the ante.  That is, pay the blinds before
+the ante.
+
 Tournaments utilizing a big blind ante will also list the number of players at
 which the ante will be reduced, usually to the amount of the small blind.  At
 [BARGE 2024](https://www.barge.org/barge/2024/), this was at four players.
@@ -28,10 +32,9 @@ In the 2010s, a new idea known as the *big blind ante* was introduced in
 tournament poker and quickly became the standard, where the player in the big
 blind would post an ante for the entire table. One should think of the big
 blind ante as a shared ante that all players take turn in paying rather than an
-extra “penalty” for being in the big blind. The reason why the big blind
-ante is not assigned to another position, such as the button, is that every
-hand will have a player in the big blind but sometimes there will be a dead
-button.
+extra “penalty” for being in the big blind. The big blind ante is not assigned
+to another position (such as the button) because hand will have a player in the
+big blind, but sometimes there will be a dead button.
 
 Some controversies about the big blind ante include: (a) how large should it
 be; (b) should the size of the big blind ante be reduced in short-handed
@@ -49,4 +52,7 @@ above.
 The "which comes first" problem has been contentious for many years among the
 TDA.  In 2024, the TDA changed RP-11 and recommended that the blinds would come
 first.  Previously, in 2022, there was no recommendation, and in 2019, they
-recommended the ante came first.
+recommended the ante came first.  Paying the ante first makes more logical
+sense, but this rule gives a short stack a better chance at survival: if they
+pay only the ante, they can only win the ante; but if they pay the big blind,
+they can double up.
