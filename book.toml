@@ -9,6 +9,7 @@ mathjax-support = true
 additional-css = ["suit-colors.css"]
 
 [preprocessor.replace]
+optional = true
 
 [preprocessor.replace.list]
 # List the patterns and their replacements
