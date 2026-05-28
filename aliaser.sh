@@ -33,6 +33,7 @@ mississippi-stud-and-variants:mississippi-stud
 omaha-8:omaha-high-low-eight-or-better
 omaha-high:omaha-high-only
 omaha:omaha-high-only
+stud:seven-card-stud
 variants:poker-games
 _EOF
 }
