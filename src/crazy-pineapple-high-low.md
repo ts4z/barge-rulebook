@@ -33,3 +33,7 @@ two cards from each player’s hand and the remaining cards from the board.
 Note: If there are not three unpaired cards eight or lower on the board, no low
 hand is possible. If no qualifying low hand is made, the high hand scoops the
 pot.
+
+## Notes
+
+Crazy Pineapple is one of the games in the annual Team CHORSE event at BARGE.
