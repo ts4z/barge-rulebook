@@ -34,6 +34,7 @@
   - [Action Razz](action-razz.md)
   - [Action Razzdugi](action-razzdugi.md)
   - [Archie](archie.md)
+  - [Atomic Pineapple](atomic-pineapple.md)
   - [Badacey](badacey.md)
   - [Badeucy](badeucy.md)
   - [Badugi](badugi.md)
