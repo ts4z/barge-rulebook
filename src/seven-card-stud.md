@@ -1,6 +1,6 @@
-# Stud
+# Seven Card Stud
 
-Stud, also known as Seven Card Stud, was a dominant game for many decades.
+Seven Card Stud, often just "Stud", was a dominant game for many decades.
 
 ## TLDR
 
