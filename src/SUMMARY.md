@@ -22,7 +22,7 @@
   - [Tournament Variations](tournament-variations.md)
     - [Bounty](bounty.md)
     - [Lammers](lammers.md)
-    - [Nit Cards](nit-cards.md)
+    - [Nit Levels](nit-levels.md)
     - [Shootout](shootout.md)
     - [Win the Button](win-the-button.md)
   - [Bomb Pot](bomb-pot.md)

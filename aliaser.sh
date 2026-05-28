@@ -30,6 +30,7 @@ drawmaha:dramaha
 holdem:texas-holdem
 lowball:california-lowball
 mississippi-stud-and-variants:mississippi-stud
+nit-cards:nit-levels
 omaha-8:omaha-high-low-eight-or-better
 omaha-high:omaha-high-only
 omaha:omaha-high-only
