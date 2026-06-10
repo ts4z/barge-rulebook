@@ -11,7 +11,7 @@ at [BARGE](https://www.barge.org/barge/), [Chowaha](chowaha.md) is quite
 popular, and the [Pot-Limit](pot-limit.md) [Binglaha](binglaha.md) game has
 been known to run very late on Saturday night.
 
-Mixed games based around [HORSE](glossary.md#HORSE) are mainstays, particularly
+Mixed games based around [HORSE](glossary.md#horse) are mainstays, particularly
 with something substituting out for [Razz](razz.md). One variant is HOSER,
 which sometimes means Razz is gone and [Action Razz](action-razz.md) is in its
 place.
