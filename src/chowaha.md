@@ -51,3 +51,7 @@ three cards from the board to form each portion of their hand.
 [Four-card Chowaha](four-card-chowaha.md) is the original game.  It became
 two-card when played at [BARGE](https://www.barge.org/barge/) to cut down on
 the number of cards that had to be dealt out.
+
+This game has also been called [3-2-1
+Hold'em](https://www.theasianpokertour.com/info/pokerhandbook/holdem321), but
+the Chowaha name dates back to the '90s.
