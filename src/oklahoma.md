@@ -44,3 +44,13 @@ splits the pot. Hands are made using exactly two cards from each player’s
 hand and exactly three cards from one of the remaining boards. A player may use
 different cards for their low and high hand, and they may use different boards
 for their low and high hand.
+
+## Notes
+
+The [APT Rulebook](https://www.theasianpokertour.com/info/pokerhandbook) calls
+this [Cry Me A River
+Hold'em](https://www.theasianpokertour.com/info/pokerhandbook/crymeariverholdem).
+We believe the Oklahoma name predates than "Cry Me A River".  The rules for 3
+same-rank river cards differ: in Cry Me A River, you keep the "high suit" board
+(if Spades are present, keep the Spade-river board; if not, keep the
+Heart-river board).
