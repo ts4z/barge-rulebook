@@ -1,5 +1,7 @@
 # Reno Straight
 
+*This section is new and may have errors.*
+
 ## TLDR
 
 A cousin of [Big O](big-o.md), this game is played "best-best" high-low, and
@@ -38,26 +40,28 @@ pot.
 
 If at showdown, no one can make a straight, the high hand scoops.
 
-Example:
+Admittedly contrived example:
 
 * Boards:
-
-  * K♣Q♣2♦3♦6♣
-  * A♦K♦Q♠T♠T♣
+  * K♣Q♣2♦3♥6♠
+  * A♦K♦Q♠T♣5♣
 
 * Hands:
+  1. A♠4♣K♥Q♥Q♦
+  2. J♠T♠2♥3♦9♣
 
-  1. A♣3♥T♦5♣
-  2. 9♦T♥J♠Q♥
+Hand 1 plays as two pair on the top board (K♣K♥Q♣Q♥6♣) or two pair on the
+bottom board (A♠A♦K♥K♦Q♥).  Only their better hand is relevant.
 
-Hand 1 makes the nut flush (A♣K♣Q♣6♣5♣) on the top board and two pair
-(K♣K♦Q♣Q♠) on the bottom board.  Hand 2 has just one pair on the top
-board, but on the second board, it makes a straight A♦K♦Q♠J♠T♥ and a
-full house Q♥Q♠T♠T♣T♥.
+Hand 2 has two pair (3♥3♦2♦2♥K♣) on the top board, and a straight on the second
+board (A♦K♦Q♠J♠T♠).  The straight is the best high hand.  Since it is also the
+*only* straight among these two hands on these two boards, this also plays for
+the best *low* hand.
 
-The full house is the best high hand, and takes half the pot.  The only
-straight is Broadway, so it takes the other half of the pot.  Both the hands
-are made with one board.
+The first player cannot play K♥Q♥Q♦ as a full house, just as the second player
+can't use J♠T♠9♣ to make a smaller straight, since players may use only two
+hole cards.  Also, player 1 doesn't have "nut low" with A♠4♣ on the first
+board, since low requires a *straight*.
 
 The second player scoops.
 
