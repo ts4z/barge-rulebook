@@ -7,8 +7,10 @@ intend to capture the things that are unique to
 [BARGE](https://www.barge.org/barge/), but we also try to be a general (if
 sometimes informal) reference for poker games in general.
 
-This book is split into three main sections: Procedures, Poker Games, and
-Variations.
+The first part of this book covers general rules.  Most of the remainder has
+specific rules for over 60 games.  Each of these can be (mostly) read
+independently.  Finally, we have several appendixes discussing hand orderings
+and odds.
 
 [General Rules](general.md) apply to many games.  In most cases, the host
 casino will have specific procedures.  For completeness, we have described a
