@@ -21,6 +21,7 @@ set -eu
 
 list_aliases() {
     cat <<_EOF
+appendix:lowball-scales
 common-rules-and-variations:common-rules
 drawmadugi:dramadugi
 drawmaha-21:dramaha-21
