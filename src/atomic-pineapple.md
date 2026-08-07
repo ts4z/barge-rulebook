@@ -34,7 +34,7 @@ by a round of betting at the big bet limit. This is followed by a showdown.
 ## Evaluating the Showdown
 
 The best high five-card hand wins the pot. Hands are made using zero, one, or
-two cards cards from each player’s hand and up to three cards from the board.
+two cards cards from each player’s hand and three or more cards from the board.
 
 ## Notes
 
