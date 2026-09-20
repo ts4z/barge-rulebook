@@ -46,39 +46,38 @@ Math majors everywhere rejoice: we have a way of producing a LaTeX rulebook,
 with nice page numbers, that should look great printed.  There are a few
 problems with this:
 
-- There are some bugs with the translation.
 - XeTeX is required, since the input documents use Unicode.
-- Perl is required, and cpan-type CommonMark must be available.
-- The perl script that produces the LaTeX input is a total hack.  (I could say
-  the same about CommonMark.)
-- Tables in CommonMark don't get turned into tables in LaTeX.
-  These get completely mangled.  So we have alternate versions of those pages.
+- The translation involves a custom (included) Go program which may have
+  unknown bugs.
 
 All of that said, if you're set up with the right packages, `make rulebook.pdf`
 will do it.
 
-If you are on a Debian Linux system, you will need these packages:
+If you are on a Debian Linux system, you will need (at least) these packages:
 
 - make
 - texlive-fonts-extra
 - texlive-xetex
 - go (version 1.25.2 or better)
 
-Note that Go is not generally up-to-date as a package, and you may have to
-download it separately.
+I believe the first three packages, plus a Go install, are all that is
+required.  We need a more recent version of Go than Debian tends to package (as
+of 2026), so you may have to install that manually.
 
-I believe this list is complete.  It is possible to wrap these up into a Docker
-container (see the Dockerfile in this directory); however the container is
-prohibitively large for the free GitHub runners, so I build the LaTeX rulebook
-manually from my Linux box where all these things are conveniently[^1] installed.
-
-[^1]: ...for me, that is.
+It is possible to wrap these up into a Docker container (see the Dockerfile in
+this directory); however the container is prohibitively large for the free
+GitHub runners, so I build the LaTeX rulebook manually from my Linux box where
+all these things are conveniently installed.
 
 ## Style
 
 Please match the style of the document as a whole.  Generally, games have the
 same format from game to game, but for some games this is quite redundant,
 so they just refer to the original game.
+
+Some stylistic choices inform the latexify program: in particular, the TLDR
+sections are turned into margin notes when printed.  Follow the convention here
+on TLDR sections for games.  TLDR sections should be, at most, a few sentences.
 
 Inline tables may not look great when printed.  Feel free to work on that.
 
@@ -99,8 +98,7 @@ only be one version of all input files.
 
 ### Markdown notes
 
-Be conservative when using Markdown features, lest you be the one that has to
-debug them.
+Write well-formatted, unambiguous Markdown.
 
 Markdown comes in several flavors.  Basic Markdown lacks many features we want.
 
@@ -129,13 +127,21 @@ document, albeit without a Table of Contents.
   appendix.  (This allows us to provide better tables for the LaTeX version.)
 - Unicode characters are permitted, but note LaTeX is limited in which ones it
   knows about.  Some of the common ones require work in `setup.latex`.
+  
+We have a special feature for Markdown sections called "TLDR".  These sections
+are rendered as paragraphs on the web version, but as margin notes in the LaTeX
+version.
+
+Some strings are treated specially in the LaTeX version.  For instance, LaTeX
+renders as the LaTeX command, and suit symbols are rendered in four-color.
 
 ### Limitations
 
 A multi-output format tends to work to the lowest common denominator, and
 that's the case here.  The LaTeX is limited by the fact that it's translated
-from Markdown (aside from some boilerplate), and we can't use some
-Markdown extensions unless both mdbook and latexify support them.
+from Markdown (aside from some boilerplate), and we can't use some Markdown
+extensions unless both mdbook and latexify support them.  This works for the
+features we use but using more extensions is troublesome.
 
 We have made enough progress here that both versions look pretty decent.
 
