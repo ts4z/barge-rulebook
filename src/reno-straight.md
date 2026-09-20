@@ -68,4 +68,4 @@ The second player scoops.
 ## Notes
 
 We actually have no idea what this game is called, but Greg Raymer told us he
-played in Reno, so here we are.
+played this in Reno, so here we are.
