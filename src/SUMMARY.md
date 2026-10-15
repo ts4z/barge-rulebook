@@ -90,6 +90,7 @@
   - [Stud High/Low Eight-or-Better](stud-high-low-eight-or-better.md)
   - [Stud High/Low No Qualifier](stud-high-low-no-qualifier.md)
   - [Super Stud](super-stud.md)
+  - [Sviten Special](sviten-special.md)
   - [Texas Hold'em](texas-holdem.md)
   - [Texas Hold'em High/Low](texas-holdem-high-low-eight-or-better.md)
   - [Triple Draw Dramaha](triple-draw-dramaha.md)
