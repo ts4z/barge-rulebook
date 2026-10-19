@@ -38,3 +38,8 @@ The best [Omaha](omaha-high-only.md) high hand (using exactly two cards from
 the player's hand and exactly three cards from the board) and the best
 [Five-card Draw](five-card-draw.md) hand (using all five cards from the
 player’s hand) splits the pot.
+
+## Notes
+
+Compare [Sviten Special](sviten-special.md), which is Dramaha with a face-up
+option on one-card draws.
