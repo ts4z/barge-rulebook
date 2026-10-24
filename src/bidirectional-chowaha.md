@@ -17,18 +17,19 @@ the small bet limit.
 Three flops are dealt one above the other forming a 3 × 3 square of cards.
 This is followed by a round of betting at the small bet limit.
 
-A die is rolled, as per [Dice Procedures](dice-procedures.md).
+A die is rolled, as per [Dice Procedures](dice-procedures.md) to determine
+where the two turns and rivers will be placed _when they're dealt_.
 
-* If the die is 1, 2, or 3, turn cards will be dealt vertically to the right of
-  the flop cards from the dealer’s persepective ("normal" Chowaha, if there
+* If the die is 1, 2, or 3, the turns and river be dealt vertically to the right of
+  the flop cards from the dealer’s perspective ("normal" Chowaha, if there
   ever was such a thing).
-* If the die is 4, 5, or 6, turn cards will be dealt below the flop cards from
+* If the die is 4, 5, or 6, the turns and river will be dealt below the flop cards from
   the dealer's perspective.
 
 This is followed by a round of betting at the big bet limit.
 
 Then, two turn cards are dealt vertically to the right of, or below, the flop
-cards from the dealer’s persepective. This is followed by a round of betting
+cards from the dealer’s perspective. This is followed by a round of betting
 at the big bet limit.
 
 One river card is placed to the right of, or below, of the turn cards,
@@ -46,7 +47,7 @@ At the showdown, the board will look like the following on a roll of 1, 2, or
 7 8 9
 ```
 
-The cards labelled 1-9 are the flop cards, the cards indicated as Y are the
+The cards labeled 1-9 are the flop cards, the cards indicated as Y are the
 turn cards, and Z is the river card.
 
 On a roll of 4, 5, or 6, the board will look like the following:
