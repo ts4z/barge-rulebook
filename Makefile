@@ -2,8 +2,36 @@
 # barge-rulebook Makefile
 #
 
+.PHONY: all clean spotless-repo
+
 ALL=rulebook.pdf
 all: $(ALL)
+
+#.......890123456789012345678901234567890123456789012345678901234567890123456789
+help:
+	-@test -x /usr/bin/banner && banner rulebook
+	@echo "barge-rulebook targets:"
+	@echo " rulebook.pdf ................................build PDF rulebook"
+	@echo " update-rulebook-on-barge-site ... publish PDF to barge.org repo"
+	@echo
+	@echo "That is, you probably want:"
+	@echo "  make update-rulebook-on-barge-site"
+	@echo
+	@echo "The primary purpose of this Makefile is to capture the dance of"
+	@echo "running LaTeX thrice (!) in order to get the pagination right,"
+	@echo "checking out the barge.org repo, updating it, and pushing our"
+	@echo "outputs into it."
+	@echo
+	@echo "update-rulebook-on-barge-site is the key rule here.  HTML"
+	@echo "builds are fully automated (see the GitHub workflows).  PDF"
+	@echo "builds are *not* automatically triggered, and need to use this."
+	@echo
+	@echo "The PDF machinery requires a Unicode-capable LaTeX install,"
+	@echo "a working recent Go compiler, and a left-handed flathead"
+	@echo "screwdriver in order to operate.  This makes for an absurdly"
+	@echo "large (and so unavailable) Docker image, at least on our free"
+	@echo "GitHub hosting plan.  Sorry not sorry."
+	@echo
 
 book: src/*.md src/*.latex
 	mdbook build
@@ -67,8 +95,13 @@ tmp/barge.org:
 sync-barge-site: tmp/barge.org
 	cd tmp/barge.org && git fetch && git reset --hard origin/main
 
-tmp/barge.org/static/rulebook.pdf: rulebook.pdf sync-barge-site
-	[ -z "`git status --porcelain`" ]
+spotless-repo:
+	@[ -z "`git status --porcelain`" ] || ( \
+		echo 1>&2 "ERROR: Dirty git repo detected." ; \
+		echo 1>&2 "Commit your changes before publishing." ; \
+	false)
+
+tmp/barge.org/static/rulebook.pdf: rulebook.pdf sync-barge-site spotless-repo
 	cp rulebook.pdf tmp/barge.org/static/rulebook.pdf
 	cd tmp/barge.org && (\
 		git commit -m \
@@ -80,3 +113,6 @@ push-barge-site:
 	cd tmp/barge.org && git push
 
 update-rulebook-on-barge-site: sync-barge-site tmp/barge.org/static/rulebook.pdf push-barge-site
+
+love:
+	@echo "not war?"
